@@ -19,3 +19,12 @@ Each family photo slot shows "Photograph to come" until a file with the name bel
 | `trip-pool-of-peace.jpg` | 8-3 The two fields | The Pool of Peace at Spanbroekmolen. |
 | `trip-wreath.jpg` | 8-4 The Last Post | The family's wreath and card at the Menin Gate. |
 | `trip-menin-gate.jpg` | 8-4 The Last Post | Under the Menin Gate. |
+
+## Added October 2026 (round9.py, from media/trip-2026-incoming 16–38)
+- Ch 4 "Waiting": trip-shrapnel-shell.jpg, trip-shrapnel-burst.jpg (museum, not named)
+- Ch 8 "In his footsteps": trip-newfoundland.jpg, -view, -trench, trip-caribou.jpg, trip-29th-division.jpg, trip-thiepval.jpg, -steps, -cemetery
+- Ch 8 "Vimy Ridge and Lorette": trip-lorette-*.jpg (5)
+- Ch 8 "The two fields": trip-fremicourt-field.jpg
+- Ch 8 "The Last Post": trip-wreath.jpg (cropped above the signatures), trip-menin-gate.jpg (cropped, no faces)
+- Kept private (not on the site): 23, 26 full card, 27, 28 (living family), 39 (family member in basilica). Held back for rights: 31, 32 (photos of other people's prints).
+- Still wanted: trip-quadrilateral.jpg

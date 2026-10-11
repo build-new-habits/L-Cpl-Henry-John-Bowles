@@ -163,6 +163,7 @@ main { flex: 1 0 auto; }
 .badge--archival { background: var(--badge-archival); }
 .badge--family { background: var(--badge-family); }
 .badge--unit { background: var(--badge-unit); }
+.badge--place { background: var(--badge-unit); }
 .badge--ai { background: var(--badge-ai); outline: 2px dashed #1F1B16; outline-offset: -2px; }
 
 /* Settings dialog */

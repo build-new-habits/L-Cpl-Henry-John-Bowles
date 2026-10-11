@@ -51,11 +51,24 @@
      "source": "Family memoir by his granddaughter, page 4"
     },
     {
+     "title": "The caribou",
+     "badge": "place",
+     "body": "The bronze caribou at Beaumont-Hamel looks out over the ground where the Newfoundland Regiment attacked on 1 July 1916. Most of the men who went forward that morning were killed or wounded. Newfoundland remembers 1 July every year.",
+     "source": "Veterans Affairs Canada",
+     "url": "https://veterans.gc.ca/en/remembrance/memorials/beaumont-hamel"
+    },
+    {
+     "title": "Next door to Henry",
+     "badge": "place",
+     "body": "The Newfoundlanders belonged to the 29th Division, whose memorial stone stands in the park. On 1 July the 29th Division attacked at Beaumont-Hamel, right next to Henry's 4th Division, a short walk to the north.",
+     "source": "Veterans Affairs Canada; 4th Division history"
+    },
+    {
      "title": "Thiepval",
      "badge": "family",
      "quote": "so many names all over every inch of the monument",
      "who": "Family memoir by his granddaughter",
-     "body": "The day ended at the Thiepval Memorial, where more than 72,000 men with no known grave are named, among them many of Henry's Somerset comrades.",
+     "body": "The day ended at the Thiepval Memorial, where more than 72,000 men of the Somme with no known grave are named on its great piers, among them many of Henry's Somerset comrades. Below it, a small cemetery holds French and British soldiers side by side, their crosses and headstones facing each other across the lawn.",
      "source": "Family memoir by his granddaughter, page 4"
     }
    ],
@@ -88,31 +101,85 @@
      "slot": "Trip photo wanted"
     },
     {
-     "cat": "Trip photo wanted",
+     "cat": "Family photo",
      "file": "trip-newfoundland.jpg",
      "dir": "family",
-     "caption": "The preserved trenches at Newfoundland Park.",
-     "alt": "Grassy, eroded trench lines with a small cemetery behind.",
-     "credit": "Family photograph",
-     "slot": "Trip photo wanted"
+     "caption": "Newfoundland Park, Beaumont-Hamel: the old trench lines are still there under the grass. Looking from the British side towards the German line by the trees.",
+     "alt": "Deep grassy zigzag trenches crossing a field, with a footpath and a single walker, and a line of trees beyond.",
+     "credit": "Family photograph, August 2026",
+     "slot": "Family photo"
     },
     {
-     "cat": "Trip photo wanted",
+     "cat": "Family photo",
+     "file": "trip-newfoundland-view.jpg",
+     "dir": "family",
+     "caption": "Across No Man's Land at Newfoundland Park. The humps and hollows are shell holes and trenches.",
+     "alt": "A wide field of dry grass, rippled with low humps and hollows, behind a rope fence, with a path leading to trees and a memorial.",
+     "credit": "Family photograph, August 2026",
+     "slot": "Family photo"
+    },
+    {
+     "cat": "Family photo",
+     "file": "trip-newfoundland-trench.jpg",
+     "dir": "family",
+     "caption": "Inside one of the grassed-over trenches.",
+     "alt": "Looking along a deep trench with steep grassy sides, towards a row of trees.",
+     "credit": "Family photograph, August 2026",
+     "slot": "Family photo"
+    },
+    {
+     "cat": "Family photo",
+     "file": "trip-caribou.jpg",
+     "dir": "family",
+     "caption": "The caribou memorial to the Newfoundland Regiment.",
+     "alt": "A bronze caribou with its head raised, standing on top of a mound of rocks and shrubs against a blue sky.",
+     "credit": "Family photograph, August 2026",
+     "slot": "Family photo"
+    },
+    {
+     "cat": "Family photo",
+     "file": "trip-29th-division.jpg",
+     "dir": "family",
+     "caption": "The 29th Division memorial, with the division's red triangle. The 29th fought right next to Henry's division on 1 July 1916.",
+     "alt": "A rough granite boulder among trees, with a bronze plaque showing a red triangle and the words 29th Division 1914 to 1918.",
+     "credit": "Family photograph, August 2026",
+     "slot": "Family photo"
+    },
+    {
+     "cat": "Family photo",
      "file": "trip-thiepval.jpg",
      "dir": "family",
-     "caption": "The Thiepval Memorial.",
-     "alt": "The great brick arch of the Thiepval Memorial.",
-     "credit": "Family photograph",
-     "slot": "Trip photo wanted"
+     "caption": "Under the arches of the Thiepval Memorial, every stone face carved with names.",
+     "alt": "A man in a cap walks between huge stone piers covered in carved names, towards an archway that opens on to fields and blue sky.",
+     "credit": "Family photograph, August 2026",
+     "slot": "Family photo"
+    },
+    {
+     "cat": "Family photo",
+     "file": "trip-thiepval-steps.jpg",
+     "dir": "family",
+     "caption": "The steps up through the great arch at Thiepval to the Stone of Remembrance.",
+     "alt": "A long flight of stone steps rising through a tall brick and stone arch, with visitors at the top beside a long stone block.",
+     "credit": "Family photograph, August 2026",
+     "slot": "Family photo"
+    },
+    {
+     "cat": "Family photo",
+     "file": "trip-thiepval-cemetery.jpg",
+     "dir": "family",
+     "caption": "The Anglo-French cemetery below the memorial: French crosses on the left, British headstones on the right, and the Somme fields beyond.",
+     "alt": "A cemetery seen from above: rows of small stone crosses on the left and white headstones on the right, a tall stone cross between them, and rolling farmland beyond.",
+     "credit": "Family photograph, August 2026",
+     "slot": "Family photo"
     }
    ],
    "photosHeading": "Photographs from the trip"
   },
   {
    "id": "vimy",
-   "title": "Vimy Ridge",
+   "title": "Vimy Ridge and Lorette",
    "type": "stories",
-   "intro": "On the third day the family went to Vimy Ridge, where the trenches and shell holes have been kept as they were.",
+   "intro": "On the third day the family went to Vimy Ridge, where the trenches and shell holes have been kept as they were, and to Notre-Dame de Lorette on the next ridge, where France buries its dead.",
    "stories": [
     {
      "title": "A real trench",
@@ -128,10 +195,31 @@
     },
     {
      "title": "The memorial",
-     "badge": "unit",
+     "badge": "place",
      "body": "The Canadian National Vimy Memorial stands on the ridge Canadian troops captured in April 1917. Henry did not fight here, but men of every army walked through trenches like these.",
      "source": "Veterans Affairs Canada",
      "url": "https://www.veterans.gc.ca/en/remembrance/memorials/overseas/first-world-war/france/vimy"
+    },
+    {
+     "title": "Notre-Dame de Lorette",
+     "badge": "place",
+     "body": "Lorette is France's largest military cemetery, with tens of thousands of French soldiers buried around a basilica, many of them unknown. One stone reads \"Ici reposent les corps de 4563 soldats inconnus\": here lie the bodies of 4,563 unknown soldiers.",
+     "source": "Family photographs, August 2026"
+    },
+    {
+     "title": "Peoples, be united",
+     "badge": "family",
+     "quote": "Peuples, soyez unis ; hommes, soyez humains !",
+     "who": "Carved on the memorial at Notre-Dame de Lorette",
+     "body": "Words carved in stone at Lorette, in English: \"You who pass by, as pilgrims near their graves, climbing their Calvary and its bloody paths, listen to the cry that rises from the slaughter: Peoples, be united; men, be humane!\"",
+     "source": "Family photograph, August 2026"
+    },
+    {
+     "title": "The Ring of Remembrance",
+     "badge": "place",
+     "body": "Beside the cemetery stands the international memorial, a great ring carrying the names of about 580,000 soldiers of every nation who died in this part of northern France: British, French and German side by side, in alphabetical order, with no ranks. The fields near Frémicourt, where Henry was taken prisoner, are in this region too.",
+     "source": "L'Anneau de la mémoire (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/L%27Anneau_de_la_m%C3%A9moire"
     }
    ],
    "photos": [
@@ -159,6 +247,51 @@
      "dir": "family",
      "caption": "A preserved trench at Vimy, with its fire step. The sandbags were remade in concrete so it would last.",
      "alt": "A narrow trench with walls of grey concrete sandbags, a fire step and a gravel floor.",
+     "credit": "Family photograph, August 2026",
+     "slot": "Family photo"
+    },
+    {
+     "cat": "Family photo",
+     "file": "trip-lorette-basilica.jpg",
+     "dir": "family",
+     "caption": "The basilica at Notre-Dame de Lorette, among the graves. Each French cross carries a name and the words \"Mort pour la France\".",
+     "alt": "A white stone church with a slate dome and bell tower under a deep blue sky, with rows of small white crosses on dry grass in front.",
+     "credit": "Family photograph, August 2026",
+     "slot": "Family photo"
+    },
+    {
+     "cat": "Family photo",
+     "file": "trip-lorette-rows.jpg",
+     "dir": "family",
+     "caption": "Row after row of French crosses at Lorette.",
+     "alt": "Four white crosses with name plates in the foreground, and thousands more in rows stretching away under tall trees.",
+     "credit": "Family photograph, August 2026",
+     "slot": "Family photo"
+    },
+    {
+     "cat": "Family photo",
+     "file": "trip-lorette-plain.jpg",
+     "dir": "family",
+     "caption": "Looking out from Lorette across the Artois plain, fought over from 1914 to 1918.",
+     "alt": "A line of white crosses on dry grass in front of a hedge, with a flat plain and distant wind turbines beyond.",
+     "credit": "Family photograph, August 2026",
+     "slot": "Family photo"
+    },
+    {
+     "cat": "Family photo",
+     "file": "trip-lorette-unknown.jpg",
+     "dir": "family",
+     "caption": "\"Here lie the bodies of 4,563 unknown soldiers.\"",
+     "alt": "A stone slab carved in French: Ici reposent les corps de 4563 soldats inconnus.",
+     "credit": "Family photograph, August 2026",
+     "slot": "Family photo"
+    },
+    {
+     "cat": "Family photo",
+     "file": "trip-lorette-inscription.jpg",
+     "dir": "family",
+     "caption": "\"Peoples, be united; men, be humane!\"",
+     "alt": "Carved capital letters on a stone wall, a French verse ending Peuples, soyez unis; hommes, soyez humains.",
      "credit": "Family photograph, August 2026",
      "slot": "Family photo"
     }
@@ -199,10 +332,10 @@
      "cat": "Trip photo wanted",
      "file": "trip-fremicourt-field.jpg",
      "dir": "family",
-     "caption": "The fields near Frémicourt where Henry was probably captured.",
-     "alt": "A wide field with a hedge line.",
+     "caption": "One of the two fields near Frémicourt where Henry was most likely captured, on 24 March 1918. Today it grows sugar beet.",
+     "alt": "A wide field of green leafy crops under a blue sky, with a stubble field, a line of electricity poles and distant wind turbines beyond.",
      "credit": "Family photograph",
-     "slot": "Trip photo wanted"
+     "slot": "Family photo"
     },
     {
      "cat": "Trip photo wanted",
@@ -249,10 +382,10 @@
     {
      "title": "The card on the wreath",
      "badge": "family",
-     "quote": "Thanks for all you and your comrades did for us.",
+     "quote": "Grateful you survived too.",
      "who": "The family's wreath card, in handwriting",
-     "body": "The card was addressed to \"L/Cpl Henry Bowles\". Part of the handwriting is hard to read in the scan; the family will know the full words.",
-     "source": "Family memoir by his granddaughter, page 9"
+     "body": "The card read: \"In Remembrance. L/Cpl Henry Bowles. With our love and grateful thanks for all you and your comrades did for us. Grateful you survived too.\" It was signed by his granddaughter, his great-granddaughter and two great-great-granddaughters.",
+     "source": "The family's wreath card, Menin Gate, August 2026"
     }
    ],
    "photos": [
@@ -305,19 +438,19 @@
      "cat": "Trip photo wanted",
      "file": "trip-wreath.jpg",
      "dir": "family",
-     "caption": "The family's wreath and card at the Menin Gate.",
-     "alt": "A poppy wreath with a handwritten card.",
-     "credit": "Family photograph",
-     "slot": "Trip photo wanted"
+     "caption": "The family's poppy wreath under the Menin Gate. The card reads \"In Remembrance. L/Cpl Henry Bowles. With our love and grateful thanks for all you and your comrades did for us. Grateful you survived too.\"",
+     "alt": "A close-up of a red poppy wreath with a white card handwritten In Remembrance, L/Cpl Henry Bowles, followed by the message.",
+     "credit": "Family photograph, August 2026",
+     "slot": "Family photo"
     },
     {
      "cat": "Trip photo wanted",
      "file": "trip-menin-gate.jpg",
      "dir": "family",
-     "caption": "Under the Menin Gate.",
-     "alt": "A group standing inside the Menin Gate.",
-     "credit": "Family photograph",
-     "slot": "Trip photo wanted"
+     "caption": "The wreath in place, below panels of names of men with no known grave.",
+     "alt": "A poppy wreath hanging on a rail below a stone wall carved with columns of soldiers' names.",
+     "credit": "Family photograph, August 2026",
+     "slot": "Family photo"
     }
    ],
    "photosHeading": "Photographs from the trip"
