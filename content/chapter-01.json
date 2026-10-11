@@ -20,18 +20,6 @@
      "url": "https://www.somersetheritage.org.uk/eus/stoford_eus.html"
     }
    ],
-   "photos": [
-    {
-     "cat": "Family photo wanted",
-     "file": "stoford-house.jpg",
-     "dir": "family",
-     "caption": "The family home at Stoford, by Yeovil Junction. Does a photograph survive?",
-     "alt": "The Bowles family house at Stoford.",
-     "credit": "Family photograph",
-     "slot": "Family photo wanted"
-    }
-   ],
-   "photosHeading": "Family photographs",
    "entries": [
     {
      "date": "Years later",
@@ -115,6 +103,12 @@
      "who": "Family memoir by his granddaughter"
     },
     {
+     "title": "The twelve",
+     "badge": "family",
+     "source": "Memories of Grandad, by his granddaughter, and the family photograph",
+     "body": "Henry was the eldest. His brothers and sisters were Reg, Winnie, Frank, George, Ethel, Arthur, Amy, Lilly, Bill, Kit and Oliver, the youngest. Their mother's first name is still to be found."
+    },
+    {
      "title": "Granfy Bowles",
      "badge": "family",
      "body": "Henry's father Arthur was a farm labourer all his life.",
@@ -133,22 +127,22 @@
     {
      "title": "On the land",
      "badge": "family",
-     "body": "Henry worked as a farm hand. Later in life the family had a photograph of him sitting on a plough behind a horse, with his baby son Gilbert on his lap.",
+     "body": "Henry worked as a farm hand. A family photograph from about 1920 shows him on a horse-drawn mower behind two heavy horses, with his baby son Gilbert on his lap (Chapter 7).",
      "source": "Family memoir by his granddaughter, page 1"
     }
    ],
    "photos": [
     {
-     "cat": "Family photo to scan",
+     "cat": "Family photo",
      "file": "bowles-family-twelve.jpg",
      "dir": "family",
-     "caption": "Arthur Bowles and his wife with their twelve grown-up children, outside the house at Yeovil Junction. The family has this photograph.",
-     "alt": "A large family group of parents and twelve adult children outside a terraced house.",
+     "caption": "Arthur Bowles and his wife with all twelve of their children, outside the family's terraced house by Yeovil Junction station, in the 1920s. Back row, left to right: Arthur, Ethel, George, Frank, Winnie and Reg. Middle row, left to right: Bill, Lilly, their father Arthur, their mother, Amy and Henry, the eldest, on the far right. On the step: Kit and Oliver, the youngest.",
+     "alt": "A large family group of eighteen people in 1920s clothes in front of two numbered front doors of a brick terrace. An older couple sit in the middle, surrounded by their grown-up sons and daughters, with a young woman and a boy sitting on the step in front.",
      "credit": "Family photograph",
-     "slot": "Family photo to scan"
+     "slot": "Family photo"
     }
    ],
-   "photosHeading": "Family photographs"
+   "photosHeading": "The family of twelve"
   },
   {
    "id": "yeovil-before-the-war",

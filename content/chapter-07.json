@@ -30,6 +30,24 @@
    ],
    "photos": [
     {
+     "cat": "Family photo",
+     "file": "wedding.jpg",
+     "dir": "family",
+     "caption": "Henry and Nell on their wedding day, December 1918. Henry is still in uniform: he stayed a soldier, on prisoner-of-war leave, until March 1919.",
+     "alt": "Henry in army uniform and peaked cap, with a moustache, standing beside Nell in a wide-brimmed hat and dark coat.",
+     "credit": "Family photograph",
+     "slot": "Family photo"
+    },
+    {
+     "cat": "Family photo",
+     "file": "henry-nell-gilbert-parents.jpg",
+     "dir": "family",
+     "caption": "About 1919 to 1920: Henry and Nell, seated, with baby Gilbert. Behind Henry stand his parents, Arthur Bowles and his wife; behind Nell, her brother George Taylor; on the right, Nell's parents, Mr and Mrs Taylor.",
+     "alt": "A sepia family group in a garden: a young man and a young woman holding a baby in a long white gown sit in front of two older couples and a younger man.",
+     "credit": "Family photograph",
+     "slot": "Family photo"
+    },
+    {
      "cat": "EPH 4582",
      "file": "eph4582.jpg",
      "caption": "The King's letter to returning prisoners: \"The Queen joins me in welcoming you\". Does the family still have Henry's?",
@@ -37,18 +55,9 @@
      "url": "https://www.iwm.org.uk/collections/item/object/30084510",
      "credit": "Image: IWM (EPH 4582)",
      "src": "https://media.iwm.org.uk/ciim5/196/744/mid_000000.jpg?action=e&cat=Souvenirs%20and%20ephemera"
-    },
-    {
-     "cat": "Family photo wanted",
-     "file": "wedding.jpg",
-     "dir": "family",
-     "caption": "Henry and Nell, married December 1918. Does a wedding photograph survive?",
-     "alt": "Henry and Nell on their wedding day.",
-     "credit": "Family photograph",
-     "slot": "Family photo wanted"
     }
    ],
-   "photosHeading": "Photographs",
+   "photosHeading": "Family photographs",
    "entries": [
     {
      "date": "December 1918",
@@ -125,9 +134,9 @@
    "intro": "Henry and Nell had three children: Gilbert John, Joyce, always called Joycie, and William George, known as Bill. These memories are their granddaughter's.",
    "stories": [
     {
-     "title": "On the plough",
+     "title": "On the mower",
      "badge": "family",
-     "body": "There was a photograph of Henry sitting on a plough behind a horse, leading it, with baby Gilbert on his lap.",
+     "body": "The memoir remembers a photograph of Henry on a plough with baby Gilbert on his lap. Here it is. In fact it shows a horse-drawn grass mower, with two heavy horses in harness. Where and when it was taken is not known.",
      "source": "Family memoir by his granddaughter, page 1"
     },
     {
@@ -173,13 +182,31 @@
    ],
    "photos": [
     {
-     "cat": "Family photo wanted",
+     "cat": "Family photo",
      "file": "plough-with-gilbert.jpg",
      "dir": "family",
-     "caption": "Henry on the plough with baby Gilbert on his lap. Does this photograph survive?",
-     "alt": "Henry on a horse-drawn plough holding his baby son.",
+     "caption": "Henry with little Gilbert on his lap, on a horse-drawn mower behind two heavy horses, about 1920.",
+     "alt": "Two large dark working horses in harness pull a mowing machine through long grass; a man in a hat and waistcoat sits on the seat holding a small child in white.",
      "credit": "Family photograph",
-     "slot": "Family photo wanted"
+     "slot": "Family photo"
+    },
+    {
+     "cat": "Family photo",
+     "file": "three-children.jpg",
+     "dir": "family",
+     "caption": "The three children, about 1930. From the left: Bill, the youngest, Joyce and Gilbert.",
+     "alt": "A studio photograph of two boys in jackets and long socks either side of a girl in a pale dress.",
+     "credit": "Family photograph",
+     "slot": "Family photo"
+    },
+    {
+     "cat": "Family photo",
+     "file": "family-about-1939.jpg",
+     "dir": "family",
+     "caption": "Henry and Nell with their grown-up children, before the children went off to the Second World War. Standing, from the left: Bill, Joyce and Gilbert.",
+     "alt": "A studio portrait of an older couple seated, the woman in round glasses, with two young men in suits and a young woman in pearls standing behind them.",
+     "credit": "Family photograph",
+     "slot": "Family photo"
     },
     {
      "cat": "Family photo wanted",
@@ -427,16 +454,25 @@
    ],
    "photos": [
     {
-     "cat": "Family photograph",
-     "file": "henry-and-nell.png",
+     "cat": "Family photo",
+     "file": "henry-and-nell-last.jpg",
      "dir": "family",
-     "caption": "Henry and Nell. The last photograph taken before Nell died.",
-     "alt": "An elderly woman leaning out of a cottage window, smiling, and an elderly man in a jumper sitting below her, also smiling.",
+     "caption": "Henry and Nell, at a relative's bungalow in Portishead. The last photograph taken before Nell died.",
+     "alt": "An elderly woman with white hair and glasses leaning out of an open window, smiling, and an elderly man in a jumper sitting outside below her, also smiling.",
      "credit": "Family photograph",
-     "slot": "Family photograph"
+     "slot": "Family photo"
+    },
+    {
+     "cat": "Family photo",
+     "file": "joyce-wedding-1947.jpg",
+     "dir": "family",
+     "caption": "Joyce's wedding, 13 September 1947, with Henry and Nell on the right.",
+     "alt": "A wedding group of six: the bride holding a large bouquet beside the groom, with the parents of the couple and the best man.",
+     "credit": "Family photograph",
+     "slot": "Family photo"
     }
    ],
-   "photosHeading": "The last photograph"
+   "photosHeading": "Family photographs"
   }
  ]
 }

@@ -798,7 +798,37 @@
      "id": "smells",
      "q": "What did the trenches smell like? Could men keep clean?"
     }
-   ]
+   ],
+   "visitPhotos": [
+    {
+     "cat": "Family photo",
+     "file": "trip-vimy-trench.jpg",
+     "dir": "family",
+     "caption": "A preserved trench at Vimy Ridge, with a fire step on the right. The sandbags were remade in concrete so the trench would last.",
+     "alt": "A narrow trench with walls of grey concrete sandbags, a raised fire step on one side and a gravel floor, with a Canadian flag beyond.",
+     "credit": "Family photograph, August 2026",
+     "slot": "Family photo"
+    },
+    {
+     "cat": "Family photo",
+     "file": "trip-vimy-fire-niche.jpg",
+     "dir": "family",
+     "caption": "A small hollow cut into the trench wall near the floor. The family were told men lit a little fire in places like this to warm their food.",
+     "alt": "A low recess at the foot of a sandbagged trench wall, just above the gravel floor, beside a walker's shoe for scale.",
+     "credit": "Family photograph, August 2026",
+     "slot": "Family photo"
+    },
+    {
+     "cat": "Family photo",
+     "file": "trip-vimy-trench-bay.jpg",
+     "dir": "family",
+     "caption": "A bay in the Vimy trench, with the rusted remains of a heavy weapon and concrete duckboards across the floor.",
+     "alt": "A corner of a sandbagged trench with a rusted metal gun part lying on the gravel and slatted concrete duckboards.",
+     "credit": "Family photograph, August 2026",
+     "slot": "Family photo"
+    }
+   ],
+   "visitHeading": "A real trench: Vimy Ridge, August 2026"
   },
   {
    "id": "gas",

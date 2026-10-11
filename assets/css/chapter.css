@@ -381,3 +381,4 @@ html[data-font="lexend"] .letter p, html[data-font="plain"] .letter p { font-fam
 .mem-field label { font-weight: 700; font-size: 1.1rem; }
 .mem-field textarea { width: 100%; min-height: 8rem; font: inherit; line-height: 1.5; padding: 10px 12px; border: 2px solid var(--ink); border-radius: 8px; background: var(--paper); color: var(--ink); resize: vertical; }
 .mem-status { min-height: 1.5em; font-weight: 700; }
+.photo-grid > .photo:only-child { grid-column: 1 / -1; max-width: 820px; }

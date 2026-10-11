@@ -109,6 +109,63 @@
    "photosHeading": "Photographs from the trip"
   },
   {
+   "id": "vimy",
+   "title": "Vimy Ridge",
+   "type": "stories",
+   "intro": "On the third day the family went to Vimy Ridge, where the trenches and shell holes have been kept as they were.",
+   "stories": [
+    {
+     "title": "A real trench",
+     "badge": "family",
+     "body": "They walked through preserved trenches, with fire steps and sandbagged walls, and saw how close the two front lines had been. A low hollow in the trench wall, the guide explained, was where men could light a small fire to warm their food.",
+     "source": "Memories of Grandad, by his granddaughter; family memoir, page 5"
+    },
+    {
+     "title": "The ground remembers",
+     "badge": "family",
+     "body": "More than a hundred years on, the grass at Vimy still rises and falls over shell holes and old trench lines.",
+     "source": "Family photographs, August 2026"
+    },
+    {
+     "title": "The memorial",
+     "badge": "unit",
+     "body": "The Canadian National Vimy Memorial stands on the ridge Canadian troops captured in April 1917. Henry did not fight here, but men of every army walked through trenches like these.",
+     "source": "Veterans Affairs Canada",
+     "url": "https://www.veterans.gc.ca/en/remembrance/memorials/overseas/first-world-war/france/vimy"
+    }
+   ],
+   "photos": [
+    {
+     "cat": "Family photo",
+     "file": "trip-vimy-memorial.jpg",
+     "dir": "family",
+     "caption": "The Canadian National Vimy Memorial on Vimy Ridge.",
+     "alt": "Two tall white stone pylons of a memorial on the skyline, across a wide slope of dry grass, with three trees on the left.",
+     "credit": "Family photograph, August 2026",
+     "slot": "Family photo"
+    },
+    {
+     "cat": "Family photo",
+     "file": "trip-vimy-craters.jpg",
+     "dir": "family",
+     "caption": "Shell holes and trench lines still ripple the ground at Vimy, now grassed over.",
+     "alt": "Close-up of dry grass with small yellow flowers in front of a field of grassy humps and hollows, with a Canadian flag beyond.",
+     "credit": "Family photograph, August 2026",
+     "slot": "Family photo"
+    },
+    {
+     "cat": "Family photo",
+     "file": "trip-vimy-trench.jpg",
+     "dir": "family",
+     "caption": "A preserved trench at Vimy, with its fire step. The sandbags were remade in concrete so it would last.",
+     "alt": "A narrow trench with walls of grey concrete sandbags, a fire step and a gravel floor.",
+     "credit": "Family photograph, August 2026",
+     "slot": "Family photo"
+    }
+   ],
+   "photosHeading": "Photographs from the trip"
+  },
+  {
    "id": "the-two-fields",
    "title": "The two fields",
    "type": "stories",
@@ -151,10 +208,10 @@
      "cat": "Trip photo wanted",
      "file": "trip-pool-of-peace.jpg",
      "dir": "family",
-     "caption": "The Pool of Peace at Spanbroekmolen.",
-     "alt": "A still pool surrounded by trees.",
+     "caption": "The Pool of Peace at Spanbroekmolen, near Messines: the crater of one of the nineteen mines blown on 7 June 1917. A small cross and poppy stand at the edge.",
+     "alt": "A large still pool ringed with trees, with water lilies near the bank and a wooden edge in the foreground.",
      "credit": "Family photograph",
-     "slot": "Trip photo wanted"
+     "slot": "Family photo"
     }
    ],
    "photosHeading": "Photographs from the trip"
@@ -199,6 +256,51 @@
     }
    ],
    "photos": [
+    {
+     "cat": "Family photo",
+     "file": "trip-tyne-cot-stone.jpg",
+     "dir": "family",
+     "caption": "\"Their name liveth for evermore\": the Stone of Remembrance at Tyne Cot.",
+     "alt": "The words Their Name Liveth For Evermore carved in a long white stone, against a blue sky.",
+     "credit": "Family photograph, August 2026",
+     "slot": "Family photo"
+    },
+    {
+     "cat": "Family photo",
+     "file": "trip-tyne-cot-rows.jpg",
+     "dir": "family",
+     "caption": "Tyne Cot, the largest Commonwealth war cemetery in the world, on the slope of Passchendaele Ridge. \"Sooo big, sooo many graves.\"",
+     "alt": "Row upon row of white headstones in the shade of a tree, with fields stretching away beyond the cemetery wall.",
+     "credit": "Family photograph, August 2026",
+     "slot": "Family photo"
+    },
+    {
+     "cat": "Family photo",
+     "file": "trip-tyne-cot-cross.jpg",
+     "dir": "family",
+     "caption": "The Cross of Sacrifice at Tyne Cot is built on top of a German blockhouse, captured in October 1917. Visitors had left poppy wreaths and small crosses.",
+     "alt": "A tall white stone cross with a bronze sword, standing above a stone wall with an inscription, poppy wreaths and small wooden crosses at its foot.",
+     "credit": "Family photograph, August 2026",
+     "slot": "Family photo"
+    },
+    {
+     "cat": "Family photo",
+     "file": "trip-tyne-cot-unknown.jpg",
+     "dir": "family",
+     "caption": "Graves of soldiers whose names are not known: \"A Soldier of the Great War, Known unto God\".",
+     "alt": "White headstones carved A Soldier of the Great War, two with a maple leaf, with flowers and a poppy, and a visitor looking on.",
+     "credit": "Family photograph, August 2026",
+     "slot": "Family photo"
+    },
+    {
+     "cat": "Family photo",
+     "file": "trip-tyne-cot-german-grave.jpg",
+     "dir": "family",
+     "caption": "Inside Tyne Cot lie a few German soldiers too. A red candle burns on one German grave, in front of the wall naming nearly 35,000 British and Commonwealth men with no known grave.",
+     "alt": "A single small German grave marker with a red candle on top, in front of a long memorial wall of names.",
+     "credit": "Family photograph, August 2026",
+     "slot": "Family photo"
+    },
     {
      "cat": "Trip photo wanted",
      "file": "trip-wreath.jpg",

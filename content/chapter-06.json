@@ -578,6 +578,17 @@
       ]
      ]
     }
+   ],
+   "visitPhotos": [
+    {
+     "cat": "Family photo",
+     "file": "trip-tyne-cot-wall.jpg",
+     "dir": "family",
+     "caption": "Tyne Cot Cemetery, on the slope of Passchendaele Ridge near Ypres: the largest Commonwealth war cemetery in the world. The wall behind names men with no known grave.",
+     "alt": "Rows of white headstones in front of a long curved memorial wall with a domed pavilion, under a clear blue sky.",
+     "credit": "Family photograph, August 2026",
+     "slot": "Family photo"
+    }
    ]
   },
   {
@@ -1854,6 +1865,15 @@
    ],
    "photos": [
     {
+     "cat": "Family photo",
+     "file": "henry-uniform-1918.jpg",
+     "dir": "family",
+     "caption": "Henry in December 1918, weeks after coming home from the prison camp at Münster. Taken from his wedding photograph.",
+     "alt": "A head and shoulders photograph of Henry in British army uniform and peaked cap, with a moustache and a watch chain across his tunic pocket.",
+     "credit": "Family photograph",
+     "slot": "Family photo"
+    },
+    {
      "cat": "EPH 4582",
      "file": "eph4582.jpg",
      "caption": "The printed letter from King George V welcoming prisoners home: \"The Queen joins me in welcoming you\". Henry would probably have been given one. Does the family still have it?",
@@ -1868,7 +1888,8 @@
      "id": "shellshock",
      "q": "What was shell shock?"
     }
-   ]
+   ],
+   "photosHeading": "Photographs"
   }
  ]
 }
