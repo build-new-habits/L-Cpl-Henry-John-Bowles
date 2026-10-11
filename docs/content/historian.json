@@ -1,0 +1,490 @@
+{
+ "groups": [
+  {
+   "title": "Going over the top",
+   "items": [
+    {
+     "id": "walk",
+     "q": "Why did British soldiers walk towards the German lines on 1 July 1916?",
+     "a": [
+      "Many did, but not all. The planners expected the week-long bombardment to destroy the German wire and trenches, so the infantry could simply occupy the ground. One soldier remembered being told “there wouldn't be a German within miles”.",
+      "Most of the attackers were inexperienced volunteers, and the plans kept them in tight, controlled waves so they would not lose their way. Each man also carried a heavy load of kit, ammunition and tools, which made running hard.",
+      "In practice, units varied. Some walked in lines; others crept into No Man's Land before zero hour or rushed the German trench as the barrage lifted. The bombardment had failed: Germans sheltering in dugouts 30 feet deep came up and opened fire."
+     ],
+     "confidence": "Historians still argue about this. Some point out that the top commanders' orders never required walking, and that Henry's own corps crept out under darkness. Veterans clearly remember being told to walk. Both can be true in different places.",
+     "sources": [
+      {
+       "source": "IWM, Voices of the First World War: The First Day of the Somme",
+       "url": "https://www.iwm.org.uk/history/voices-of-the-first-world-war-the-first-day-of-the-somme"
+      },
+      {
+       "source": "The Long, Long Trail, British tactical planning for the start of the Somme offensive",
+       "url": "https://www.longlongtrail.co.uk/battles/battles-of-the-western-front-in-france-and-flanders/the-battles-of-the-somme-1916/british-tactical-planning-for-the-start-of-the-somme-offensive-1916/"
+      },
+      {
+       "source": "National Army Museum, Battle of the Somme",
+       "url": "https://www.nam.ac.uk/explore/battle-somme"
+      },
+      {
+       "source": "James Brett, Lions and donkeys: not at the Somme, Military History Matters",
+       "url": "https://military-history.org/feature/opinion-lions-and-donkeys-not-at-the-somme.htm"
+      }
+     ]
+    },
+    {
+     "id": "officers",
+     "q": "Were officers careless with men’s lives?",
+     "a": [
+      "This is one of the great arguments about the war, and there are honest answers on both sides.",
+      "The case against: on 1 July 1916 the British suffered over 57,000 casualties, more than 19,000 of them killed, in a plan that relied on a bombardment that failed. Senior commanders were far behind the lines, and attacks often carried on long after hope had gone.",
+      "The case for: junior officers led from the front and died at a higher rate than their men, about 17 in every 100 officers against about 12 in every 100 other ranks. Over 200 British generals were killed, wounded or captured. Commanders faced a new kind of war with no easy answers, and the army learned: by 1918 guns, infantry, tanks and aircraft worked together to win."
+     ],
+     "confidence": "Genuinely debated. The famous phrase “lions led by donkeys” was probably made up by a historian in the 1960s, not said by a German general. Henry's own battalion lost its Colonel and its Brigadier on 1 July.",
+     "sources": [
+      {
+       "source": "National Army Museum, Battle of the Somme",
+       "url": "https://www.nam.ac.uk/explore/battle-somme"
+      },
+      {
+       "source": "Brian Bond, address at the Guards Chapel, 2013 (Western Front Association)",
+       "url": "https://www.westernfrontassociation.com/world-war-i-articles/2013/november/the-address-at-the-guards-chapel-11-november-2013-by-prof-brian-bond/"
+      },
+      {
+       "source": "William Philpott, Beyond the Learning Curve (RUSI)",
+       "url": "https://www.rusi.org/explore-our-research/publications/commentary/beyond-learning-curve-british-armys-military-transformation-first-world-war"
+      },
+      {
+       "source": "Dan Snow, 10 myths about World War One (History Hit)",
+       "url": "https://www.historyhit.com/myths-about-world-war-one/"
+      }
+     ]
+    },
+    {
+     "id": "bodies",
+     "q": "What happened to men killed in No Man’s Land?",
+     "a": [
+      "Often they could not be reached. Bringing in the dead under fire was deadly, so bodies might lie out for days, months or even years. When it was possible, burial parties went out at night, and in some places both sides agreed short, unofficial truces to collect their dead.",
+      "Graves were marked with a wooden cross, but later shelling often destroyed them. After the war the battlefields were searched again and again, and the remains moved into cemeteries. Unidentified men were buried under headstones reading “Known unto God”.",
+      "Men with no known grave are named on memorials. Thiepval, on the Somme, carries more than 72,000 names; over 12,000 of them died on 1 July 1916. The Arras Memorial, where many of Henry's Wiltshire comrades of March 1918 are named, carries more than 35,000."
+     ],
+     "sources": [
+      {
+       "source": "CWGC, What is the largest WW1 memorial?",
+       "url": "https://www.cwgc.org/our-work/blog/what-is-the-largest-ww1-memorial/"
+      },
+      {
+       "source": "IWM, The unofficial rules of trench warfare",
+       "url": "https://www.iwm.org.uk/history/first-world-war/western-front/the-unofficial-rules-of-trench-warfare"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Life in the trenches",
+   "items": [
+    {
+     "id": "dugouts",
+     "q": "Were there rooms in the trenches?",
+     "a": [
+      "Yes, called dugouts, but they varied enormously. Many British ones were simple: a hole about 3 feet wide cut into the trench wall, roofed with boards and earth, with a blanket over the front. One soldier said even a candle inside “made an enormous difference”. The smallest scrapes were called funk holes.",
+      "Some were deeper: one IWM photograph shows men packed in two layers in a dugout 15 feet underground. Officers usually shared a dugout that served as the company headquarters.",
+      "The Germans, who expected to stay, dug much deeper. On the Somme many of their dugouts were about 30 feet down in the chalk, which is why so many survived the bombardment. A British soldier who later saw them said they were “like hotel rooms”."
+     ],
+     "sources": [
+      {
+       "source": "IWM, Voices of the First World War: Trench Life",
+       "url": "https://www.iwm.org.uk/history/voices-of-the-first-world-war-trench-life"
+      },
+      {
+       "source": "IWM, Voices of the First World War: The First Day of the Somme",
+       "url": "https://www.iwm.org.uk/history/voices-of-the-first-world-war-the-first-day-of-the-somme"
+      },
+      {
+       "source": "IWM, 10 photos of life in the trenches",
+       "url": "https://www.iwm.org.uk/history/10-photos-of-life-in-the-trenches"
+      }
+     ]
+    },
+    {
+     "id": "weather",
+     "q": "What was the weather like?",
+     "a": [
+      "It could be anything, and it mattered enormously. 1 July 1916 was a warm, dry summer day. Summer also brought heat, dust and swarms of flies.",
+      "Autumn and winter brought mud. One Highlander remembered being “up to the thighs in mud” for weeks, and men who slipped into flooded shell holes sometimes drowned. Henry's Wiltshire battalion's diary for 4 October 1916 says simply: “Very wet.” The rations didn't arrive.",
+      "The winter of 1916 to 1917, Henry's first after the Somme, was remembered as “a very, very cold winter”. Water bottles froze solid, and tea carried up the line had ice on top by the time it arrived. In January 1918 his battalion's diary at Lagnicourt records “very cold and frosty, with a good deal of snow”."
+     ],
+     "sources": [
+      {
+       "source": "Met Office, First day of the Battle of the Somme",
+       "url": "https://www.metoffice.gov.uk/research/library-and-archive/archive-hidden-treasures/battle-of-the-somme-1916"
+      },
+      {
+       "source": "IWM, Voices of the First World War: Winter 1916",
+       "url": "https://www.iwm.org.uk/history/voices-of-the-first-world-war-winter-1916"
+      },
+      {
+       "source": "1st Wiltshires war diary, The Rifles Berkshire and Wiltshire Museum",
+       "url": "https://www.thewardrobe.org.uk/research/war-diaries"
+      }
+     ]
+    },
+    {
+     "id": "shelling",
+     "q": "Was there shelling all the time, or only in big battles?",
+     "a": [
+      "Not all the time, but danger never went away. Some sectors were quiet, where both sides settled into an unspoken “live and let live”. Others were active, with constant raids, sniping and shelling.",
+      "Every day began and ended with stand-to, when men manned the fire step at dawn and dusk. Even in quiet times shells killed and wounded men steadily. Shells were aimed at areas, not people, so death could seem random: “One minute you were talking to your best mate and the next minute he could be gone.”",
+      "Henry's Wiltshire battalion's diary is full of “quiet” days on which a man or two was killed, and in May 1917, a week before he went sick, German shells blew up ammunition dumps behind their line every evening at about nine."
+     ],
+     "sources": [
+      {
+       "source": "IWM, The unofficial rules of trench warfare",
+       "url": "https://www.iwm.org.uk/history/first-world-war/western-front/the-unofficial-rules-of-trench-warfare"
+      },
+      {
+       "source": "IWM, 10 photos of life in the trenches",
+       "url": "https://www.iwm.org.uk/history/10-photos-of-life-in-the-trenches"
+      },
+      {
+       "source": "1st Wiltshires war diary, 26 May 1917",
+       "url": "https://www.thewardrobe.org.uk/research/war-diaries"
+      }
+     ]
+    },
+    {
+     "id": "messages",
+     "q": "How did messages get through?",
+     "a": [
+      "With great difficulty once a battle started. Field telephones were the main link, but shellfire and tramping boots constantly broke the cables. So the most dependable messenger was often a runner: a soldier who carried notes on foot through the shelling.",
+      "Signallers also used flags and lamps flashing Morse code. Coloured flares and rockets sent pre-arranged signals. Messenger dogs were trained, and carrier pigeons were remarkably reliable: about 95 in every 100 pigeon messages arrived, and about 12,000 birds were used on the Somme.",
+      "On 25 August 1916 every telephone wire of Henry's Wiltshire battalion was cut, and two privates were recommended for the Distinguished Conduct Medal for carrying messages through the shelling. Both were “badly shaken” by the blasts."
+     ],
+     "sources": [
+      {
+       "source": "National Army Museum, The British Army entrusted its secrets to birdbrains",
+       "url": "https://www.nam.ac.uk/explore/british-army-entrusted-its-secrets-birdbrains"
+      },
+      {
+       "source": "IWM, The incredible carrier pigeons of the First World War",
+       "url": "https://www.iwm.org.uk/history/the-incredible-carrier-pigeons-of-the-first-world-war"
+      },
+      {
+       "source": "1st Wiltshires war diary, 25 August 1916",
+       "url": "https://www.thewardrobe.org.uk/research/war-diaries"
+      }
+     ]
+    },
+    {
+     "id": "smells",
+     "q": "What did the trenches smell like? Could men keep clean?",
+     "a": [
+      "The smells were the thing many veterans never forgot: unburied bodies, latrines, unwashed men, mud, chemicals and cigarette smoke. Drinking water came up in old petrol tins and tasted of petrol, so most of it was drunk as tea.",
+      "In the line, keeping clean was nearly impossible, though many men still shaved because it was good for morale. Out of the line, soldiers queued for communal baths, often in old breweries, and handed in their uniforms to be laundered. That killed the lice for a while, but within days they were back."
+     ],
+     "confidence": "The list of smells is a fair summary of many accounts rather than one quotation.",
+     "sources": [
+      {
+       "source": "IWM, Voices of the First World War: Trench Life",
+       "url": "https://www.iwm.org.uk/history/voices-of-the-first-world-war-trench-life"
+      },
+      {
+       "source": "IWM, How to keep clean and healthy in the trenches",
+       "url": "https://www.iwm.org.uk/history/first-world-war/western-front/how-to-keep-clean-and-healthy-in-the-trenches"
+      }
+     ]
+    },
+    {
+     "id": "chats",
+     "q": "Why were lice called “chats”?",
+     "a": [
+      "Lice were tiny blood-sucking insects that lived in the seams of uniforms and blankets. Almost every front-line soldier had them. Men sat together “chatting”: cracking the lice between their fingernails, or running a candle flame along the seams.",
+      "The word is older than the war. A slang dictionary of 1811 already lists “chatts” meaning lice, and suggests it came from “chattels”, because lice were a beggar's only possessions. Soldiers surely enjoyed the pun: sitting and chatting meant both talking and delousing.",
+      "Lice also spread trench fever, caught from louse droppings rubbed into scratches."
+     ],
+     "confidence": "Nobody knows for certain where the word came from. Other suggestions are a Hindi word or an old English word for gossip.",
+     "sources": [
+      {
+       "source": "IWM, How to keep clean and healthy in the trenches",
+       "url": "https://www.iwm.org.uk/history/first-world-war/western-front/how-to-keep-clean-and-healthy-in-the-trenches"
+      },
+      {
+       "source": "Francis Grose, 1811 Dictionary of the Vulgar Tongue (Project Gutenberg)",
+       "url": "https://www.gutenberg.org/cache/epub/5402/pg5402.txt"
+      },
+      {
+       "source": "Martin Pegler, First World War slang (HistoryExtra)",
+       "url": "https://historyrevealed.com/period/first-world-war/first-world-war-slang-words-history-language"
+      }
+     ]
+    },
+    {
+     "id": "friends",
+     "q": "Did men stop making close friends?",
+     "a": [
+      "Some did, and some did not. Many veterans said comradeship was the thing that kept them going; one told the Imperial War Museum “we were like a lot of brothers together”.",
+      "But friendships could end in a moment. Harry Patch of Combe Down, Somerset, the last surviving British trench veteran, lost three close friends to a single shell at Passchendaele in 1917 and did not talk about the war for some 80 years. Like our Henry, he was a Henry John known as Harry.",
+      "Historians who study how men coped describe a mix of ways: loyalty to a small group, keeping a stiff upper lip, black humour, faith, superstition, and simply not dwelling on the danger."
+     ],
+     "confidence": "Low, for the idea of deliberately keeping new men at arm's length. It is often said, but we have not yet found a First World War soldier saying it in so many words, so Henry's journal treats it as his own private decision.",
+     "sources": [
+      {
+       "source": "IWM, Voices of the First World War: Trench Life",
+       "url": "https://www.iwm.org.uk/history/voices-of-the-first-world-war-trench-life"
+      },
+      {
+       "source": "IWM, Lance Corporal Henry John “Harry” Patch",
+       "url": "https://www.iwm.org.uk/history/lance-corporal-henry-john-harry-patch"
+      },
+      {
+       "source": "South West Heritage Trust, Harry Patch: the last Tommy",
+       "url": "https://swheritage.org.uk/museum-of-somerset/explore/somerset-remembers/harry-patch-the-last-tommy/"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Weapons and machines",
+   "items": [
+    {
+     "id": "mines",
+     "q": "What were the mines, and who dug them?",
+     "a": [
+      "Both sides dug tunnels under No Man's Land, packed the end with explosives and blew up the enemy trench above. From 1915 the British formed special Royal Engineers tunnelling companies, many of them coal miners and London “clay-kickers” who had dug sewers and the Underground. A clay-kicker lay on a sloping board and pushed a spade into the clay with his feet. It was quick and, above all, quiet, because both sides listened for each other.",
+      "At 7.20am on 1 July 1916, ten minutes before Henry's division attacked, the Hawthorn Ridge mine exploded near Beaumont-Hamel, and was filmed. The Germans had mines too: one went off under the Quadrilateral while Henry's brigade was inside it.",
+      "At Messines on 7 June 1917, 19 huge mines went off together. Henry's Wiltshire battalion attacked that morning; Henry was in hospital. Sebastian Faulks's novel Birdsong follows a tunneller called Jack Firebrace."
+     ],
+     "confidence": "Figures differ between sources. The Hawthorn mine is given as 18 to 20 tons. A 2024 study argues that firing it ten minutes early warned the Germans. The famous claim that the Messines mines were heard in London is doubtful.",
+     "sources": [
+      {
+       "source": "The Long, Long Trail, Tunnelling Companies of the Royal Engineers",
+       "url": "https://www.longlongtrail.co.uk/army/regiments-and-corps/the-corps-of-royal-engineers-in-the-first-world-war/tunnelling-companies-of-the-royal-engineers-underground-warfare/"
+      },
+      {
+       "source": "Nottinghamshire Mining Museum, Clay-kicking",
+       "url": "https://www.nottsminingmuseum.org.uk/clay-kicking-or-working-the-cross/"
+      },
+      {
+       "source": "CWGC, Messines centenary",
+       "url": "https://admin.cwgc.org/our-work/news/prince-william-marks-messines-centenary/"
+      }
+     ]
+    },
+    {
+     "id": "guns",
+     "q": "How big were the guns?",
+     "a": [
+      "The workhorse was the 18-pounder field gun, firing a shell about the weight of a large Christmas turkey four times a minute, up to about four miles. Behind it came bigger and bigger howitzers, which lobbed shells high so they dropped into trenches.",
+      "A 9.2-inch howitzer fired a 290-pound shell, as heavy as two grown men, and needed a steel box holding nine tons of earth to stop it leaping when it fired. The biggest British howitzer, the 15-inch, fired a shell of 1,450 pounds, heavier than a small horse. Only 12 were built. One was firing from Englebelmer Wood, close behind the Ancre front, in August 1916.",
+      "In the week before 1 July 1916 the British fired about one and a half million shells. Before Messines in June 1917, 2,230 guns fired three and a half million."
+     ],
+     "confidence": "Comparisons with turkeys, men and horses are ours, to give a sense of the size.",
+     "sources": [
+      {
+       "source": "Ordnance QF 18-pounder (Wikipedia)",
+       "url": "https://en.wikipedia.org/wiki/Ordnance_QF_18-pounder"
+      },
+      {
+       "source": "BL 9.2-inch howitzer (Wikipedia)",
+       "url": "https://en.wikipedia.org/wiki/BL_9.2-inch_howitzer"
+      },
+      {
+       "source": "BL 15-inch howitzer (Wikipedia)",
+       "url": "https://en.wikipedia.org/wiki/BL_15-inch_howitzer"
+      },
+      {
+       "source": "The Long, Long Trail, Arming the Siege Batteries",
+       "url": "https://www.longlongtrail.co.uk/?p=17461"
+      }
+     ]
+    },
+    {
+     "id": "planes",
+     "q": "What did aeroplanes and balloons do?",
+     "a": [
+      "Mostly they watched. Aircraft and tethered observation balloons spotted where shells were landing and told the gunners how to correct their aim. Aircraft also photographed the enemy trenches so maps could be drawn. Henry's March 1918 map was drawn from air photographs.",
+      "On the Somme in July 1916 the British had 185 aircraft against 129 German ones, and one balloon for each division hung over the line. Balloon observers escaped by parachute when attacked; pilots had none.",
+      "The balance swung back and forth. On 24 March 1918, the day Henry was captured, his battalion's diary says the German shelling was directed by German aircraft, and “the absence of our planes was noticeable”."
+     ],
+     "sources": [
+      {
+       "source": "First day on the Somme (Wikipedia)",
+       "url": "https://en.wikipedia.org/wiki/First_day_on_the_Somme"
+      },
+      {
+       "source": "Western Front Association, Balloonatics",
+       "url": "https://www.westernfrontassociation.com/world-war-i-articles/balloonatics-during-the-first-world-war-1914-1918/"
+      },
+      {
+       "source": "1st Wiltshires war diary, 24 March 1918",
+       "url": "https://www.thewardrobe.org.uk/research/war-diaries"
+      }
+     ]
+    },
+    {
+     "id": "tanks",
+     "q": "When did tanks arrive, and did Henry see one?",
+     "a": [
+      "Tanks first went into action on 15 September 1916 at Flers-Courcelette on the Somme. They were slow, about walking pace, hot and deafening inside, and many broke down or stuck in shell holes. But they could crush barbed wire and cross trenches, and they frightened the Germans.",
+      "Henry's Wiltshire battalion was resting well behind the line that week, so he would only have heard about them. Tanks fought beside his division at Messines in June 1917, when he was in hospital. By 1918 they were a vital part of the attacks that won the war.",
+      "So, as far as the records show, Henry may never have seen a tank in action."
+     ],
+     "sources": [
+      {
+       "source": "IWM, Q 2488, the first official photograph of a tank going into action",
+       "url": "https://www.iwm.org.uk/collections/item/object/205078852"
+      },
+      {
+       "source": "Battle of Messines (Wikipedia)",
+       "url": "https://en.wikipedia.org/wiki/Battle_of_Messines_(1917)"
+      }
+     ]
+    },
+    {
+     "id": "gas",
+     "q": "What was a gas attack like?",
+     "a": [
+      "Germany first used gas on a large scale at Ypres in April 1915, releasing clouds of chlorine, which attacked the lungs. Britain replied at Loos that September. Phosgene was harder to notice. Mustard gas, from July 1917, was the most feared: it did nothing at first, then hours later caused blistered skin, swollen and sometimes blinded eyes, and damaged lungs. It soaked into the soil and lingered for weeks.",
+      "Protection improved from pads soaked in bicarbonate of soda, to the cloth PH helmet Henry wore on the Somme, to box respirators with filters. Gongs and rattles warned of attacks.",
+      "Henry's Wiltshire battalion met mustard gas near Ypres in July 1917. Its diary for 17 July: “Enormous number gas shells, many men rendered blind (temp).” Only about 3 in every 100 gas casualties died at once, but many suffered for years."
+     ],
+     "sources": [
+      {
+       "source": "IWM, How gas became a terror weapon",
+       "url": "https://www.iwm.org.uk/history/how-gas-became-a-terror-weapon-in-the-first-world-war"
+      },
+      {
+       "source": "The National Archives, The problems with mustard gas",
+       "url": "https://blog.nationalarchives.gov.uk/problems-mustard-gas/"
+      },
+      {
+       "source": "The Rifles Berkshire and Wiltshire Museum, PH helmet",
+       "url": "https://www.thewardrobe.org.uk/whats-on/object-of-the-month-3"
+      }
+     ]
+    }
+   ]
+  },
+  {
+   "title": "Body and mind",
+   "items": [
+    {
+     "id": "illness",
+     "q": "What illnesses did soldiers suffer?",
+     "a": [
+      "Illness put far more men in hospital than people expect. Trench fever, spread by lice, caused fever, headaches and aching legs. Trench foot came from standing for days in cold water: feet swelled, went numb and could rot, so officers inspected feet and men changed socks and rubbed in whale oil. Dysentery came from dirty water and flies.",
+      "In 1918 influenza arrived. Its autumn wave was deadly, and unusually killed fit young men. Henry was a prisoner in Germany by then.",
+      "Henry's own illness is in his record: in June 1917 he was sent to hospital with an inflamed middle ear, and missed the Battle of Messines."
+     ],
+     "sources": [
+      {
+       "source": "IWM, How to keep clean and healthy in the trenches",
+       "url": "https://www.iwm.org.uk/history/first-world-war/western-front/how-to-keep-clean-and-healthy-in-the-trenches"
+      },
+      {
+       "source": "The National Archives, Fighting the flu, 1918 to 1919",
+       "url": "https://blog.nationalarchives.gov.uk/fighting-the-flu-1918-1919-part-two-first-world-war-medical-records/"
+      }
+     ]
+    },
+    {
+     "id": "shellshock",
+     "q": "What was shell shock?",
+     "a": [
+      "The term was coined in 1915 by an army doctor, Charles Myers. At first doctors thought the blast of shells physically damaged the nerves. Then men who had never been near a shell showed the same signs: shaking, nightmares, loss of speech or sight, panic and exhaustion.",
+      "Treatment varied hugely, from rest and talking to harsh electric shocks, and many men were simply rested near the front and sent back. Some were seen as cowards. After the war an official enquiry called the term “wholly misleading”.",
+      "Today we would recognise much of it as post-traumatic stress disorder: a real injury to the mind. Henry's family believe he carried the war with him for the rest of his life."
+     ],
+     "confidence": "Numbers differ: one source says 80,000 cases were seen during the war, another that probably over 250,000 men suffered as a result of it. The difference is mostly about what is counted.",
+     "sources": [
+      {
+       "source": "The National Archives, War Office report on shell shock",
+       "url": "https://www.nationalarchives.gov.uk/education/resources/medicine-on-the-western-front-part-two/war-office-report-on-shell-shock/"
+      },
+      {
+       "source": "Science Museum, Wounded: from shell shock to PTSD",
+       "url": "https://blog.sciencemuseum.org.uk/wounded-from-shell-shock-to-ptsd/"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "glossary": [
+  {
+   "term": "Blighty",
+   "meaning": "Home, Britain. From the Indian Army, from a Hindustani word meaning foreign or European."
+  },
+  {
+   "term": "Blighty one",
+   "meaning": "A wound bad enough to get you sent home, but not bad enough to ruin your life. Men half hoped for one."
+  },
+  {
+   "term": "Whizz-bang",
+   "meaning": "A shell from a small German field gun. It travelled faster than sound, so you heard the whizz before the bang."
+  },
+  {
+   "term": "Bully beef",
+   "meaning": "Tinned corned beef, probably from the French bouilli, boiled beef."
+  },
+  {
+   "term": "Maconochie",
+   "meaning": "A tinned beef and vegetable stew, named after its makers."
+  },
+  {
+   "term": "Tommy",
+   "meaning": "A British private soldier, from “Thomas Atkins”, the sample name on army forms."
+  },
+  {
+   "term": "Fritz, Jerry",
+   "meaning": "British names for Germans."
+  },
+  {
+   "term": "Chats",
+   "meaning": "Lice."
+  },
+  {
+   "term": "Napoo",
+   "meaning": "Finished, gone, no good. From the French il n’y en a plus, there’s none left."
+  },
+  {
+   "term": "San fairy ann",
+   "meaning": "Never mind, it doesn’t matter. From the French ça ne fait rien."
+  },
+  {
+   "term": "Plonk",
+   "meaning": "Cheap wine, probably from the French vin blanc."
+  },
+  {
+   "term": "Estaminet",
+   "meaning": "A small café-bar behind the lines, selling egg and chips and thin beer."
+  },
+  {
+   "term": "Over the top",
+   "meaning": "Climbing out of the trench to attack."
+  },
+  {
+   "term": "Stand-to",
+   "meaning": "Manning the fire step at dawn and dusk, when attacks were most likely."
+  },
+  {
+   "term": "Old Contemptibles",
+   "meaning": "The regular soldiers of 1914, said to come from the Kaiser calling them a “contemptible little army”. No such order has ever been found."
+  }
+ ],
+ "glossarySources": [
+  {
+   "source": "Oxford University Press blog, Our words remember them",
+   "url": "https://blog.oup.com/2011/11/remembrance/"
+  },
+  {
+   "source": "Martin Pegler, First World War slang (HistoryExtra)",
+   "url": "https://historyrevealed.com/period/first-world-war/first-world-war-slang-words-history-language"
+  },
+  {
+   "source": "IWM, The food that fuelled the front",
+   "url": "https://www.iwm.org.uk/history/the-food-that-fuelled-the-front"
+  }
+ ]
+}

@@ -1,0 +1,1409 @@
+{
+ "n": 4,
+ "title": "The Line",
+ "scenes": [
+  {
+   "id": "waiting",
+   "title": "Waiting",
+   "type": "reflection",
+   "intro": "The last week of June 1916. Something big was coming, and every man knew it.",
+   "context": [
+    {
+     "badge": "archival",
+     "text": "British guns fired about one and a half million shells in the week before the battle.",
+     "source": "The Western Front of the First World War, chapter 12"
+    }
+   ],
+   "entries": [
+    {
+     "date": "Saturday 24 June 1916",
+     "place": "",
+     "paras": [
+      "The guns started this morning and they haven't stopped. Ours, all along the line, as far as you can hear either way. The ground shakes with it. You feel it through your boots and up into your teeth, and the air stinks of it.",
+      "An officer said there'll be a million and a half shells on them before we're done. A million and a half. I can't picture a number like that. The old hands say nothing could live under it, and for once nobody's arguing.",
+      "Something big is coming. Everybody knows it and nobody says it.",
+      "Wrote to Mother. Didn't tell her anything, you can't. Just that I'm well, and the weather's turned."
+     ],
+     "basis": [
+      [
+       "history",
+       "The bombardment began on 24 June 1916. British guns fired about one and a half million shells in the week before the battle (The Western Front of the First World War, chapter 12)."
+      ],
+      [
+       "typical",
+       "Letters were censored."
+      ],
+      [
+       "imagined",
+       "That an officer told him the number, and everything he felt."
+      ]
+     ]
+    },
+    {
+     "date": "Wednesday 28 June 1916",
+     "place": "",
+     "paras": [
+      "Rain again, buckets of it, and the trenches running like brooks. Word's come down that it's put off for two days on account of the weather.",
+      "Some of the lads were glad, two more days of living. Some were worse for it, all wound up with nowhere to go. I don't know which I am. Both, I think.",
+      "The waiting's the hard part. It's like haymaking at home, the grass cut and lying, and you watching the sky and willing it to clear. Only on the farm, the worst that happens is you lose the hay.",
+      "The guns keep on. I've stopped hearing them, almost."
+     ],
+     "basis": [
+      [
+       "history",
+       "The attack was postponed until 1 July because of bad weather, and the bombardment was extended (The Western Front of the First World War)."
+      ],
+      [
+       "family",
+       "Henry was a farm hand."
+      ],
+      [
+       "imagined",
+       "His feelings, and the haymaking comparison."
+      ]
+     ]
+    }
+   ],
+   "photos": [
+    {
+     "cat": "Q 36",
+     "file": "q36.jpg",
+     "caption": "A 15-inch howitzer, the biggest British gun, ready to fire on 1 July 1916. Its shell weighed 1,450 pounds.",
+     "alt": "A huge gun barrel pointing steeply upwards, with gunners beside it.",
+     "url": "https://www.iwm.org.uk/collections/item/object/205194566",
+     "credit": "Image: IWM (Q 36)"
+    },
+    {
+     "cat": "Q 90",
+     "file": "q90.jpg",
+     "caption": "British guns bombarding the German trenches at Beaumont-Hamel, just before the attack.",
+     "alt": "Smoke rising from shell bursts over a distant line.",
+     "url": "https://www.iwm.org.uk/collections/item/object/205194568",
+     "credit": "Image: IWM (Q 90)"
+    }
+   ],
+   "asks": [
+    {
+     "id": "guns",
+     "q": "How big were the guns?"
+    },
+    {
+     "id": "planes",
+     "q": "What did aeroplanes and balloons do?"
+    }
+   ]
+  },
+  {
+   "id": "night-march",
+   "title": "The night march",
+   "type": "map",
+   "intro": "The night before the battle. At ten o'clock the battalion marched out of Mailly-Maillet towards the front.",
+   "map": {
+    "src": "assets/maps/redan-ridge-attack-1-july-1916.jpg",
+    "width": 1800,
+    "height": 1273,
+    "alt": "A 1916 battle map of Redan Ridge. British units are drawn in red on the left, German trenches in green on the right. The 1st Somerset Light Infantry is marked in the second line of the 11th Brigade, facing the Quadrilateral.",
+    "badge": "archival",
+    "caption": "The attack on Redan Ridge, 1 July 1916. British units in red, German trenches in green. Source to be confirmed (probably the Official History).",
+    "spots": [
+     {
+      "x": 16,
+      "y": 30,
+      "label": "Henry's battalion",
+      "title": "1st Somerset Light Infantry",
+      "body": "The battalion waited here in the second line of the 11th Brigade, behind the Rifle Brigade and the East Lancashires. The map marks it \"1/SOM.L.I.\"",
+      "badge": "archival"
+     },
+     {
+      "x": 45,
+      "y": 23,
+      "label": "The Quadrilateral",
+      "title": "The Quadrilateral",
+      "body": "A German strongpoint the British called the Quadrilateral. The Germans called it the Heidenkopf. By the end of the day the battalion was fighting inside it.",
+      "badge": "archival"
+     },
+     {
+      "x": 56,
+      "y": 54,
+      "label": "The German defenders",
+      "title": "Reserve Infantry Regiment 121",
+      "body": "\"121 R.\" on the map is the German regiment holding this ground. Its men had sheltered from the bombardment in deep dugouts.",
+      "badge": "archival"
+     }
+    ]
+   },
+   "entries": [
+    {
+     "date": "Friday 30 June 1916",
+     "place": "Mailly-Maillet",
+     "audio": "assets/audio/4-1-the-march-up.mp3",
+     "paras": [
+      "Didn't get much sleep. We go up tonight at ten, behind the East Lancs, and in the morning we go over.",
+      "They say the wire's cut and the Germans are finished, that we'll walk across and there'll be nobody left in their trenches to stop us. Most of us believe it. You've got to believe something.",
+      "I looked along at the faces in our section tonight. Some of them are so young. They can't be old enough, surely. They've never seen it, not properly, and they talk about glory and doing it for King and Country. I think I remember feeling like that. It seems a long time ago now.",
+      "One of the lads is trying to make a joke of everything. Nobody's laughing much, but we're grateful to him all the same.",
+      "I've been with this battalion since just before Christmas. Long enough to know every one of them. Long enough to know who snores and who prays and who writes to his girl every night.",
+      "God keep us all tomorrow."
+     ],
+     "basis": [
+      [
+       "history",
+       "The 1st Battalion marched out of Mailly-Maillet at 10pm on 30 June, behind two companies of the East Lancashires (Wyrall, page 119)."
+      ],
+      [
+       "typical",
+       "Men were widely told the bombardment would cut the wire and destroy the German defences."
+      ],
+      [
+       "record",
+       "Henry joined the battalion on 16 December 1915."
+      ],
+      [
+       "imagined",
+       "The faces, the joker and Henry's thoughts. No real men are described."
+      ]
+     ]
+    }
+   ],
+   "photos": [
+    {
+     "cat": "Q 738",
+     "file": "q738.jpg",
+     "caption": "Mailly-Maillet, 29 June 1916: a battalion of the next-door division is addressed before the attack. Henry's battalion marched out of the same village the next night.",
+     "alt": "Soldiers drawn up in a square listening to a general.",
+     "url": "https://www.iwm.org.uk/collections/item/object/205194573",
+     "credit": "Image: IWM (Q 738)"
+    }
+   ]
+  },
+  {
+   "id": "what-did-he-carry",
+   "title": "What did he carry?",
+   "type": "kit",
+   "intro": "Before going over the top, every man was loaded with what he'd need to fight, dig in and hold the German trenches. Try packing for Henry, then read his entry from that night.",
+   "question": "Pack Henry's kit for 1 July 1916",
+   "hint": "Drag each item into Henry's kit or leave it behind. You can also tap an item, or press Enter on it, to move it. Then press Check my kit.",
+   "items": [
+    {
+     "label": "Rifle and bayonet",
+     "carried": true,
+     "note": "His Lee-Enfield rifle, bayonet fixed for the attack."
+    },
+    {
+     "label": "His big pack",
+     "carried": false,
+     "note": "Left behind. Men attacked in \"fighting order\", with a smaller haversack on the back."
+    },
+    {
+     "label": "170 rounds of ammunition",
+     "carried": true,
+     "note": "In pouches and a cloth bandolier. Some waves carried more."
+    },
+    {
+     "label": "Spare socks and shaving kit",
+     "carried": false,
+     "note": "These lived in the big pack, which stayed behind."
+    },
+    {
+     "label": "Two Mills bombs",
+     "carried": true,
+     "note": "Hand grenades, two for each rifleman."
+    },
+    {
+     "label": "A gas mask with a filter",
+     "carried": false,
+     "note": "The box respirator didn't arrive until the end of 1916."
+    },
+    {
+     "label": "Two empty sandbags",
+     "carried": true,
+     "note": "To build up a captured German trench."
+    },
+    {
+     "label": "A pick or a shovel",
+     "carried": true,
+     "note": "Many men carried one, often with the sandbags tied round it."
+    },
+    {
+     "label": "His greatcoat",
+     "carried": false,
+     "note": "Too heavy for a summer attack. It stayed with the pack."
+    },
+    {
+     "label": "Steel helmet",
+     "carried": true,
+     "note": "New that year, and issued in large numbers for the battle."
+    },
+    {
+     "label": "Gas helmet",
+     "carried": true,
+     "note": "The PH helmet, in a satchel. Some men carried two."
+    },
+    {
+     "label": "Water bottle",
+     "carried": true,
+     "note": "Full. Some battalions ordered men not to drink from it."
+    },
+    {
+     "label": "A football",
+     "carried": false,
+     "note": "Not this time. Some units elsewhere on the front kicked footballs towards the German lines, but there's no record of it in Henry's battalion."
+    },
+    {
+     "label": "Iron ration and the day's food",
+     "carried": true,
+     "note": "Emergency tins of beef, biscuits, tea and sugar, plus the day's rations."
+    },
+    {
+     "label": "Field dressing",
+     "carried": true,
+     "note": "Sewn inside his tunic. Many men carried two."
+    },
+    {
+     "label": "Identity disc",
+     "carried": true,
+     "note": "Worn round the neck, so he could be identified."
+    },
+    {
+     "label": "His pay book",
+     "carried": true,
+     "note": "Every soldier carried his pay book in his tunic."
+    },
+    {
+     "label": "A blanket",
+     "carried": false,
+     "note": "Rolled in the pack, left behind for the attack."
+    }
+   ],
+   "summary": "Henry probably carried something like this. The list comes from the orders of the 29th Division, which attacked right next to his. Loads differed between units, and many men carried 60 pounds or more, making it hard to move faster than a walk.",
+   "source": {
+    "source": "The Rooms (Newfoundland): A soldier's outfit, quoting the 29th Division's orders",
+    "url": "https://therooms.ca/entering-great-war/soldiers-outfit"
+   },
+   "entries": [
+    {
+     "date": "Friday 30 June 1916",
+     "place": "Later",
+     "paras": [
+      "Loaded up like a pack mule. Rifle and bayonet, a hundred and seventy rounds, two bombs, two sandbags, the gas helmet, water, a day's rations and the iron ration we're not to touch. And a shovel tied on my back on top of it all.",
+      "Over sixty pounds, the sergeant reckons. That's like carrying a sack of corn up out of a trench and across a field. We're to walk, they say. You couldn't run in this lot if you tried."
+     ],
+     "basis": [
+      [
+       "typical",
+       "The kit list follows the 29th Division's orders for 1 July, next to Henry's division: rifle, 170 rounds, two Mills bombs, two sandbags, gas helmet, water bottle, rations and, for many men, a pick or shovel (The Rooms, Newfoundland)."
+      ],
+      [
+       "history",
+       "Loads of about 60 pounds or more are widely recorded."
+      ],
+      [
+       "imagined",
+       "Exactly what Henry carried is not recorded."
+      ]
+     ]
+    }
+   ],
+   "photos": [
+    {
+     "cat": "UNI 12606",
+     "file": "uni12606.jpg",
+     "caption": "A Brodie steel helmet, the kind issued widely in spring 1916.",
+     "alt": "A shallow, wide-brimmed steel helmet.",
+     "url": "https://www.iwm.org.uk/collections/item/object/30100478",
+     "credit": "Image: IWM (UNI 12606)"
+    },
+    {
+     "cat": "EQU 3812",
+     "file": "equ3812.jpg",
+     "caption": "A PH (\"tube\") gas helmet of 1916, like the one Henry carried on the Somme.",
+     "alt": "A grey flannel hood with two round glass eyepieces and a mouth valve.",
+     "url": "https://www.iwm.org.uk/collections/item/object/30015835",
+     "credit": "Image: IWM (EQU 3812)",
+     "src": "https://media.iwm.org.uk/ciim5/198/167/mid_000000.jpg?action=e&cat=Equipment"
+    }
+   ],
+   "asks": [
+    {
+     "id": "walk",
+     "q": "Why did British soldiers walk towards the German lines on 1 July 1916?"
+    }
+   ]
+  },
+  {
+   "id": "zero-hour",
+   "title": "Zero hour",
+   "type": "timeline",
+   "contentNote": true,
+   "intro": "Saturday 1 July 1916, the first day of the Battle of the Somme. This is how the day went for the 1st Somerset Light Infantry, from the battalion's history.",
+   "entries": [
+    {
+     "date": "Saturday 1 July 1916",
+     "place": "Quarter past seven",
+     "paras": [
+      "Sun's up. A fine morning, after all that rain, larks going up over the fields like nothing's wrong. The rum's been round, a big tot this time.",
+      "My pencil's shaking, so I'll be quick. The mine goes any minute now, then the whistles. The lad next to me is saying the Lord's Prayer under his breath and I've joined in.",
+      "If anyone reads this, tell Mother I wasn't afraid. That's a lie, but tell her anyway.",
+      "God keep Mother and the little ones."
+     ],
+     "basis": [
+      [
+       "history",
+       "The Hawthorn Ridge mine was blown at 7.20am and the advance began at 7.30am (Wyrall, page 120)."
+      ],
+      [
+       "typical",
+       "The fine weather on 1 July and the rum ration before the attack are widely recorded."
+      ],
+      [
+       "imagined",
+       "The larks, the prayer and every word of the entry."
+      ]
+     ]
+    }
+   ],
+   "events": [
+    {
+     "time": "7.20am",
+     "title": "The Hawthorn Ridge mine",
+     "body": "A huge mine is blown under the German line south of Beaumont-Hamel."
+    },
+    {
+     "time": "7.30am",
+     "title": "The advance",
+     "body": "The 11th Brigade goes over. An officer of the battalion saw \"line after line of men advancing at a slow trot\".",
+     "quote": true
+    },
+    {
+     "time": "Early morning",
+     "title": "Into the Quadrilateral",
+     "body": "Machine guns sweep the ridge. The Somersets ease off to the left and end up in the German trenches around the Quadrilateral."
+    },
+    {
+     "time": "About 9.45am",
+     "title": "The brigadier is hit",
+     "body": "Brigadier-General Prowse, once of the 1st Somersets, is shot moving his headquarters forward. He dies that afternoon."
+    },
+    {
+     "time": "About 1.30pm",
+     "title": "No officers left",
+     "body": "The last two officers in the Quadrilateral are wounded. Company Sergeant Major Chappell takes command of the men there."
+    },
+    {
+     "time": "About 4.30pm",
+     "title": "Reinforcements",
+     "body": "Major Majendie arrives and takes command of the battalion. RSM Paul has gathered the survivors in the assembly trenches."
+    },
+    {
+     "time": "After dark",
+     "title": "Relieved",
+     "body": "The Royal Irish Fusiliers take over. The men still in the German trenches come back to the old British line."
+    },
+    {
+     "time": "10pm",
+     "title": "Back to Mailly-Maillet",
+     "body": "The brigade is ordered back to the village it left the night before."
+    }
+   ],
+   "source": "Everard Wyrall, The History of the Somerset Light Infantry 1914–1919, pages 119 to 122",
+   "photos": [
+    {
+     "cat": "Q 754",
+     "file": "q754.jpg",
+     "caption": "The Hawthorn Ridge mine explodes at 7.20am on 1 July 1916, ten minutes before the attack. Photograph by Lieutenant Ernest Brooks.",
+     "alt": "A towering column of earth and smoke rising from a ridge.",
+     "url": "https://www.iwm.org.uk/collections/item/object/205194574",
+     "credit": "Image: IWM (Q 754)"
+    },
+    {
+     "cat": "Q 745",
+     "file": "q745.jpg",
+     "caption": "Men crawling forward during the attack at Beaumont-Hamel, 1 July 1916.",
+     "alt": "Soldiers lying flat and crawling across open ground.",
+     "url": "https://www.iwm.org.uk/collections/item/object/205194575",
+     "credit": "Image: IWM (Q 745)"
+    },
+    {
+     "cat": "Q 755",
+     "file": "q755.jpg",
+     "caption": "About 7.45am, 1 July 1916: men seen tiny in the distance, falling back from the Hawthorn crater.",
+     "alt": "A wide view of a bare slope with small figures in the distance.",
+     "url": "https://www.iwm.org.uk/collections/item/object/205194576",
+     "credit": "Image: IWM (Q 755)"
+    }
+   ],
+   "asks": [
+    {
+     "id": "mines",
+     "q": "What were the mines, and who dug them?"
+    },
+    {
+     "id": "walk",
+     "q": "Why did British soldiers walk towards the German lines on 1 July 1916?"
+    }
+   ]
+  },
+  {
+   "id": "quadrilateral",
+   "title": "The Quadrilateral",
+   "type": "map",
+   "intro": "Choose each marker to hear from the men who were there. These are the words of other soldiers, not Henry, from his own battalion and brigade.",
+   "map": {
+    "src": "assets/maps/redan-ridge-attack-1-july-1916.jpg",
+    "width": 1800,
+    "height": 1273,
+    "alt": "The same 1916 map of Redan Ridge, with five numbered markers around the Quadrilateral.",
+    "badge": "archival",
+    "caption": "The attack on Redan Ridge, 1 July 1916.",
+    "spots": [
+     {
+      "x": 32,
+      "y": 60,
+      "label": "The ridge",
+      "title": "Swept by machine guns",
+      "body": "The ridge in front was swept by machine-gun fire, so the Somersets \"had to ease off to the left\".",
+      "source": "Wyrall, page 120",
+      "badge": "unit"
+     },
+     {
+      "x": 45,
+      "y": 23,
+      "label": "The Quadrilateral",
+      "title": "\"About the size of Piccadilly Circus\"",
+      "body": "\"It was defended on all sides and about the size of Piccadilly Circus.\"",
+      "source": "A soldier's account, quoted in Redan Ridge (Battleground Europe)",
+      "badge": "unit"
+     },
+     {
+      "x": 47,
+      "y": 40,
+      "label": "The dugouts",
+      "title": "Behind them",
+      "body": "Germans hidden in deep dugouts came up after the first waves had passed and shot at them from behind. \"Hundreds of men were lost in this way.\"",
+      "source": "Wyrall, pages 120 to 121",
+      "badge": "unit"
+     },
+     {
+      "x": 55,
+      "y": 30,
+      "label": "The bomb fight",
+      "title": "Short of bombs",
+      "body": "Sergeant A. H. Cook of the 1st Somersets: \"we were actually throwing back the bombs they threw before they burst.\"",
+      "source": "Redan Ridge (Battleground Europe)",
+      "badge": "unit"
+     },
+     {
+      "x": 49,
+      "y": 73,
+      "label": "Ridge Redoubt",
+      "title": "Both flanks in the air",
+      "body": "The attacks on either side, at Serre and Beaumont-Hamel, failed. The brigade was left out on its own, with machine guns firing from the Ridge Redoubt.",
+      "source": "Wyrall, pages 121 to 122",
+      "badge": "unit"
+     }
+    ]
+   }
+  },
+  {
+   "id": "other-side-1916",
+   "title": "From the other side",
+   "type": "voices",
+   "intro": "Facing Henry's brigade on 1 July were men from Württemberg in southern Germany, of Reserve Infantry Regiment 121. They had held this ground for nearly two years. This is how they remembered the day.",
+   "voicesHeading": "German accounts",
+   "voicesNote": "These are real accounts, translated from German regimental histories. Where the two sides disagree, both versions are shown.",
+   "voices": [
+    {
+     "quote": "When will they finally come?",
+     "who": "Otto Lais, machine-gunner, Infantry Regiment 169, at Serre, during the bombardment week",
+     "source": "John Rieth, IR 169 blog",
+     "url": "https://german1914.com/?p=1522",
+     "caution": "From a translator's blog quoting Lais's account."
+    },
+    {
+     "quote": "In a moment the garrisons of the dugouts came forth and received the attackers with rifle fire or hand grenades.",
+     "who": "History of Reserve Infantry Regiment 121, on the Heidenkopf (the Quadrilateral)",
+     "source": "Translated by Ralph J. Whitehead, Great War Forum",
+     "url": "https://www.greatwarforum.org/topic/2746-heidenkopf-quadrilateral-redoubt-redan-ridge/"
+    },
+    {
+     "quote": "The ground all round was white with the debris of chalk, as if it had been snowing.",
+     "who": "History of Reserve Infantry Regiment 119, on the Hawthorn Ridge mine at 7.20am",
+     "source": "Quoted in the British Official History, 1916, volume 1, page 431"
+    },
+    {
+     "text": "The German account says their mines under the Heidenkopf \"blew up according to plan\" once the British were inside, killing their own demolition squad as well. The British Official History says the mine went off too early by accident, after a machine gun jammed. Nobody alive can now say which is true.",
+     "who": "Two versions of the same explosion",
+     "badge": "unit",
+     "source": "Reichsarchiv, Somme-Nord, translated by R. J. Whitehead",
+     "url": "https://www.greatwarforum.org/topic/2746-heidenkopf-quadrilateral-redoubt-redan-ridge/"
+    },
+    {
+     "text": "Bombing parties fought back along the trenches from the strongpoint behind, the Feste Soden, with help from men of the next regiment. The Heidenkopf was cleared at nightfall, and the last British held out until 2 July. The regiment counted about 150 of its own dead there, and three times as many British.",
+     "who": "History of Reserve Infantry Regiment 121",
+     "source": "Translated by Ralph J. Whitehead, Great War Forum",
+     "url": "https://www.greatwarforum.org/topic/2746-heidenkopf-quadrilateral-redoubt-redan-ridge/"
+    },
+    {
+     "quote": "It took ten days until all attainable bodies had recovered.",
+     "who": "History of Reserve Infantry Regiment 121. Their dead were buried in a mass grave behind the Feste Soden.",
+     "source": "Translated by Ralph J. Whitehead, Great War Forum",
+     "url": "https://www.greatwarforum.org/topic/2746-heidenkopf-quadrilateral-redoubt-redan-ridge/"
+    }
+   ],
+   "entriesHeading": "An imagined German soldier’s diary",
+   "asks": [
+    {
+     "id": "dugouts",
+     "q": "Were there rooms in the trenches?"
+    },
+    {
+     "id": "mines",
+     "q": "What were the mines, and who dug them?"
+    }
+   ],
+   "entries": [
+    {
+     "date": "Saturday 1 July 1916",
+     "place": "The Heidenkopf",
+     "voice": "other",
+     "who": "An imagined German soldier of Reserve Infantry Regiment 121. He is invented, not a real person.",
+     "disclosure": "AI imagined diary of an invented German soldier, written from his regiment's published history",
+     "paras": [
+      "Seven days and seven nights in the Stollen, thirty feet down in the chalk, twenty-five of us to a dugout, with the English shells coming down on top like the end of the world. Trommelfeuer, we call it now. Drum fire. Our battalion commander was mortally wounded by it on the second day. By the end we were praying for them to come. Anything, so long as the shelling stopped.",
+      "This morning, a little after seven, an explosion away to the south, louder than all the guns together. The men at Beaumont said afterwards that the chalk came down like snow. Ten minutes later the English were here. They were in our trench before half of us were up the steps.",
+      "Then our own mines went up under the Heidenkopf, with the English inside it, and some of our own men too. All day we fought back down the trenches from the Feste Soden with bombs, and men from the Baden regiment next door came to help us. By dark we had it back. The last of them held out until the next morning.",
+      "A hundred and fifty of ours are dead in that little corner. Three times as many English, the officers say. They lie out in the grass in rows, the way they came.",
+      "One of them had a photograph in his tunic. A woman outside a farmhouse with hens round her feet. It could have been my mother's yard. I put it back."
+     ],
+     "basis": [
+      [
+       "history",
+       "The Heidenkopf, the \"Quadrilateral\" to the British, was held by the 1st to 3rd Companies of Reserve Infantry Regiment 121 from Württemberg, in mined dugouts 20 to 30 feet deep. The battalion commander was mortally wounded on 25 June. \"When will they finally come?\" was how one German soldier at Serre remembered the bombardment week (RIR 121 regimental history, translated by Ralph Whitehead; IR 169 accounts)."
+      ],
+      [
+       "history",
+       "The Hawthorn Ridge mine at 7.20am was \"a terrific explosion\", and \"the ground all round was white with the debris of chalk, as if it had been snowing\" (RIR 119 history, quoted in the British Official History)."
+      ],
+      [
+       "history",
+       "The German account says their mines under the Heidenkopf \"blew up according to plan\" once the British were inside, killing the demolition squad. The British Official History says the mine went off too early by accident. Both versions are given in this scene."
+      ],
+      [
+       "history",
+       "RIR 121 counter-attacked from the Feste Soden with help from IR 169, retook the Heidenkopf by nightfall, and the last British held out until 2 July. About 150 Germans died there, and the regiment estimated three times as many British (RIR 121 regimental history)."
+      ],
+      [
+       "imagined",
+       "This soldier, the photograph and every word. He is not based on one real man."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "hit",
+   "title": "Hit",
+   "type": "record",
+   "intro": "Henry survived the day. Weeks later, in hospital, he tried to write it down.",
+   "record": [
+    {
+     "date": "1 July 1916",
+     "entry": "Wounded."
+    },
+    {
+     "date": "2 July 1916",
+     "entry": "Admitted to 47 Casualty Clearing Station. Gunshot wound, face."
+    },
+    {
+     "date": "7 July 1916",
+     "entry": "Gunshot wound, left hand. 12th Field Ambulance."
+    },
+    {
+     "date": "8 July 1916",
+     "entry": "Admitted to a Canadian hospital. Then to No. 3 Infantry Base Depot."
+    }
+   ],
+   "recordSource": "His casualty record, as transcribed by the Rifles Berkshire and Wiltshire Museum",
+   "family": {
+    "text": "\"Thankfully only wounded, not killed nor wounded enough to be sent home.\"",
+    "source": "From the family's own account, written after the 2026 visit"
+   },
+   "entries": [
+    {
+     "date": "July 1916",
+     "place": "Hospital",
+     "audio": "assets/audio/4-2-hit.mp3",
+     "paras": [
+      "We went over at half past seven. Walking, in lines, the way we'd practised, the sun in our faces. For a minute it was almost like they'd said it would be.",
+      "Then the machine guns started on the ridge, and the lines in front just went down, like corn under a scythe. We bore off to the left, into their trenches. The Quadrilateral, the officers called it. After that it's all in pieces. Shouting. Smoke. Bombs going both ways.",
+      "I don't know the moment I was hit. My face, and my hand. I don't know how I got back across, either, or who brought me. The next day I was at the clearing station with a label tied to my tunic, and a nurse was cutting my sleeve.",
+      "They say the Colonel was killed before he'd even crossed our own trenches. The Brigadier too. A man in the next bed said the battalion lost twenty-six officers and four hundred and thirty-eight men, killed and wounded and missing. In one morning. I keep trying to make that number into faces, and I can't, and then I can.",
+      "I can't write their names yet."
+     ],
+     "basis": [
+      [
+       "history",
+       "The advance at 7.30am in lines; machine guns on the ridge; the Somersets \"had to ease off to the left\" into the Quadrilateral (Wyrall, page 120)."
+      ],
+      [
+       "record",
+       "Wounded on 1 July 1916: gunshot wounds to the face and left hand. At 47 Casualty Clearing Station on 2 July (casualty record)."
+      ],
+      [
+       "history",
+       "The CO and Adjutant were \"killed before our trenches were passed\". Brigadier-General Prowse died of wounds. 26 officers and 438 other ranks were casualties (Wyrall, pages 121 to 122)."
+      ],
+      [
+       "unknown",
+       "The moment he was hit and how he got back are not recorded, so Henry says he doesn't know."
+      ],
+      [
+       "imagined",
+       "The nurse, the man in the next bed and his feelings."
+      ]
+     ]
+    }
+   ],
+   "photos": [
+    {
+     "cat": "Q 56",
+     "file": "q56.jpg",
+     "caption": "Some of the first wounded reach an advanced dressing station, 1 July 1916.",
+     "alt": "Wounded men on stretchers outside a dressing station.",
+     "url": "https://www.iwm.org.uk/collections/item/object/205194571",
+     "credit": "Image: IWM (Q 56)"
+    },
+    {
+     "cat": "Q 1255",
+     "file": "q1255.jpg",
+     "caption": "Wounded men outside a Casualty Clearing Station, September 1916. Henry went through one like it on 2 July.",
+     "alt": "Wounded soldiers sitting and lying outside hospital tents.",
+     "url": "https://www.iwm.org.uk/collections/item/object/205072582",
+     "credit": "Image: IWM (Q 1255)",
+     "src": "https://media.iwm.org.uk/ciim5/228/353/mid_000000.jpg?action=e&cat=Photographs"
+    },
+    {
+     "cat": "Q 1332",
+     "file": "q1332.jpg",
+     "caption": "Stretcher-bearers carry a wounded man over a trench, September 1916.",
+     "alt": "Four men carrying a stretcher across a trench.",
+     "url": "https://www.iwm.org.uk/collections/item/object/205191438",
+     "credit": "Image: IWM (Q 1332)",
+     "src": "https://media.iwm.org.uk/ciim5/34/639/mid_000000.jpg?action=e&cat=Photographs"
+    }
+   ],
+   "asks": [
+    {
+     "id": "bodies",
+     "q": "What happened to men killed in No Man’s Land?"
+    }
+   ]
+  },
+  {
+   "id": "who-was-to-blame",
+   "title": "Who was to blame?",
+   "type": "debate",
+   "intro": "Henry's Colonel was killed before he had crossed the British front line, and his Brigadier died of wounds. Above them, the generals had planned the attack from miles behind. People have argued about the generals ever since.",
+   "question": "Were the generals careless with men's lives?",
+   "against": {
+    "title": "The case against them",
+    "points": [
+     "On 1 July 1916 the British had over 57,000 casualties, more than 19,000 of them killed, in one day.",
+     "The plan depended on a bombardment that failed, and many men were told the Germans would be finished.",
+     "Senior commanders were far behind the lines and could not see what was happening.",
+     "Attacks on the Somme went on for four and a half months, long after any hope of a breakthrough.",
+     "Some commanders were confident, even arrogant, that the plan would work. Many families, then and now, felt the men were treated as numbers."
+    ]
+   },
+   "for": {
+    "title": "The case for them",
+    "points": [
+     "Junior officers led from the front and died at a higher rate than their men.",
+     "Over 200 British generals were killed, wounded or captured during the war.",
+     "This was a new kind of war. Nobody, on either side, knew how to break through trenches, wire and machine guns.",
+     "The army learned. By 1918 guns, infantry, tanks and aircraft worked together, and the war was won.",
+     "Many historians now argue that \"lions led by donkeys\" is too simple."
+    ]
+   },
+   "ask": "What do you think?",
+   "answers": [
+    {
+     "label": "They were careless",
+     "reply": "Many people agree with you, including some soldiers who were there. The scale of the loss on 1 July is hard to explain any other way. Historians who disagree point to how new the problems were, and how much the army changed by 1918."
+    },
+    {
+     "label": "They did their best",
+     "reply": "Many historians would agree that the generals faced problems nobody had solved. Others would point out that the same mistakes were repeated for months, and that men paid for every lesson with their lives."
+    },
+    {
+     "label": "Somewhere in between",
+     "reply": "That is where many historians end up. Some commanders were too confident and too far away; the war was also genuinely new and terrible, and the army did learn. Both can be true."
+    }
+   ],
+   "sources": [
+    {
+     "source": "National Army Museum, Battle of the Somme",
+     "url": "https://www.nam.ac.uk/explore/battle-somme"
+    },
+    {
+     "source": "William Philpott, Beyond the Learning Curve (RUSI)",
+     "url": "https://www.rusi.org/explore-our-research/publications/commentary/beyond-learning-curve-british-armys-military-transformation-first-world-war"
+    },
+    {
+     "source": "Dan Snow, 10 myths about World War One (History Hit)",
+     "url": "https://www.historyhit.com/myths-about-world-war-one/"
+    }
+   ],
+   "asks": [
+    {
+     "id": "officers",
+     "q": "Were officers careless with men’s lives?"
+    },
+    {
+     "id": "walk",
+     "q": "Why did British soldiers walk towards the German lines on 1 July 1916?"
+    }
+   ],
+   "activities": [
+    {
+     "type": "sort",
+     "question": "True, myth, or complicated?",
+     "hint": "Choose an answer for each one to see what historians say.",
+     "choices": [
+      "True",
+      "Myth",
+      "It's complicated"
+     ],
+     "items": [
+      {
+       "text": "Everyone walked slowly towards the Germans on 1 July 1916.",
+       "answer": 2,
+       "explain": "Many units did walk in lines, and many men remembered being told to. But others crept out into No Man's Land before zero hour or rushed the German trench. Henry's brigade got into the Quadrilateral fast.",
+       "source": "Ask the historian: why did they walk?",
+       "url": "historian.html#walk"
+      },
+      {
+       "text": "The week-long bombardment destroyed the German wire and trenches.",
+       "answer": 1,
+       "explain": "It was meant to, but it failed. The Germans sheltered in dugouts up to 30 feet deep, and much of the wire was still there.",
+       "source": "IWM, Voices of the First World War: The First Day of the Somme",
+       "url": "https://www.iwm.org.uk/history/voices-of-the-first-world-war-the-first-day-of-the-somme"
+      },
+      {
+       "text": "More British soldiers were killed on 1 July 1916 than on any other day in the army's history.",
+       "answer": 0,
+       "explain": "More than 19,000 were killed, out of over 57,000 casualties. No other day comes close.",
+       "source": "National Army Museum, Battle of the Somme",
+       "url": "https://www.nam.ac.uk/explore/battle-somme"
+      },
+      {
+       "text": "Officers were less likely to be killed than the men they led.",
+       "answer": 1,
+       "explain": "The opposite. Junior officers led from the front: about 17 in every 100 officers were killed, against about 12 in every 100 other ranks. Henry's own Colonel was killed before he had crossed the British front line.",
+       "source": "Ask the historian: were officers careless?",
+       "url": "historian.html#officers"
+      },
+      {
+       "text": "A German general called the British army \"lions led by donkeys\".",
+       "answer": 1,
+       "explain": "No German source has ever been found. The phrase was probably made up by the historian Alan Clark in the 1960s.",
+       "source": "Dan Snow, 10 myths about World War One (History Hit)",
+       "url": "https://www.historyhit.com/myths-about-world-war-one/"
+      },
+      {
+       "text": "The Hawthorn Ridge mine was filmed as it went up.",
+       "answer": 0,
+       "explain": "Geoffrey Malins filmed it from about half a mile away, ten minutes before the attack. It is in the film The Battle of the Somme, seen by millions in 1916.",
+       "source": "Hawthorn Ridge Redoubt (Wikipedia)",
+       "url": "https://en.wikipedia.org/wiki/Hawthorn_Ridge_Redoubt"
+      },
+      {
+       "text": "The famous film of men going \"over the top\" was real battle footage.",
+       "answer": 1,
+       "explain": "That scene was staged at a training school. The Imperial War Museum says so in its own catalogue. Much of the rest of the film is real.",
+       "source": "IWM, Q 70165",
+       "url": "https://www.iwm.org.uk/collections/item/object/205022462"
+      }
+     ],
+     "menu": "True or myth?"
+    }
+   ]
+  },
+  {
+   "id": "roll-call",
+   "title": "The roll call",
+   "type": "rollcall",
+   "intro": "That night the roll was called back at Mailly-Maillet. Three weeks later, Henry was given a new regiment.",
+   "stats": [
+    {
+     "n": "26",
+     "label": "officers killed, wounded or missing"
+    },
+    {
+     "n": "438",
+     "label": "men killed, wounded or missing"
+    },
+    {
+     "n": "109",
+     "label": "Somerset men who died that July with no known grave, named on the Thiepval Memorial"
+    }
+   ],
+   "names": [
+    {
+     "name": "Abbott",
+     "rank": "Pte",
+     "memorial": false
+    },
+    {
+     "name": "W. Adlam",
+     "rank": "Pte",
+     "memorial": true
+    },
+    {
+     "name": "E. Allen",
+     "rank": "Pte",
+     "memorial": false
+    },
+    {
+     "name": "D. Anglin",
+     "rank": "Pte",
+     "memorial": true
+    },
+    {
+     "name": "Ashman",
+     "rank": "Sgt",
+     "memorial": false
+    },
+    {
+     "name": "Ashurst",
+     "rank": "Pte",
+     "memorial": false
+    },
+    {
+     "name": "A. Atherton",
+     "rank": "Pte",
+     "memorial": true
+    },
+    {
+     "name": "W. Bancroft",
+     "rank": "Pte",
+     "memorial": true
+    },
+    {
+     "name": "E. Bartlett",
+     "rank": "Pte",
+     "memorial": true
+    },
+    {
+     "name": "H. Best",
+     "rank": "Pte",
+     "memorial": false
+    },
+    {
+     "name": "A. Bond",
+     "rank": "CSM",
+     "memorial": true
+    },
+    {
+     "name": "W. Bonney",
+     "rank": "L/Cpl",
+     "memorial": true
+    },
+    {
+     "name": "L. Boult",
+     "rank": "Pte",
+     "memorial": false
+    },
+    {
+     "name": "E. Brine",
+     "rank": "Pte",
+     "memorial": false
+    },
+    {
+     "name": "W. Brown",
+     "rank": "Pte",
+     "memorial": false
+    },
+    {
+     "name": "Bryant",
+     "rank": "Pte",
+     "memorial": false
+    },
+    {
+     "name": "Burgess",
+     "rank": "Pte",
+     "memorial": true
+    },
+    {
+     "name": "S. Cass",
+     "rank": "Pte",
+     "memorial": true
+    },
+    {
+     "name": "B. Chant",
+     "rank": "Pte",
+     "memorial": false
+    },
+    {
+     "name": "E. Collins",
+     "rank": "Pte",
+     "memorial": false
+    },
+    {
+     "name": "A. Crockford",
+     "rank": "Pte",
+     "memorial": true
+    },
+    {
+     "name": "F. Day",
+     "rank": "CSM",
+     "memorial": false
+    },
+    {
+     "name": "J. Desmond",
+     "rank": "Pte",
+     "memorial": false
+    },
+    {
+     "name": "C. Dymond",
+     "rank": "Pte",
+     "memorial": false
+    },
+    {
+     "name": "G. Fair",
+     "rank": "2nd Lt",
+     "memorial": false
+    },
+    {
+     "name": "F. Fear",
+     "rank": "Pte",
+     "memorial": false
+    },
+    {
+     "name": "Goss",
+     "rank": "Pte",
+     "memorial": false
+    },
+    {
+     "name": "Grinter",
+     "rank": "Pte",
+     "memorial": false
+    },
+    {
+     "name": "H. Guest",
+     "rank": "Cpl",
+     "memorial": false
+    },
+    {
+     "name": "W. Hedditch",
+     "rank": "Pte",
+     "memorial": false
+    },
+    {
+     "name": "S. Holbrook",
+     "rank": "Pte",
+     "memorial": false
+    },
+    {
+     "name": "W. Hosier",
+     "rank": "Pte",
+     "memorial": false
+    },
+    {
+     "name": "E. Hoskins",
+     "rank": "L/Sgt",
+     "memorial": false
+    },
+    {
+     "name": "C. Howe",
+     "rank": "Pte",
+     "memorial": false
+    },
+    {
+     "name": "W. Jenkins",
+     "rank": "Pte",
+     "memorial": false
+    },
+    {
+     "name": "W. Jennings",
+     "rank": "Pte",
+     "memorial": false
+    },
+    {
+     "name": "F. Johnson",
+     "rank": "Pte",
+     "memorial": true
+    },
+    {
+     "name": "H. Johnson",
+     "rank": "Pte",
+     "memorial": true
+    },
+    {
+     "name": "G. Jones",
+     "rank": "Pte",
+     "memorial": true
+    },
+    {
+     "name": "L. Knight",
+     "rank": "Pte",
+     "memorial": false
+    },
+    {
+     "name": "P. Knight",
+     "rank": "2nd Lt",
+     "memorial": true
+    },
+    {
+     "name": "F. Langdon",
+     "rank": "Cpl",
+     "memorial": false
+    },
+    {
+     "name": "R. Leacroft",
+     "rank": "Capt",
+     "memorial": false
+    },
+    {
+     "name": "M. Leahy",
+     "rank": "Pte",
+     "memorial": true
+    },
+    {
+     "name": "Lester",
+     "rank": "Pte",
+     "memorial": false
+    },
+    {
+     "name": "W. Linbourne",
+     "rank": "Pte",
+     "memorial": false
+    },
+    {
+     "name": "W. Mapstone",
+     "rank": "Pte",
+     "memorial": false
+    },
+    {
+     "name": "A. Martin",
+     "rank": "L/Cpl",
+     "memorial": true
+    },
+    {
+     "name": "A. May",
+     "rank": "Pte",
+     "memorial": false
+    },
+    {
+     "name": "G. Moon",
+     "rank": "Pte",
+     "memorial": false
+    },
+    {
+     "name": "A. Nicholls",
+     "rank": "Pte",
+     "memorial": false
+    },
+    {
+     "name": "G. Noakes",
+     "rank": "Pte",
+     "memorial": true
+    },
+    {
+     "name": "R. Norman",
+     "rank": "Pte",
+     "memorial": true
+    },
+    {
+     "name": "L. Northcott",
+     "rank": "Pte",
+     "memorial": true
+    },
+    {
+     "name": "H. O'Brien",
+     "rank": "Pte",
+     "memorial": true
+    },
+    {
+     "name": "Oakley",
+     "rank": "L/Cpl",
+     "memorial": false
+    },
+    {
+     "name": "E. Oaten",
+     "rank": "Pte",
+     "memorial": true
+    },
+    {
+     "name": "A. Odell",
+     "rank": "Pte",
+     "memorial": true
+    },
+    {
+     "name": "B. Owen",
+     "rank": "Pte",
+     "memorial": false
+    },
+    {
+     "name": "A. Parsons",
+     "rank": "Sgt",
+     "memorial": true
+    },
+    {
+     "name": "Patten",
+     "rank": "L/Cpl",
+     "memorial": false
+    },
+    {
+     "name": "W. Pearce",
+     "rank": "Pte",
+     "memorial": true
+    },
+    {
+     "name": "W. Pike",
+     "rank": "CSM",
+     "memorial": true
+    },
+    {
+     "name": "Pitman",
+     "rank": "Sgt",
+     "memorial": false
+    },
+    {
+     "name": "G. Pitman",
+     "rank": "Cpl",
+     "memorial": true
+    },
+    {
+     "name": "G. Poole",
+     "rank": "Pte",
+     "memorial": true
+    },
+    {
+     "name": "J. Price",
+     "rank": "L/Cpl",
+     "memorial": true
+    },
+    {
+     "name": "S. Price",
+     "rank": "Pte",
+     "memorial": true
+    },
+    {
+     "name": "R. Prince",
+     "rank": "Pte",
+     "memorial": false
+    },
+    {
+     "name": "E. Radford",
+     "rank": "Pte",
+     "memorial": true
+    },
+    {
+     "name": "W. Rawle",
+     "rank": "Pte",
+     "memorial": true
+    },
+    {
+     "name": "H. Read",
+     "rank": "Pte",
+     "memorial": true
+    },
+    {
+     "name": "W. Roberts",
+     "rank": "Pte",
+     "memorial": true
+    },
+    {
+     "name": "J. Robinson",
+     "rank": "L/Cpl",
+     "memorial": false
+    },
+    {
+     "name": "Robinson",
+     "rank": "Sgt",
+     "memorial": false
+    },
+    {
+     "name": "E. Rouse",
+     "rank": "Pte",
+     "memorial": true
+    },
+    {
+     "name": "A. Saunders",
+     "rank": "Pte",
+     "memorial": true
+    },
+    {
+     "name": "W. Sheppard",
+     "rank": "Pte",
+     "memorial": false
+    },
+    {
+     "name": "T. Sheppard",
+     "rank": "Pte",
+     "memorial": false
+    },
+    {
+     "name": "E. Snell",
+     "rank": "Cpl",
+     "memorial": true
+    },
+    {
+     "name": "W. Spiller",
+     "rank": "L/Cpl",
+     "memorial": true
+    },
+    {
+     "name": "A. Starling",
+     "rank": "Sgt",
+     "memorial": true
+    },
+    {
+     "name": "P. Stead",
+     "rank": "Pte",
+     "memorial": true
+    },
+    {
+     "name": "L. Stone",
+     "rank": "Sgt",
+     "memorial": false
+    },
+    {
+     "name": "G. Stone",
+     "rank": "Pte",
+     "memorial": true
+    },
+    {
+     "name": "W. Stookes",
+     "rank": "Pte",
+     "memorial": true
+    },
+    {
+     "name": "W. Stuckey",
+     "rank": "L/Cpl",
+     "memorial": true
+    },
+    {
+     "name": "C. Swain",
+     "rank": "Pte",
+     "memorial": true
+    },
+    {
+     "name": "Swift",
+     "rank": "Pte",
+     "memorial": false
+    },
+    {
+     "name": "H. Targett",
+     "rank": "Cpl",
+     "memorial": false
+    },
+    {
+     "name": "A. Thorne",
+     "rank": "L/Sgt",
+     "memorial": true
+    },
+    {
+     "name": "J. Tucker",
+     "rank": "L/Cpl",
+     "memorial": false
+    },
+    {
+     "name": "H. Whitgreave",
+     "rank": "2nd Lt",
+     "memorial": false
+    },
+    {
+     "name": "F. Williams",
+     "rank": "Pte",
+     "memorial": false
+    },
+    {
+     "name": "F. Wood",
+     "rank": "Pte",
+     "memorial": true
+    },
+    {
+     "name": "R. Young",
+     "rank": "Pte",
+     "memorial": true
+    }
+   ],
+   "namesNote": "Some of the men of the 1st Battalion who died on 1 July 1916, transcribed from a Commonwealth War Graves Commission list. Spellings are still to be checked against CWGC.",
+   "entries": [
+    {
+     "date": "Friday 21 July 1916",
+     "place": "",
+     "paras": [
+      "Posted to the Wiltshires today. The 1st Battalion.",
+      "The way they tell it, there are so few of us Somersets left that they're sending some of us on to whoever needs men most. Whatever the reason, the Army has decided, and that's that. New badge, same war.",
+      "I look around at the faces here and I don't know any of them. Some of them seem so young. They can't be old enough. Plenty of them haven't seen it yet, not properly, and they talk about glory and King and Country the way I used to. I think I remember that. It seems so long ago now.",
+      "Twenty-six officers. Four hundred and thirty-eight men. I've said those numbers over to myself so many times they don't sound like numbers any more.",
+      "God, I still see their faces. The ones who've gone, ours and theirs alike."
+     ],
+     "basis": [
+      [
+       "record",
+       "Posted to the 1st Battalion, Wiltshire Regiment, on 21 July 1916 (casualty record)."
+      ],
+      [
+       "family",
+       "The family understands he was moved because so few Somersets survived. The museum explains it differently: once wounded, men joined a pool and were sent wherever they were needed. Henry's words allow for both."
+      ],
+      [
+       "history",
+       "26 officers and 438 other ranks of the 1st Somersets were casualties on 1 July 1916 (Wyrall)."
+      ],
+      [
+       "imagined",
+       "His feelings and the faces."
+      ]
+     ]
+    },
+    {
+     "date": "Sunday 1 July 1956",
+     "place": "Southville, Yeovil",
+     "audio": "assets/audio/4-3-forty-years-on.mp3",
+     "paras": [
+      "Forty years today. I woke before it was light, same as then, and lay there listening for the guns. Only the milk cart.",
+      "I went down the garden to the birds at half past seven and stood there a while. Didn't tell anybody why. The canaries were singing the way the larks did that morning, over the ridge, before it started.",
+      "Twenty-six officers. Four hundred and thirty-eight men. I can still say it without thinking. Some days I can't remember what I came upstairs for, but I can say that.",
+      "I'd like to go back before I'm done, and stand in that field. I don't suppose I will.",
+      "God rest them. Ours and theirs."
+     ],
+     "basis": [
+      [
+       "history",
+       "1 July 1956 was the fortieth anniversary of the first day of the Somme. 26 officers and 438 other ranks of the 1st Somersets were casualties on 1 July 1916 (Wyrall)."
+      ],
+      [
+       "family",
+       "Henry kept canaries and budgies in an aviary in his garden in Southville (Memories of Grandad)."
+      ],
+      [
+       "unknown",
+       "Whether Henry ever went back to France is not known. His descendants walked the field for him in August 2026 (Chapter 8)."
+      ],
+      [
+       "imagined",
+       "Every word. Henry never spoke about the war, so this is what he might have thought, not what he said."
+      ]
+     ]
+    }
+   ],
+   "asks": [
+    {
+     "id": "bodies",
+     "q": "What happened to men killed in No Man’s Land?"
+    },
+    {
+     "id": "friends",
+     "q": "Did men stop making close friends?"
+    }
+   ]
+  }
+ ],
+ "contentNote": "The next part describes the battle on 1 July 1916, in which many men were killed and wounded, including Henry. It is not graphic, and you can stop at any point.",
+ "summary": "In short: on 1 July 1916, Henry's battalion attacked a German strongpoint called the Quadrilateral. Almost all its officers and hundreds of its men were killed or wounded that day. Henry was shot in the face and hand, and survived. Three weeks later he was moved to the Wiltshire Regiment."
+}

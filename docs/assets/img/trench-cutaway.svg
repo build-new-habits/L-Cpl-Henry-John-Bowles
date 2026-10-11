@@ -1,0 +1,76 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 700" width="1200" height="700">
+  <defs>
+    <linearGradient id="sky" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#3F4A5C"/><stop offset="1" stop-color="#A9A79A"/>
+    </linearGradient>
+    <linearGradient id="earth" gradientUnits="userSpaceOnUse" x1="0" y1="250" x2="0" y2="700">
+      <stop offset="0" stop-color="#8A7354"/><stop offset="0.35" stop-color="#B9AD94"/><stop offset="1" stop-color="#D8D1BF"/>
+    </linearGradient>
+    <pattern id="bags" width="34" height="18" patternUnits="userSpaceOnUse">
+      <rect width="34" height="18" fill="#B49A6A"/><rect x="1" y="1" width="32" height="16" rx="5" fill="#C9B07E" stroke="#7D6640" stroke-width="1.5"/>
+    </pattern>
+    <pattern id="planks" width="14" height="20" patternUnits="userSpaceOnUse">
+      <rect width="14" height="20" fill="#7A5C3A"/><rect x="1" width="11" height="20" fill="#946F45"/>
+    </pattern>
+  </defs>
+  <!-- sky, with a flare -->
+  <rect width="1200" height="320" fill="url(#sky)"/>
+  <circle cx="930" cy="70" r="9" fill="#FFF3C4"/><circle cx="930" cy="70" r="40" fill="#FFF3C4" opacity="0.18"/>
+  <path d="M930 79 C 920 140 900 180 880 220" stroke="#E8E0C8" stroke-width="2" fill="none" stroke-dasharray="4 6"/>
+  <!-- ground, cut away -->
+  <path d="M0 300 L330 300 Q 400 245 470 280 L470 700 L0 700 Z" fill="url(#earth)"/>
+  <path d="M640 300 L640 700 L1200 700 L1200 300 Z" fill="url(#earth)"/>
+  <rect x="470" y="300" width="170" height="400" fill="url(#earth)"/>
+  <!-- the trench itself (air) -->
+  <path d="M470 280 L470 545 L600 545 L600 480 L640 480 L640 250 Z" fill="#5B6270"/>
+  <path d="M470 280 L470 545 L600 545 L600 480 L640 480 L640 250 Z" fill="url(#sky)" opacity="0.55"/>
+  <!-- revetting on the back wall -->
+  <rect x="462" y="300" width="10" height="245" fill="url(#planks)"/>
+  <!-- parados: the bank behind -->
+  <path d="M330 300 Q 400 245 470 280 L470 300 Z" fill="#8A7354"/>
+  <!-- parapet: sandbags in front -->
+  <path d="M620 300 L620 232 L770 262 L790 300 Z" fill="url(#bags)" stroke="#5E4B2C" stroke-width="2"/>
+  <!-- fire step -->
+  <rect x="600" y="480" width="40" height="65" fill="#A58F69"/>
+  <rect x="598" y="476" width="44" height="8" fill="#7A5C3A"/>
+  <!-- duckboards and sump -->
+  <rect x="470" y="555" width="130" height="26" fill="#55606B"/>
+  <path d="M470 555 Q 535 565 600 555 L600 581 L470 581 Z" fill="#6E7C88"/>
+  <rect x="470" y="540" width="130" height="10" fill="#946F45"/>
+  <g fill="#6B4F31"><rect x="478" y="540" width="4" height="10"/><rect x="508" y="540" width="4" height="10"/><rect x="538" y="540" width="4" height="10"/><rect x="568" y="540" width="4" height="10"/></g>
+  <!-- funk hole in the back wall -->
+  <path d="M470 380 L425 386 L425 440 L470 440 Z" fill="#3B3328"/>
+  <rect x="428" y="430" width="40" height="8" fill="#7A5C3A"/>
+  <!-- dugout: entrance, steps, room -->
+  <path d="M470 470 L440 470 L300 600 L300 620 L470 545 Z" fill="#3B3328"/>
+  <g stroke="#7A5C3A" stroke-width="5"><line x1="445" y1="490" x2="470" y2="490"/><line x1="420" y1="512" x2="455" y2="512"/><line x1="395" y1="535" x2="435" y2="535"/><line x1="370" y1="558" x2="410" y2="558"/><line x1="345" y1="580" x2="385" y2="580"/></g>
+  <rect x="150" y="590" width="300" height="80" rx="6" fill="#3B3328"/>
+  <rect x="150" y="582" width="300" height="10" fill="url(#planks)"/>
+  <rect x="180" y="640" width="90" height="12" fill="#7A5C3A"/><rect x="300" y="640" width="90" height="12" fill="#7A5C3A"/>
+  <circle cx="230" cy="615" r="5" fill="#FFD27A"/><circle cx="230" cy="615" r="18" fill="#FFD27A" opacity="0.18"/>
+  <!-- sentry on the fire step -->
+  <g fill="#3D3A2C">
+    <circle cx="620" cy="398" r="11"/>
+    <path d="M603 392 Q 620 378 637 392 Z" fill="#55583F"/>
+    <rect x="610" y="410" width="20" height="40" rx="5"/>
+    <rect x="611" y="448" width="8" height="32"/><rect x="621" y="448" width="8" height="32"/>
+  </g>
+  <!-- periscope -->
+  <rect x="650" y="190" width="9" height="230" fill="#4C4A44"/>
+  <rect x="646" y="186" width="17" height="14" fill="#2E2C27"/>
+  <rect x="646" y="408" width="17" height="14" fill="#2E2C27"/>
+  <line x1="630" y1="405" x2="648" y2="413" stroke="#3D3A2C" stroke-width="5"/>
+  <!-- barbed wire in No Man's Land -->
+  <g stroke="#2E2C27" stroke-width="2" fill="none">
+    <line x1="880" y1="300" x2="880" y2="252"/><line x1="940" y1="300" x2="940" y2="252"/><line x1="1000" y1="300" x2="1000" y2="252"/>
+    <path d="M870 262 l10 -6 l10 8 l10 -8 l10 8 l10 -8 l10 8 l10 -8 l10 8 l10 -8 l10 8 l10 -8 l10 8 l10 -8 l10 6"/>
+    <path d="M870 280 l10 -6 l10 8 l10 -8 l10 8 l10 -8 l10 8 l10 -8 l10 8 l10 -8 l10 8 l10 -8 l10 8 l10 -8 l10 6"/>
+  </g>
+  <!-- shell holes -->
+  <path d="M1050 300 Q 1090 330 1130 300 Z" fill="#6E5C44"/><path d="M760 300 Q 790 318 820 300 Z" fill="#6E5C44"/>
+  <!-- labels -->
+  <g font-family="Verdana, sans-serif" font-size="22" fill="#FFFFFF">
+    <text x="1180" y="40" text-anchor="end">No Man's Land and the enemy →</text>
+    <text x="20" y="40">← Support trenches</text>
+  </g>
+</svg>

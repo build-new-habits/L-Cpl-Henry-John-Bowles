@@ -1,0 +1,113 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The journey map: The Quiet Soldier</title>
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="assets/css/exhibit.css">
+<script src="assets/js/exhibit.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#chapters">Skip to the chapter list</a>
+<header class="site-header">
+  <div class="site-header__left"><a class="site-title" href="index.html">The Quiet Soldier</a></div>
+  <div class="site-header__right">
+    <span class="visitor-chip" data-visitor-chip></span>
+    <span class="saved-note" data-saved-note></span>
+    <button type="button" class="icon-btn" data-open-settings></button>
+  </div>
+</header>
+
+<main id="main" class="journey">
+  <section class="journey__map" aria-labelledby="map-title">
+    <h1 id="map-title">The journey</h1>
+    <p class="note">Henry's path crosses the Channel and back again. Choose any chapter on the map or from the list.</p>
+    <div id="map"></div>
+  </section>
+
+  <aside class="journey__side" aria-labelledby="next-title">
+    <p class="side-label" id="next-label">Suggested next</p>
+    <h2 id="next-title">Loading the chapters</h2>
+    <p id="next-teaser"></p>
+    <p id="next-meta" class="side-label"></p>
+    <a class="btn btn--primary" id="next-link" href="chapter.html#1">Open this chapter</a>
+    <h2 class="side-label" style="font-family:var(--font-body);font-size:0.95rem;margin-top:10px">All chapters</h2>
+    <ol class="chapter-list" id="chapters" tabindex="-1"></ol>
+    <p id="load-error" role="alert"></p>
+  </aside>
+</main>
+
+<footer class="site-footer">A family exhibition in memory of L/Cpl Henry John Bowles.</footer>
+
+<script>
+(function () {
+  var NS = 'http://www.w3.org/2000/svg';
+  function statusOf(ch) {
+    var s = QS.chapterState(ch.n);
+    if (s.done) return { cls: 'status--done', text: 'Visited' };
+    if (QS.profile().progress.last === ch.n) return { cls: 'status--here', text: 'You were here' };
+    if (s.scene > 0) return { cls: 'status--here', text: 'Started' };
+    return { cls: '', text: ch.status === 'ready' ? 'Ready to visit' : 'Coming soon' };
+  }
+
+  function drawMap(chapters, current) {
+    var pts = chapters.map(function (c) { return c.map; });
+    var path = pts.map(function (p, i) { return (i ? 'L' : 'M') + p.x + ' ' + p.y; }).join(' ');
+    var svg =
+      '<p class="visually-hidden">Map of the eight chapters. The path starts in England, crosses the Channel to France for the fighting, and comes home again. The same chapters are listed beside the map.</p>' +
+      '<svg class="map-svg" viewBox="0 0 824 584" aria-hidden="true" focusable="false">' +
+      '<rect width="824" height="584" rx="12" fill="var(--paper-deep)"/>' +
+      '<path d="M378 0C402 150 362 290 396 440S420 584 404 584H474C492 440 442 300 472 150S452 0 452 0Z" fill="#C9D6DA"/>' +
+      '<text x="424" y="330" transform="rotate(-90 424 330)" text-anchor="middle" font-size="15" letter-spacing="3" fill="#2F4A55" font-family="Atkinson Hyperlegible, Verdana, sans-serif">The Channel</text>' +
+      '<text x="40" y="44" font-size="17" fill="var(--muted)" font-family="IM Fell English, Georgia, serif">England</text>' +
+      '<text x="540" y="44" font-size="17" fill="var(--muted)" font-family="IM Fell English, Georgia, serif">France and Flanders</text>' +
+      '<path d="' + path + '" stroke="var(--muted)" stroke-width="3" stroke-dasharray="8 8" fill="none"/>';
+    chapters.forEach(function (c) {
+      var s = QS.chapterState(c.n), isCur = c.n === current;
+      var fill = s.done ? 'var(--khaki)' : (isCur ? 'var(--poppy)' : 'var(--card)');
+      var txt = (s.done || isCur) ? '#FFFFFF' : 'var(--ink)';
+      svg += '<g class="map-stop" data-href="chapter.html#' + c.n + '">' +
+        (isCur ? '<circle cx="' + c.map.x + '" cy="' + c.map.y + '" r="36" fill="none" stroke="var(--poppy)" stroke-width="4"/>' : '') +
+        '<circle class="stop" cx="' + c.map.x + '" cy="' + c.map.y + '" r="26" fill="' + fill + '" stroke="var(--muted)" stroke-width="2"/>' +
+        '<text x="' + c.map.x + '" y="' + (c.map.y + 8) + '" text-anchor="middle" font-size="22" font-weight="700" fill="' + txt + '" font-family="Atkinson Hyperlegible, Verdana, sans-serif">' + c.n + '</text>' +
+        '<text x="' + c.map.x + '" y="' + c.map.labelY + '" text-anchor="middle" font-size="17" font-weight="700" fill="var(--ink)" font-family="Atkinson Hyperlegible, Verdana, sans-serif">' + QS.esc(c.title) + '</text></g>';
+    });
+    var map = document.getElementById('map');
+    map.innerHTML = svg + '</svg>';
+    map.querySelectorAll('.map-stop').forEach(function (g) {
+      g.addEventListener('click', function () { location.href = g.getAttribute('data-href'); });
+    });
+  }
+
+  QS.loadChapters().then(function (data) {
+    var chapters = data.chapters;
+    var last = QS.profile().progress.last;
+    var firstUnvisited = chapters.filter(function (c) { return !QS.chapterState(c.n).done; })[0];
+    var next = last && !QS.chapterState(last).done ? chapters[last - 1] : (firstUnvisited || chapters[0]);
+
+    document.getElementById('next-label').textContent = last ? 'Pick up where you left off' : 'Suggested start';
+    document.getElementById('next-title').textContent = 'Chapter ' + next.n + ': ' + next.title;
+    document.getElementById('next-teaser').textContent = next.teaser;
+    document.getElementById('next-meta').textContent = next.place + ', ' + next.when + '. About ' + next.minutes + ' minutes.';
+    var link = document.getElementById('next-link');
+    link.href = 'chapter.html#' + next.n;
+    link.textContent = 'Open chapter ' + next.n;
+
+    var list = document.getElementById('chapters');
+    list.innerHTML = chapters.map(function (c) {
+      var st = statusOf(c);
+      return '<li><a href="chapter.html#' + c.n + '"' + (c.n === next.n ? ' aria-current="step"' : '') + '>' +
+        '<span class="n" aria-hidden="true">' + c.n + '</span>' +
+        '<span><span class="visually-hidden">Chapter ' + c.n + ': </span>' + QS.esc(c.title) + '</span>' +
+        '<span class="status ' + st.cls + '">' + st.text + '</span></a></li>';
+    }).join('');
+    drawMap(chapters, next.n);
+  }).catch(function (err) {
+    document.getElementById('next-title').textContent = 'The chapters could not be loaded';
+    document.getElementById('load-error').textContent = err.message + ' Refresh the page to try again.';
+  });
+})();
+</script>
+</body>
+</html>

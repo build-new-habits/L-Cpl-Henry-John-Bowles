@@ -1,0 +1,234 @@
+{
+ "n": 1,
+ "title": "Before",
+ "scenes": [
+  {
+   "id": "the-house-by-the-junction",
+   "title": "The house by the Junction",
+   "type": "reflection",
+   "intro": "Henry grew up at Stoford, on the edge of Yeovil, in a small terraced house by Yeovil Junction railway station. He was the eldest of twelve children.",
+   "context": [
+    {
+     "badge": "family",
+     "text": "\"How you got 14 people into that house I will never know.\"",
+     "source": "Family memoir by his granddaughter, page 1"
+    },
+    {
+     "badge": "unit",
+     "text": "The railway reached Stoford in 1860, cutting the old village in half, and Yeovil Junction station gave work to local men.",
+     "source": "Somerset Historic Environment Record, Stoford",
+     "url": "https://www.somersetheritage.org.uk/eus/stoford_eus.html"
+    }
+   ],
+   "photos": [
+    {
+     "cat": "Family photo wanted",
+     "file": "stoford-house.jpg",
+     "dir": "family",
+     "caption": "The family home at Stoford, by Yeovil Junction. Does a photograph survive?",
+     "alt": "The Bowles family house at Stoford.",
+     "credit": "Family photograph",
+     "slot": "Family photo wanted"
+    }
+   ],
+   "photosHeading": "Family photographs",
+   "entries": [
+    {
+     "date": "Years later",
+     "place": "Southville, Yeovil",
+     "audio": "assets/audio/1-0-the-old-notebook.mp3",
+     "paras": [
+      "Found this old book in the drawer today, under the King's letter. I'd not looked at it in forty years. I said I'd never write in it again, and here I am with a pencil, like an old fool.",
+      "There's a photograph on the dresser of all of us, Mother and Father and the twelve of us, grown, outside the old house by the Junction. I look at it and I see the boy I was before any of it. He didn't know anything. Lucky lad.",
+      "The grandchildren ask what Grandad did in the war. I tell them to mind their manners and eat their dinner.",
+      "Some things you put away. But I'll write a little here, where nobody will read it. I owe it to the lads who never got old."
+     ],
+     "basis": [
+      [
+       "family",
+       "A family photograph shows Henry's parents and their twelve grown-up children outside the house at Yeovil Junction. Henry kept the King's letter given to returning prisoners (family memories; the letter itself is still to be found)."
+      ],
+      [
+       "family",
+       "He \"never talked to anybody about the War\" (family memoir)."
+      ],
+      [
+       "imagined",
+       "The notebook is imagined. These later entries are in an older voice, written as if Henry opened it again near the end of his life."
+      ]
+     ]
+    },
+    {
+     "date": "August 1914",
+     "place": "Stoford",
+     "paras": [
+      "Harvest's late this year and every hand is wanted, so I'm in the fields from first light till you can't see the stooks. Came home tonight with my arms scratched to ribbons and my back like an old man's.",
+      "Fourteen of us in that little house now, counting Mother and Father. You can't turn round without treading on somebody. The little ones sleep three to a bed and the trains go by the bottom of the garden all night, and none of us hears them any more.",
+      "But tonight the trains were different. Train after train going through the Junction, and men on the platform saying it's war. Germany. Nobody seems to know rightly what it's about, only that we're in it now, and the papers say it'll be over by Christmas.",
+      "Mother says it's nothing to do with us. Father says it's everything to do with us. I said nothing and went to bed, and lay there listening to the trains."
+     ],
+     "basis": [
+      [
+       "family",
+       "His parents lived in \"a small terraced house out by Yeovil Junction Railway Station, Stoford\". The family memoir says: \"How you got 14 people into that house I will never know.\" Henry was the eldest of twelve and worked as a farm hand."
+      ],
+      [
+       "history",
+       "Britain declared war on Germany on 4 August 1914, in the middle of the harvest."
+      ],
+      [
+       "unknown",
+       "Henry's age in 1914 is not yet known; his birth record has not been found."
+      ],
+      [
+       "family",
+       "His father, Arthur Bowles, was a farm labourer, and was still digging ditches at 90 (Memories of Grandad)."
+      ],
+      [
+       "imagined",
+       "The harvest, the trains, and what his parents said."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "eldest-of-twelve",
+   "title": "The eldest of twelve",
+   "type": "stories",
+   "intro": "Most of what we know about Henry's early life comes from what his granddaughter remembers and wrote down. These are her words.",
+   "stories": [
+    {
+     "title": "Henry, or Harry",
+     "badge": "family",
+     "quote": "Henry Bowles (or Harry as some knew him)",
+     "who": "Family memoir by his granddaughter",
+     "body": "At home and in the army he was Henry John Bowles. To many people he was Harry.",
+     "source": "Family memoir by his granddaughter, page 1"
+    },
+    {
+     "title": "Twelve children",
+     "badge": "family",
+     "body": "Henry was the eldest child of Arthur Bowles and his wife. They lived into their nineties, in the same small house by Yeovil Junction station.",
+     "source": "Family memoir by his granddaughter, page 1",
+     "quote": "the eldest of 12 children who all survived WWI",
+     "who": "Family memoir by his granddaughter"
+    },
+    {
+     "title": "Granfy Bowles",
+     "badge": "family",
+     "body": "Henry's father Arthur was a farm labourer all his life.",
+     "source": "Memories of Grandad, by his granddaughter",
+     "quote": "there is a newspaper report of him still digging ditches at the age of 90",
+     "who": "Memories of Grandad, by his granddaughter"
+    },
+    {
+     "title": "Keeping them in line",
+     "badge": "family",
+     "body": "He did not like rudeness or bad language, especially in front of women and children, and he told his brothers and sisters so, even when they were grown up. Some of them, the family only visited now and then.",
+     "source": "Family memoir by his granddaughter, page 1",
+     "quote": "would often reprimand his siblings for their behaviour, right into their adult life",
+     "who": "Family memoir by his granddaughter"
+    },
+    {
+     "title": "On the land",
+     "badge": "family",
+     "body": "Henry worked as a farm hand. Later in life the family had a photograph of him sitting on a plough behind a horse, with his baby son Gilbert on his lap.",
+     "source": "Family memoir by his granddaughter, page 1"
+    }
+   ],
+   "photos": [
+    {
+     "cat": "Family photo to scan",
+     "file": "bowles-family-twelve.jpg",
+     "dir": "family",
+     "caption": "Arthur Bowles and his wife with their twelve grown-up children, outside the house at Yeovil Junction. The family has this photograph.",
+     "alt": "A large family group of parents and twelve adult children outside a terraced house.",
+     "credit": "Family photograph",
+     "slot": "Family photo to scan"
+    }
+   ],
+   "photosHeading": "Family photographs"
+  },
+  {
+   "id": "yeovil-before-the-war",
+   "title": "Yeovil before the war",
+   "type": "stories",
+   "intro": "Yeovil was a busy market town, famous for one thing above all: gloves.",
+   "activities": [
+    {
+     "id": "what-we-know",
+     "type": "sort",
+     "menu": "What do we really know?",
+     "question": "What do we really know about young Henry?",
+     "hint": "For each fact, choose where our knowledge comes from.",
+     "choices": [
+      "The family remembers",
+      "His army record",
+      "Not known yet"
+     ],
+     "items": [
+      {
+       "text": "He was the eldest of twelve children.",
+       "answer": 0,
+       "explain": "From his granddaughter's memoir. No birth or census record has been found yet.",
+       "source": "Family memoir by his granddaughter"
+      },
+      {
+       "text": "His service number was 29774.",
+       "answer": 1,
+       "explain": "It is on his casualty record, which the regimental museum summarised for the family.",
+       "source": "His casualty record"
+      },
+      {
+       "text": "He volunteered before conscription began.",
+       "answer": 1,
+       "explain": "He was in France by summer 1915, months before anyone could be made to join, so he must have volunteered.",
+       "source": "His casualty record and medal roll"
+      },
+      {
+       "text": "He worked as a farm hand.",
+       "answer": 0,
+       "explain": "The memoir describes him on the land, and the photograph on the plough.",
+       "source": "Family memoir by his granddaughter"
+      },
+      {
+       "text": "His date of birth.",
+       "answer": 2,
+       "explain": "Not found yet. A search of the birth index and the 1901 and 1911 census for the Yeovil district should find it.",
+       "source": "Jobs list"
+      },
+      {
+       "text": "Where he went to school.",
+       "answer": 2,
+       "explain": "Not known yet. Most children then left school at 12 to 14 to work.",
+       "source": "Jobs list"
+      }
+     ]
+    }
+   ],
+   "stories": [
+    {
+     "title": "A town of gloves",
+     "badge": "unit",
+     "body": "In the 1890s, between 70 and 80 in every 100 people in Yeovil worked in leather, gloving or trades linked to them. Women and girls stitched gloves at home and in the factories.",
+     "source": "Yeovil's Virtual Museum, Leather and gloving",
+     "url": "https://yeovilhistory.info/gloving-intro.htm"
+    },
+    {
+     "title": "The land and the railway",
+     "badge": "unit",
+     "body": "Around the town, families like Henry's lived by farming and the railway. The Bowles family lived right by Yeovil Junction station at Stoford.",
+     "source": "Somerset Historic Environment Record; family memoir",
+     "url": "https://www.somersetheritage.org.uk/eus/stoford_eus.html"
+    },
+    {
+     "title": "What we don't know yet",
+     "badge": "unit",
+     "body": "We don't yet know Henry's date of birth, his parents' first names, or where he went to school. The birth index and the 1901 and 1911 census should tell us. These are on the family's jobs list.",
+     "source": "Jobs list"
+    }
+   ]
+  }
+ ]
+}

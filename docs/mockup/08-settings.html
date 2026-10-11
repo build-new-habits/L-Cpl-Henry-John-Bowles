@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Mock-up 8 of 8: Settings | The Quiet Soldier</title>
+<meta name="robots" content="noindex">
+<link href="https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:ital,wght@0,400;0,700;1,400&amp;family=IM+Fell+English:ital@0;1&amp;display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#16140F}
+a{color:#8A2A1E}a:hover{color:#5E1C14}
+button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid #1F4E8C;outline-offset:3px}
+</style>
+<link rel="stylesheet" href="mockup.css">
+</head>
+<body>
+<nav class="mock-bar" aria-label="Mock-up screens">
+<a href="index.html">All screens</a>
+<p>Mock-up 8 of 8: <strong>Settings</strong>. Static design only: buttons do not work yet.</p>
+<div class="mock-step"><a href="07-content-note.html">Previous screen</a><span></span></div>
+</nav>
+<div class="mock-stage">
+<div style="width: 1280px; height: 800px; box-sizing: border-box; background: #16140F; display: flex; align-items: center; justify-content: center; font-family: 'Atkinson Hyperlegible', Verdana, sans-serif;">
+<div role="dialog" aria-modal="true" aria-labelledby="settings-title" style="width: 1040px; height: 720px; box-sizing: border-box; border-radius: 16px; background: #F3EDE2; color: #1F1B16; display: flex; flex-direction: column;">
+<div style="padding: 28px 40px 16px; display: flex; justify-content: space-between; align-items: flex-start; border-bottom: 1px solid #D6CCB4;">
+<div style="display: flex; flex-direction: column; gap: 6px;">
+<h1 id="settings-title" style="margin: 0; font-family: 'IM Fell English', Georgia, serif; font-weight: 400; font-size: 40px; line-height: 1;">Settings</h1>
+<p style="margin: 0; font-size: 16px; color: #3A352B;">Changes apply straight away and are saved to Mum's profile.</p>
+</div>
+<button aria-label="Close settings" style="width: 48px; height: 48px; border-radius: 24px; border: 1px solid #8C8169; background: #FFFDF8; color: #1F1B16; display: flex; align-items: center; justify-content: center; cursor: pointer;"><svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"></path></svg></button>
+</div>
+<div style="flex-grow: 1; padding: 20px 40px; display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 48px;">
+<div style="display: flex; flex-direction: column; gap: 18px;">
+<h2 style="margin: 0; font-size: 15px; letter-spacing: 0.08em; text-transform: uppercase; color: #5A5147;">Reading</h2>
+<div style="display: flex; flex-direction: column; gap: 6px;">
+<div style="display: flex; justify-content: space-between; font-size: 17px;"><label for="text-size" style="font-weight: 700;">Text size</label><span>150%</span></div>
+<input id="text-size" type="range" min="100" max="200" step="10" value="150" style="width: 100%; height: 32px; margin: 0; accent-color: #4A5230;">
+</div>
+<fieldset style="margin: 0; padding: 0; border: none; display: flex; flex-direction: column; gap: 4px;">
+<legend style="padding: 0 0 6px; font-size: 17px; font-weight: 700;">Reading font</legend>
+<label style="display: flex; align-items: center; gap: 12px; min-height: 40px; font-size: 17px;"><input type="radio" name="font" style="width: 22px; height: 22px; margin: 0; accent-color: #4A5230;">Standard</label>
+<label style="display: flex; align-items: center; gap: 12px; min-height: 40px; font-size: 17px;"><input type="radio" name="font" checked style="width: 22px; height: 22px; margin: 0; accent-color: #4A5230;">Hyperlegible (recommended)</label>
+<label style="display: flex; align-items: center; gap: 12px; min-height: 40px; font-size: 17px;"><input type="radio" name="font" style="width: 22px; height: 22px; margin: 0; accent-color: #4A5230;">Dyslexia-friendly (OpenDyslexic)</label>
+</fieldset>
+<fieldset style="margin: 0; padding: 0; border: none; display: flex; flex-direction: column; gap: 4px;">
+<legend style="padding: 0 0 6px; font-size: 17px; font-weight: 700;">Page tint</legend>
+<div style="display: flex; gap: 20px;">
+<label style="display: flex; align-items: center; gap: 10px; min-height: 40px; font-size: 17px;"><input type="radio" name="tint" checked style="width: 22px; height: 22px; margin: 0; accent-color: #4A5230;"><span aria-hidden="true" style="width: 22px; height: 22px; border-radius: 4px; background: #F3EDE2; border: 1px solid #5A5147;"></span>Cream</label>
+<label style="display: flex; align-items: center; gap: 10px; min-height: 40px; font-size: 17px;"><input type="radio" name="tint" style="width: 22px; height: 22px; margin: 0; accent-color: #4A5230;"><span aria-hidden="true" style="width: 22px; height: 22px; border-radius: 4px; background: #E6E6E1; border: 1px solid #5A5147;"></span>Grey</label>
+<label style="display: flex; align-items: center; gap: 10px; min-height: 40px; font-size: 17px;"><input type="radio" name="tint" style="width: 22px; height: 22px; margin: 0; accent-color: #4A5230;"><span aria-hidden="true" style="width: 22px; height: 22px; border-radius: 4px; background: #DDE7EE; border: 1px solid #5A5147;"></span>Soft blue</label>
+</div>
+</fieldset>
+<fieldset style="margin: 0; padding: 0; border: none; display: flex; flex-direction: column; gap: 4px;">
+<legend style="padding: 0 0 6px; font-size: 17px; font-weight: 700;">Icons and buttons</legend>
+<div style="display: flex; gap: 20px;">
+<label style="display: flex; align-items: center; gap: 10px; min-height: 40px; font-size: 17px;"><input type="radio" name="icons" style="width: 22px; height: 22px; margin: 0; accent-color: #4A5230;">Standard</label>
+<label style="display: flex; align-items: center; gap: 10px; min-height: 40px; font-size: 17px;"><input type="radio" name="icons" checked style="width: 22px; height: 22px; margin: 0; accent-color: #4A5230;">Large</label>
+<label style="display: flex; align-items: center; gap: 10px; min-height: 40px; font-size: 17px;"><input type="checkbox" checked style="width: 22px; height: 22px; margin: 0; accent-color: #4A5230;">Wide line spacing</label>
+</div>
+</fieldset>
+</div>
+<div style="display: flex; flex-direction: column; gap: 18px;">
+<h2 style="margin: 0; font-size: 15px; letter-spacing: 0.08em; text-transform: uppercase; color: #5A5147;">Motion and sound</h2>
+<label style="display: flex; align-items: flex-start; gap: 12px; font-size: 17px;"><input type="checkbox" checked style="width: 24px; height: 24px; margin: 0; flex-shrink: 0; accent-color: #4A5230;"><span><strong>Reduce motion</strong><br><span style="color: #3A352B;">Maps glide less. No zooms or moving backgrounds.</span></span></label>
+<label style="display: flex; align-items: flex-start; gap: 12px; font-size: 17px;"><input type="checkbox" style="width: 24px; height: 24px; margin: 0; flex-shrink: 0; accent-color: #4A5230;"><span><strong>Play Henry's narration automatically</strong><br><span style="color: #3A352B;">When off, press play yourself.</span></span></label>
+<label style="display: flex; align-items: center; gap: 12px; min-height: 40px; font-size: 17px;"><input type="checkbox" checked style="width: 24px; height: 24px; margin: 0; flex-shrink: 0; accent-color: #4A5230;"><strong>Captions and transcripts always on</strong></label>
+<div style="display: flex; flex-direction: column; gap: 4px;">
+<label for="narration-volume" style="font-size: 17px; font-weight: 700;">Narration volume</label>
+<input id="narration-volume" type="range" min="0" max="100" value="80" style="width: 100%; height: 32px; margin: 0; accent-color: #4A5230;">
+</div>
+<div style="display: flex; flex-direction: column; gap: 4px;">
+<label for="ambient-volume" style="font-size: 17px; font-weight: 700;">Background sound volume</label>
+<input id="ambient-volume" type="range" min="0" max="100" value="30" style="width: 100%; height: 32px; margin: 0; accent-color: #4A5230;">
+</div>
+<h2 style="margin: 6px 0 0; font-size: 15px; letter-spacing: 0.08em; text-transform: uppercase; color: #5A5147;">Care</h2>
+<label style="display: flex; align-items: center; gap: 12px; min-height: 40px; font-size: 17px;"><input type="checkbox" checked style="width: 24px; height: 24px; margin: 0; flex-shrink: 0; accent-color: #4A5230;"><strong>Content notes before sensitive scenes</strong></label>
+</div>
+</div>
+<div style="padding: 16px 40px; border-top: 1px solid #D6CCB4; display: flex; align-items: center; justify-content: space-between;">
+<span style="font-size: 16px; color: #3A352B;">Signed in as <strong style="color: #1F1B16;">Mum</strong> · Family viewer · <a href="#">Switch visitor</a></span>
+<div style="display: flex; gap: 12px;">
+<button style="min-height: 48px; padding: 0 20px; border-radius: 8px; border: 2px solid #1F1B16; background: transparent; color: #1F1B16; font-family: inherit; font-size: 17px; cursor: pointer;">Reset to defaults</button>
+<button style="min-height: 48px; padding: 0 28px; border-radius: 8px; border: none; background: #1F1B16; color: #F3EDE2; font-family: inherit; font-size: 17px; font-weight: 700; cursor: pointer;">Done</button>
+</div>
+</div>
+</div>
+</div>
+</div>
+</body>
+</html>

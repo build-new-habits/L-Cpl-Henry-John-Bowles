@@ -1,16 +1,16 @@
-# L-Cpl-Henry-John-Bowles
 # The Quiet Soldier
 
 **An interactive family exhibition about Lance Corporal Henry John Bowles ("Harry"), 1st Somerset Light Infantry and 1st Wiltshire Regiment, 1914–1918.**
 
 Henry was a Somerset farm hand who went to war, was wounded on the first day of the Somme, and came home to marry, raise a family, and say very little about what he had seen. This exhibition tells his story in eight chapters, through the records he left, the places he stood, and a voice imagined for him.
 
-> 🚧 **In progress.** The exhibition is being built. For now you can explore the design mock-up.
+> **In progress.** All eight chapters are drafted. Photographs and Henry's recorded voice are still being added.
 
 ## Visit
 
 - **Exhibition:** `https://build-new-habits.github.io/L-Cpl-Henry-John-Bowles/` (live once GitHub Pages is switched on)
-- **Design mock-up:** [`docs/mockup/`](docs/mockup/index.html), eight static screens showing the planned look and feel
+- **Ask the historian:** short, sourced answers to visitors' questions, in `docs/historian.html`
+- **Design mock-up:** [`docs/mockup/`](docs/mockup/index.html), the original eight-screen design
 
 ## The eight chapters
 

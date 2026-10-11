@@ -1,0 +1,258 @@
+{
+ "n": 8,
+ "title": "Legacy",
+ "scenes": [
+  {
+   "id": "a-question",
+   "title": "A question from school",
+   "type": "stories",
+   "intro": "In August 2026, more than a hundred years after the Somme, four of Henry's descendants went to find him.",
+   "stories": [
+    {
+     "title": "It started with homework",
+     "badge": "family",
+     "body": "One of Henry's great-great-granddaughters was studying the First World War at school and asked for a family trip to the Somme. A guide, an ex-soldier, was found to lead it.",
+     "source": "Family memoir by his granddaughter, page 2"
+    },
+    {
+     "title": "The first question",
+     "badge": "family",
+     "quote": "is there any family member who was in WWI",
+     "who": "The guide's first question",
+     "body": "When he heard about Henry, he built the whole trip around him.",
+     "source": "Family memoir by his granddaughter, page 2"
+    }
+   ]
+  },
+  {
+   "id": "in-his-footsteps",
+   "title": "In his footsteps",
+   "type": "stories",
+   "intro": "The second day of the trip: the Somme.",
+   "stories": [
+    {
+     "title": "The Quadrilateral",
+     "badge": "family",
+     "body": "The guide read from the account of 1 July 1916. Then the six of them spread out across the field and walked, until the guide told them to stop. This was the ground Henry crossed with the Somerset Light Infantry, and where he was shot.",
+     "source": "Memories of Grandad, by his granddaughter",
+     "quote": "We spread out across the field and walked until our Guide told us to stop.",
+     "who": "Memories of Grandad, by his granddaughter"
+    },
+    {
+     "title": "Little crosses",
+     "badge": "family",
+     "body": "They left little crosses at the grave of Henry's commanding officer, Lieutenant-Colonel Thicknesse, and at the grave of the only other man of the Somerset Light Infantry killed that day who has a named grave.",
+     "source": "Family memoir by his granddaughter, page 2"
+    },
+    {
+     "title": "Newfoundland Park",
+     "badge": "family",
+     "body": "At the Beaumont-Hamel Newfoundland Memorial they saw the original trenches, and how close the German trenches were, \"just a matter of yards away\". Today sheep and goats keep the grass short, and \"the trenches look 'respectful'\".",
+     "source": "Family memoir by his granddaughter, page 4"
+    },
+    {
+     "title": "Thiepval",
+     "badge": "family",
+     "quote": "so many names all over every inch of the monument",
+     "who": "Family memoir by his granddaughter",
+     "body": "The day ended at the Thiepval Memorial, where more than 72,000 men with no known grave are named, among them many of Henry's Somerset comrades.",
+     "source": "Family memoir by his granddaughter, page 4"
+    }
+   ],
+   "photos": [
+    {
+     "cat": "Trip photo wanted",
+     "file": "trip-quadrilateral.jpg",
+     "dir": "family",
+     "caption": "The Quadrilateral field today.",
+     "alt": "A wide field on Redan Ridge.",
+     "credit": "Family photograph",
+     "slot": "Trip photo wanted"
+    },
+    {
+     "cat": "Trip photo wanted",
+     "file": "trip-newfoundland.jpg",
+     "dir": "family",
+     "caption": "The preserved trenches at Newfoundland Park.",
+     "alt": "Grassy, eroded trench lines with a small cemetery behind.",
+     "credit": "Family photograph",
+     "slot": "Trip photo wanted"
+    },
+    {
+     "cat": "Trip photo wanted",
+     "file": "trip-thiepval.jpg",
+     "dir": "family",
+     "caption": "The Thiepval Memorial.",
+     "alt": "The great brick arch of the Thiepval Memorial.",
+     "credit": "Family photograph",
+     "slot": "Trip photo wanted"
+    }
+   ],
+   "photosHeading": "Photographs from the trip"
+  },
+  {
+   "id": "the-two-fields",
+   "title": "The two fields",
+   "type": "stories",
+   "intro": "The third day: Frémicourt, and Belgium.",
+   "stories": [
+    {
+     "title": "Ploegsteert",
+     "badge": "family",
+     "body": "The family went to Ploegsteert, where Henry served with the 1st Wiltshires in the bitter winter of 1916 to 1917.",
+     "source": "Family memoir by his granddaughter, page 6"
+    },
+    {
+     "title": "Where he was taken",
+     "badge": "family",
+     "quote": "it was the furthest one away",
+     "who": "Family memoir by his granddaughter",
+     "body": "Near Frémicourt and Beugnâtre the guide showed them two fields where Henry was most likely captured on 24 March 1918.",
+     "source": "Family memoir by his granddaughter, page 7"
+    },
+    {
+     "title": "The Pool of Peace",
+     "badge": "family",
+     "quote": "something beautiful out of something so horrible",
+     "who": "Family memoir by his granddaughter",
+     "body": "At Spanbroekmolen they saw the crater of one of the nineteen Messines mines, now a quiet pool among trees. Henry's battalion attacked close by on 7 June 1917, while he was in hospital.",
+     "source": "Family memoir by his granddaughter, page 7"
+    }
+   ],
+   "photos": [
+    {
+     "cat": "Trip photo wanted",
+     "file": "trip-fremicourt-field.jpg",
+     "dir": "family",
+     "caption": "The fields near Frémicourt where Henry was probably captured.",
+     "alt": "A wide field with a hedge line.",
+     "credit": "Family photograph",
+     "slot": "Trip photo wanted"
+    },
+    {
+     "cat": "Trip photo wanted",
+     "file": "trip-pool-of-peace.jpg",
+     "dir": "family",
+     "caption": "The Pool of Peace at Spanbroekmolen.",
+     "alt": "A still pool surrounded by trees.",
+     "credit": "Family photograph",
+     "slot": "Trip photo wanted"
+    }
+   ],
+   "photosHeading": "Photographs from the trip"
+  },
+  {
+   "id": "the-last-post",
+   "title": "The Last Post",
+   "type": "stories",
+   "intro": "The last full day: Ypres.",
+   "stories": [
+    {
+     "title": "Tyne Cot",
+     "badge": "family",
+     "quote": "I have no words to add to this scene.",
+     "who": "Family memoir by his granddaughter",
+     "body": "The largest Commonwealth war cemetery in the world, on the slope of Passchendaele Ridge. It was about 38 degrees that day.",
+     "source": "Family memoir by his granddaughter, page 8"
+    },
+    {
+     "title": "A German cemetery",
+     "badge": "family",
+     "quote": "Still sad to see… they left families behind too.",
+     "who": "Family memoir by his granddaughter",
+     "body": "In contrast, it was dark.",
+     "source": "Family memoir by his granddaughter, page 8"
+    },
+    {
+     "title": "The Menin Gate",
+     "badge": "family",
+     "quote": "such a moving and proud moment for the three of us",
+     "who": "Family memoir by his granddaughter",
+     "body": "At the evening ceremony, four trumpeters played the Last Post. Three generations of Henry's family laid a wreath under the arch.",
+     "source": "Family memoir by his granddaughter, page 9"
+    },
+    {
+     "title": "The card on the wreath",
+     "badge": "family",
+     "quote": "Thanks for all you and your comrades did for us.",
+     "who": "The family's wreath card, in handwriting",
+     "body": "The card was addressed to \"L/Cpl Henry Bowles\". Part of the handwriting is hard to read in the scan; the family will know the full words.",
+     "source": "Family memoir by his granddaughter, page 9"
+    }
+   ],
+   "photos": [
+    {
+     "cat": "Trip photo wanted",
+     "file": "trip-wreath.jpg",
+     "dir": "family",
+     "caption": "The family's wreath and card at the Menin Gate.",
+     "alt": "A poppy wreath with a handwritten card.",
+     "credit": "Family photograph",
+     "slot": "Trip photo wanted"
+    },
+    {
+     "cat": "Trip photo wanted",
+     "file": "trip-menin-gate.jpg",
+     "dir": "family",
+     "caption": "Under the Menin Gate.",
+     "alt": "A group standing inside the Menin Gate.",
+     "credit": "Family photograph",
+     "slot": "Trip photo wanted"
+    }
+   ],
+   "photosHeading": "Photographs from the trip"
+  },
+  {
+   "id": "a-little-to-the-right",
+   "title": "A little to the right or left",
+   "type": "stories",
+   "intro": "At Notre-Dame-de-Lorette, before the ring of 580,000 names, it all became very emotional.",
+   "stories": [
+    {
+     "title": "The bullet",
+     "badge": "family",
+     "quote": "If, on that first day of the Somme the bullet that wounded him had been just a little more to the right or left I would not be able to experience the things I have in my life so far.",
+     "who": "Family memoir by his granddaughter",
+     "body": "Everyone who comes after Henry exists because he came home.",
+     "source": "Family memoir by his granddaughter, page 5"
+    },
+    {
+     "title": "Never forget",
+     "badge": "family",
+     "body": "",
+     "source": "Memories of Grandad, by his granddaughter",
+     "quote": "So many gave their lives, so many were badly wounded, so many were gassed and had health problems for the rest of their lives, so many kept all these experiences to themselves. They did all this for the freedom we have today. This is something we must Never forget.",
+     "who": "Memories of Grandad, by his granddaughter"
+    }
+   ]
+  },
+  {
+   "id": "your-memories",
+   "title": "Your memories",
+   "type": "memories",
+   "intro": "This chapter is not finished. It is waiting for the people who knew him.",
+   "memHeading": "Add your own memories of Henry",
+   "memIntro": "Write as much or as little as you like. Your words are saved as you type.",
+   "memPrivacy": "What you write stays on this device, in this browser, for this visitor. Nobody else can see it unless you copy or download it and share it.",
+   "prompts": [
+    {
+     "key": "remember",
+     "label": "What do you remember about him?",
+     "hint": "His voice, his hands, his shed, a day out, a meal."
+    },
+    {
+     "key": "war",
+     "label": "Did he ever say anything about the war, or not say it?"
+    },
+    {
+     "key": "story",
+     "label": "A story the family tells about him"
+    },
+    {
+     "key": "to-him",
+     "label": "Anything you would like to say to him"
+    }
+   ]
+  }
+ ]
+}

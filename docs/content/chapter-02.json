@@ -1,0 +1,170 @@
+{
+ "n": 2,
+ "title": "Why he went",
+ "scenes": [
+  {
+   "id": "the-call",
+   "title": "The call",
+   "type": "reflection",
+   "intro": "When war came in August 1914, Lord Kitchener called for volunteers. Across the country, and in Yeovil, young men answered.",
+   "context": [
+    {
+     "badge": "unit",
+     "text": "Over a million men volunteered by January 1915. Almost two and a half million had joined before conscription began.",
+     "source": "UK Parliament: Conscription, the First World War",
+     "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/private-lives/yourcountry/overview/conscription/"
+    },
+    {
+     "badge": "unit",
+     "text": "Yeovil men were quick to volunteer: 698 were already serving before 1 December 1914. In September 1914 volunteers marched down Lower Middle Street to the Town Station, with a band and large crowds.",
+     "source": "Yeovil's Virtual Museum",
+     "url": "https://www.yeovilhistory.info/recruits.htm"
+    },
+    {
+     "badge": "unit",
+     "text": "At a recruiting meeting in The Borough, the Mayor urged men to join. Over a hundred Yeovil men joined Kitchener's Army that week.",
+     "source": "Yeovil Archaeological and Local History Society",
+     "url": "https://www.yalhs.org.uk/?p=25091"
+    }
+   ],
+   "entries": [
+    {
+     "date": "September 1914",
+     "place": "Yeovil",
+     "paras": [
+      "Went in to Yeovil to see the volunteers off. I've never seen the town like it. A band at the front, flags out of every window, and half of Somerset packed down Middle Street to watch them march to the station. Mothers crying, girls waving, little boys running alongside trying to keep in step.",
+      "Some of them I knew by sight. Lads off the farms and out of the glove factories, grinning like it was the fair. The paper says it'll all be over by Christmas, and they want to be in it before it is. There was a man speaking in the Borough the other night, and they say over a hundred joined up that week alone.",
+      "I stood there with my cap in my hand and felt like I ought to be with them. The farmer says he can't spare me, not with all the work there is. And Mother has eleven more besides me to worry about. I'm the eldest. Somebody's got to set the example, but I'm not sure which example that is.",
+      "Walked home the long way. Couldn't get that band out of my head."
+     ],
+     "basis": [
+      [
+       "history",
+       "Volunteers marched down Lower Middle Street to the Town Station with a band and crowds in September 1914 (Yeovil's Virtual Museum)."
+      ],
+      [
+       "history",
+       "After a recruiting meeting in The Borough, over a hundred Yeovil men joined that week (Yeovil Archaeological and Local History Society)."
+      ],
+      [
+       "family",
+       "Henry was the eldest of twelve children and worked as a farm hand (family memoir)."
+      ],
+      [
+       "typical",
+       "\"Over by Christmas\" was a common belief in 1914. Farmers worried about losing their men."
+      ],
+      [
+       "imagined",
+       "That Henry was there to watch, and everything he felt."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "what-would-you-do",
+   "title": "What would you do?",
+   "type": "choice",
+   "intro": "Imagine you are a young farm hand near Yeovil in 1915. Nobody can make you go yet. Choose what you would do.",
+   "question": "It's 1915. The war isn't over by Christmas after all. What do you do?",
+   "options": [
+    {
+     "label": "Volunteer now",
+     "body": "Walk into the recruiting office and sign on for the Somerset Light Infantry.",
+     "outcome": "You would sign on for three years or the duration of the war, whichever was longer, for a shilling a day. Most Yeovil volunteers went to the Somerset Light Infantry depot at Taunton."
+    },
+    {
+     "label": "Stay on the farm",
+     "body": "The farmer needs every pair of hands, and so does the country's food supply.",
+     "outcome": "Many farm workers stayed, and farmers worried about losing their men. But from October 1915 the Derby Scheme pressed every man to promise to serve, and from early 1916 single men had no choice."
+    },
+    {
+     "label": "Wait and see",
+     "body": "Let others go first. Perhaps it will all be over soon.",
+     "outcome": "It wasn't. Volunteering slowed in 1915, and in January 1916 the Military Service Act brought in conscription for single men aged 18 to 41. Married men followed that May."
+    }
+   ],
+   "reveal": "Henry volunteered. He was in the Somerset Light Infantry by June 1915 and in France that summer, months before the Derby Scheme and a full half year before anyone was made to go.",
+   "revealSource": {
+    "source": "His casualty record and the museum's summary of it"
+   },
+   "entries": []
+  },
+  {
+   "id": "signing-on",
+   "title": "Signing on",
+   "type": "cards",
+   "intro": "What did joining up mean for a young man like Henry? Open any card to find out.",
+   "cards": [
+    {
+     "title": "Who could join",
+     "body": "Recruits had to be at least 5 feet 3 inches tall and aged 18 to 38 (40 from May 1915). They couldn't be sent abroad until they were 19. Nobody had to prove their age, or even their name.",
+     "source": "The Long, Long Trail: Enlisting into the army",
+     "url": "https://www.longlongtrail.co.uk/soldiers/a-soldiers-life-1914-1918/enlisting-into-the-army/"
+    },
+    {
+     "title": "For how long?",
+     "body": "Kitchener's volunteers signed on for \"three years or the duration of the war, whichever the longer\".",
+     "source": "The Long, Long Trail: Enlisting into the army",
+     "url": "https://www.longlongtrail.co.uk/soldiers/a-soldiers-life-1914-1918/enlisting-into-the-army/"
+    },
+    {
+     "title": "A shilling a day",
+     "body": "A private in a line regiment like the Somersets was paid one shilling a day in 1914. Proficiency pay could add threepence or sixpence.",
+     "source": "The Long, Long Trail: Army rates of pay",
+     "url": "https://www.longlongtrail.co.uk/soldiers/a-soldiers-life-1914-1918/british-army-rates-pay-1914/"
+    },
+    {
+     "title": "Money for the family",
+     "body": "A married soldier could send part of his pay home, and his wife received a separation allowance. Historians think this helped some men decide to go.",
+     "source": "The Long, Long Trail: Separation allowance",
+     "url": "https://www.longlongtrail.co.uk/a-factor-in-recruitment-separation-allowance-for-dependants/"
+    },
+    {
+     "title": "The Derby Scheme",
+     "body": "From October to December 1915, men aged 18 to 40 were asked to enlist or \"attest\", a promise to serve when called. Attested men got an armband and went home until their group was needed.",
+     "source": "The Long, Long Trail: The Derby Scheme",
+     "url": "https://www.longlongtrail.co.uk/soldiers/a-soldiers-life-1914-1918/enlisting-into-the-army/the-group-scheme-derby-scheme/"
+    },
+    {
+     "title": "Conscription",
+     "body": "The Military Service Act of January 1916 ended volunteering. Single men aged 18 to 41 could now be called up. Married men followed in May 1916.",
+     "source": "UK Parliament: Conscription",
+     "url": "https://www.parliament.uk/about/living-heritage/transformingsociety/private-lives/yourcountry/overview/conscription/"
+    }
+   ],
+   "entries": [
+    {
+     "date": "1915",
+     "place": "",
+     "audio": "assets/audio/2-1-signing-on.mp3",
+     "paras": [
+      "Well, I've done it. Put my name down for the Somersets.",
+      "The sergeant looked me up and down and wrote it all in his book. Height, chest, any marks. Nobody asked to see a birth certificate. Then a doctor had me cough and read the letters on the wall, and that was that. Three years, or the duration of the war, whichever is the longer. A shilling a day and my keep.",
+      "If anybody asks me why, I'll tell them something different every time. Because the others went. Because it's not right to let them go alone. Because a shilling a day and a uniform is more than the farm ever gave me. Because I'd sooner go than be fetched. All of it's true, and none of it is the whole of it.",
+      "Mother cried when I told her, then she made tea like nothing had happened. The little ones think I'll be back by harvest. I let them think it."
+     ],
+     "basis": [
+      [
+       "record",
+       "Henry was in the Somerset Light Infantry by June 1915, before the Derby Scheme and conscription. So he volunteered (his record)."
+      ],
+      [
+       "history",
+       "Recruits signed on for \"three years or the duration of the war\", were measured and examined, and did not have to prove their age (The Long, Long Trail)."
+      ],
+      [
+       "history",
+       "A private in a line regiment was paid one shilling a day (The Long, Long Trail)."
+      ],
+      [
+       "imagined",
+       "His reasons and his family's reactions. His real enlistment date is not known."
+      ]
+     ]
+    }
+   ]
+  }
+ ]
+}

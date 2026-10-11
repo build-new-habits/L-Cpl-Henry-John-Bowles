@@ -1,0 +1,269 @@
+{
+ "n": 5,
+ "title": "Meanwhile in Blighty",
+ "contentNote": "This chapter describes how families waited for news of the wounded, missing and killed.",
+ "summary": "In short: while Henry was away, Yeovil changed. The town built aeroplanes, took in Belgian refugees, nursed wounded soldiers and lived on ration books. His family read the casualty lists every week. In March 1918 he was reported missing, and the museum thinks they probably did not know he was alive until about June.",
+ "scenes": [
+  {
+   "id": "the-town-at-war",
+   "title": "The town at war",
+   "type": "reflection",
+   "intro": "While Henry was in France and Belgium, the war came to Yeovil too.",
+   "context": [
+    {
+     "badge": "unit",
+     "text": "Several hundred Belgian refugees were housed in Yeovil and the villages around it. The first 50 arrived at the Town Station on 3 October 1914.",
+     "source": "Yeovil Archaeological and Local History Society",
+     "url": "https://www.yalhs.org.uk/?p=8641"
+    },
+    {
+     "badge": "unit",
+     "text": "Wounded soldiers were nursed at a Red Cross Military Hospital in the Newnam Memorial Hall in South Street.",
+     "source": "Yeovil Archaeological and Local History Society",
+     "url": "https://www.yalhs.org.uk/?p=8641"
+    },
+    {
+     "badge": "unit",
+     "text": "Petters, the engine makers, began building aircraft in 1915 as Westland, and made nearly 1,000 aeroplanes by the end of the war. Women worked in the factory from the start.",
+     "source": "Yeovil's Virtual Museum, Yeovil at war",
+     "url": "https://www.yeovilhistory.info/petters%20war.htm"
+    },
+    {
+     "badge": "unit",
+     "text": "From February 1916 the town's street lamps went out at 11pm and windows had to be shaded, in case of Zeppelin raids. No raid ever reached Yeovil.",
+     "source": "Yeovil Archaeological and Local History Society",
+     "url": "https://www.yalhs.org.uk/?p=8641"
+    },
+    {
+     "badge": "unit",
+     "text": "Several thousand Yeovil men served. More than 236 died of wounds or disease, and hundreds more were wounded.",
+     "source": "Yeovil Archaeological and Local History Society",
+     "url": "https://www.yalhs.org.uk/?p=8641"
+    }
+   ],
+   "asks": [
+    {
+     "id": "planes",
+     "q": "What did aeroplanes and balloons do?"
+    }
+   ],
+   "entries": [
+    {
+     "date": "Winter 1916",
+     "place": "Belgium",
+     "paras": [
+      "Letter from Mother, and a cake, squashed flat but still cake. I read the letter three times before I opened the cake, and that's the truth.",
+      "She says Yeovil's changed. Petters are making aeroplanes now, real ones, and girls she knows go in every morning in overalls. She says the lamps go out at eleven in case of Zeppelins, and there are Belgian families living in the town, poor souls, and one of them brought her eggs to say thank you for something.",
+      "Belgians in Yeovil and me in Belgium. You couldn't make it up.",
+      "She says she reads the lists in the Western Gazette every week, and her heart stops at every B. I wish I could tell her not to. I wish I could tell her anything."
+     ],
+     "basis": [
+      [
+       "history",
+       "Petters of Yeovil began building aircraft in 1915 under the name Westland, and made nearly 1,000 aeroplanes during the war. Women worked in the factory from early in the war (Yeovil's Virtual Museum)."
+      ],
+      [
+       "history",
+       "From February 1916 Yeovil's street lamps were put out at 11pm. Several hundred Belgian refugees lived in and around Yeovil from October 1914 (Yeovil Archaeological and Local History Society)."
+      ],
+      [
+       "history",
+       "In winter 1916 the 1st Wiltshires were near Ploegsteert, in Belgium."
+      ],
+      [
+       "typical",
+       "Local papers printed lists and photographs of the wounded, missing and killed."
+      ],
+      [
+       "imagined",
+       "His mother's letters have not survived, so what she wrote is imagined."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "waiting-for-news",
+   "title": "Waiting for news",
+   "type": "stories",
+   "contentNote": true,
+   "intro": "Twice in the war, Henry's family had to wait for news of him. Once he was wounded. Once he was missing.",
+   "activities": [
+    {
+     "id": "missing-steps",
+     "type": "order",
+     "menu": "When a soldier went missing",
+     "seed": 3,
+     "question": "What happened when a soldier was posted missing?",
+     "hint": "Put the steps in order, as Henry's family might have lived them in 1918.",
+     "steps": [
+      {
+       "label": "The battalion counts who is left",
+       "note": "After 24 March 1918 Henry's battalion reassembled with about 3 officers and 54 men. Everyone else was killed, wounded or missing."
+      },
+      {
+       "label": "The family is told he is missing",
+       "note": "Next of kin were told officially that a man was missing. Nothing more."
+      },
+      {
+       "label": "The family writes to the War Office and the Red Cross",
+       "note": "Families asked for any news, and the Red Cross printed lists of men being searched for."
+      },
+      {
+       "label": "A card arrives from Germany",
+       "note": "New prisoners were often given a printed card to send home. Cards could take six weeks or more to arrive."
+      },
+      {
+       "label": "The Red Cross registers him, and parcels can begin",
+       "note": "Once a prisoner was registered at a camp, the Red Cross could send him food parcels."
+      },
+      {
+       "label": "If no news comes, after about six months he is presumed dead",
+       "note": "For many families that is how it ended. Henry's family were spared it."
+      }
+     ],
+     "summary": "The museum thinks Henry's family probably did not know he was alive until about June 1918, nearly three months after he went missing.",
+     "source": {
+      "source": "Great War Forum, Notification of POW status; The Long, Long Trail, Assumed death",
+      "url": "https://www.longlongtrail.co.uk/soldiers/how-to-research-a-soldier/assumed-death"
+     }
+    }
+   ],
+   "stories": [
+    {
+     "title": "July 1916: wounded",
+     "badge": "archival",
+     "body": "Henry was wounded on 1 July 1916 and at a casualty clearing station the next day. His family would have been told he was wounded, and then waited for his own letter to say how badly.",
+     "source": "His casualty record"
+    },
+    {
+     "title": "Every week, the lists",
+     "badge": "unit",
+     "body": "Local papers like the Western Gazette printed the names, and often the photographs, of local men killed, wounded and missing. Families read them every week, dreading a familiar name.",
+     "source": "IWM Lives of the First World War, Death announcements in newspapers",
+     "url": "https://livesofthefirstworldwar.iwm.org.uk/story/41160"
+    },
+    {
+     "title": "March 1918: missing",
+     "badge": "archival",
+     "body": "On 24 March 1918 Henry was reported missing. For a family, missing could mean anything: killed and never found, lying wounded somewhere, or a prisoner.",
+     "source": "His casualty record"
+    },
+    {
+     "title": "A card from Germany",
+     "badge": "archival",
+     "body": "The regimental museum thinks the family probably did not know he was alive until about June 1918. Somewhere in those months, a card or letter must have arrived.",
+     "source": "The Rifles Berkshire and Wiltshire Museum"
+    }
+   ]
+  },
+  {
+   "id": "ration-books",
+   "title": "Ration books",
+   "type": "stories",
+   "intro": "By 1918 German submarines had sunk so many supply ships that food was short. Every family got ration books.",
+   "activities": [
+    {
+     "id": "rationed",
+     "type": "sort",
+     "menu": "Rationed or not?",
+     "question": "Was it rationed in 1918?",
+     "hint": "Choose an answer for each.",
+     "choices": [
+      "Rationed",
+      "Not rationed"
+     ],
+     "items": [
+      {
+       "text": "Sugar",
+       "answer": 0,
+       "explain": "Rationed. In May 1918 Yeovil cut the sugar allowed for jam-making from ten pounds a person to six.",
+       "source": "Yeovil Archaeological and Local History Society",
+       "url": "https://www.yalhs.org.uk/?p=8641"
+      },
+      {
+       "text": "Meat",
+       "answer": 0,
+       "explain": "Rationed. Ration cards were printed \"To register for MEAT, BUTTER and SUGAR\".",
+       "source": "1900s.org.uk, Rationing and shortages in WW1",
+       "url": "https://1900s.org.uk/1918-food-rationing.htm"
+      },
+      {
+       "text": "Butter",
+       "answer": 0,
+       "explain": "Rationed, along with margarine.",
+       "source": "1900s.org.uk",
+       "url": "https://1900s.org.uk/1918-food-rationing.htm"
+      },
+      {
+       "text": "Bread",
+       "answer": 1,
+       "explain": "Never rationed in the First World War. To make people eat less, bakers could not sell bread until it was at least twelve hours old.",
+       "source": "1900s.org.uk",
+       "url": "https://1900s.org.uk/1918-food-rationing.htm"
+      },
+      {
+       "text": "Coal",
+       "answer": 0,
+       "explain": "Rationed late in the war, by the number of rooms in your house.",
+       "source": "1900s.org.uk",
+       "url": "https://1900s.org.uk/1918-food-rationing.htm"
+      }
+     ]
+    }
+   ],
+   "stories": [
+    {
+     "title": "Ration books for every family",
+     "badge": "unit",
+     "body": "Rationing began in Yeovil in February 1918. By May it covered everything from bacon to sweets. With twelve children, the Bowles household would have known every coupon.",
+     "source": "Yeovil Archaeological and Local History Society",
+     "url": "https://www.yalhs.org.uk/?p=8641"
+    },
+    {
+     "title": "Blackberries for the army",
+     "badge": "unit",
+     "body": "In October 1918 the children of Reckleford School picked blackberries for jam: the boys 652 pounds, the girls 441 pounds.",
+     "source": "Yeovil Archaeological and Local History Society",
+     "url": "https://www.yalhs.org.uk/?p=8641"
+    },
+    {
+     "title": "Hungry on both sides",
+     "badge": "unit",
+     "body": "In Germany it was worse. The blockade meant German families ate turnips instead of potatoes, and prisoners like Henry lived on Red Cross parcels.",
+     "source": "See Chapter 6, Missing"
+    }
+   ]
+  },
+  {
+   "id": "eleven-oclock",
+   "title": "Eleven o'clock",
+   "type": "stories",
+   "intro": "Monday 11 November 1918. The guns stopped at eleven o'clock. Henry was still behind the wire at Münster.",
+   "stories": [
+    {
+     "title": "Like wildfire",
+     "badge": "unit",
+     "quote": "spread like wildfire",
+     "who": "Yeovil, Monday 11 November 1918",
+     "body": "Telegrams with the news were posted up at the newspaper offices. Flags went up on the Town Hall, the streets were hung with bunting, and that evening a packed town meeting was held.",
+     "source": "Yeovil Archaeological and Local History Society",
+     "url": "https://www.yalhs.org.uk/?p=8641"
+    },
+    {
+     "title": "Thanksgiving",
+     "badge": "unit",
+     "body": "The next day St John's Church was full for a Service of Thanksgiving.",
+     "source": "Yeovil Archaeological and Local History Society",
+     "url": "https://www.yalhs.org.uk/?p=8641"
+    },
+    {
+     "title": "Still waiting",
+     "badge": "archival",
+     "body": "For Henry's family the war was not over until he came home. He landed at Hull on 4 December 1918, more than three weeks later.",
+     "source": "His casualty record"
+    }
+   ]
+  }
+ ]
+}

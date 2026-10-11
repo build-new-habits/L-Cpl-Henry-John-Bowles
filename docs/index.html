@@ -1,0 +1,92 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>The Quiet Soldier: L/Cpl Henry John Bowles</title>
+<meta name="description" content="A family exhibition about Lance Corporal Henry John Bowles, Somerset Light Infantry and Wiltshire Regiment, in the First World War.">
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="assets/css/exhibit.css">
+<script src="assets/js/exhibit.js"></script>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<div class="welcome">
+  <header class="site-header">
+    <div class="site-header__left"><span class="site-title">A family exhibition</span></div>
+    <div class="site-header__right"><button type="button" class="icon-btn" data-open-settings></button></div>
+  </header>
+
+  <main id="main" class="wrap">
+    <div class="welcome__grid">
+      <div>
+        <p class="welcome__dates">1915 to 1919, in eight chapters, at home and away</p>
+        <h1>The Quiet Soldier</h1>
+        <p class="welcome__lede">The life of Henry John Bowles: farm hand, soldier and father. Told through the records he left, the places he stood, and a voice imagined for him.</p>
+
+        <fieldset class="visitor">
+          <legend>Who's visiting?</legend>
+          <div class="choice-row">
+            <label class="choice"><input type="radio" name="visitor" value="mum">Mum</label>
+            <label class="choice"><input type="radio" name="visitor" value="graeme">Graeme</label>
+            <label class="choice"><input type="radio" name="visitor" value="guest">Guest</label>
+          </div>
+        </fieldset>
+
+        <div class="welcome__actions">
+          <a class="btn btn--primary" id="continue" href="journey.html">Open the journey map</a>
+          <a class="btn" id="start" href="chapter.html#1">Start from the beginning</a>
+        </div>
+        <noscript><p style="margin-top:18px">This exhibition needs JavaScript switched on to remember your place and settings.</p></noscript>
+      </div>
+
+      <figure class="portrait">
+        <div class="portrait__frame">
+          <img class="portrait__photo" src="assets/img/henry-portrait.jpg" width="350" height="602" alt="Henry Bowles as a young soldier, smiling, in a peaked cap and buttoned army tunic.">
+        </div>
+        <figcaption><span data-badge="family"></span>Henry in uniform. Copied from the family memoir; the original photograph is still to be found and scanned.</figcaption>
+      </figure>
+    </div>
+
+    <section class="key" aria-labelledby="key-title">
+      <h2 id="key-title">How to read what you see</h2>
+      <div class="key__grid">
+        <div class="key__item"><span data-badge="archival"></span><p>Real papers, maps and photographs from the time.</p></div>
+        <div class="key__item"><span data-badge="family"></span><p>From our own family's papers and photographs.</p></div>
+        <div class="key__item"><span data-badge="unit"></span><p>Not Henry himself, but men just like him.</p></div>
+        <div class="key__item"><span data-badge="ai"></span><p>Imagined from the records, and always marked.</p></div>
+      </div>
+    </section>
+  </main>
+</div>
+
+<script>
+(function () {
+  var data = QS.load();
+  var radios = document.querySelectorAll('input[name="visitor"]');
+  var cont = document.getElementById('continue');
+  var start = document.getElementById('start');
+
+  function refresh() {
+    var p = QS.profile().progress;
+    radios.forEach(function (r) { r.checked = r.value === QS.load().visitor; });
+    if (p.last) {
+      cont.textContent = 'Continue where you left off';
+      cont.href = 'chapter.html#' + p.last;
+      start.textContent = 'Open the journey map';
+      start.href = 'journey.html';
+    } else {
+      cont.textContent = 'Open the journey map';
+      cont.href = 'journey.html';
+      start.textContent = 'Start from the beginning';
+      start.href = 'chapter.html#1';
+    }
+  }
+  radios.forEach(function (r) {
+    r.addEventListener('change', function () { QS.setVisitor(r.value); refresh(); });
+  });
+  refresh();
+})();
+</script>
+</body>
+</html>

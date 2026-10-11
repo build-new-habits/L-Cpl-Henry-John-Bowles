@@ -1,0 +1,1090 @@
+{
+ "n": 3,
+ "title": "Becoming a soldier",
+ "scenes": [
+  {
+   "id": "crossing",
+   "title": "Crossing",
+   "type": "reflection",
+   "intro": "In the summer of 1915 Henry crossed the Channel to France. His records disagree by a month on the date: his casualty record says 22 June, his medal roll 22 July.",
+   "context": [
+    {
+     "badge": "unit",
+     "text": "Southampton was the Army's main port for troops heading to France. Le Havre and Boulogne were the big landing ports on the French side.",
+     "source": "Maritime Archaeology Trust: Ports in WW1",
+     "url": "https://maritimearchaeologytrust.org/wp-content/uploads/2021/03/Ports-in-WW1-updated-to-new-Template-6.03.2021-RB.pdf"
+    },
+    {
+     "badge": "unit",
+     "text": "Men remembered rough, crowded crossings, seasickness, and destroyers racing around the troopships to guard against submarines.",
+     "source": "IWM: Voices of the First World War, Off to the Front",
+     "url": "https://www.iwm.org.uk/podcasts/voices-of-the-first-world-war/ep-6-off-to-the-front"
+    }
+   ],
+   "entries": [
+    {
+     "date": "June 1915",
+     "place": "Crossing",
+     "paras": [
+      "On a boat, at night, with the whole of England going away behind us. The sea's rough and half the lads have been sick over the side. I've kept mine down so far, but only just.",
+      "There are little grey ships running round us in the dark, close enough to hear their engines. Destroyers, one of the sailors said, watching for submarines. Nobody can sleep. We're packed in so tight you can't lie down anyway.",
+      "Nobody has told us where we're going. France, that's all. One of the older men says it doesn't matter where, it'll be mud when we get there.",
+      "Later. Landed, and marched miles uphill to a camp of tents, all of it mud already. The food's so bad some of the lads are asking to be sent straight up to the front. Strange to hear people talking French in the street, like something out of a schoolbook."
+     ],
+     "basis": [
+      [
+       "record",
+       "His casualty record says he embarked on 22 June 1915. His medal roll says 22 July. Which is right is not known."
+      ],
+      [
+       "typical",
+       "Rough, crowded crossings, seasickness, destroyer escorts against submarines, and a long march uphill to muddy tented camps (Imperial War Museums oral histories)."
+      ],
+      [
+       "imagined",
+       "The ship, the port and everything he felt are not recorded."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "waiting-and-digging",
+   "title": "Waiting and digging",
+   "type": "reflection",
+   "intro": "New soldiers didn't go straight to the front. Henry spent eleven weeks at a base camp, then two months digging defences behind the lines.",
+   "context": [
+    {
+     "badge": "archival",
+     "text": "9 August 1915: joined the 4th Infantry Base Depot. 28 October 1915: posted to the 8th Entrenching Battalion.",
+     "source": "His casualty record and the museum's summary of it"
+    },
+    {
+     "badge": "unit",
+     "text": "A base depot was a holding and training camp near the coast, where men drilled and waited until a battalion at the front needed them. The 4th Division's depot was probably at Rouen.",
+     "source": "The Long, Long Trail: Infantry Base Depots",
+     "url": "https://www.longlongtrail.co.uk/?p=1098"
+    },
+    {
+     "badge": "unit",
+     "text": "Entrenching battalions were made up of waiting reinforcements, \"utilised for work at the front\" on rear defences. The 8th arrived in August 1915 and worked for the Second Army in Flanders.",
+     "source": "The Long, Long Trail: Entrenching Battalions",
+     "url": "https://www.longlongtrail.co.uk/army/other-aspects-of-order-of-battle/entrenching-battalions"
+    }
+   ],
+   "entries": [
+    {
+     "date": "August 1915",
+     "place": "The base",
+     "paras": [
+      "Drill, drill, and more drill. Bayonet practice until my arms ache. The instructors shout at us like we're all deaf, and half of them, the lads say, have never been near the line themselves.",
+      "Every morning they read out names for the front, and every morning some go and I don't. Eleven weeks I've been at this base now, waiting. You'd think an army at war would want every man it could get. Seems not this one.",
+      "Wrote home. Couldn't say where I am, they read every word. Told Mother the food's plain and the weather's fine, which is half true."
+     ],
+     "basis": [
+      [
+       "record",
+       "Joined the 4th Infantry Base Depot on 9 August 1915 and stayed until 28 October, about eleven weeks."
+      ],
+      [
+       "history",
+       "Base depots were camps where new men drilled and waited until a battalion needed them. The 4th Division's depot was probably at Rouen (The Long, Long Trail)."
+      ],
+      [
+       "typical",
+       "Letters were read by an officer, so men could not say where they were."
+      ],
+      [
+       "imagined",
+       "His feelings, and the details of his days."
+      ]
+     ]
+    },
+    {
+     "date": "November 1915",
+     "place": "",
+     "paras": [
+      "They've made a battalion out of us spare men, all the ones the base didn't know what to do with, and called it an entrenching battalion. Pick and shovel, from first light till we can't see. Digging defences behind the line for somebody else to stand in.",
+      "It rains every day. The trenches fill up as fast as we dig them, and the clay sticks to the shovel so you have to kick it off. I used to grumble about the ditching on the farm. I'd give a week's pay to be ditching on the farm.",
+      "Still, a man can see the use of a trench. And they say that when the battalions at the front are short, this is where they come for men. So we dig, and we wait to be called."
+     ],
+     "basis": [
+      [
+       "record",
+       "Posted to the 8th Entrenching Battalion on 28 October 1915."
+      ],
+      [
+       "history",
+       "Entrenching battalions were made from reinforcements held at the base, used \"for work on rear defence works\", and front-line battalions drew replacements from them (The Long, Long Trail)."
+      ],
+      [
+       "history",
+       "The 8th arrived in August 1915 and worked for the Second Army in Flanders. That Henry was in Flanders is likely but not proven."
+      ],
+      [
+       "imagined",
+       "The rain and his feelings."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "joining",
+   "title": "Joining the battalion",
+   "type": "reflection",
+   "intro": "A week before Christmas 1915, Henry finally joined the 1st Battalion of his regiment, and heard the old hands' stories.",
+   "context": [
+    {
+     "badge": "archival",
+     "text": "16 December 1915: joined the 1st Battalion, Somerset Light Infantry, in the 11th Brigade of the 4th Division.",
+     "source": "His casualty record and the museum's summary of it"
+    },
+    {
+     "badge": "unit",
+     "text": "The 1st Somersets reached France about two weeks after war was declared, and fought at Le Cateau and in the retreat from Mons.",
+     "source": "South West Heritage Trust: The Somerset Light Infantry in the Great War",
+     "url": "https://www.archives.swheritage.org.uk/sa-ls-sli-wwi"
+    },
+    {
+     "badge": "unit",
+     "text": "That winter the 4th Division's sector was quiet enough to be used for teaching new troops trench life.",
+     "source": "The Long, Long Trail: 36th (Ulster) Division",
+     "url": "https://www.longlongtrail.co.uk/army/order-of-battle-of-divisions/36th-ulster-division/"
+    }
+   ],
+   "entries": [
+    {
+     "date": "Thursday 16 December 1915",
+     "place": "",
+     "audio": "assets/audio/3-1-joining.mp3",
+     "paras": [
+      "Joined the 1st Battalion today. The Somersets at last, proper, with the bugle on my cap and men around me from home. You can hear Somerset in every other voice.",
+      "Some of the old hands have been out here since the very start. They talk about Mons and Le Cateau and the retreat like other men talk about the weather, and they have a look about them I can't put a name to. One of them, an old sweat with a face like a walnut, showed me how to keep my feet dry, more or less. Whale oil, he said, and change your socks whether you think you need to or not.",
+      "This bit of the line is quiet, they tell me. So quiet they've sent some new Irish lads here to learn the ropes from us. Us! I've been here a day.",
+      "A week to Christmas. I wonder what they're doing at home."
+     ],
+     "basis": [
+      [
+       "record",
+       "Joined the 1st Battalion, Somerset Light Infantry, on 16 December 1915."
+      ],
+      [
+       "history",
+       "The 1st Somersets had been in France since August 1914 and fought at Le Cateau and in the retreat from Mons (South West Heritage Trust)."
+      ],
+      [
+       "history",
+       "That winter new Ulster Division troops learned trench life with the 4th Division in its quiet sector (The Long, Long Trail)."
+      ],
+      [
+       "typical",
+       "Whale oil and daily sock changes against trench foot (Imperial War Museums)."
+      ],
+      [
+       "imagined",
+       "The old soldier is invented, not a real man."
+      ]
+     ]
+    },
+    {
+     "date": "Saturday 25 December 1915",
+     "place": "",
+     "paras": [
+      "Christmas Day. My first in France, and I hope my last.",
+      "The old hands were talking tonight about last Christmas, up at Ploegsteert in Belgium. They say not a shot was fired all day. Men from both sides climbed out and met in the middle, shook hands, and swapped bully beef and jam for whatever the Germans had. One of them still has a German button in his pocket and showed it round.",
+      "But they told the other part too, and quieter. The battalion had made an attack the week before and lost men in it, and the bodies were still lying out there. So they used the truce to bring them in and bury them. They said the Germans helped carry them over.",
+      "Somebody said there were football matches. Not here, he said, further down the line, but he'd heard it from a man who'd heard it from a man.",
+      "This year the orders came round plain: no fraternising, not this Christmas. Nobody argued. But I stood my turn on the fire-step tonight and listened, and I thought I heard singing from over the way. Maybe I wanted to."
+     ],
+     "basis": [
+      [
+       "history",
+       "On Christmas Day 1914, near St Yves at Ploegsteert, a diary from Henry's future division records \"Not one shot was fired\" and English and German soldiers \"intermingled & exchanged Souvenirs\", trading bully beef and jam (RSM Beck's diary, Dorset History Centre)."
+      ],
+      [
+       "history",
+       "The 1st Somersets used the truce to bury their dead from an attack on 19 December 1914 (RSM Beck's diary; Weintraub, Silent Night)."
+      ],
+      [
+       "history",
+       "Football during the truce was reported elsewhere on the front, not in this sector. In 1915 truces were forbidden by \"strict orders\" (Western Front Association)."
+      ],
+      [
+       "record",
+       "Henry joined the battalion on 16 December 1915, so he was not there in 1914."
+      ],
+      [
+       "imagined",
+       "How Henry heard the story, the button, and the singing. What happened in his battalion on Christmas Day 1915 is not recorded."
+      ]
+     ]
+    }
+   ],
+   "asks": [
+    {
+     "id": "friends",
+     "q": "Did men stop making close friends?"
+    },
+    {
+     "id": "chats",
+     "q": "Why were lice called “chats”?"
+    }
+   ],
+   "activities": [
+    {
+     "type": "match",
+     "question": "What did they mean?",
+     "hint": "Choose a meaning for each word, then press Check my answers.",
+     "pairs": [
+      {
+       "term": "Blighty",
+       "meaning": "Home, Britain",
+       "note": "From a Hindustani word meaning foreign, picked up by the army in India."
+      },
+      {
+       "term": "Whizz-bang",
+       "meaning": "A small, fast shell",
+       "note": "It travelled faster than sound, so you heard the whizz before the bang."
+      },
+      {
+       "term": "Chats",
+       "meaning": "Lice",
+       "note": "Men sat \"chatting\", cracking lice along their shirt seams."
+      },
+      {
+       "term": "Napoo",
+       "meaning": "Finished, gone, no good",
+       "note": "From the French il n'y en a plus, there's none left."
+      },
+      {
+       "term": "San fairy ann",
+       "meaning": "Never mind, it doesn't matter",
+       "note": "From the French ça ne fait rien."
+      },
+      {
+       "term": "Plonk",
+       "meaning": "Cheap wine",
+       "note": "Probably from the French vin blanc."
+      },
+      {
+       "term": "Estaminet",
+       "meaning": "A little café-bar behind the lines",
+       "note": "Run by local families, selling egg and chips and thin beer."
+      },
+      {
+       "term": "Maconochie",
+       "meaning": "Tinned beef and vegetable stew",
+       "note": "Named after the firm that made it. All right hot, men said; cold, not."
+      },
+      {
+       "term": "Bully beef",
+       "meaning": "Tinned corned beef",
+       "note": "Probably from the French bouilli, boiled beef."
+      },
+      {
+       "term": "Over the top",
+       "meaning": "Climbing out of the trench to attack",
+       "note": "We still say it today, for anything overdone."
+      }
+     ],
+     "summary": "Many of these words came home with the soldiers. Blighty, plonk and over the top are still in use more than a hundred years later.",
+     "source": {
+      "source": "Oxford University Press blog, Our words remember them",
+      "url": "https://blog.oup.com/2011/11/remembrance/"
+     },
+     "menu": "Talk like a Tommy"
+    }
+   ]
+  },
+  {
+   "id": "christmas-1914",
+   "title": "Christmas 1914, along the line",
+   "type": "stories",
+   "intro": "Henry wasn't in France for the famous Christmas truce of 1914. He heard about it a year later. These are the stories of men who were there, in their own words where we have them.",
+   "stories": [
+    {
+     "title": "Henry's future brigade, at Ploegsteert",
+     "badge": "archival",
+     "quote": "Christmas Day. Not one shot was fired. English & German soldiers intermingled & exchanged Souvenirs.",
+     "who": "RSM George Beck, diary, trenches at St Yves, Ploegsteert",
+     "body": "Photographs show British and German soldiers together in No Man's Land at Ploegsteert, on the front of the 11th Brigade, the brigade Henry joined a year later. Germans were keen to swap almost anything for bully beef and jam. Beck's men helped bury Somerset Light Infantry dead from an attack on 19 December.",
+     "source": "Dorset Council, RSM Beck diary, 25 December 1914",
+     "url": "https://news.dorsetcouncil.gov.uk/rsm-beck-diary/?p=336"
+    },
+    {
+     "title": "Carols in the dark",
+     "badge": "archival",
+     "quote": "First the Germans would sing one of their carols, and then we would sing one of ours.",
+     "who": "Rifleman Graham Williams, London Rifle Brigade",
+     "body": "On Christmas Eve, lights appeared along the German parapet: small Christmas trees with candles. The singing went back and forth across No Man's Land.",
+     "source": "IWM, The real story of the Christmas truce",
+     "url": "https://www.iwm.org.uk/history/the-real-story-of-the-christmas-truce"
+    },
+    {
+     "title": "Burying the dead together",
+     "badge": "archival",
+     "quote": "It was beautiful to listen to him.",
+     "who": "Captain Walter Imlach, 6th Gordon Highlanders",
+     "body": "Near Fromelles, Scottish and German soldiers buried about a hundred of their dead together in a cabbage patch. The service included the 23rd Psalm, and a German divinity student translated.",
+     "source": "The Gordon Highlanders Museum, The Christmas truce 1914",
+     "url": "https://gordonhighlanders.com/the-christmas-truce-1914"
+    },
+    {
+     "title": "Football: a match, or a kickabout?",
+     "badge": "unit",
+     "quote": "We didn't form a team.",
+     "who": "Ernie Williams, interviewed by IWM, remembering a real ball and a couple of hundred men",
+     "body": "A German officer, Johannes Niemann, later described a game against Scottish soldiers that his side won 3 to 2. But many 1915 letters about football are second-hand: one colonel wrote that \"some of our boys had a four-a-side\", then admitted he \"didn't see it\". Kickabouts certainly happened. A full match rests mainly on one memory, written down decades later.",
+     "source": "IWM, The real story of the Christmas truce",
+     "url": "https://www.iwm.org.uk/history/the-real-story-of-the-christmas-truce"
+    },
+    {
+     "title": "The news reaches home",
+     "badge": "archival",
+     "quote": "The men had taken it upon their own hands.",
+     "who": "A Newcastle officer, letter printed in January 1915",
+     "body": "From January 1915, local papers printed soldiers' letters about the truce. The Yorkshire Post quoted a colonel saying the Germans \"wanted a truce for the day to bury their dead\". The officer admitted it \"was strictly against regulations\".",
+     "source": "Northumberland Archives, Letters from the front: the Christmas truce",
+     "url": "https://northumberlandarchives.com/2015/12/22/first-world-war-letters-from-the-front-the-christmas-truce/"
+    },
+    {
+     "title": "Why the generals didn't like it",
+     "badge": "unit",
+     "body": "Even before Christmas, General Smith-Dorrien had banned \"friendly intercourse with the enemy\" because it \"destroys the offensive spirit\". Afterwards both high commands worked to stop it happening again. By Christmas 1915, when Henry was in the line, orders forbade it, and only small, local pauses happened. The truce was never everywhere: it covered perhaps half the British front, and men were killed on Christmas Day 1914 elsewhere.",
+     "source": "Military Times, How the Christmas truce happened",
+     "url": "https://www.militarytimes.com/off-duty/military-culture/2017/12/21/this-is-how-the-christmas-truce-happened-on-the-western-front-in-1914/"
+    }
+   ],
+   "photos": [
+    {
+     "cat": "Q 70074",
+     "file": "q70074.jpg",
+     "caption": "British and German soldiers together in No Man's Land at Ploegsteert, Christmas Day 1914, on the front of the 11th Brigade, the 1st Somersets' own brigade.",
+     "alt": "A group of British and German soldiers standing together in a field in winter coats and caps.",
+     "url": "https://www.iwm.org.uk/collections/item/object/205022311",
+     "credit": "Image: IWM (Q 70074)"
+    },
+    {
+     "cat": "Q 11718",
+     "file": "q11718.jpg",
+     "caption": "The same meeting at Ploegsteert on 25 December 1914: men of the London Rifle Brigade with Saxon soldiers.",
+     "alt": "British and German soldiers posing together in a muddy field.",
+     "url": "https://www.iwm.org.uk/collections/item/object/205022085",
+     "credit": "Image: IWM (Q 11718)",
+     "src": "https://media.iwm.org.uk/ciim5/8/422/mid_000000.jpg?action=e&cat=Photographs"
+    },
+    {
+     "cat": "Q 50719",
+     "file": "q50719.jpg",
+     "caption": "Northumberland Hussars and German troops meet in No Man's Land, Christmas Day 1914.",
+     "alt": "Soldiers of both sides meeting in an open field.",
+     "url": "https://www.iwm.org.uk/collections/item/object/205022262",
+     "credit": "Image: IWM (Q 50719)"
+    },
+    {
+     "cat": "Q 50720",
+     "file": "q50720.jpg",
+     "caption": "The same day, further along: burying the dead of an attack a week earlier.",
+     "alt": "Soldiers gathered in a field during the Christmas truce.",
+     "url": "https://www.iwm.org.uk/collections/item/object/205025418",
+     "credit": "Image: IWM (Q 50720)"
+    }
+   ],
+   "asks": [
+    {
+     "id": "bodies",
+     "q": "What happened to men killed in No Man’s Land?"
+    }
+   ]
+  },
+  {
+   "id": "life-in-the-line",
+   "title": "Life in the line",
+   "type": "cards",
+   "intro": "For six months, until the Somme, this was Henry's life.",
+   "cards": [
+    {
+     "title": "Four days at a time",
+     "body": "Men usually spent about four days in the front trench, then moved back to support, then reserve, then rest behind the lines.",
+     "source": "IWM: Life in the trenches",
+     "url": "https://www.iwm.org.uk/history/first-world-war/western-front/life-in-the-trenches"
+    },
+    {
+     "title": "Stand-to at dawn",
+     "body": "Every day began with everyone on the fire-step at dawn, the usual time for an attack. If none came, there were inspections, breakfast and the rum issue.",
+     "source": "Canadian War Museum: Trench routine",
+     "url": "https://www.warmuseum.ca/firstworldwar/history/life-at-the-front/trench-conditions/trench-routine/"
+    },
+    {
+     "title": "Day and night",
+     "body": "By day men kept below the parapet, out of the snipers' sight, cleaning and mending. At night they dug, repaired the wire and went out on patrol.",
+     "source": "Canadian War Museum: Trench routine",
+     "url": "https://www.warmuseum.ca/firstworldwar/history/life-at-the-front/trench-conditions/trench-routine/"
+    },
+    {
+     "title": "Bully beef and biscuits",
+     "body": "Front-line food was often cold: tinned corned beef, hard biscuits, jam, bread and endless tea. Maconochie's stew was \"edible warmed up, but revolting served cold\".",
+     "source": "National Army Museum: An army marches on its stomach",
+     "url": "https://www.nam.ac.uk/explore/army-marches-its-stomach"
+    },
+    {
+     "title": "The rum ration",
+     "body": "About an egg-cupful a day, drunk in front of an officer. The jars were stamped \"SRD\", which soldiers said meant \"Seldom Reaches Destination\".",
+     "source": "National Army Museum: Conserving a rum jar",
+     "url": "https://www.nam.ac.uk/explore/mudbound-conserving-army-rum-jar"
+    },
+    {
+     "title": "Tea that tasted of petrol",
+     "body": "Drinking water came up in old petrol cans, treated with chemicals. Most of it was drunk as tea to hide the taste.",
+     "source": "IWM: How to keep clean and healthy in the trenches",
+     "url": "https://www.iwm.org.uk/history/first-world-war/western-front/how-to-keep-clean-and-healthy-in-the-trenches"
+    },
+    {
+     "title": "Lice and rats",
+     "body": "Lice lived in the seams of clothes, and men \"chatted\" them by running a candle along the seams. Veterans remembered thousands of rats.",
+     "source": "IWM: How to keep clean and healthy in the trenches",
+     "url": "https://www.iwm.org.uk/history/first-world-war/western-front/how-to-keep-clean-and-healthy-in-the-trenches"
+    },
+    {
+     "title": "Trench foot",
+     "body": "Days in cold water made feet swell and rot. Men changed their socks daily and rubbed each other's feet with whale oil.",
+     "source": "IWM: Life in the trenches",
+     "url": "https://www.iwm.org.uk/history/first-world-war/western-front/life-in-the-trenches"
+    },
+    {
+     "title": "Letters home",
+     "body": "An officer read every letter, so nothing could say where a man was. Mail usually reached the front within two days.",
+     "source": "Western Front Association: The Last Post",
+     "url": "https://www.westernfrontassociation.com/branches/united-kingdom/yorkshire/latest-news/review-of-the-last-post-the-post-office-s-work-during-the-great-war-by-chris-taft-november-2021"
+    },
+    {
+     "title": "The field postcard",
+     "body": "A printed card where a soldier crossed out the lines that didn't apply, such as \"I am quite well\". Quick, and it gave nothing away.",
+     "source": "Western Front Association: The Last Post",
+     "url": "https://www.westernfrontassociation.com/branches/united-kingdom/yorkshire/latest-news/review-of-the-last-post-the-post-office-s-work-during-the-great-war-by-chris-taft-november-2021"
+    },
+    {
+     "title": "Out of the line",
+     "body": "In rest billets there were baths in big tubs, clean clothes, and village cafés called estaminets selling egg and chips, thin beer and wine.",
+     "source": "Canadian War Museum: An estaminet",
+     "url": "https://www.warmuseum.ca/firstworldwar/objects-and-photos/art-and-culture/official-art/an-estaminet-in-cambligneuil/"
+    },
+    {
+     "title": "A steel helmet",
+     "body": "Steel helmets were new in 1916. About 140,000 had been issued by March and a million by July, so Henry very probably wore one on 1 July.",
+     "source": "IWM: Steel helmet, Mk I",
+     "url": "https://www.iwm.org.uk/collections/item/object/30090820"
+    },
+    {
+     "title": "A gas helmet",
+     "body": "Not a gas mask yet: a chemical-soaked flannel hood with glass eyepieces. The improved \"PH\" helmet was issued from January 1916.",
+     "source": "Australian War Memorial: PH helmet",
+     "url": "https://www.awm.gov.au/collection/C164321"
+    }
+   ],
+   "entries": [
+    {
+     "date": "Spring 1916",
+     "place": "In the line",
+     "audio": "assets/audio/3-2-in-the-line.mp3",
+     "paras": [
+      "Four days in the front trench, then back to support, then reserve, then out to rest, and round again. You learn the turn of it like the turn of the seasons.",
+      "Every morning before light it's stand-to, every man on the fire-step with his rifle, because dawn is when they'd come if they were coming. Then the rum comes round, an egg-cupful each with the officer watching, from a stone jar marked SRD. The old hands say that stands for Seldom Reaches Destination. Then we wait out the day below the parapet, because a head above it is a dead head.",
+      "Bully beef and biscuits, mostly, and jam, and tea that tastes of the petrol cans the water came up in. There's a stew in tins called Maconochie's that's all right hot. Cold, I'll not describe it.",
+      "At night the work starts. Digging, filling sandbags, mending the wire out in front where you can hear their working parties doing the same. I've learned to crack the chats along my shirt seams with a candle end, like everybody else. They come back the next day. So do the rats, bold as you like, big as cats some of them.",
+      "Sleep comes in bits, sitting up mostly. I've forgotten what a bed feels like."
+     ],
+     "basis": [
+      [
+       "typical",
+       "The four-day rotation, stand-to at dawn, keeping below the parapet and working at night (Imperial War Museums; Canadian War Museum)."
+      ],
+      [
+       "typical",
+       "About an egg-cupful of rum, from jars stamped SRD, \"Seldom Reaches Destination\" (National Army Museum)."
+      ],
+      [
+       "typical",
+       "Bully beef, biscuits, jam, petrol-tasting tea and Maconochie's stew (National Army Museum; Imperial War Museums)."
+      ],
+      [
+       "typical",
+       "Lice (\"chats\"), rats and snatched sleep (Imperial War Museums)."
+      ],
+      [
+       "imagined",
+       "This is what life was like for men in his battalion. These days are not recorded for Henry himself."
+      ]
+     ]
+    },
+    {
+     "date": "Spring 1916",
+     "place": "Rest billets",
+     "paras": [
+      "Out of the line for a few days, and I'm a new man. They marched us to an old brewery where there were big tubs of hot water, and I sat in one till the sergeant shouted. Clean shirt, clean socks. The chats will find me again soon enough, but not tonight.",
+      "There's a little café in the village, an estaminet, where a woman does egg and chips and thin beer, and we spend our shillings like lords. One of the lads plays the mouth organ and the old woman pretends not to like it.",
+      "They've given us steel helmets now, heavy as a saucepan. And a gas helmet in a bag, a flannel hood soaked in something that makes your eyes run, with little glass windows to see out. We practise putting them on until we can do it in our sleep.",
+      "Sent Mother a field postcard. It's all printed and you cross out what doesn't apply. I am quite well. I have received your letter. Crossed out everything else. It doesn't say much, but it says I'm alive."
+     ],
+     "basis": [
+      [
+       "typical",
+       "Baths in big communal tubs, often in old breweries, and clean clothes in rest billets (Imperial War Museums)."
+      ],
+      [
+       "typical",
+       "Estaminets sold egg and chips, thin beer and wine (Canadian War Museum)."
+      ],
+      [
+       "history",
+       "Steel helmets were issued widely in spring 1916, and the PH gas helmet from January 1916 (Imperial War Museums; Australian War Memorial)."
+      ],
+      [
+       "typical",
+       "The field service postcard, where soldiers crossed out lines like \"I am quite well\" (Western Front Association)."
+      ],
+      [
+       "imagined",
+       "The details of his days. Not recorded for Henry himself."
+      ]
+     ]
+    }
+   ],
+   "photos": [
+    {
+     "cat": "Q 4180",
+     "file": "q4180.jpg",
+     "caption": "A sentry of the Gordon Highlanders near Martinpuich, August 1916.",
+     "alt": "A soldier on sentry duty in a trench.",
+     "url": "https://www.iwm.org.uk/collections/item/object/205073475",
+     "credit": "Image: IWM (Q 4180)"
+    },
+    {
+     "cat": "Q 1582",
+     "file": "q1582.jpg",
+     "caption": "Troops collecting dinner from field kitchens, Ancre area, October 1916.",
+     "alt": "Soldiers queuing with mess tins at a field kitchen.",
+     "url": "https://www.iwm.org.uk/collections/item/object/205193134",
+     "credit": "Image: IWM (Q 1582)",
+     "src": "https://media.iwm.org.uk/ciim5/36/102/mid_000000.jpg?action=e&cat=Photographs"
+    },
+    {
+     "cat": "FEQ 802",
+     "file": "feq802.jpg",
+     "caption": "A rum jar stamped S.R.D. The men said it stood for \"Seldom Reaches Destination\".",
+     "alt": "A stoneware jar marked SRD.",
+     "url": "https://www.iwm.org.uk/collections/item/object/30028460",
+     "credit": "Image: IWM (FEQ 802)",
+     "src": "https://media.iwm.org.uk/ciim5/198/833/mid_000000.jpg?action=e&cat=Equipment"
+    },
+    {
+     "cat": "Q 913",
+     "file": "q913.jpg",
+     "caption": "Out of the line: British soldiers bathing near Aveluy Wood, August 1916.",
+     "alt": "Soldiers washing and bathing in the open air.",
+     "url": "https://www.iwm.org.uk/collections/item/object/205193969",
+     "credit": "Image: IWM (Q 913)"
+    },
+    {
+     "cat": "Q 635",
+     "file": "q635.jpg",
+     "caption": "An elderly woman serves coffee to British soldiers in an estaminet near Armentières, May 1916.",
+     "alt": "An older French woman serving soldiers seated at a table in a small café.",
+     "url": "https://www.iwm.org.uk/collections/item/object/205194021",
+     "credit": "Image: IWM (Q 635)"
+    }
+   ],
+   "asks": [
+    {
+     "id": "smells",
+     "q": "What did the trenches smell like? Could men keep clean?"
+    },
+    {
+     "id": "chats",
+     "q": "Why were lice called “chats”?"
+    },
+    {
+     "id": "weather",
+     "q": "What was the weather like?"
+    },
+    {
+     "id": "illness",
+     "q": "What illnesses did soldiers suffer?"
+    },
+    {
+     "id": "shelling",
+     "q": "Was there shelling all the time, or only in big battles?"
+    },
+    {
+     "id": "dugouts",
+     "q": "Were there rooms in the trenches?"
+    }
+   ],
+   "activities": [
+    {
+     "type": "order",
+     "question": "Put a day in the front line in order",
+     "hint": "Use the Earlier and Later buttons to move each part of the day. Then press Check my order.",
+     "seed": 11,
+     "steps": [
+      {
+       "label": "Stand-to before dawn",
+       "note": "Every man on the fire step with his rifle, because dawn was when attacks came."
+      },
+      {
+       "label": "The rum issue",
+       "note": "After stand-to, a tot of rum each, with an officer watching it poured."
+      },
+      {
+       "label": "Breakfast",
+       "note": "Tea, bread or biscuits, and bacon if you were lucky, made on tiny stoves or carried up."
+      },
+      {
+       "label": "Rifle and foot inspection",
+       "note": "Clean rifles, dry socks and whale oil on your feet against trench foot."
+      },
+      {
+       "label": "Sentry duty, sleep and chores",
+       "note": "The day was for keeping your head down: sentries watched by periscope while others slept, wrote letters or cleaned up."
+      },
+      {
+       "label": "Stand-to at dusk",
+       "note": "Back on the fire step as the light went, the other dangerous hour."
+      },
+      {
+       "label": "Night work",
+       "note": "Under cover of dark: repairing trenches, mending the wire, patrols in No Man's Land, and ration parties fetching food and water."
+      }
+     ],
+     "summary": "Night was the busiest time, because darkness hid you from snipers. Most men slept in snatches during the day.",
+     "source": {
+      "source": "IWM, Voices of the First World War: Trench Life",
+      "url": "https://www.iwm.org.uk/history/voices-of-the-first-world-war-trench-life"
+     },
+     "menu": "Put a day in the line in order"
+    }
+   ]
+  },
+  {
+   "id": "the-trench",
+   "title": "Inside a trench",
+   "type": "map",
+   "intro": "This drawing cuts a front-line trench in half, so you can see inside. Choose each numbered marker to find out what it is.",
+   "map": {
+    "src": "assets/img/trench-cutaway.svg",
+    "width": 1200,
+    "height": 700,
+    "badge": "unit",
+    "zoomLabel": "Enlarge the drawing",
+    "alt": "A cut-away drawing of a front-line trench. On the left, behind the trench, is a bank of earth, with a dugout room deep underground reached by steps. In the middle is the trench, with duckboards over a water-filled sump, a small shelter cut into the back wall, and a sentry standing on the fire step looking through a periscope. On the right, sandbags are piled on the front edge, and beyond them barbed wire and No Man's Land stretch towards the enemy.",
+    "caption": "A drawing, not to scale, of a typical British front-line trench of 1916.",
+    "spots": [
+     {
+      "x": 62,
+      "y": 38,
+      "label": "The parapet",
+      "title": "The parapet",
+      "badge": "unit",
+      "body": "The front wall of the trench, built up with sandbags. Sandbags stopped bullets, so every soldier spent nights filling and stacking them. Showing your head above the parapet in daylight could get you shot by a sniper.",
+      "source": "IWM, Voices of the First World War: Trench Life"
+     },
+     {
+      "x": 51,
+      "y": 67,
+      "label": "The fire step",
+      "title": "The fire step",
+      "badge": "unit",
+      "body": "A ledge cut into the front wall so a man could stand high enough to fire over the parapet. Sentries stood here, and at stand-to every man climbed up onto it.",
+      "source": "IWM"
+     },
+     {
+      "x": 44,
+      "y": 80,
+      "label": "Duckboards and sump",
+      "title": "Duckboards and the sump",
+      "badge": "unit",
+      "body": "Wooden slats laid on the trench floor, over a channel called the sump that collected water. Without them men stood in mud and water for days, which caused trench foot.",
+      "source": "IWM, How to keep clean and healthy in the trenches"
+     },
+     {
+      "x": 32,
+      "y": 38,
+      "label": "The parados",
+      "title": "The parados",
+      "badge": "unit",
+      "body": "The bank of earth along the back of the trench. It protected men from shells bursting behind them, and stopped them being seen against the sky.",
+      "source": "The Long, Long Trail"
+     },
+     {
+      "x": 25,
+      "y": 89,
+      "label": "The dugout",
+      "title": "A dugout",
+      "badge": "unit",
+      "body": "A room dug deep underground, reached by steps and roofed with timber and earth. British dugouts were often small and damp; German ones on the Somme were up to 30 feet deep. Officers used one as company headquarters.",
+      "source": "IWM, Voices of the First World War: Trench Life"
+     },
+     {
+      "x": 37,
+      "y": 59,
+      "label": "The funk hole",
+      "title": "A funk hole",
+      "badge": "unit",
+      "body": "A small scrape cut into the trench wall, just big enough for one or two men to sit out of the rain or shelter from shrapnel. One soldier said a candle inside one \"made an enormous difference\".",
+      "source": "IWM, Voices of the First World War: Trench Life"
+     },
+     {
+      "x": 54.5,
+      "y": 27,
+      "label": "The periscope",
+      "title": "The trench periscope",
+      "badge": "unit",
+      "body": "A tube with mirrors that let a sentry look over the parapet without putting his head up. Snipers sometimes shot at the top mirror.",
+      "source": "IWM"
+     },
+     {
+      "x": 78,
+      "y": 40,
+      "label": "The barbed wire",
+      "title": "The barbed wire",
+      "badge": "unit",
+      "body": "Coils and fences of barbed wire on wooden or iron posts, in front of every trench. Men went out at night to mend it, while the enemy sent up flares to catch them.",
+      "source": "IWM"
+     },
+     {
+      "x": 90,
+      "y": 48,
+      "label": "No Man's Land",
+      "title": "No Man's Land",
+      "badge": "unit",
+      "body": "The ground between the two front lines, anything from a few dozen yards to half a mile wide. Shell holes, wire and, too often, the bodies of men nobody could reach.",
+      "source": "IWM"
+     }
+    ]
+   },
+   "photos": [
+    {
+     "cat": "Q 3990",
+     "file": "q3990.jpg",
+     "caption": "One man keeps watch on the fire step while the others sleep. A captured German trench at Ovillers, July 1916.",
+     "alt": "A soldier standing on a fire step looking over the parapet while others sleep in the trench below.",
+     "url": "https://www.iwm.org.uk/collections/item/object/205193132",
+     "credit": "Image: IWM (Q 3990)"
+    },
+    {
+     "cat": "Q 4135",
+     "file": "q4135.jpg",
+     "caption": "Men resting in sleeping shelters cut into the side of the trench, near Contalmaison, September 1916.",
+     "alt": "Soldiers lying in small shelters dug into a trench wall.",
+     "url": "https://www.iwm.org.uk/collections/item/object/205193966",
+     "credit": "Image: IWM (Q 4135)"
+    }
+   ],
+   "asks": [
+    {
+     "id": "dugouts",
+     "q": "Were there rooms in the trenches?"
+    },
+    {
+     "id": "smells",
+     "q": "What did the trenches smell like? Could men keep clean?"
+    }
+   ]
+  },
+  {
+   "id": "gas",
+   "title": "Gas!",
+   "type": "drill",
+   "intro": "In 1916 Henry carried a PH gas helmet: a flannel hood soaked in chemicals, with glass eyepieces and a valve to breathe out through. Men drilled until they could put it on in seconds, in the dark.",
+   "question": "Put on a PH gas helmet",
+   "hint": "Choose each step in the right order. You can take your time, or try it against the clock. There is no penalty for being slow.",
+   "seed": 5,
+   "target": 12,
+   "steps": [
+    {
+     "label": "Hold your breath",
+     "hint": "First things first: don't breathe the gas in."
+    },
+    {
+     "label": "Take off your cap or steel helmet",
+     "hint": "Something has to come off your head first."
+    },
+    {
+     "label": "Pull the gas helmet over your head",
+     "hint": "Now get the hood on."
+    },
+    {
+     "label": "Line the eyepieces up with your eyes",
+     "hint": "Make sure you can see out."
+    },
+    {
+     "label": "Tuck the bottom of the hood inside your collar",
+     "hint": "Close the gap at your neck."
+    },
+    {
+     "label": "Button your tunic over it",
+     "hint": "Seal it in."
+    },
+    {
+     "label": "Breathe out through the valve in your teeth",
+     "hint": "Last of all, breathe out."
+    }
+   ],
+   "fast": "Quick enough.",
+   "slow": "In a real attack every second counted, so men practised over and over.",
+   "summary": "Men breathed in through the cloth and out through the valve. The hood stank of chemicals, made eyes stream and steamed up. From 1916 it was replaced by the small box respirator, with a filter on a tube.",
+   "source": {
+    "source": "IWM, How gas became a terror weapon",
+    "url": "https://www.iwm.org.uk/history/how-gas-became-a-terror-weapon-in-the-first-world-war"
+   },
+   "photos": [
+    {
+     "cat": "EQU 3812",
+     "file": "equ3812.jpg",
+     "caption": "A PH (\"tube\") gas helmet of 1916, like the one Henry carried on the Somme.",
+     "alt": "A grey flannel hood with two round glass eyepieces and a mouth valve.",
+     "url": "https://www.iwm.org.uk/collections/item/object/30015835",
+     "credit": "Image: IWM (EQU 3812)",
+     "src": "https://media.iwm.org.uk/ciim5/198/167/mid_000000.jpg?action=e&cat=Equipment"
+    },
+    {
+     "cat": "Q 3995",
+     "file": "q3995.jpg",
+     "caption": "A machine-gun team wearing PH gas helmets near Ovillers, July 1916.",
+     "alt": "Soldiers in cloth gas hoods with round eyepieces, manning a machine gun.",
+     "url": "https://www.iwm.org.uk/collections/item/object/205193865",
+     "credit": "Image: IWM (Q 3995)"
+    }
+   ],
+   "asks": [
+    {
+     "id": "gas",
+     "q": "What was a gas attack like?"
+    }
+   ],
+   "entries": [
+    {
+     "date": "Spring 1916",
+     "place": "In the line",
+     "paras": [
+      "Gas alarm last night. Somebody started beating the gong, an old shell case hung up on a wire, and then they were going all down the line, clang clang clang, and every man fumbling at his bag in the dark.",
+      "You pull the helmet over your head, tuck the bottom in your collar, button your tunic over it, and breathe in through your nose and out through the valve in your teeth. It stinks of chemicals and your eyes stream, and the little windows mist up straight away so you can't see a thing. I counted my breaths to stop myself panicking. Some of the new lads didn't manage it.",
+      "It was a false alarm in the end. Somebody saw mist in a hollow and thought the worst. Nobody blamed him. The old hands say the first time it came, at Ypres, they had nothing but a wet rag to hold over their mouths, and men died coughing up their lungs.",
+      "Practice tomorrow, the sergeant says, and every day till we can do it in our sleep."
+     ],
+     "basis": [
+      [
+       "history",
+       "The PH helmet, a flannel hood soaked in chemicals with glass eyepieces and an exhaling valve held in the teeth, was issued from early 1916. Men tucked it into their tunic collar (Imperial War Museums; The Rifles Berkshire and Wiltshire Museum)."
+      ],
+      [
+       "typical",
+       "Gas alarms were sounded on gongs, often old shell cases, and rattles. False alarms were common."
+      ],
+      [
+       "history",
+       "In April 1915 at Ypres the first chlorine attacks met troops with almost no protection (Imperial War Museums)."
+      ],
+      [
+       "imagined",
+       "This alarm is invented. No gas attack is recorded for Henry."
+      ]
+     ]
+    }
+   ],
+   "entriesHeading": "Henry’s Reflections"
+  },
+  {
+   "id": "letters-home",
+   "title": "Letters home",
+   "intro": "Every soldier's letter was read by one of his own officers before it was posted. Anything that might help the enemy, or worry people at home, was blacked out.",
+   "entries": [
+    {
+     "date": "Spring 1916",
+     "place": "Rest billets",
+     "paras": [
+      "Writing home is harder than it looks. Our platoon officer reads every letter before it goes, so you can't say where you are, or what you're doing, or who's been hit, or anything that matters. He blacks it out with his pencil. Somewhere in France, that's where I live now.",
+      "So I write about the weather, and the food, and the old woman at the estaminet, and I ask about the farm and the little ones and whether the hens are laying. Mother writes back about the hens. Two people writing about hens, and both of us knowing that's not what we mean.",
+      "If I'm too tired for a letter I send the printed card and cross out the lines. I am quite well. Letter follows at first opportunity. I always mean it, when I cross it out."
+     ],
+     "basis": [
+      [
+       "typical",
+       "Soldiers' letters were read and censored by their own officers, who blacked out place names, unit names and anything about operations or casualties. Men often wrote \"somewhere in France\"."
+      ],
+      [
+       "typical",
+       "The Field Service Post Card (Army Form A2042) carried printed lines to keep or cross out, and nothing else could be written on it."
+      ],
+      [
+       "imagined",
+       "His letters to Mother have not survived, so what he wrote is imagined."
+      ]
+     ]
+    }
+   ],
+   "entriesHeading": "Henry’s Reflections",
+   "type": "reflection",
+   "activities": [
+    {
+     "type": "censor",
+     "question": "You are the censor",
+     "hint": "Read Harry's letter. Select each sentence you would black out, then press Pass the letter.",
+     "letterHead": "Somewhere in France, Sunday",
+     "letterSign": "Your loving son, Harry",
+     "letter": [
+      [
+       {
+        "t": "Dear Mother,",
+        "cut": false
+       },
+       {
+        "t": "Thank you for the parcel. The cake was grand and the socks are just the thing.",
+        "cut": false
+       }
+      ],
+      [
+       {
+        "t": "We came out of the line near Mailly on Tuesday.",
+        "cut": true,
+        "why": "Names a place. A captured letter could tell the enemy where a battalion was."
+       },
+       {
+        "t": "The weather has turned warm at last.",
+        "cut": false
+       },
+       {
+        "t": "Everybody says there is going to be a big push at the end of June.",
+        "cut": true,
+        "why": "Gives away a coming attack."
+       },
+       {
+        "t": "There are hundreds of big guns being brought up behind us every night.",
+        "cut": true,
+        "why": "Reveals preparations for the attack."
+       }
+      ],
+      [
+       {
+        "t": "We lost four of our section to one shell last week.",
+        "cut": true,
+        "why": "News of losses could help the enemy and frighten families at home."
+       },
+       {
+        "t": "The food is plain but there is plenty of it.",
+        "cut": false
+       },
+       {
+        "t": "Some of the lads say the officers don't know what they're doing.",
+        "cut": true,
+        "why": "Grumbling about officers could be cut as bad for morale."
+       }
+      ],
+      [
+       {
+        "t": "Give my love to the little ones and tell them to mind the hens.",
+        "cut": false
+       },
+       {
+        "t": "I am quite well and in good spirits.",
+        "cut": false
+       }
+      ]
+     ],
+     "summary": "Most men knew the rules and wrote about the weather and the food instead. A soldier could sometimes use a \"green envelope\", signing a promise that there was nothing military inside, so it was checked at the base rather than by his own officer.",
+     "source": {
+      "source": "IWM, Voices of the First World War: Trench Life",
+      "url": "https://www.iwm.org.uk/history/voices-of-the-first-world-war-trench-life"
+     },
+     "menu": "Be the censor"
+    },
+    {
+     "type": "postcard",
+     "question": "Send Mother a field postcard",
+     "hint": "Choose a moment in Henry's war, tick the lines to keep, and send the card. Lines you don't tick are crossed out.",
+     "cardTitle": "Field Service Post Card (Army Form A2042)",
+     "warning": "NOTHING is to be written on this side except the date and signature of the sender. Sentences not required may be erased. If anything else is added the post card will be destroyed.",
+     "lines": [
+      {
+       "t": "I am quite well."
+      },
+      {
+       "t": "I have been admitted into hospital"
+      },
+      {
+       "t": "sick"
+      },
+      {
+       "t": "wounded"
+      },
+      {
+       "t": "and am going on well."
+      },
+      {
+       "t": "and hope to be discharged soon."
+      },
+      {
+       "t": "I am being sent down to the base."
+      },
+      {
+       "t": "I have received your letter dated"
+      },
+      {
+       "t": "telegram"
+      },
+      {
+       "t": "parcel"
+      },
+      {
+       "t": "Letter follows at first opportunity."
+      },
+      {
+       "t": "I have received no letter from you lately."
+      },
+      {
+       "t": "I have received no letter from you for a long time."
+      }
+     ],
+     "scenarios": [
+      {
+       "label": "Spring 1916",
+       "text": "Spring 1916. Henry is in the line, and Mother's parcel has just arrived.",
+       "keep": [
+        0,
+        9,
+        10
+       ],
+       "answer": "He might keep \"I am quite well\", \"I have received your parcel\" and \"Letter follows at first opportunity\"."
+      },
+      {
+       "label": "July 1916",
+       "text": "July 1916. Henry has been wounded in the face and hand on the Somme, and is in hospital.",
+       "keep": [
+        1,
+        3,
+        4
+       ],
+       "answer": "He might keep \"I have been admitted into hospital wounded and am going on well\". \"And hope to be discharged soon\" would do as well."
+      },
+      {
+       "label": "June 1917",
+       "text": "June 1917. Henry's ear is bad and he has been sent down the line, sick.",
+       "keep": [
+        1,
+        2,
+        5
+       ],
+       "answer": "He might keep \"I have been admitted into hospital sick and hope to be discharged soon\", or \"and am going on well\"."
+      }
+     ],
+     "summary": "Millions of these cards were sent. For a family waiting at home, a card with almost everything crossed out still meant one thing: he was alive when he signed it.",
+     "source": {
+      "source": "The Long, Long Trail and the Western Front Association"
+     },
+     "menu": "Send a field postcard"
+    }
+   ]
+  }
+ ]
+}

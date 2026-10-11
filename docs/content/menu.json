@@ -1,0 +1,252 @@
+{
+ "sections": [
+  {
+   "title": "Find your way",
+   "items": [
+    {
+     "t": "Welcome",
+     "href": "index.html"
+    },
+    {
+     "t": "The journey map",
+     "m": "Every chapter on one map",
+     "href": "journey.html"
+    }
+   ]
+  },
+  {
+   "title": "Chapters",
+   "items": [
+    {
+     "t": "1. Before",
+     "m": "Before 1915",
+     "href": "chapter.html#1"
+    },
+    {
+     "t": "2. Why he went",
+     "m": "1914 to 1915",
+     "href": "chapter.html#2"
+    },
+    {
+     "t": "3. Becoming a soldier",
+     "m": "1915",
+     "href": "chapter.html#3"
+    },
+    {
+     "t": "4. The Line",
+     "m": "1 July 1916",
+     "href": "chapter.html#4"
+    },
+    {
+     "t": "5. Meanwhile in Blighty",
+     "m": "1915 to 1918",
+     "href": "chapter.html#5"
+    },
+    {
+     "t": "6. The end of the war",
+     "m": "July 1916 to December 1918",
+     "href": "chapter.html#6"
+    },
+    {
+     "t": "7. After",
+     "m": "1918 to 1963",
+     "href": "chapter.html#7"
+    },
+    {
+     "t": "8. Legacy",
+     "m": "2026",
+     "href": "chapter.html#8"
+    }
+   ]
+  },
+  {
+   "title": "Things to try",
+   "items": [
+    {
+     "t": "What do we really know?",
+     "m": "Chapter 1, scene 3: Yeovil before the war",
+     "href": "chapter.html#1-3"
+    },
+    {
+     "t": "What would you do?",
+     "m": "Chapter 2, scene 2: What would you do?",
+     "href": "chapter.html#2-2"
+    },
+    {
+     "t": "Talk like a Tommy",
+     "m": "Chapter 3, scene 3: Joining the battalion",
+     "href": "chapter.html#3-3"
+    },
+    {
+     "t": "Put a day in the line in order",
+     "m": "Chapter 3, scene 5: Life in the line",
+     "href": "chapter.html#3-5"
+    },
+    {
+     "t": "Look inside a trench",
+     "m": "Chapter 3, scene 6: Inside a trench",
+     "href": "chapter.html#3-6"
+    },
+    {
+     "t": "The gas helmet drill",
+     "m": "Chapter 3, scene 7: Gas!",
+     "href": "chapter.html#3-7"
+    },
+    {
+     "t": "Be the censor",
+     "m": "Chapter 3, scene 8: Letters home",
+     "href": "chapter.html#3-8"
+    },
+    {
+     "t": "Send a field postcard",
+     "m": "Chapter 3, scene 8: Letters home",
+     "href": "chapter.html#3-8"
+    },
+    {
+     "t": "Pack Henry's kit",
+     "m": "Chapter 4, scene 3: What did he carry?",
+     "href": "chapter.html#4-3"
+    },
+    {
+     "t": "True or myth?",
+     "m": "Chapter 4, scene 8: Who was to blame?",
+     "href": "chapter.html#4-8"
+    },
+    {
+     "t": "When a soldier went missing",
+     "m": "Chapter 5, scene 2: Waiting for news",
+     "href": "chapter.html#5-2"
+    },
+    {
+     "t": "Rationed or not?",
+     "m": "Chapter 5, scene 3: Ration books",
+     "href": "chapter.html#5-3"
+    },
+    {
+     "t": "Where was Henry?",
+     "m": "Chapter 6, scene 4: A day's pay",
+     "href": "chapter.html#6-4"
+    },
+    {
+     "t": "Pack a Red Cross parcel",
+     "m": "Chapter 6, scene 11: Missing",
+     "href": "chapter.html#6-11"
+    },
+    {
+     "t": "Add your own memories",
+     "m": "Chapter 8, scene 6: Your memories",
+     "href": "chapter.html#8-6"
+    }
+   ]
+  },
+  {
+   "title": "Side trips",
+   "items": [
+    {
+     "t": "Christmas 1914, along the line",
+     "m": "Chapter 3, scene 4",
+     "href": "chapter.html#3-4"
+    },
+    {
+     "t": "From the other side",
+     "m": "Chapter 4, scene 6",
+     "href": "chapter.html#4-6"
+    },
+    {
+     "t": "Who was to blame?",
+     "m": "Chapter 4, scene 8",
+     "href": "chapter.html#4-8"
+    },
+    {
+     "t": "From the other side, 1918",
+     "m": "Chapter 6, scene 10",
+     "href": "chapter.html#6-10"
+    }
+   ]
+  },
+  {
+   "title": "Ask the historian",
+   "items": [
+    {
+     "t": "All the questions on one page",
+     "m": "With a glossary of soldiers’ slang",
+     "href": "historian.html"
+    }
+   ]
+  },
+  {
+   "title": "Every question",
+   "collapsed": "Show all 17 questions",
+   "items": [
+    {
+     "t": "Why did British soldiers walk towards the German lines on 1 July 1916?",
+     "href": "historian.html#walk"
+    },
+    {
+     "t": "Were officers careless with men’s lives?",
+     "href": "historian.html#officers"
+    },
+    {
+     "t": "What happened to men killed in No Man’s Land?",
+     "href": "historian.html#bodies"
+    },
+    {
+     "t": "Were there rooms in the trenches?",
+     "href": "historian.html#dugouts"
+    },
+    {
+     "t": "What was the weather like?",
+     "href": "historian.html#weather"
+    },
+    {
+     "t": "Was there shelling all the time, or only in big battles?",
+     "href": "historian.html#shelling"
+    },
+    {
+     "t": "How did messages get through?",
+     "href": "historian.html#messages"
+    },
+    {
+     "t": "What did the trenches smell like? Could men keep clean?",
+     "href": "historian.html#smells"
+    },
+    {
+     "t": "Why were lice called “chats”?",
+     "href": "historian.html#chats"
+    },
+    {
+     "t": "Did men stop making close friends?",
+     "href": "historian.html#friends"
+    },
+    {
+     "t": "What were the mines, and who dug them?",
+     "href": "historian.html#mines"
+    },
+    {
+     "t": "How big were the guns?",
+     "href": "historian.html#guns"
+    },
+    {
+     "t": "What did aeroplanes and balloons do?",
+     "href": "historian.html#planes"
+    },
+    {
+     "t": "When did tanks arrive, and did Henry see one?",
+     "href": "historian.html#tanks"
+    },
+    {
+     "t": "What was a gas attack like?",
+     "href": "historian.html#gas"
+    },
+    {
+     "t": "What illnesses did soldiers suffer?",
+     "href": "historian.html#illness"
+    },
+    {
+     "t": "What was shell shock?",
+     "href": "historian.html#shellshock"
+    }
+   ]
+  }
+ ]
+}

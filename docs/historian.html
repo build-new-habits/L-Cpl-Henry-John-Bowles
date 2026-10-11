@@ -1,0 +1,101 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Ask the historian: The Quiet Soldier</title>
+<meta name="robots" content="noindex">
+<link rel="stylesheet" href="assets/css/exhibit.css">
+<link rel="stylesheet" href="assets/css/chapter.css">
+<script src="assets/js/exhibit.js"></script>
+<style>
+  .hist { padding-block: clamp(20px, 4vw, 40px) 48px; display: grid; gap: 28px; max-width: 860px; }
+  .hist h1 { font-size: clamp(2.2rem, 6vw, 3.4rem); }
+  .hist-toc { background: var(--card); border: 1px solid var(--rule); border-radius: 12px; padding: 16px 20px; }
+  .hist-toc h2 { font-family: var(--font-body); font-size: 1.05rem; font-weight: 700; margin-bottom: 6px; }
+  .hist-toc ol { margin: 0; padding-left: 1.3em; display: grid; gap: 4px; }
+  .hist-group { display: grid; gap: 12px; }
+  .hist-group > h2 { font-size: 1.9rem; border-bottom: 2px solid var(--rule-strong); padding-bottom: 4px; }
+  .qa { background: var(--card); border: 1px solid var(--rule); border-radius: 12px; scroll-margin-top: 16px; }
+  .qa > summary { list-style: none; cursor: pointer; padding: 14px 52px 14px 18px; position: relative; min-height: 52px; display: flex; align-items: center; }
+  .qa > summary::-webkit-details-marker { display: none; }
+  .qa > summary::after { content: "+"; position: absolute; right: 18px; top: 50%; transform: translateY(-50%); font-size: 1.6rem; color: var(--muted); }
+  .qa[open] > summary::after { content: "\2212"; }
+  .qa h3 { font-family: var(--font-body); font-weight: 700; font-size: 1.15rem; }
+  .qa-body { padding: 0 18px 18px; display: grid; gap: 10px; }
+  .qa-sure { padding: 10px 14px; border-left: 4px solid var(--badge-ai); background: var(--paper-deep); border-radius: 0 8px 8px 0; }
+  .qa-sources { margin: 0; padding-left: 1.2em; font-size: 0.92rem; display: grid; gap: 4px; }
+  .gloss { display: grid; grid-template-columns: minmax(7rem, 11rem) minmax(0, 1fr); gap: 0; margin: 0; }
+  .gloss dt { font-family: var(--font-display); font-size: 1.3rem; padding: 8px 12px 8px 0; border-bottom: 1px solid var(--rule); }
+  .gloss dd { margin: 0; padding: 8px 0; border-bottom: 1px solid var(--rule); }
+  @media (max-width: 560px) { .gloss { grid-template-columns: 1fr; } .gloss dt { border-bottom: 0; padding-bottom: 0; } }
+</style>
+</head>
+<body>
+<a class="skip-link" href="#main">Skip to main content</a>
+<header class="site-header">
+  <div class="site-header__left">
+    <a class="site-title" href="index.html">The Quiet Soldier</a>
+  </div>
+  <div class="site-header__right">
+    <span class="visitor-chip" data-visitor-chip></span>
+    <button type="button" class="icon-btn" data-open-settings></button>
+  </div>
+</header>
+
+<main id="main" class="wrap" tabindex="-1">
+  <div class="hist">
+    <header style="display:grid;gap:10px">
+      <p class="kicker">A side trip</p>
+      <h1>Ask the historian</h1>
+      <p class="lede">Short answers to the questions visitors ask most, each with its sources. Where historians disagree, or we're not sure, we say so.</p>
+      <p class="muted">These answers are not in Henry's voice. Choose a question to open it.</p>
+    </header>
+    <nav class="hist-toc" aria-labelledby="toc-h"><h2 id="toc-h">The questions</h2><ol id="toc"></ol></nav>
+    <div id="groups"><p>Loading the questions</p></div>
+    <section class="hist-group" aria-labelledby="gl-h" id="glossary">
+      <h2 id="gl-h">Talking like a Tommy: a short glossary</h2>
+      <dl class="gloss" id="gloss"></dl>
+      <ul class="qa-sources" id="gloss-src"></ul>
+    </section>
+    <nav class="note-actions" aria-label="Where next"><a class="btn btn--dark" href="journey.html">Back to the journey map</a><button type="button" class="btn" onclick="history.back()">Back to where I was</button></nav>
+  </div>
+</main>
+
+<footer class="site-footer">A family exhibition in memory of L/Cpl Henry John Bowles.</footer>
+<script>
+(function () {
+  'use strict';
+  var e = QS.esc;
+  function src(s) { return '<li><a href="' + e(s.url) + '" target="_blank" rel="noopener">' + e(s.source) + '<span class="visually-hidden"> (opens in a new tab)</span></a></li>'; }
+  fetch('content/historian.json', { cache: 'no-cache' }).then(function (r) { return r.json(); }).then(function (d) {
+    var toc = '', html = '';
+    d.groups.forEach(function (g, gi) {
+      html += '<section class="hist-group" aria-labelledby="g' + gi + '"><h2 id="g' + gi + '">' + e(g.title) + '</h2>';
+      g.items.forEach(function (q) {
+        toc += '<li><a href="#' + e(q.id) + '">' + e(q.q) + '</a></li>';
+        html += '<details class="qa" id="' + e(q.id) + '"><summary><h3>' + e(q.q) + '</h3></summary><div class="qa-body">' +
+          q.a.map(function (p) { return '<p>' + e(p) + '</p>'; }).join('') +
+          (q.confidence ? '<p class="qa-sure"><strong>How sure are we?</strong> ' + e(q.confidence) + '</p>' : '') +
+          '<h4 class="visually-hidden">Sources</h4><ul class="qa-sources">' + q.sources.map(src).join('') + '</ul></div></details>';
+      });
+      html += '</section>';
+    });
+    document.getElementById('toc').innerHTML = toc + '<li><a href="#glossary">A short glossary of soldiers’ slang</a></li>';
+    document.getElementById('groups').innerHTML = html;
+    document.getElementById('groups').style.display = 'grid';
+    document.getElementById('groups').style.gap = '28px';
+    document.getElementById('gloss').innerHTML = d.glossary.map(function (g) { return '<dt>' + e(g.term) + '</dt><dd>' + e(g.meaning) + '</dd>'; }).join('');
+    document.getElementById('gloss-src').innerHTML = d.glossarySources.map(src).join('');
+    function openHash() {
+      var id = location.hash.slice(1), el = id && document.getElementById(id);
+      if (el && el.tagName === 'DETAILS') { el.open = true; el.querySelector('summary').focus(); el.scrollIntoView(); }
+    }
+    openHash(); window.addEventListener('hashchange', openHash);
+  }).catch(function () {
+    document.getElementById('groups').innerHTML = '<p role="alert">The questions could not be loaded. Refresh the page to try again.</p>';
+  });
+})();
+</script>
+</body>
+</html>

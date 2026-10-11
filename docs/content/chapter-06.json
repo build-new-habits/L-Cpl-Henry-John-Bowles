@@ -1,0 +1,1865 @@
+{
+ "n": 6,
+ "title": "The end of the war",
+ "contentNote": "This chapter describes fighting in which many of Henry's battalion were killed, the dead of the Somme lying out in No Man's Land, the death of a young soldier Henry knew (an imagined story), and Henry being taken prisoner. It is not graphic, and you can stop at any point.",
+ "summary": "In short: after the Somme, Henry served with the 1st Wiltshires for nearly two years, on the Somme, near Ploegsteert in Belgium, and at Ypres. He missed the Battle of Messines in June 1917 because he was in hospital with a bad ear. He was made a lance corporal in January 1918. In March 1918 a huge German attack hit his battalion near Frémicourt, and many were killed. Henry was taken prisoner, unwounded, on 24 March, held in camps at Münster in Germany, and landed back in England at Hull on 4 December 1918.",
+ "scenes": [
+  {
+   "id": "new-regiment",
+   "title": "A new regiment",
+   "type": "reflection",
+   "intro": "After the Somme, Henry was posted to the 1st Battalion of the Wiltshire Regiment. Within weeks he was back in the line, a mile or two from where he had been wounded.",
+   "context": [
+    {
+     "badge": "unit",
+     "text": "The 1st Wiltshires were in the 7th Brigade of the 25th Division. Through August 1916 they fought at the Leipzig Salient, south of Thiepval.",
+     "source": "1st Wiltshires war diary",
+     "url": "https://www.thewardrobe.org.uk/research/war-diaries"
+    }
+   ],
+   "entries": [
+    {
+     "date": "Early August 1916",
+     "place": "In front of Y Ravine",
+     "audio": "assets/audio/6-3-no-mans-land.mp3",
+     "paras": [
+      "Back in the line, and not a mile or two from where we went over on the first of July. Same chalk, same wire, different badge.",
+      "This morning at stand-to the mist lifted and I looked out through the periscope, north, up towards the ridge. They're still out there. Our lads. A month now, lying in the grass where they fell, and nobody can get to them. You can see the shapes if you know what you're looking at. I wish I didn't.",
+      "One of them used to tell me about his mother's apple trees, how she'd have him up the ladder every October and stand at the bottom telling him he'd break his neck. Another had a little girl he'd never seen, born after he came out. I know who they were. I know whose they were. And they're lying out there in the sun, a few hundred yards off, and I'm sat here eating bully beef.",
+      "The Wiltshire lads don't know them. Why would they. To them it's just No Man's Land.",
+      "I talk to them sometimes, at night, under my breath, when I'm on sentry. Tell them it's all right. Tell them somebody's coming. I don't know if that's true."
+     ],
+     "basis": [
+      [
+       "history",
+       "In late July and early August 1916 the 1st Wiltshires did tours in the line in front of Y Ravine at Beaumont-Hamel, near where the 1st Somersets attacked on 1 July (Somme Roll of Honour; 25th Division on The Long, Long Trail)."
+      ],
+      [
+       "record",
+       "Posted to the 1st Wiltshires on 21 July 1916 (casualty record)."
+      ],
+      [
+       "unknown",
+       "His record cannot show whether he had reached the battalion in time for these tours, or which trench he was in. Men often joined a few days after the date they were posted."
+      ],
+      [
+       "typical",
+       "The dead of 1 July often lay in No Man's Land for months because nobody could reach them. Beaumont-Hamel was not captured until November 1916."
+      ],
+      [
+       "imagined",
+       "The two men he remembers are invented, not real soldiers. Everything he felt."
+      ]
+     ]
+    },
+    {
+     "date": "Thursday 24 August 1916",
+     "place": "Leipzig Salient",
+     "paras": [
+      "We attacked today, near Thiepval. Our guns opened at ten past four in the afternoon, the barrage lifted at twelve minutes past, and by a quarter past the trench was ours. Five minutes. You'd think that would be a cheap five minutes.",
+      "It wasn't. Their guns came down on us after, all the rest of the day, and they haven't stopped tonight. The Colonel got a bomb in the leg and wouldn't go back. Somebody had a figure going round the dugout tonight: three hundred and twenty of ours hit. Out of one battalion, for one trench.",
+      "I've made up my mind about something. I'll learn the new lads' names, because you have to, to shout. But I'll not learn their mothers' names, nor their girls', nor where they live, nor what they'll do after. I learned all that about the Somersets, and look where it's left me. Talking to dead men in the dark.",
+      "It sounds hard written down. It isn't hard. It's the only way I can see to keep going."
+     ],
+     "basis": [
+      [
+       "history",
+       "On 24 August 1916 the 1st Wiltshires attacked at the Leipzig Salient, south of Thiepval. The bombardment opened at about 4.10pm, lifted at 4.12pm, and the objectives were cleared by 4.15pm. Losses were \"heavy, amounting to about 320\". Lt Col Ogilvie was hit in the leg by a bomb and stayed in command (1st Wiltshires war diary)."
+      ],
+      [
+       "unknown",
+       "His record does not say whether he took part in this attack. He was serving with the battalion, but men could be away on courses, sick, or left out of an attack."
+      ],
+      [
+       "history",
+       "Some soldiers said they kept new men at arm's length so the next death would hurt less, though historians have found few First World War veterans saying it in so many words (see Ask the historian)."
+      ],
+      [
+       "imagined",
+       "His decision, and everything he felt."
+      ]
+     ]
+    }
+   ],
+   "contentNote": true,
+   "photos": [
+    {
+     "cat": "Q 740",
+     "file": "q740.jpg",
+     "caption": "Soldiers of the Wiltshire Regiment, Henry's new regiment, wave their helmets on the way to the trenches, 28 June 1916.",
+     "alt": "A column of cheering soldiers on a road, waving steel helmets.",
+     "url": "https://www.iwm.org.uk/collections/item/object/205194572",
+     "credit": "Image: IWM (Q 740)"
+    }
+   ],
+   "asks": [
+    {
+     "id": "bodies",
+     "q": "What happened to men killed in No Man’s Land?"
+    },
+    {
+     "id": "friends",
+     "q": "Did men stop making close friends?"
+    },
+    {
+     "id": "messages",
+     "q": "How did messages get through?"
+    }
+   ]
+  },
+  {
+   "id": "autumn",
+   "title": "Mud and rum",
+   "type": "reflection",
+   "intro": "Autumn 1916. The battalion fought and carried around Thiepval as the Somme battle ground on into the mud. A draft of new men arrived, and with them someone from home.",
+   "context": [
+    {
+     "badge": "unit",
+     "text": "From 30 September to 9 October the battalion was in support at Stuff Redoubt and Hessian Trench, near Thiepval. On 21 October it carried supplies for the attack on Regina Trench.",
+     "source": "1st Wiltshires war diary",
+     "url": "https://www.thewardrobe.org.uk/research/war-diaries"
+    },
+    {
+     "badge": "unit",
+     "text": "The battalion lost 222 men killed on the Somme in 1916. 102 of them have no known grave and are named on the Thiepval Memorial.",
+     "source": "Somme Roll of Honour",
+     "url": "https://somme-roll-of-honour.com/Units/british/1st_wiltshire.htm"
+    }
+   ],
+   "photos": [
+    {
+     "cat": "Q 4364",
+     "file": "q4364.jpg",
+     "caption": "Gunners and horses haul a 60-pounder gun through the mud, October 1916.",
+     "alt": "Horses and men straining to drag a heavy gun through deep mud.",
+     "url": "https://www.iwm.org.uk/collections/item/object/205194580",
+     "credit": "Image: IWM (Q 4364)"
+    },
+    {
+     "cat": "Q 2488",
+     "file": "q2488.jpg",
+     "caption": "The first official photograph of a tank going into action, 15 September 1916.",
+     "alt": "A large rhomboid-shaped tank crossing rough ground.",
+     "url": "https://www.iwm.org.uk/collections/item/object/205078852",
+     "credit": "Image: IWM (Q 2488)"
+    },
+    {
+     "cat": "Q 49248",
+     "file": "q49248.jpg",
+     "caption": "A tank ditched and burnt out between Leuze Wood and Combles, September 1916.",
+     "alt": "A wrecked tank tilted in a shell-torn landscape.",
+     "url": "https://www.iwm.org.uk/collections/item/object/205283106",
+     "credit": "Image: IWM (Q 49248)"
+    }
+   ],
+   "asks": [
+    {
+     "id": "tanks",
+     "q": "When did tanks arrive, and did Henry see one?"
+    },
+    {
+     "id": "weather",
+     "q": "What was the weather like?"
+    },
+    {
+     "id": "messages",
+     "q": "How did messages get through?"
+    }
+   ],
+   "entries": [
+    {
+     "date": "Sunday 1 October 1916",
+     "place": "Near Thiepval",
+     "paras": [
+      "In support up behind Thiepval, in a trench called Joseph's, which is a grand name for a ditch. Not a dugout to be had except in Danube Trench, and that's full of officers.",
+      "A draft came up today, fifty-odd new men, and one of them came and sat down by me and said, \"You're Harry Bowles, aren't you? From Stoford?\" Turned out he's from just over the hill from us, the other side of the river. His mother does the church flowers with ours. He's eighteen, he says. He doesn't look it. He's been sent to the Wiltshires same as I was, from the Somersets' depot, because that's where the gaps were.",
+      "He knew our house. He knew our dog's name. He asked after Mother like he'd see her on Sunday.",
+      "So much for my rule. I lasted five weeks."
+     ],
+     "basis": [
+      [
+       "history",
+       "On 30 September and 1 October 1916 the battalion was in support near Thiepval, in Joseph's, Constance and Danube trenches. \"No dugouts except in Danube Trench.\" A draft of 2 officers and 52 men arrived on 1 October (1st Wiltshires war diary)."
+      ],
+      [
+       "history",
+       "After the Somme, men from many regiments were posted to whichever battalion needed them. Henry himself went from the Somersets to the Wiltshires (his record)."
+      ],
+      [
+       "imagined",
+       "The lad from home is invented. He stands for the many young men Henry would have known, and is not a real soldier. Nothing in Henry's record or the family's memories describes him."
+      ]
+     ]
+    },
+    {
+     "date": "Saturday 21 October 1916",
+     "place": "North of Mouquet Farm",
+     "paras": [
+      "Carrying all day and all night. Bombs, water, ammunition, and rum, up to the lads who took Regina Trench this morning. Fine weather for once, and the ground not so sticky. Earlier this month it rained so hard the rations never came at all.",
+      "The prisoners came back past us in the afternoon, hundreds of them. Four hundred, someone said. Grey faces, grey coats, hands up or carrying their wounded. Some of them no older than the lad. Some of them old enough to be my father. They looked at us and we looked at them, and nobody said anything much.",
+      "The lad wanted to know if I'd seen the tanks. Everybody's talking about them, great iron things that crawl over the wire and trenches like beetles. They went in last month while we were back resting, so I've seen nothing, only heard. He's mad to see one. I told him he wants to see the end of the war, never mind tanks.",
+      "He laughed. He laughs at everything."
+     ],
+     "basis": [
+      [
+       "history",
+       "On 21 October 1916 the 74th Brigade took Regina Trench. \"About 400 German prisoners\" passed back, and the 1st Wiltshires carried bombs, ammunition, water and rum forward all day and night. The weather was fine and the ground \"considerably less sticky and muddy\". On 4 October it was \"very wet\" and rations did not arrive (1st Wiltshires war diary)."
+      ],
+      [
+       "history",
+       "Tanks first went into action on 15 September 1916 at Flers-Courcelette. The 1st Wiltshires were resting and training well behind the line at the time (war diary), so Henry would only have heard about them."
+      ],
+      [
+       "unknown",
+       "Which of these jobs Henry did himself is not recorded."
+      ],
+      [
+       "imagined",
+       "The lad from home is invented. Every word of the conversation."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "plugstreet",
+   "title": "Plugstreet",
+   "type": "reflection",
+   "intro": "Winter 1916 to 1917, in Belgium, near Ploegsteert Wood. A quiet sector, they said. The family remembers that Henry served near Ploegsteert.",
+   "context": [
+    {
+     "badge": "family",
+     "text": "The family remembers Henry serving near Ploegsteert in 1917. The battalion was there from late 1916 into the spring of 1917.",
+     "source": "Family memory; The Rifles Berkshire and Wiltshire Museum"
+    },
+    {
+     "badge": "unit",
+     "text": "On 17 February 1917 the battalion raided Factory Farm, east of Ploegsteert Wood, opposite Bavarian troops.",
+     "source": "The Long, Long Trail, from the war diaries",
+     "url": "https://www.longlongtrail.co.uk/?p=6361"
+    }
+   ],
+   "asks": [
+    {
+     "id": "shelling",
+     "q": "Was there shelling all the time, or only in big battles?"
+    },
+    {
+     "id": "friends",
+     "q": "Did men stop making close friends?"
+    },
+    {
+     "id": "weather",
+     "q": "What was the weather like?"
+    }
+   ],
+   "entries": [
+    {
+     "date": "February 1917",
+     "place": "Ploegsteert",
+     "paras": [
+      "Belgium, and the coldest winter anybody can remember. The ground's like iron. You can't dig, you can't bury anything, the water in your bottle is a lump of ice by morning and the tea comes up the line with a skin of ice on top. Plugstreet, the lads call this place. It's meant to be a quiet sector.",
+      "On the seventeenth some of ours went over on a raid at a place called Factory Farm, a hundred and twenty of them with the Cheshires. Our guns fired over five thousand shells for it. I wasn't picked. They say six of the raiders are getting the Military Medal. They also say four of ours didn't come back, and more were hit coming home across the wire.",
+      "The lad wasn't picked either. He sulked about it for a whole day. I could have hit him."
+     ],
+     "basis": [
+      [
+       "history",
+       "The 1st Wiltshires held the Ploegsteert sector in Belgium through the winter of 1916 to 1917, which was very cold, with the ground frozen hard (The Rifles Berkshire and Wiltshire Museum; The Long, Long Trail)."
+      ],
+      [
+       "history",
+       "On 17 February 1917, 2 officers and 120 men of the 1st Wiltshires raided Factory Farm with the 10th Cheshires. The artillery fired 5,245 rounds. Six Wiltshire raiders won the Military Medal; 4 were killed, 1 died of wounds, 26 were wounded and 1 was missing (The Long, Long Trail, from the war diaries)."
+      ],
+      [
+       "unknown",
+       "Whether Henry was one of the 120 raiders is not known. The family remembers that he served near Ploegsteert in 1917."
+      ],
+      [
+       "family",
+       "The family memory of Ploegsteert fits this winter well."
+      ],
+      [
+       "imagined",
+       "The lad from home is invented. That Henry was not picked is our choice, because most of the battalion was not."
+      ]
+     ]
+    },
+    {
+     "date": "February 1917",
+     "place": "Later",
+     "audio": "assets/audio/6-4-never-tell-mother.mp3",
+     "paras": [
+      "I can't write this. I'll write it.",
+      "A quiet day. That's what the officer will put in the diary tonight, a quiet day. One shell. Just the one, in the middle of the afternoon, out of nowhere, the way they do. Not aimed at anybody. Aimed at a map.",
+      "He was fetching the tea.",
+      "I was ten yards off. If I'd gone for the tea, like I said I would, it would have been me. I keep thinking that, and then I keep thinking I'd rather it had been, and then I'm ashamed, because I wouldn't, not truly, and he'd laugh at me for saying it.",
+      "Mother will hear. His mother will get the letter, and then it'll be all round the church by Sunday, and Mother will write and ask me, did I see him, was it quick, did he say anything. And I can't tell her. I can't tell her he was eighteen and he was fetching the tea and he never knew. I can't tell her I'd made a rule and broke it. I can't tell her anything, because if I start I'll never stop.",
+      "So I'll tell her he was a fine lad and a credit to the village. That's true. That's the bit that's true.",
+      "No more. I mean it this time. No more."
+     ],
+     "basis": [
+      [
+       "typical",
+       "Even in \"quiet\" sectors, shells killed men steadily, and death could seem completely random: \"One minute you were talking to your best mate and the next minute he could be gone\" (Imperial War Museums). The 1st Wiltshires' diary records many \"quiet\" days on which men were killed."
+      ],
+      [
+       "family",
+       "Henry \"never talked to anybody about the War\" (family)."
+      ],
+      [
+       "imagined",
+       "The lad from home and his death are invented, to tell a kind of loss that thousands of soldiers lived through. He is not a real soldier, and no real man's death is being described."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "a-days-pay",
+   "title": "A day's pay",
+   "type": "reflection",
+   "intro": "Henry's record for 1917 is short, but it has some very human moments. In April he was in trouble.",
+   "entries": [
+    {
+     "date": "Sunday 22 April 1917",
+     "place": "",
+     "paras": [
+      "Up in front of the officer this morning, cap off, standing to attention like a schoolboy.",
+      "Absent from the half past two parade, and not back till a quarter to ten at night. A day's pay stopped. That's a whole shilling gone, which is a lot of egg and chips.",
+      "I'll not put down where I was or what I was doing. Some things are between a man and his conscience, and even this book doesn't need to know everything.",
+      "Worth a shilling, mind. I'll say that much."
+     ],
+     "basis": [
+      [
+       "record",
+       "On 22 April 1917 he forfeited a day's pay for being absent from a 2.30pm parade until 9.45pm (casualty record)."
+      ],
+      [
+       "history",
+       "A private's pay was a shilling a day. In April 1917 the battalion was out of the line around Neuve Eglise and Bailleul (war diary)."
+      ],
+      [
+       "unknown",
+       "Where he was is not recorded, so Henry keeps it to himself."
+      ]
+     ]
+    }
+   ],
+   "asks": [
+    {
+     "id": "shelling",
+     "q": "Was there shelling all the time, or only in big battles?"
+    }
+   ],
+   "activities": [
+    {
+     "type": "sort",
+     "question": "Was Henry there?",
+     "hint": "For each event, decide what his record can tell us. Then see the evidence.",
+     "choices": [
+      "He was there",
+      "He wasn't there",
+      "His record can't tell us"
+     ],
+     "items": [
+      {
+       "text": "1 July 1916: the attack on the Quadrilateral, with the Somersets.",
+       "answer": 0,
+       "explain": "His casualty record says he was wounded on 1 July and admitted to 47 Casualty Clearing Station on 2 July.",
+       "source": "His casualty record"
+      },
+      {
+       "text": "24 August 1916: the Wiltshires' attack at the Leipzig Salient.",
+       "answer": 2,
+       "explain": "He was serving with the battalion, but nothing in his record mentions the attack. Men could be sick, on a course or left out.",
+       "source": "1st Wiltshires war diary",
+       "url": "https://www.thewardrobe.org.uk/research/war-diaries"
+      },
+      {
+       "text": "17 February 1917: the raid on Factory Farm, Ploegsteert.",
+       "answer": 2,
+       "explain": "Only about 120 men of the battalion went, and their names are not listed. The family remembers Henry near Ploegsteert.",
+       "source": "The Long, Long Trail",
+       "url": "https://www.longlongtrail.co.uk/?p=6361"
+      },
+      {
+       "text": "22 April 1917: missing from the 2.30pm parade.",
+       "answer": 0,
+       "explain": "His record says he was absent until 9.45pm and lost a day's pay. A very human moment.",
+       "source": "His casualty record"
+      },
+      {
+       "text": "7 June 1917: the Battle of Messines.",
+       "answer": 1,
+       "explain": "He was in medical care with an inflamed ear from 2 to 12 June, so he could not have been in the attack.",
+       "source": "His casualty record"
+      },
+      {
+       "text": "1 to 5 August 1917: Westhoek Ridge, Ypres.",
+       "answer": 2,
+       "explain": "His record can be read as rejoining the battalion on 13 June or in August, so we can't be sure he was back in time.",
+       "source": "His casualty record"
+      },
+      {
+       "text": "11 to 25 January 1918: the battalion in the snow at Lagnicourt.",
+       "answer": 1,
+       "explain": "He was at home in Somerset on leave.",
+       "source": "His casualty record"
+      },
+      {
+       "text": "24 March 1918: the retreat from Frémicourt.",
+       "answer": 0,
+       "explain": "He was reported missing that day from C Company, and had been taken prisoner, unwounded, east of Frémicourt.",
+       "source": "His casualty record"
+      }
+     ],
+     "menu": "Where was Henry?"
+    }
+   ]
+  },
+  {
+   "id": "messines",
+   "title": "Messines, from a hospital bed",
+   "type": "reflection",
+   "intro": "In June 1917 Henry's battalion attacked at the Battle of Messines, one of the best-planned British attacks of the war. Henry missed it. His ear had gone bad, and he was in hospital.",
+   "context": [
+    {
+     "badge": "archival",
+     "text": "Henry's record shows him in medical care from 2 to 12 June 1917, so he could not have taken part in the attack of 7 June.",
+     "source": "His casualty record"
+    },
+    {
+     "badge": "unit",
+     "text": "At 3.10am on 7 June, 19 mines were blown under Messines Ridge. The 1st Wiltshires attacked that morning and took 148 prisoners and 7 machine guns, at a cost of 170 casualties.",
+     "source": "The Rifles Berkshire and Wiltshire Museum",
+     "url": "https://www.thewardrobe.org.uk/research/history-regiments/duke-edinburghs-wiltshire-regiment-1881-1920-wiltshire-regiment-duke-edinburghs-1920-1959"
+    }
+   ],
+   "asks": [
+    {
+     "id": "mines",
+     "q": "What were the mines, and who dug them?"
+    },
+    {
+     "id": "illness",
+     "q": "What illnesses did soldiers suffer?"
+    },
+    {
+     "id": "tanks",
+     "q": "When did tanks arrive, and did Henry see one?"
+    }
+   ],
+   "entries": [
+    {
+     "date": "Friday 8 June 1917",
+     "place": "Convalescent camp",
+     "audio": "assets/audio/6-5-messines.mp3",
+     "paras": [
+      "My ear went bad last week. Ringing and aching day and night until I couldn't sleep or think, and then I couldn't hear the sergeant on that side, which he didn't like one bit. They sent me down the line, and now I'm at a convalescent camp. Clean sheets. Food on a plate. Nurses who call you by your name.",
+      "And yesterday the battalion went over without me.",
+      "A man came in this morning with the news. They blew Messines Ridge sky high at ten past three in the morning, nineteen mines all at once, he says, so the ground came up like the end of the world, and then our lot walked up the hill behind it. He says the 25th took their objectives. He says there are hundreds of prisoners. He doesn't know how many of ours.",
+      "Nineteen mines. I sat by the window when he'd gone and tried to picture it, and I couldn't, and then I thought of the lad, and how he'd have wanted to see that, and I had to go outside.",
+      "I feel guilty for lying here, and I feel glad, and then I feel guilty for being glad. Round and round like that, all day. Doctor says another few days."
+     ],
+     "basis": [
+      [
+       "record",
+       "Sent sick with an inflamed middle ear: 77 Field Ambulance on 2 to 4 June 1917, then 1 Convalescent Depot. At 3 Infantry Base Depot on 12 June (casualty record)."
+      ],
+      [
+       "history",
+       "At 3.10am on 7 June 1917, 19 mines were blown under Messines Ridge. The 1st Wiltshires attacked that morning and \"reached objective without heavy casualties\". After hard fighting they had taken 148 prisoners and 7 machine guns, at a cost of 170 casualties (officer's diary and regimental history, The Rifles Berkshire and Wiltshire Museum)."
+      ],
+      [
+       "record",
+       "His dates show he could not have been in the attack on 7 June, the counter-attack on 8 June, or the front-line tour of 9 to 11 June."
+      ],
+      [
+       "unknown",
+       "Whether he heard the mines is not known. The convalescent depot was probably near the coast, too far to hear them."
+      ],
+      [
+       "imagined",
+       "How he heard the news, and all his feelings. The lad from home is invented."
+      ]
+     ]
+    },
+    {
+     "date": "Mid June 1917",
+     "place": "Messines Ridge",
+     "paras": [
+      "Back with the battalion, and straight up the ridge with a shovel. Three hundred and fifty of us every night, eight till four, digging a communication trench up to the new front line, with their guns doing their best to stop us.",
+      "I've walked over the ground they took while I was in my clean sheets. There's nothing left of it. Not a hedge, not a house, just holes, one inside another, and the smell. The craters from the mines are like quarries. Somebody said one of them is where Factory Farm used to be, where our lads raided in February. Gone, like it never was.",
+      "The lads who were in it don't say much about the seventh. One of the company officers, they say, was hit twice and still took five machine guns. Some of the faces I'd got used to aren't here."
+     ],
+     "basis": [
+      [
+       "history",
+       "From 16 to 20 June 1917 the battalion sent 350 men every night, 8pm to 4am, to dig a communication trench up the captured ridge, under \"considerable hostile shelling\" (1st Wiltshires war diary). Factory Farm was destroyed by the Messines mines."
+      ],
+      [
+       "history",
+       "Captain Reginald Hayward won a Bar to his Military Cross at Messines: wounded twice, he captured 5 machine guns and about 50 prisoners. He is not named in the entry."
+      ],
+      [
+       "unknown",
+       "His record can be read as rejoining the battalion on 13 June or in August 1917. If it was June, this digging was very likely his first job back. If it was August, he did not see this."
+      ],
+      [
+       "imagined",
+       "What he saw and felt."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "ypres",
+   "title": "Ypres",
+   "type": "reflection",
+   "intro": "Summer 1917. The battalion went north to Ypres for the Third Battle of Ypres, often called Passchendaele. It met mustard gas, German aircraft and a landscape of flooded shell holes.",
+   "context": [
+    {
+     "badge": "unit",
+     "text": "The battalion was at Westhoek Ridge from 1 to 5 August 1917 and on the Menin Road at Clapham Junction from 30 August. It was not at Passchendaele village itself.",
+     "source": "1st Wiltshires war diary",
+     "url": "https://www.thewardrobe.org.uk/research/war-diaries"
+    }
+   ],
+   "asks": [
+    {
+     "id": "gas",
+     "q": "What was a gas attack like?"
+    },
+    {
+     "id": "planes",
+     "q": "What did aeroplanes and balloons do?"
+    },
+    {
+     "id": "weather",
+     "q": "What was the weather like?"
+    }
+   ],
+   "entries": [
+    {
+     "date": "End of August 1917",
+     "place": "The Menin Road, Ypres",
+     "paras": [
+      "Ypres. I'd heard about it for two years and it's worse. They bussed us to the Asylum, of all places, and we marched up through what's left of Sanctuary Wood to a spot on the Menin Road they call Clapham Junction. Two of ours killed on the way up and six wounded, and one lad who just sat down and shook and couldn't stop. Next morning a sniper got one of the captains.",
+      "There are no trenches here, not like the Somme. Just shell holes full of water, joined up where you can, and duckboards, and if you step off the duckboards the mud has you. The lads who were here at the start of the month say Westhoek was worse. No front line at all, they say. German planes so low you could see the pilots.",
+      "Last month, before I came back, they had the new gas. Mustard gas. It doesn't make you cough at first, it does nothing, and then hours later your eyes swell shut and your skin comes up in blisters wherever you sweated. One night there were so many gas shells that men were led back blind, holding the shoulder in front. Most of them can see again now. Most.",
+      "Their planes come over the camp at night and bomb us. You lie there and listen to the engine and wait."
+     ],
+     "basis": [
+      [
+       "history",
+       "On 30 August 1917 the battalion was bussed to \"Asylum, Ypres\" and marched via Sanctuary Wood to the line at Clapham Junction on the Menin Road. On the way 2 were killed, 6 wounded and 1 was a shell-shock case. Captain Turner was badly wounded by a sniper on the 31st (1st Wiltshires war diary)."
+      ],
+      [
+       "history",
+       "At Westhoek, 1 to 5 August: \"No front line or trenches\" and \"Hun planes very low\" (officer's diary). The camp was bombed from the air on 26 July and 19 to 20 August."
+      ],
+      [
+       "history",
+       "The battalion met mustard gas from 12 July 1917. On 17 July: \"Enormous number gas shells, many men rendered blind (temp)\" (officer's diary)."
+      ],
+      [
+       "unknown",
+       "His record does not make clear whether he was back with the battalion in July and early August, so the entry has him hear about the gas and Westhoek from others. Whichever reading is right, he was very likely back by 30 August."
+      ],
+      [
+       "imagined",
+       "What he saw and felt."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "one-stripe",
+   "title": "Snow and one stripe",
+   "type": "reflection",
+   "intro": "Winter 1917 to 1918, near Bapaume. In January Henry was made a lance corporal, the first step up from private, and given leave to go home.",
+   "context": [
+    {
+     "badge": "archival",
+     "text": "6 January 1918: appointed Lance Corporal (unpaid).",
+     "source": "His casualty record and the museum's summary of it"
+    },
+    {
+     "badge": "archival",
+     "text": "11 to 25 January 1918: home leave. Rejoined the battalion on 28 January.",
+     "source": "His casualty record and the museum's summary of it"
+    }
+   ],
+   "entries": [
+    {
+     "date": "Christmas 1917",
+     "place": "Lagnicourt, near Bapaume",
+     "paras": [
+      "My third Christmas out here. Snow on the ground and more coming, and so cold the bread freezes.",
+      "This front's different again. No proper line, just posts, four to a company, each with a Lewis gun and a handful of men in a hole, out in the white, and the next post a shout away. You lie there all night looking at nothing and listening to nothing until your eyes make shapes out of it.",
+      "Back at Favreuil we played the other companies at football on a pitch like a skating rink, and laughed more than I have in months. Then a shell killed a man walking back from the cookhouse, and that was that.",
+      "Nobody sang over the way this Christmas. Not that I heard."
+     ],
+     "basis": [
+      [
+       "history",
+       "From 9 December 1917 the battalion held the line near Lagnicourt as posts, \"four per company, each with one Lewis gun\". At Favreuil in December the men dug shelter trenches and played inter-company football; one man was killed on 10 December. In early January the diary says \"very cold and frosty, with a good deal of snow\" (1st Wiltshires war diary)."
+      ],
+      [
+       "unknown",
+       "Where Henry spent Christmas Day 1917 is not recorded."
+      ],
+      [
+       "imagined",
+       "Snow at Christmas itself, the frozen bread, how the man was killed, and his feelings. One man was killed on 10 December; the diary does not say how."
+      ]
+     ]
+    },
+    {
+     "date": "Sunday 6 January 1918",
+     "place": "",
+     "paras": [
+      "Made lance corporal today. One stripe. Unpaid, mind, so it's all the worry and none of the money.",
+      "Still. It means somebody thinks I can be trusted with a few of the younger ones. I'm the eldest of twelve at home. I've had plenty of practice keeping others in line, and getting the blame when they weren't.",
+      "Sewed it on myself. Crooked. One of the lads laughed and I put him on the next working party. He's not laughing now."
+     ],
+     "basis": [
+      [
+       "record",
+       "Appointed lance corporal (unpaid) on 6 January 1918 (casualty record)."
+      ],
+      [
+       "family",
+       "As the eldest of twelve, he kept his brothers and sisters in line well into adult life (family memoir)."
+      ],
+      [
+       "imagined",
+       "The sewing and the joke."
+      ]
+     ]
+    },
+    {
+     "date": "January 1918",
+     "place": "Home on leave",
+     "paras": [
+      "Home. Two and a half years since I left, and Stoford's just the same. The trains still go by the bottom of the garden. It's me that's different.",
+      "The little ones stare at me like I'm a stranger, and the youngest hid behind Mother's skirt. Mother keeps feeding me. Every time I stop eating she puts more on the plate.",
+      "They want to know what it's like over there, and I can't tell them. I don't have the words, and if I did I wouldn't want them in this house. So I say it's not so bad, and the food's better than you'd think, and I ask about the farm.",
+      "Mother asked about the lad, like I knew she would. I said he was a fine lad and a credit to the village. She held my hand across the table and didn't ask anything else. I think she knew not to.",
+      "Two weeks, and then back. I'm counting the days both ways at once."
+     ],
+     "basis": [
+      [
+       "record",
+       "Home leave from 11 to 25 January 1918. He rejoined the battalion on 28 January (casualty record)."
+      ],
+      [
+       "family",
+       "His parents lived at Stoford, by Yeovil Junction station. He \"never talked to anybody about the War\" (family)."
+      ],
+      [
+       "imagined",
+       "Everything said and felt at home. The lad from home is invented."
+      ]
+     ]
+    }
+   ],
+   "asks": [
+    {
+     "id": "weather",
+     "q": "What was the weather like?"
+    }
+   ]
+  },
+  {
+   "id": "army-line",
+   "title": "The Army line",
+   "type": "timeline",
+   "intro": "On Thursday 21 March 1918 the German army launched a huge attack. Henry's battalion was holding a line of trenches east of Frémicourt, near Bapaume.",
+   "entries": [
+    {
+     "date": "Saturday 23 March 1918",
+     "place": "The Army line",
+     "paras": [
+      "Third day of it. On Thursday morning the whole world blew up. Never heard guns like it, not even on the Somme. They're coming everywhere, they say, all along the line.",
+      "We're holding what they call the Army line, east of Frémicourt. Spent Friday digging the trench deeper and gathering in stragglers from the lines in front, men who'd lost their battalions, and putting them in with us.",
+      "This morning at half past nine they tried to rush the left of our company. We shot them down at two hundred yards. This afternoon they came again, in waves, four of them, so many of them you'd think the ground was moving. And not one wave reached our wire. Not one.",
+      "We've lost good men all the same. One of the company officers has been hit twice and still won't go back. The lads would follow that man anywhere. The doctor's been hit too.",
+      "Nobody's slept since Thursday. They say fresh divisions are coming up to relieve us. They'd better hurry."
+     ],
+     "basis": [
+      [
+       "history",
+       "The German offensive began on Thursday 21 March 1918. The 1st Wiltshires held the \"3rd or Army line\", improved the trenches and collected stragglers. On the 23rd a 9.30am attack was \"swept away by rifle and Lewis gun fire at 200 yards range\", and at 3.15pm four waves came and \"not a wave reached our wire\" (25th Division history, pages 152 to 153)."
+      ],
+      [
+       "history",
+       "The officer hit twice is Captain Reginald Hayward, who won the Victoria Cross. The battalion's doctor, Captain Hughes, was also hit on the 23rd (war diary). They are not named in the imagined entry."
+      ],
+      [
+       "imagined",
+       "Henry's own part in the fighting is not recorded."
+      ]
+     ]
+    }
+   ],
+   "events": [
+    {
+     "time": "Thu 21 March",
+     "title": "The attack begins",
+     "body": "The 7th Brigade, with the 1st Wiltshires in the centre, settles into the \"3rd or Army line\" that evening."
+    },
+    {
+     "time": "Fri 22 March",
+     "title": "Digging in",
+     "body": "The men improve the trenches and gather up stragglers from the line in front to help hold it."
+    },
+    {
+     "time": "Sat 9.30am",
+     "title": "A surprise attack",
+     "body": "German troops try to rush the left of the line. They are \"swept away by rifle and Lewis gun fire at 200 yards range\"."
+    },
+    {
+     "time": "Sat 2pm",
+     "title": "Bombardment",
+     "body": "Heavy shelling falls along the whole brigade front and the support lines."
+    },
+    {
+     "time": "Sat 3.15pm",
+     "title": "Four waves",
+     "body": "The enemy attacks in four waves. \"Not a wave reached our wire.\" A second attack later that afternoon is also beaten off."
+    },
+    {
+     "time": "Sat night",
+     "title": "Still holding",
+     "body": "\"The 3rd or Army line was intact.\" Two Wiltshire runners carry messages through the heaviest fire and are later decorated."
+    }
+   ],
+   "source": "The 25th Division in France and Flanders (probably), pages 152 to 153"
+  },
+  {
+   "id": "sunday",
+   "title": "Sunday 24 March",
+   "type": "map",
+   "intro": "On the Sunday the line on their right gave way, and the battalion was ordered back. This British map was drawn three weeks later, from air photographs, of the ground they lost.",
+   "map": {
+    "src": "assets/maps/fremicourt-artillery-16-april-1918.jpg",
+    "width": 1800,
+    "height": 1019,
+    "alt": "A British artillery map dated 16 April 1918 showing the villages of Frémicourt, Beugnâtre and Beugny, with green bands marking trenches and wire running between them.",
+    "badge": "archival",
+    "caption": "British artillery map, 16 April 1918, sheet 57c, from air photographs taken after 21 March. Source website to be confirmed.",
+    "spots": [
+     {
+      "x": 43,
+      "y": 80,
+      "label": "Frémicourt",
+      "title": "Frémicourt",
+      "body": "Henry's record says he was taken prisoner east of Frémicourt. The village fell to the Germans that Sunday. It was not taken back until the end of August 1918.",
+      "badge": "archival",
+      "source": "His casualty record; The Long, Long Trail"
+     },
+     {
+      "x": 24,
+      "y": 88,
+      "label": "The road to Bapaume",
+      "title": "Across the Bapaume road",
+      "body": "The battalion withdrew from a position across the Bapaume to Frémicourt road. As they went back up the slope, \"the 1st Wilts suffered heavily from machine gun fire\".",
+      "badge": "unit",
+      "source": "25th Division history, page 154"
+     },
+     {
+      "x": 52,
+      "y": 46,
+      "label": "Trenches and wire",
+      "title": "Trenches and wire",
+      "body": "The green bands marked \"trench\" and \"wire\" were plotted from air photographs taken after 21 March. They show the ground the Germans now held.",
+      "badge": "archival",
+      "source": "Map legend"
+     },
+     {
+      "x": 19,
+      "y": 30,
+      "label": "Beugnâtre",
+      "title": "Beugnâtre",
+      "body": "The neighbouring battalion, the 10th Cheshires, fell back to a line south-east of this village.",
+      "badge": "unit",
+      "source": "25th Division history, page 154"
+     },
+     {
+      "x": 77,
+      "y": 55,
+      "label": "Beugny",
+      "title": "Beugny",
+      "body": "By 23 March the front had been pushed back to between Beugny and Frémicourt.",
+      "badge": "unit",
+      "source": "The Long, Long Trail"
+     }
+    ]
+   },
+   "entries": [
+    {
+     "date": "March 1918",
+     "place": "Behind their lines",
+     "audio": "assets/audio/6-1-taken.mp3",
+     "paras": [
+      "Sunday morning their aeroplanes came over low and stayed, and wherever they went their shells followed. Not one of ours to be seen all day. And our own guns firing short, into us, as if we hadn't enough.",
+      "Then the line gave way on our right, and they came round both sides of us. We got the order to fall back, across the Bapaume road and up the slope behind.",
+      "Up the slope, in the open, with their machine guns behind us. I saw lads I'd known two years go down in the grass and not get up. You couldn't stop. You couldn't go back for them.",
+      "I don't know how I came to be with the few that didn't get away. One minute I was running, and the next there were Germans all round, and a German boy, no older than my youngest brother, was taking my rifle off me and pointing east. He looked as frightened as I was.",
+      "Not a scratch on me. Nearly three years, and not a scratch this time. I keep thinking that should feel like luck."
+     ],
+     "basis": [
+      [
+       "history",
+       "On Sunday 24 March the German shelling was \"directed by hostile aircraft\" and \"the absence of our planes was noticeable\". There was \"considerable short-shooting\" by British guns, which caused casualties. After 4pm the order came to retire; men falling back were \"practically exterminated by machine gun fire\" (1st Wiltshires war diary)."
+      ],
+      [
+       "history",
+       "The battalion withdrew from a position across the Bapaume to Frémicourt road, and \"suffered heavily from machine gun fire as they retired up the forward slopes of the ridge\" (25th Division history, page 154)."
+      ],
+      [
+       "record",
+       "Reported missing on 24 March 1918 from C Company. Taken prisoner, unwounded, east of Frémicourt (casualty record; museum letter)."
+      ],
+      [
+       "unknown",
+       "How he was captured is not recorded, so Henry says he doesn't know."
+      ],
+      [
+       "imagined",
+       "The German boy and his feelings."
+      ]
+     ]
+    }
+   ],
+   "photos": [
+    {
+     "cat": "Q 8605",
+     "file": "q8605.jpg",
+     "caption": "British 6-inch howitzers in action at Biefvillers, 23 March 1918, about 4 kilometres from Henry's battalion.",
+     "alt": "Gunners firing a heavy howitzer in open country.",
+     "url": "https://www.iwm.org.uk/collections/item/object/205244452",
+     "credit": "Image: IWM (Q 8605)"
+    },
+    {
+     "cat": "Q 8603",
+     "file": "q8603.jpg",
+     "caption": "Gunners hauling a howitzer at Avesnes, next to Bapaume, 23 March 1918.",
+     "alt": "Soldiers pulling a heavy gun along a road.",
+     "url": "https://www.iwm.org.uk/collections/item/object/205244450",
+     "credit": "Image: IWM (Q 8603)"
+    },
+    {
+     "cat": "Q 8614",
+     "file": "q8614.jpg",
+     "caption": "Machine Gun Corps troops passing through Aveluy on 25 March 1918, during the retreat.",
+     "alt": "Soldiers marching through a ruined village.",
+     "url": "https://www.iwm.org.uk/collections/item/object/205244457",
+     "credit": "Image: IWM (Q 8614)"
+    }
+   ],
+   "asks": [
+    {
+     "id": "planes",
+     "q": "What did aeroplanes and balloons do?"
+    }
+   ]
+  },
+  {
+   "id": "other-side-1918",
+   "title": "From the other side, 1918",
+   "type": "voices",
+   "intro": "The German spring offensive of March 1918 was Germany's last great gamble to win the war before American soldiers arrived in large numbers. This is how it looked from the German side.",
+   "voicesHeading": "Real accounts",
+   "voicesNote": "Ernst Jünger was a German officer who attacked about 10 to 15 kilometres north of Henry. His memoir, Storm of Steel, is one of the most famous books of the war.",
+   "voices": [
+    {
+     "quote": "On 17 March, after sundown, we left the quarters we had come to love, and marched to Brunemont.",
+     "who": "Ernst Jünger, Fusilier Regiment 73, moving up for the offensive",
+     "source": "Storm of Steel, translated by Michael Hofmann (Penguin, 2003)"
+    },
+    {
+     "text": "On the eve of the attack a shell hit Jünger's company while it was bunched together and killed about half of it. He led the survivors forward on 21 March. Of about 150 men, 63 were left by nightfall.",
+     "who": "Ernst Jünger, 19 to 21 March 1918",
+     "source": "Storm of Steel (Wikipedia summary)",
+     "url": "https://en.wikipedia.org/wiki/Storm_of_Steel",
+     "badge": "unit"
+    },
+    {
+     "text": "Jünger's war ended when he was wounded at Favreuil on 25 August 1918, about 2 kilometres from Frémicourt, where Henry had been captured five months before.",
+     "who": "A small world",
+     "source": "Storm of Steel (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Storm_of_Steel",
+     "badge": "unit"
+    },
+    {
+     "text": "The Germans used small storm troop groups that slipped past strongpoints and pushed deep behind the lines, after a short, overwhelming bombardment of gas and high explosive. On 21 March fog cut visibility to about 10 metres. More than 3.5 million shells were fired in five hours.",
+     "who": "How the attack worked",
+     "source": "Operation Michael (Wikipedia), citing the British Official History",
+     "url": "https://en.wikipedia.org/wiki/Operation_Michael",
+     "badge": "unit"
+    },
+    {
+     "quote": "Brave Englander… brave Englander.",
+     "who": "A German soldier to Thomas Cass, Royal Engineers, as he was taken prisoner in March 1918",
+     "source": "IWM, Voices of the First World War: The German Spring Offensive",
+     "url": "https://www.iwm.org.uk/history/voices-of-the-first-world-war-the-german-spring-offensive"
+    },
+    {
+     "text": "About 75,000 British soldiers were taken prisoner by 5 April 1918. Henry was one of a very large crowd.",
+     "who": "The numbers",
+     "source": "Operation Michael (Wikipedia)",
+     "url": "https://en.wikipedia.org/wiki/Operation_Michael",
+     "badge": "unit"
+    }
+   ],
+   "entriesHeading": "An imagined German soldier’s diary",
+   "photos": [
+    {
+     "cat": "Q 55344",
+     "file": "q55344.jpg",
+     "caption": "German infantry advancing past captured positions, June 1918. A German official photograph.",
+     "alt": "German soldiers in steel helmets moving forward past wrecked trenches.",
+     "url": "https://www.iwm.org.uk/collections/item/object/205080545",
+     "credit": "Image: IWM (Q 55344)"
+    },
+    {
+     "cat": "Q 51464",
+     "file": "q51464.jpg",
+     "caption": "A German photograph: \"A batch of 4000 British prisoners captured behind Bapaume and Arras at a collecting point in front of Arras\", March 1918. Henry was taken near Bapaume that month.",
+     "alt": "A large crowd of British prisoners in a field.",
+     "url": "https://www.iwm.org.uk/history/voices-of-the-first-world-war-the-german-spring-offensive",
+     "credit": "Image: IWM (Q 51464)"
+    }
+   ],
+   "entries": [
+    {
+     "date": "Sunday 24 March 1918",
+     "place": "Near Bapaume",
+     "voice": "other",
+     "who": "An imagined German soldier. He is invented, not a real person, and not the soldier who took Henry prisoner.",
+     "disclosure": "AI imagined diary of an invented German soldier, written from German and British accounts of March 1918",
+     "paras": [
+      "Four nights we marched up in the dark, the roads so full of guns and wagons and men that we moved a hundred metres and stood, a hundred metres and stood. Every timing set by the staff to the minute. Nobody told us anything except that this was the one. The last push. Then peace.",
+      "Thursday, twenty to five in the morning, our guns began. I have never heard anything like it and I have been out since 1916. Fog so thick you could not see the man in front. Gas and smoke on top of the fog. We went forward behind our own shells and did not know where we were until we fell into the English trenches.",
+      "Today near Bapaume they were falling back, up a long slope in front of us, and our machine guns caught them in the open. I will not write the rest of that.",
+      "Afterwards we took prisoners. Dozens of them, sitting in the grass with their hands on their heads, grey in the face like us. One of them gave me a cigarette without being asked. I did not know what to say, so I said \"Danke\" and he nodded.",
+      "And in their dugouts: white bread. Tins of meat. Jam. Real coffee. Cigarettes by the hundred. At home my mother queues all morning for turnips. I ate until I was sick and then I sat down in their trench and cried, and I do not know if it was for the bread or for everything else. If they have all this, after four years, how can we ever win?"
+     ],
+     "basis": [
+      [
+       "history",
+       "German troops marched up by night for several nights before 21 March 1918, on roads jammed with guns and wagons, to strict staff timetables (Ernst Jünger, Storm of Steel)."
+      ],
+      [
+       "history",
+       "The bombardment opened at 4.40am on 21 March, with gas and smoke, in thick fog; the infantry followed a creeping barrage (Operation Michael, citing the British Official History)."
+      ],
+      [
+       "history",
+       "German soldiers who reached British stores found food unseen at home under the blockade, and some found it demoralising. Germany had lived through the \"turnip winter\" of 1916 to 1917 (Official History; Points journal)."
+      ],
+      [
+       "history",
+       "On 24 March the 1st Wiltshires were caught by machine-gun fire as they fell back up a slope (war diary)."
+      ],
+      [
+       "imagined",
+       "This soldier, his feelings and every word. He is not based on one real man."
+      ]
+     ]
+    }
+   ]
+  },
+  {
+   "id": "missing",
+   "title": "Missing",
+   "type": "record",
+   "intro": "By the end of that Sunday, Henry was missing. He had been taken prisoner, and was sent east into Germany.",
+   "record": [
+    {
+     "date": "24 March 1918",
+     "entry": "Missing. C Company."
+    },
+    {
+     "date": "1918",
+     "entry": "Prisoner of war. Taken east of Frémicourt. Held first at Münster III camp, later at Münster II."
+    },
+    {
+     "date": "4 December 1918",
+     "entry": "Repatriated, via Hull."
+    }
+   ],
+   "recordSource": "His casualty record and the museum's summary of it",
+   "context": [
+    {
+     "badge": "archival",
+     "text": "The museum thinks his family probably did not know what had happened to him until about June 1918, nearly three months later.",
+     "source": "Rifles Berkshire and Wiltshire Museum"
+    },
+    {
+     "badge": "unit",
+     "text": "Captain Reginald Hayward, commanding A Company of the battalion, was awarded the Victoria Cross for these days. He was wounded three times and kept on fighting.",
+     "source": "Museum letter; 25th Division history, page 153"
+    }
+   ],
+   "entries": [
+    {
+     "date": "Summer 1918",
+     "place": "Münster",
+     "audio": "assets/audio/6-2-munster.mp3",
+     "paras": [
+      "Münster, in Germany. Wire all round, and huts, and guards who don't look much happier to be here than we are. They had us at one camp first and now this one.",
+      "A man from our battalion who came in after me says that by the Sunday night they were down to three officers and fifty-odd men, out of the whole battalion. Fifty-odd. I've thought about that every day since.",
+      "Thin soup and black bread, and not enough of either. We live for the Red Cross parcels. When one comes it's like Christmas, and we share it out to the last biscuit.",
+      "They've let us send a card home at last. Mother will have had word that I'm missing, and that's all. Months of not knowing if I'm dead or alive. I can't bear to think of it, so I think of it all the time.",
+      "I hope the card gets there before she gives up on me."
+     ],
+     "basis": [
+      [
+       "record",
+       "Held first at Münster III camp, later at Münster II (museum letter)."
+      ],
+      [
+       "history",
+       "By 24 March the battalion's strength was \"about 3 officers and 54 Other Ranks\" (museum letter)."
+      ],
+      [
+       "history",
+       "The museum thinks his family probably did not know his fate until about June 1918."
+      ],
+      [
+       "typical",
+       "Hunger and the importance of Red Cross parcels for British prisoners in Germany."
+      ],
+      [
+       "imagined",
+       "The man who told him, the huts and guards, and his feelings."
+      ]
+     ]
+    },
+    {
+     "date": "November 1918",
+     "place": "Münster",
+     "paras": [
+      "It's over. The guards told us this morning. An armistice, they call it. Eleven o'clock, and the guns stopped.",
+      "Nobody cheered much. Some of the lads cried, and some just sat down where they were. I went and stood by the wire and looked west for a long time.",
+      "Going home. I keep saying it to myself to see if it sounds true yet."
+     ],
+     "basis": [
+      [
+       "history",
+       "The Armistice came into force at 11am on 11 November 1918."
+      ],
+      [
+       "imagined",
+       "How the news reached the camp, and how the men took it, are not recorded for Henry."
+      ]
+     ]
+    }
+   ],
+   "panelsTitle": "The prisoner-of-war camps at Münster",
+   "panels": [
+    {
+     "badge": "unit",
+     "title": "Three camps",
+     "text": "Münster had three main camps. Münster II was on the old racecourse, with a theatre, bands, a library and a camp newspaper. Münster III was a brick infantry barracks, with some rooms below ground and poorly lit. Henry was held in both.",
+     "source": "Christoph Pöppinghege, Leben im Lager (1999)",
+     "url": "https://www.lwl.org/westfaelische-geschichte/txt/wz-6171.pdf"
+    },
+    {
+     "badge": "unit",
+     "title": "Work",
+     "text": "Only a quarter or so of the 90,000 prisoners registered at Münster lived in the camps. The rest were out on work parties, mostly on farms in the countryside around, some in coal mines. The guards were mostly older reservists.",
+     "source": "Pöppinghege (1999)",
+     "url": "https://www.lwl.org/westfaelische-geschichte/txt/wz-6171.pdf"
+    },
+    {
+     "badge": "archival",
+     "title": "In their own words",
+     "text": "\"We prisoners used to say it was 90% sawdust,\" one British prisoner said of the bread. Another, sent to work on a farm, remembered: \"They treated us like ordinary people; I mean they didn't bother about us being prisoners at all.\"",
+     "source": "IWM, Voices of the First World War: Prisoners of War",
+     "url": "https://www.iwm.org.uk/history/voices-of-the-first-world-war-prisoners-of-war"
+    },
+    {
+     "badge": "unit",
+     "title": "Hungry on both sides of the wire",
+     "text": "By 1918 the Allied blockade meant German civilians were hungry too. Turnips had replaced potatoes. Prisoners who received parcels sometimes ate better than their guards.",
+     "source": "Pöppinghege (1999); British Red Cross"
+    }
+   ],
+   "photos": [
+    {
+     "cat": "Q 69487",
+     "file": "q69487.jpg",
+     "caption": "A prisoner-of-war barrack in Germany, winter 1917 to 1918. No photograph of the Münster camps has been found at IWM yet.",
+     "alt": "A long wooden hut in a snowy camp.",
+     "url": "https://www.iwm.org.uk/collections/item/object/205358696",
+     "credit": "Image: IWM (Q 69487)"
+    }
+   ],
+   "asks": [
+    {
+     "id": "illness",
+     "q": "What illnesses did soldiers suffer?"
+    }
+   ],
+   "activities": [
+    {
+     "type": "kit",
+     "question": "Pack a Red Cross parcel for a prisoner",
+     "hint": "Drag each item into the parcel or leave it out. You can also tap an item, or press Enter on it. Then press Check the parcel.",
+     "zoneOut": "Not in the parcel",
+     "zoneIn": "The Red Cross parcel",
+     "checkLabel": "Check the parcel",
+     "yesWrong": "This was in the standard parcel. ",
+     "noWrong": "Not in the parcel. ",
+     "items": [
+      {
+       "label": "Three tins of beef",
+       "carried": true,
+       "note": "Tinned meat was the heart of the parcel."
+      },
+      {
+       "label": "A quarter-pound of tea",
+       "carried": true,
+       "note": "Tea mattered almost as much as food."
+      },
+      {
+       "label": "A quarter-pound of cocoa",
+       "carried": true,
+       "note": "A hot drink for cold nights."
+      },
+      {
+       "label": "Two pounds of biscuits",
+       "carried": true,
+       "note": "Hard biscuits kept for weeks."
+      },
+      {
+       "label": "Two tins of cheese",
+       "carried": true,
+       "note": "Tinned cheese travelled well."
+      },
+      {
+       "label": "A tin of dripping",
+       "carried": true,
+       "note": "Fat to cook with or spread on bread."
+      },
+      {
+       "label": "Two tins of milk",
+       "carried": true,
+       "note": "Condensed milk, for tea and cocoa."
+      },
+      {
+       "label": "Fifty cigarettes",
+       "carried": true,
+       "note": "Smoked, shared, or traded with guards and other prisoners."
+      },
+      {
+       "label": "A bottle of rum",
+       "carried": false,
+       "note": "No alcohol was sent."
+      },
+      {
+       "label": "Fresh eggs",
+       "carried": false,
+       "note": "They would never have survived the journey."
+      },
+      {
+       "label": "A pair of wire cutters",
+       "carried": false,
+       "note": "Escape tools were not in the Red Cross parcels."
+      },
+      {
+       "label": "A camera",
+       "carried": false,
+       "note": "Prisoners were not allowed cameras."
+      }
+     ],
+     "summary": "This is the standard emergency parcel. Over 2.5 million parcels were sent during the war. Parcels could only reach a man once he was registered at a camp, so men captured in spring 1918 often went hungry for weeks first.",
+     "source": {
+      "source": "British Red Cross, Food parcels for prisoners of war",
+      "url": "https://vad.redcross.org.uk/medical-care-during-ww1/food-parcels-for-prisoners-of-war"
+     },
+     "menu": "Pack a Red Cross parcel"
+    }
+   ]
+  },
+  {
+   "id": "coming-home",
+   "title": "Coming home",
+   "type": "rollcall",
+   "intro": "Henry came home. A hundred men of his battalion who fought in that week in March did not.",
+   "stats": [
+    {
+     "n": "100",
+     "label": "men of the 1st Wiltshires who died between 21 and 31 March 1918"
+    },
+    {
+     "n": "62",
+     "label": "of them on Sunday 24 March"
+    },
+    {
+     "n": "80",
+     "label": "have no known grave, and are named on the Arras Memorial"
+    }
+   ],
+   "namesHeading": "The names",
+   "names": [
+    {
+     "name": "S. Adams",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "S. Alger",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "21/03"
+    },
+    {
+     "name": "H. Averies",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "22/03"
+    },
+    {
+     "name": "Bailey",
+     "rank": "",
+     "memorial": false,
+     "date": "25/03"
+    },
+    {
+     "name": "G. Ball",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "J. Bennett",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "W. Bennett",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "Blake",
+     "rank": "Sgt",
+     "memorial": false,
+     "date": "21/03"
+    },
+    {
+     "name": "Blanchard",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "25/03"
+    },
+    {
+     "name": "G. Bland",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "F. Brackstone",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "J. Brimblecombe",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "G. Brodie",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "P. Brown",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "P. Brown",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "26/03"
+    },
+    {
+     "name": "G. Bumstead",
+     "rank": "",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "Burry",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "21/03"
+    },
+    {
+     "name": "A. Burt",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "Butt",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "26/03"
+    },
+    {
+     "name": "C. Cabot",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "23/03"
+    },
+    {
+     "name": "W. Carter",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "A. Chittenden",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "F. Clift",
+     "rank": "",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "T. Collyer",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "A. Cook",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "P. Cooper",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "B. Cottle",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "M. Coward",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "J. Dean",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "W. Derham",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "R. Dorrington",
+     "rank": "Cpl",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "Down",
+     "rank": "Sgt",
+     "memorial": false,
+     "date": "21/03"
+    },
+    {
+     "name": "J. Durham",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "C. Eatwell",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "S. Elliott",
+     "rank": "",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "H. Farmer",
+     "rank": "Cpl",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "J. Fisher",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "R. Foot",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "W. Fowle",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "T. Fowler",
+     "rank": "Cpl",
+     "memorial": false,
+     "date": "23/03"
+    },
+    {
+     "name": "R. Gamester",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "H. Gibson",
+     "rank": "Lt",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "G. Green",
+     "rank": "Cpl",
+     "memorial": false,
+     "date": "22/03"
+    },
+    {
+     "name": "J. Green",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "23/03"
+    },
+    {
+     "name": "V. Gregory",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "23/03"
+    },
+    {
+     "name": "J. Gunning",
+     "rank": "Lt",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "W. Gurd",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "H. Haggitt",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "25/03"
+    },
+    {
+     "name": "C. Hall",
+     "rank": "",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "J. Hardie",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "28/03"
+    },
+    {
+     "name": "F. Hardy",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "H. Harris",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "A. Hatherell",
+     "rank": "",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "R. Hewitt",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "H. Hillier",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "22/03"
+    },
+    {
+     "name": "B. Hills",
+     "rank": "Cpl",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "W. Holloway",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "23/03"
+    },
+    {
+     "name": "E. Hunt",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "A. Jackett",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "23/03"
+    },
+    {
+     "name": "Keats",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "26/03"
+    },
+    {
+     "name": "S. Kendall",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "23/03"
+    },
+    {
+     "name": "T. Kight",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "C. Legg",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "25/03"
+    },
+    {
+     "name": "C. Manley",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "W. Marsh",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "23/03"
+    },
+    {
+     "name": "J. Melbourne",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "D. Miles",
+     "rank": "Cpl",
+     "memorial": false,
+     "date": "21/03"
+    },
+    {
+     "name": "A. Mills",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "A. Mills",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "28/03"
+    },
+    {
+     "name": "G. Morley",
+     "rank": "",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "G. Moulding",
+     "rank": "Sgt",
+     "memorial": false,
+     "date": "25/03"
+    },
+    {
+     "name": "S. Palmer",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "S. Pattenden",
+     "rank": "",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "W. Penny",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "J. Powell",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "F. Purkis",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "F. Richard",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "S. Sainsbury",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "22/03"
+    },
+    {
+     "name": "S. Scammell",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "21/03"
+    },
+    {
+     "name": "F. Scriven",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "J. Sealey",
+     "rank": "",
+     "memorial": false,
+     "date": "22/03"
+    },
+    {
+     "name": "W. Seston",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "21/03"
+    },
+    {
+     "name": "R. Smith",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "21/03"
+    },
+    {
+     "name": "W. Styler",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "S. Terry",
+     "rank": "Capt",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "P. Treloar",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "J. Tuffin",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "C. Vallence",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "C. Vincent",
+     "rank": "",
+     "memorial": false,
+     "date": "22/03"
+    },
+    {
+     "name": "W. Wadhams",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "30/03"
+    },
+    {
+     "name": "H. Wallington",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "21/03"
+    },
+    {
+     "name": "G. Walters",
+     "rank": "Sgt",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "C. Warder",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "B. Warner",
+     "rank": "CQMS/CSM",
+     "memorial": false,
+     "date": "21/03"
+    },
+    {
+     "name": "T. Westall",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "22/03"
+    },
+    {
+     "name": "E. Westmore",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "E. Wheeler",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "31/03"
+    },
+    {
+     "name": "E. Williams",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "24/03"
+    },
+    {
+     "name": "L. Williams",
+     "rank": "Sgt",
+     "memorial": false,
+     "date": "29/03"
+    },
+    {
+     "name": "C. Wyman",
+     "rank": "Pte",
+     "memorial": false,
+     "date": "24/03"
+    }
+   ],
+   "namesNote": "The men of the 1st Battalion, Wiltshire Regiment, who died from 21 to 31 March 1918, transcribed from a Commonwealth War Graves Commission list. Spellings are still to be checked against CWGC.",
+   "entries": [
+    {
+     "date": "Wednesday 4 December 1918",
+     "place": "Hull",
+     "paras": [
+      "England. They marched us off the boat at Hull this morning, and a woman with a big urn handed me a cup of tea. I stood on the dock and couldn't drink it. Just held it, warm in my hands.",
+      "Three and a half years. I went out a farm boy who'd never been further than Yeovil, and I've come back I don't know what.",
+      "Somebody had a list. A hundred of our battalion killed in that one week in March, and sixty-two of them on the Sunday. I was nearly one of them. I don't know why I'm not.",
+      "Home next. To Stoford, and Mother, and the little ones, who won't be so little now.",
+      "And Nell."
+     ],
+     "basis": [
+      [
+       "record",
+       "Repatriated, landing at Hull on 4 December 1918 (casualty record)."
+      ],
+      [
+       "history",
+       "100 men of the 1st Wiltshires died between 21 and 31 March 1918, 62 of them on 24 March (Commonwealth War Graves Commission list)."
+      ],
+      [
+       "family",
+       "He married Ellen \"Nell\" Taylor that December (family memoir). That they were already courting is our guess."
+      ],
+      [
+       "imagined",
+       "The tea, the list and his feelings."
+      ]
+     ]
+    }
+   ],
+   "photos": [
+    {
+     "cat": "EPH 4582",
+     "file": "eph4582.jpg",
+     "caption": "The printed letter from King George V welcoming prisoners home: \"The Queen joins me in welcoming you\". Henry would probably have been given one. Does the family still have it?",
+     "alt": "A framed printed letter with a royal crest.",
+     "url": "https://www.iwm.org.uk/collections/item/object/30084510",
+     "credit": "Image: IWM (EPH 4582)",
+     "src": "https://media.iwm.org.uk/ciim5/196/744/mid_000000.jpg?action=e&cat=Souvenirs%20and%20ephemera"
+    }
+   ],
+   "asks": [
+    {
+     "id": "shellshock",
+     "q": "What was shell shock?"
+    }
+   ]
+  }
+ ]
+}

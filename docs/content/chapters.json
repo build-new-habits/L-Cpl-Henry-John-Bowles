@@ -1,0 +1,211 @@
+{
+  "title": "The Quiet Soldier",
+  "subject": "Lance Corporal Henry John Bowles",
+  "firstChapter": 1,
+  "buildingNext": 4,
+  "chapters": [
+    {
+      "n": 1,
+      "slug": "before",
+      "title": "Before",
+      "side": "england",
+      "place": "Stoford, near Yeovil",
+      "when": "Before 1915",
+      "teaser": "The eldest of twelve children, growing up beside the railway at Stoford and working on the land.",
+      "minutes": 10,
+      "map": {
+        "x": 90,
+        "y": 480,
+        "labelY": 530
+      },
+      "status": "ready"
+    },
+    {
+      "n": 2,
+      "slug": "why-he-went",
+      "title": "Why he went",
+      "side": "england",
+      "place": "Somerset",
+      "when": "1914 to 1915",
+      "teaser": "Henry went to France in 1915, before anyone was made to go. What made a young farm hand volunteer?",
+      "minutes": 15,
+      "map": {
+        "x": 200,
+        "y": 390,
+        "labelY": 352
+      },
+      "status": "ready"
+    },
+    {
+      "n": 3,
+      "slug": "becoming-a-soldier",
+      "title": "Becoming a soldier",
+      "side": "england",
+      "place": "Across the Channel to France",
+      "when": "1915",
+      "teaser": "From the base depot to the trenches: the months that turned a farm hand into a rifleman. Step inside a trench, try the gas drill, censor a letter and learn to talk like a Tommy.",
+      "minutes": 35,
+      "map": {
+        "x": 300,
+        "y": 480,
+        "labelY": 530
+      },
+      "status": "ready",
+      "record": {
+        "source": "His service and casualty records, as summarised by the Rifles Berkshire and Wiltshire Museum",
+        "entries": [
+          {
+            "date": "Summer 1915",
+            "entry": "Went to France with the Somerset Light Infantry. His casualty record gives 22 June 1915; the medal roll gives 22 July."
+          },
+          {
+            "date": "28 October 1915",
+            "entry": "Posted to the 8th Entrenching Battalion, digging and road-mending behind the lines."
+          },
+          {
+            "date": "16 December 1915",
+            "entry": "Joined the 1st Battalion, Somerset Light Infantry."
+          }
+        ]
+      }
+    },
+    {
+      "n": 4,
+      "slug": "the-line",
+      "title": "The Line",
+      "side": "france",
+      "place": "Redan Ridge, the Somme",
+      "when": "1 July 1916",
+      "teaser": "The first day of the Battle of the Somme. Henry's battalion crosses No Man's Land towards a German strongpoint called the Quadrilateral.",
+      "minutes": 40,
+      "map": {
+        "x": 630,
+        "y": 410,
+        "labelY": 470
+      },
+      "contentNote": "This chapter describes a battle in which many men were killed and wounded, including Henry.",
+      "status": "ready",
+      "record": {
+        "source": "His service and casualty records, as summarised by the Rifles Berkshire and Wiltshire Museum",
+        "entries": [
+          {
+            "date": "1 July 1916",
+            "entry": "Wounded."
+          },
+          {
+            "date": "2 July 1916",
+            "entry": "Admitted to 47 Casualty Clearing Station with a gunshot wound to the face."
+          },
+          {
+            "date": "7 to 8 July 1916",
+            "entry": "Record also lists a gunshot wound to the left hand: 12th Field Ambulance, then a Canadian hospital."
+          },
+          {
+            "date": "21 July 1916",
+            "entry": "Posted to the 1st Battalion, Wiltshire Regiment."
+          }
+        ]
+      }
+    },
+    {
+      "n": 5,
+      "slug": "meanwhile-in-blighty",
+      "title": "Meanwhile in Blighty",
+      "side": "england",
+      "place": "Home in Somerset",
+      "when": "1915 to 1918",
+      "teaser": "While Henry was away, life at home carried on. What did his family know, and what did they hear?",
+      "minutes": 20,
+      "map": {
+        "x": 250,
+        "y": 260,
+        "labelY": 222
+      },
+      "status": "ready"
+    },
+    {
+      "n": 6,
+      "slug": "the-end-of-the-war",
+      "title": "The end of the war",
+      "side": "france",
+      "place": "Frémicourt, near Bapaume",
+      "when": "July 1916 to December 1918",
+      "teaser": "Nearly two more years of war with a new regiment: the Somme again, Belgium, Ypres, a friend from home, one stripe, and a March morning in 1918 that changed everything.",
+      "minutes": 50,
+      "map": {
+        "x": 650,
+        "y": 210,
+        "labelY": 172
+      },
+      "contentNote": "This chapter describes fighting, men being killed, the death of a young soldier Henry knew (an imagined story), and Henry being taken prisoner.",
+      "status": "ready",
+      "record": {
+        "source": "His service and casualty records, as summarised by the Rifles Berkshire and Wiltshire Museum",
+        "entries": [
+          {
+            "date": "22 April 1917",
+            "entry": "Fined a day's pay for being absent from a 2.30pm parade until 9.45pm."
+          },
+          {
+            "date": "June 1917",
+            "entry": "In hospital in France with an inflamed middle ear."
+          },
+          {
+            "date": "6 January 1918",
+            "entry": "Appointed Lance Corporal (unpaid)."
+          },
+          {
+            "date": "24 March 1918",
+            "entry": "Reported missing, C Company, east of Frémicourt."
+          }
+        ]
+      }
+    },
+    {
+      "n": 7,
+      "slug": "after",
+      "title": "After",
+      "side": "england",
+      "place": "Yeovil and Somerset",
+      "when": "1918 to 1963",
+      "teaser": "Home, Nell, the charabanc and the lorries, the bird hospital in the shed, Weymouth for his chest, and the memories he carried to the end of his life.",
+      "minutes": 25,
+      "map": {
+        "x": 150,
+        "y": 140,
+        "labelY": 102
+      },
+      "contentNote": "This chapter touches on how the war stayed with Henry in later life.",
+      "status": "ready",
+      "record": {
+        "source": "His service and casualty records, as summarised by the Rifles Berkshire and Wiltshire Museum",
+        "entries": [
+          {
+            "date": "4 December 1918",
+            "entry": "Arrived at Hull."
+          },
+          {
+            "date": "13 March 1919",
+            "entry": "Discharged to the Class Z Reserve."
+          }
+        ]
+      }
+    },
+    {
+      "n": 8,
+      "slug": "legacy",
+      "title": "Legacy",
+      "side": "france",
+      "place": "Then and now",
+      "when": "2026",
+      "teaser": "In August 2026 four of his descendants walked the ground where he fought. This chapter ends with room for your own memories of him.",
+      "minutes": 20,
+      "map": {
+        "x": 340,
+        "y": 92,
+        "labelY": 54
+      },
+      "status": "ready"
+    }
+  ]
+}
