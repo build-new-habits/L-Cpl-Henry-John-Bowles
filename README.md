@@ -9,8 +9,8 @@ Henry was a Somerset farm hand who went to war, was wounded on the first day of 
 ## Visit
 
 - **Exhibition:** `https://build-new-habits.github.io/L-Cpl-Henry-John-Bowles/` (live once GitHub Pages is switched on)
-- **Ask the historian:** short, sourced answers to visitors' questions, in `docs/historian.html`
-- **Design mock-up:** [`docs/mockup/`](docs/mockup/index.html), the original eight-screen design
+- **Ask the historian:** short, sourced answers to visitors' questions, in [historian.html](historian.html)
+- **Design mock-up:** [`mockup/`](mockup/index.html), the original eight-screen design
 
 ## The eight chapters
 
