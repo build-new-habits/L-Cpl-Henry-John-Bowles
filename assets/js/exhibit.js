@@ -158,8 +158,9 @@
       html += '<section aria-labelledby="ms-' + i + '"><h3 id="ms-' + i + '">' + esc(sec.title) + '</h3>' +
         (sec.collapsed ? '<details><summary>' + esc(sec.collapsed) + '</summary>' + menuList(sec.items) + '</details>' : menuList(sec.items)) + '</section>';
     });
-    d.innerHTML = html + '</nav>';
+    d.innerHTML = html + appSection() + '</nav>';
     document.body.appendChild(d);
+    wireApp(d);
     d.querySelector('[data-close]').addEventListener('click', function () { d.close(); });
     d.addEventListener('click', function (e) {
       if (e.target === d) d.close();
@@ -167,6 +168,85 @@
       if (a) d.close();   // same-page hash links change the scene, so close behind them
     });
     return d;
+  }
+
+  /* Use it like an app: install, and save everything for offline */
+  var installEvent = null;
+  window.addEventListener('beforeinstallprompt', function (e) { e.preventDefault(); installEvent = e; });
+  window.addEventListener('appinstalled', function () { installEvent = null; });
+  if ('serviceWorker' in navigator && location.protocol !== 'file:') {
+    window.addEventListener('load', function () { navigator.serviceWorker.register('sw.js').catch(function () {}); });
+  }
+  function standalone() { return (window.matchMedia && matchMedia('(display-mode: standalone)').matches) || navigator.standalone === true; }
+  function ios() { return /iPad|iPhone|iPod/.test(navigator.userAgent) || (navigator.platform === 'MacIntel' && navigator.maxTouchPoints > 1); }
+  function savedNote() { try { return localStorage.getItem('qs-offline-saved'); } catch (e) { return null; } }
+  function appSection() {
+    var h = '<section aria-labelledby="ms-app"><h3 id="ms-app">Use it like an app</h3><div class="app-box">';
+    if (standalone()) h += '<p>You are using the app. It opens from your home screen like any other app.</p>';
+    else {
+      h += '<p>Add The Quiet Soldier to this phone, tablet or computer, so it opens from its own icon.</p>';
+      if (installEvent) h += '<button type="button" class="btn btn--primary" data-install>Add it to this device</button>';
+      else if (ios()) h += '<p><strong>On an iPhone or iPad:</strong> open this page in Safari, tap the Share button (a square with an arrow pointing up), then choose <strong>Add to Home Screen</strong>.</p>';
+      else h += '<p><strong>In Chrome or Edge:</strong> open the browser menu and choose <strong>Install</strong> or <strong>Add to Home screen</strong>. <strong>On an iPhone or iPad:</strong> use Safari\'s Share button, then <strong>Add to Home Screen</strong>.</p>';
+    }
+    if ('caches' in window && 'serviceWorker' in navigator) {
+      var when = savedNote();
+      h += '<p>To look at it with no internet, for example on a journey, save everything first. It takes a few minutes on wi-fi.</p>' +
+        '<button type="button" class="btn" data-save-offline>' + (when ? 'Update the saved copy' : 'Save everything for offline') + '</button>' +
+        '<p class="app-status" role="status" aria-live="polite">' + (when ? 'Saved for offline on ' + esc(when) + '.' : '') + '</p>' +
+        '<p class="app-note">The Imperial War Museum photographs are shown from the museum\'s website, so they need the internet.</p>';
+    }
+    return h + '</div></section>';
+  }
+  function wireApp(d) {
+    var ib = d.querySelector('[data-install]');
+    if (ib) ib.addEventListener('click', function () {
+      if (!installEvent) return;
+      installEvent.prompt();
+      installEvent.userChoice.then(function (c) {
+        installEvent = null;
+        ib.insertAdjacentHTML('afterend', '<p role="status">' + (c.outcome === 'accepted' ? 'Added. Look for the Quiet Soldier icon.' : 'Not added. You can do it later from this menu.') + '</p>');
+        ib.remove();
+      });
+    });
+    var sb = d.querySelector('[data-save-offline]');
+    if (sb) sb.addEventListener('click', function () { saveOffline(sb, d.querySelector('.app-status')); });
+  }
+  function saveOffline(btn, status) {
+    btn.disabled = true;
+    status.textContent = 'Getting the list of files…';
+    fetch('offline-files.json', { cache: 'no-cache' }).then(function (r) { return r.json(); }).then(function (list) {
+      var pages = ['./', 'index.html', 'chapter.html', 'journey.html', 'historian.html', 'manifest.webmanifest', 'offline-files.json',
+        'assets/css/exhibit.css', 'assets/css/chapter.css', 'assets/js/exhibit.js', 'assets/js/chapter.js', 'assets/js/journal.js'];
+      var text = pages.concat(list.text), media = list.media, done = 0, failed = 0, total = text.length + media.length;
+      var mb = Math.round(list.mediaBytes / 1e6);
+      function tick() { done++; if (done % 5 === 0 || done === total) status.textContent = 'Saving… ' + Math.round(done / total * 100) + '% (about ' + mb + ' MB in all)'; }
+      function grab(cacheName, files) {
+        return caches.open(cacheName).then(function (c) {
+          var i = 0;
+          function next() {
+            if (i >= files.length) return Promise.resolve();
+            var f = files[i++];
+            return fetch(f, { cache: 'no-cache' }).then(function (r) { if (r.ok) return c.put(f, r); failed++; })
+              .catch(function () { failed++; }).then(function () { tick(); return next(); });
+          }
+          return Promise.all([next(), next(), next(), next()]);
+        });
+      }
+      return caches.keys().then(function (keys) {
+        var shell = keys.filter(function (k) { return k.indexOf('qs-shell-') === 0; }).pop() || 'qs-shell-' + list.version;
+        return grab(shell, text).then(function () { return grab('qs-media', media); });
+      }).then(function () {
+        if (failed) { status.textContent = failed + ' of ' + total + ' files could not be saved. Check the internet connection and try again.'; }
+        else {
+          var when = new Date().toLocaleDateString('en-GB', { day: 'numeric', month: 'long', year: 'numeric' });
+          try { localStorage.setItem('qs-offline-saved', when); } catch (e) {}
+          status.textContent = 'Done. Everything is saved, so it will work without the internet.';
+          btn.textContent = 'Update the saved copy';
+        }
+        btn.disabled = false;
+      });
+    }).catch(function () { status.textContent = 'Saving did not work. Check the internet connection and try again.'; btn.disabled = false; });
   }
   var menuData = null;
   function openMenu(btn) {
