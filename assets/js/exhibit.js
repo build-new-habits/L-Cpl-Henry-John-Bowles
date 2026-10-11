@@ -172,8 +172,73 @@
 
   /* Use it like an app: install, and save everything for offline */
   var installEvent = null;
-  window.addEventListener('beforeinstallprompt', function (e) { e.preventDefault(); installEvent = e; });
-  window.addEventListener('appinstalled', function () { installEvent = null; });
+  window.addEventListener('beforeinstallprompt', function (e) {
+    e.preventDefault(); installEvent = e;
+    document.querySelectorAll('[data-install-help]').forEach(function (el) { el.innerHTML = installHelp(); wireInstall(el); });
+  });
+  window.addEventListener('appinstalled', function () {
+    installEvent = null;
+    var b = document.querySelector('.install-banner'); if (b) b.remove();
+  });
+  var UA = navigator.userAgent;
+  function inAppBrowser() { return /FBAN|FBAV|FB_IAB|Instagram|Line\/|WhatsApp|Snapchat|MicroMessenger|GSA\/|; wv\)/.test(UA); }
+  var SHARE_ICON = '<svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" focusable="false" style="vertical-align:-3px"><path d="M12 3v12M7 8l5-5 5 5"/><path d="M5 12v8h14v-8"/></svg>';
+  function installHelp() {
+    if (installEvent) return '<button type="button" class="btn btn--primary" data-install>Add it to this device</button>';
+    if (inAppBrowser()) return '<p>You have opened this inside another app (such as WhatsApp, Facebook or email), which cannot add it to your home screen. ' +
+      'Use that app\'s menu (often <strong>⋯</strong> or <strong>⋮</strong>) and choose <strong>Open in browser</strong>, ' + (ios() ? '<strong>Open in Safari</strong>' : '<strong>Open in Chrome</strong>') + ', then come back to this message.</p>' +
+      '<button type="button" class="btn" data-copy-link>Copy the link instead</button>';
+    if (ios()) {
+      var other = /CriOS|FxiOS|EdgiOS/.test(UA);
+      return '<ol class="install-steps"><li>Tap the <strong>Share</strong> button ' + SHARE_ICON + (other ? ' (in Chrome it is at the top right, next to the address)' : ' (at the bottom of the screen, or at the top on an iPad)') + '.</li>' +
+        '<li>Scroll down and tap <strong>Add to Home Screen</strong>.</li><li>Tap <strong>Add</strong>. The Quiet Soldier icon appears with your other apps.</li></ol>' +
+        (other ? '<p>If you cannot see Add to Home Screen, open this page in <strong>Safari</strong> and try again.</p>' : '');
+    }
+    if (/SamsungBrowser/.test(UA)) return '<ol class="install-steps"><li>Tap the menu button <strong>≡</strong> at the bottom right.</li><li>Tap <strong>Add page to</strong>, then <strong>Home screen</strong>.</li></ol>';
+    if (/Android/.test(UA)) return '<ol class="install-steps"><li>Tap the browser menu <strong>⋮</strong> at the top right.</li><li>Tap <strong>Add to Home screen</strong> or <strong>Install app</strong>, then <strong>Install</strong>.</li></ol>';
+    if (/Firefox/.test(UA)) return '<p>Firefox on a computer cannot add websites as apps. Open this page in <strong>Chrome</strong> or <strong>Edge</strong> instead, or just bookmark it.</p>';
+    if (/Safari/.test(UA) && !/Chrome|Chromium|Edg/.test(UA)) return '<p>On a Mac, in Safari, open the <strong>File</strong> menu and choose <strong>Add to Dock</strong>.</p>';
+    return '<p>Look for the install icon at the right-hand end of the address bar, or open the browser menu <strong>⋮</strong> and choose <strong>Install</strong> (sometimes under <strong>Save and share</strong> or <strong>Apps</strong>).</p>';
+  }
+  function wireInstall(root) {
+    var ib = root.querySelector('[data-install]');
+    if (ib) ib.addEventListener('click', function () {
+      if (!installEvent) return;
+      installEvent.prompt();
+      installEvent.userChoice.then(function (c) {
+        installEvent = null;
+        ib.insertAdjacentHTML('afterend', '<p role="status">' + (c.outcome === 'accepted' ? 'Added. Look for the Quiet Soldier icon.' : 'Not added. You can do it later from the menu.') + '</p>');
+        ib.remove();
+      });
+    });
+    var cb = root.querySelector('[data-copy-link]');
+    if (cb) cb.addEventListener('click', function () {
+      var url = location.href.split('#')[0].replace(/[^/]*$/, '');
+      (navigator.clipboard ? navigator.clipboard.writeText(url) : Promise.reject()).then(function () {
+        cb.insertAdjacentHTML('afterend', '<p role="status">Link copied. Paste it into Safari or Chrome.</p>'); cb.remove();
+      }).catch(function () { cb.insertAdjacentHTML('afterend', '<p>The link is: <strong>' + esc(url) + '</strong></p>'); cb.remove(); });
+    });
+  }
+  /* Shown at the top of every page until it is added to the device. "Not now" hides it until the next visit. */
+  function installBanner() {
+    if (standalone() || location.protocol === 'file:') return;
+    var dismissed = false; try { dismissed = sessionStorage.getItem('qs-install-later') === '1'; } catch (e) {}
+    if (dismissed) return;
+    var b = document.createElement('section');
+    b.className = 'install-banner'; b.setAttribute('aria-labelledby', 'install-title');
+    b.innerHTML = '<div class="install-banner__inner"><img src="assets/icons/icon-192.png" alt="" width="56" height="56">' +
+      '<div class="install-banner__text"><h2 id="install-title">Keep The Quiet Soldier on this device</h2>' +
+      '<p>Add it to your home screen and it opens like an app, with its own icon.</p><div data-install-help>' + installHelp() + '</div></div>' +
+      '<button type="button" class="install-banner__later">Not now</button></div>';
+    var header = document.querySelector('.site-header');
+    if (header) header.insertAdjacentElement('afterend', b); else document.body.insertBefore(b, document.body.firstChild);
+    wireInstall(b);
+    b.querySelector('.install-banner__later').addEventListener('click', function () {
+      try { sessionStorage.setItem('qs-install-later', '1'); } catch (e) {}
+      var main = document.getElementById('main'); b.remove(); if (main) { main.setAttribute('tabindex', '-1'); main.focus(); }
+    });
+  }
+  document.addEventListener('DOMContentLoaded', installBanner);
   if ('serviceWorker' in navigator && location.protocol !== 'file:') {
     window.addEventListener('load', function () { navigator.serviceWorker.register('sw.js').catch(function () {}); });
   }
@@ -185,9 +250,7 @@
     if (standalone()) h += '<p>You are using the app. It opens from your home screen like any other app.</p>';
     else {
       h += '<p>Add The Quiet Soldier to this phone, tablet or computer, so it opens from its own icon.</p>';
-      if (installEvent) h += '<button type="button" class="btn btn--primary" data-install>Add it to this device</button>';
-      else if (ios()) h += '<p><strong>On an iPhone or iPad:</strong> open this page in Safari, tap the Share button (a square with an arrow pointing up), then choose <strong>Add to Home Screen</strong>.</p>';
-      else h += '<p><strong>In Chrome or Edge:</strong> open the browser menu and choose <strong>Install</strong> or <strong>Add to Home screen</strong>. <strong>On an iPhone or iPad:</strong> use Safari\'s Share button, then <strong>Add to Home Screen</strong>.</p>';
+      h += '<div data-install-help>' + installHelp() + '</div>';
     }
     if ('caches' in window && 'serviceWorker' in navigator) {
       var when = savedNote();
@@ -199,16 +262,7 @@
     return h + '</div></section>';
   }
   function wireApp(d) {
-    var ib = d.querySelector('[data-install]');
-    if (ib) ib.addEventListener('click', function () {
-      if (!installEvent) return;
-      installEvent.prompt();
-      installEvent.userChoice.then(function (c) {
-        installEvent = null;
-        ib.insertAdjacentHTML('afterend', '<p role="status">' + (c.outcome === 'accepted' ? 'Added. Look for the Quiet Soldier icon.' : 'Not added. You can do it later from this menu.') + '</p>');
-        ib.remove();
-      });
-    });
+    wireInstall(d);
     var sb = d.querySelector('[data-save-offline]');
     if (sb) sb.addEventListener('click', function () { saveOffline(sb, d.querySelector('.app-status')); });
   }

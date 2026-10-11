@@ -1,7 +1,7 @@
 /* The Quiet Soldier: offline support.
    Pages, styles, scripts and text: network first, so updates arrive; the saved copy is used when offline.
    Photos and recordings: saved copy first (they rarely change), refreshed in the background. */
-var VERSION = '4e46103319';
+var VERSION = '779c336335';
 var SHELL = 'qs-shell-' + VERSION;
 var MEDIA = 'qs-media';
 var CORE = [

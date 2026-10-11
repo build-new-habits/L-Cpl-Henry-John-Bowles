@@ -334,3 +334,24 @@ html[data-tint="auto"][data-theme="dark"] .chapter-list a[aria-current] { backgr
 .app-status:empty { display: none; }
 .app-status { font-weight: 700; }
 .app-note { color: var(--muted); font-size: 0.9rem; }
+
+/* Install banner */
+.install-banner { background: var(--card); color: var(--ink); border-bottom: 3px solid var(--poppy); }
+.install-banner__inner { max-width: 1100px; margin: 0 auto; padding: 14px 16px; display: grid; grid-template-columns: auto 1fr auto; gap: 14px; align-items: start; }
+.install-banner img { border-radius: 12px; }
+.install-banner h2 { font-size: 1.3rem; margin: 0 0 4px; }
+.install-banner p { margin: 0 0 8px; }
+.install-steps { margin: 0 0 8px; padding-left: 1.4em; display: grid; gap: 4px; }
+.install-banner__later { min-height: 48px; min-width: 48px; padding: 0 14px; border: 2px solid var(--ink); border-radius: 8px; background: transparent; color: var(--ink); font: inherit; font-weight: 700; cursor: pointer; }
+.install-banner__later:hover { background: var(--paper-deep); }
+@media (max-width: 600px) {
+  .install-banner__inner { grid-template-columns: auto 1fr; }
+  .install-banner__later { grid-column: 1 / -1; justify-self: start; }
+  .install-banner img { width: 44px; height: 44px; }
+}
+.welcome .install-banner, .welcome .install-banner h2 { color: var(--ink); }
+.welcome .install-banner a { color: var(--link); }
+.welcome .install-banner .btn { border-color: var(--ink); color: var(--ink); }
+.welcome .install-banner .btn:hover { background: var(--paper-deep); color: var(--ink); }
+.welcome .install-banner .btn--primary { border-color: var(--poppy); background: var(--poppy); color: #FFFFFF; }
+.welcome .install-banner .btn--primary:hover { background: #82201A; color: #FFFFFF; }
