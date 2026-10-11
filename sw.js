@@ -1,7 +1,7 @@
 /* The Quiet Soldier: offline support.
    Pages, styles, scripts and text: network first, so updates arrive; the saved copy is used when offline.
    Photos and recordings: saved copy first (they rarely change), refreshed in the background. */
-var VERSION = '779c336335';
+var VERSION = '20261011a';
 var SHELL = 'qs-shell-' + VERSION;
 var MEDIA = 'qs-media';
 var CORE = [
@@ -24,8 +24,23 @@ self.addEventListener('activate', function (e) {
   e.waitUntil(caches.keys().then(function (keys) {
     return Promise.all(keys.filter(function (k) { return k.indexOf('qs-shell-') === 0 && k !== SHELL; })
       .map(function (k) { return caches.delete(k); }));
-  }).then(function () { return self.clients.claim(); }));
+  }).then(clearSavedAudio).then(function () { return self.clients.claim(); }));
 });
+
+/* Recordings were renamed in October 2026 so each one plays with the right
+   journal entry. Drop any saved copies so the corrected files are fetched. */
+function clearSavedAudio() {
+  return caches.keys().then(function (keys) {
+    return Promise.all(keys.map(function (k) {
+      return caches.open(k).then(function (c) {
+        return c.keys().then(function (reqs) {
+          return Promise.all(reqs.filter(function (r) { return /\.(mp3|m4a)$/i.test(new URL(r.url).pathname); })
+            .map(function (r) { return c.delete(r); }));
+        });
+      });
+    }));
+  }).catch(function () {});
+}
 
 function isMedia(url) { return /\.(jpe?g|png|gif|webp|svg|mp3|m4a)$/i.test(url.pathname); }
 

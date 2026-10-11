@@ -1,6 +1,6 @@
 # Family photographs
 
-Each family photo slot shows "Photograph to come" until a file with the name below is put in this folder (`site/assets/img/family/`). JPG is fine; scan old prints at 600 dpi if you can. Only add photos the family is happy to share.
+Each family photo is left out of the exhibition until a file with the name below is put in this folder (`site/assets/img/family/`). JPG is fine; scan old prints at 600 dpi if you can. Only add photos the family is happy to share.
 
 | Save as | Scene | What it shows |
 |---|---|---|
@@ -28,3 +28,4 @@ Each family photo slot shows "Photograph to come" until a file with the name bel
 - Ch 8 "The Last Post": trip-wreath.jpg (cropped above the signatures), trip-menin-gate.jpg (cropped, no faces)
 - Kept private (not on the site): 23, 26 full card, 27, 28 (living family), 39 (family member in basilica). Held back for rights: 31, 32 (photos of other people's prints).
 - Still wanted: trip-quadrilateral.jpg
+- Still wanted: the original print of the homepage portrait (currently copied from Grandma Angela's memoir), lorry.jpg, henry-flat-cap.jpg, weymouth.jpg.

@@ -1,6 +1,6 @@
 # Photographs to download
 
-Every photo slot in the exhibition shows a "Photograph to come" box until its file is added here. Download each one from the Imperial War Museums page (the free **Download** button gives the standard non-commercial size), rename it exactly as below, and put it in this folder: `site/assets/img/iwm/`.
+A photo whose file is not in this folder is left out of the exhibition. It appears by itself once the file is added. Download each one from the Imperial War Museums page (the free **Download** button gives the standard non-commercial size), rename it exactly as below, and put it in this folder: `site/assets/img/iwm/`.
 
 Licence: IWM Non Commercial Licence. Credit is shown automatically as "© IWM (catalogue number)". Do not crop or colourise. The site must stay free and without adverts.
 

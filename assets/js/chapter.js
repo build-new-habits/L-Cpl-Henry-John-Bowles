@@ -327,7 +327,7 @@
     refresh();
   }
 
-  /* ---------- Photographs (with slots until the files arrive) ---------- */
+  /* ---------- Photographs (any whose file is missing are left out) ---------- */
   function photoBlock(sc, key, heading) {
     key = key || 'photos';
     var list = sc[key];
@@ -347,19 +347,35 @@
   function wirePhotos(root, sc) {
     root.querySelectorAll('img[data-photo]').forEach(function (img) {
       var fig = img.closest('.photo'), p = sc[fig.dataset.list][+fig.dataset.i];
+      var settled = false;
+      /* A photo whose file is not there yet is simply left out, so visitors
+         never see an empty "to come" box. If a section ends up with no
+         photos at all, the whole section and its heading go too. */
       function slot() {
-        img.closest('.photo-frame').outerHTML = '<div class="photo-slot"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true" focusable="false"><path d="M4 7h3l2-2h6l2 2h3v12H4z"/><circle cx="12" cy="13" r="3.5"/></svg>' +
-          '<span class="photo-slot__title">Photograph to come</span><span class="photo-slot__cat">' + e(p.slot || ('IWM ' + p.cat)) + '</span></div>';
+        if (settled) return; settled = true;
+        var section = fig.closest('.photos');
+        fig.remove();
+        if (section && !section.querySelector('.photo')) section.remove();
+      }
+      /* Lazy images can report "complete" before they have even been fetched,
+         so check with a second request before deciding a file is missing. */
+      function confirmMissing() {
+        var probe = new Image();
+        probe.onload = function () { if (!img.naturalWidth) img.src = probe.src; ready(); };
+        probe.onerror = slot;
+        probe.src = img.currentSrc || img.src;
       }
       function ready() {
+        if (settled) return; settled = true;
         var b = document.createElement('button');
         b.type = 'button'; b.className = 'btn photo-zoom'; b.textContent = 'Enlarge';
         b.setAttribute('aria-label', 'Enlarge the photograph: ' + p.caption);
         b.addEventListener('click', function () { openZoom(img.src, p.alt, b, 'Enlarged photograph'); });
         fig.querySelector('figcaption').appendChild(b);
       }
-      if (img.complete) { if (img.naturalWidth) ready(); else slot(); }
-      else { img.addEventListener('load', ready); img.addEventListener('error', slot); }
+      img.addEventListener('load', ready);
+      img.addEventListener('error', confirmMissing);
+      if (img.complete) { if (img.naturalWidth) ready(); else confirmMissing(); }
     });
   }
 
