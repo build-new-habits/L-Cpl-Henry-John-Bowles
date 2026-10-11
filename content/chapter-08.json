@@ -61,6 +61,24 @@
    ],
    "photos": [
     {
+     "cat": "Family photo",
+     "file": "trip-thicknesse-grave.jpg",
+     "dir": "family",
+     "caption": "The grave of Lieutenant-Colonel J. A. Thicknesse, Henry's commanding officer, killed on 1 July 1916 aged 46. The family left this little cross and poppy.",
+     "alt": "A white headstone carved with the Somerset Light Infantry badge and the words Lieutenant Colonel J. A. Thicknesse, Somerset Light Infantry, 1st July 1916, age 46, with a cross and the line God proved them and found them worthy for himself. A small wooden cross with a red poppy stands in front.",
+     "credit": "Family photograph, August 2026",
+     "slot": "Family photo"
+    },
+    {
+     "cat": "Family photo",
+     "file": "trip-battlefield-finds.jpg",
+     "dir": "family",
+     "caption": "What the fields still give up: helmets, shell fuses, barbed wire, bottles, tools and twisted metal, found on the battlefields and shown in a museum on the trip.",
+     "alt": "Tables and shelves crowded with rusted First World War finds: German steel helmets, shell nose-cones, coils of barbed wire, glass bottles, spades and corkscrew wire pickets.",
+     "credit": "Family photograph, August 2026",
+     "slot": "Family photo"
+    },
+    {
      "cat": "Trip photo wanted",
      "file": "trip-quadrilateral.jpg",
      "dir": "family",

@@ -328,13 +328,16 @@
   }
 
   /* ---------- Photographs (with slots until the files arrive) ---------- */
-  function photoBlock(sc) {
-    if (!sc.photos || !sc.photos.length) return '';
-    return '<section class="photos" aria-labelledby="ph-' + sc.id + '"><h2 class="sub" id="ph-' + sc.id + '">' + e(sc.photosHeading || 'Photographs from the time') + '</h2>' +
-      '<div class="photo-grid">' + sc.photos.map(function (p, i) {
+  function photoBlock(sc, key, heading) {
+    key = key || 'photos';
+    var list = sc[key];
+    if (!list || !list.length) return '';
+    var hid = 'ph-' + sc.id + '-' + key;
+    return '<section class="photos" aria-labelledby="' + hid + '"><h2 class="sub" id="' + hid + '">' + e(heading || sc.photosHeading || 'Photographs from the time') + '</h2>' +
+      '<div class="photo-grid">' + list.map(function (p, i) {
         var credit = p.credit || ('Image: IWM (' + p.cat + ')');
         var dir = p.dir || 'iwm';
-        return '<figure class="photo" data-i="' + i + '"><div class="photo-frame">' +
+        return '<figure class="photo" data-list="' + key + '" data-i="' + i + '"><div class="photo-frame">' +
           '<img src="' + e(p.src || ('assets/img/' + dir + '/' + p.file)) + '" alt="' + e(p.alt) + '" loading="lazy" data-photo>' +
           '</div><figcaption><span>' + e(p.caption) + '</span>' +
           '<span class="photo-credit">' + e(credit) + (p.url ? ' <a href="' + e(p.url) + '" target="_blank" rel="noopener">See it at IWM<span class="visually-hidden"> (opens in a new tab)</span></a>' : '') + '</span></figcaption></figure>';
@@ -343,7 +346,7 @@
 
   function wirePhotos(root, sc) {
     root.querySelectorAll('img[data-photo]').forEach(function (img) {
-      var fig = img.closest('.photo'), p = sc.photos[+fig.dataset.i];
+      var fig = img.closest('.photo'), p = sc[fig.dataset.list][+fig.dataset.i];
       function slot() {
         img.closest('.photo-frame').outerHTML = '<div class="photo-slot"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true" focusable="false"><path d="M4 7h3l2-2h6l2 2h3v12H4z"/><circle cx="12" cy="13" r="3.5"/></svg>' +
           '<span class="photo-slot__title">Photograph to come</span><span class="photo-slot__cat">' + e(p.slot || ('IWM ' + p.cat)) + '</span></div>';
@@ -742,7 +745,7 @@
       if (sc.type === 'cards') html += behind(factCards(sc), 'Life in the line, from the records', false);
     }
     if (sc.panels && sc.panels.length) html += behind(panelCards(sc.panels), sc.panelsTitle || 'What the history says', false);
-    html += photoBlock(sc) + asksBlock(sc);
+    html += photoBlock(sc) + photoBlock(sc, 'visitPhotos', sc.visitHeading || 'From the family\'s visit, August 2026') + asksBlock(sc);
     html += '</div>';
 
     var last = s === total;
@@ -771,7 +774,7 @@
     });
     if (sc.type === 'debate') wireDebate(view.querySelector('.debate'), sc);
     if (sc.type === 'memories') wireMemories(view.querySelector('.memories'), sc);
-    if (sc.photos) wirePhotos(view, sc);
+    if (sc.photos || sc.visitPhotos) wirePhotos(view, sc);
     var fin = document.getElementById('finish');
     if (fin) fin.addEventListener('click', function () {
       QS.setChapterState(ch.n, { done: true, scene: 0 });
