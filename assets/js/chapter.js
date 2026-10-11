@@ -61,10 +61,10 @@
     if (ch.record) {
       html += '<section class="record" aria-labelledby="record-title">' + badge('archival') +
         '<h2 id="record-title">From his army record</h2>' +
-        '<table><caption>' + e(ch.record.source) + '</caption>' +
+        '<div class="table-scroll" role="region" tabindex="0" aria-label="Army record table, scrolls sideways if needed"><table><caption>' + e(ch.record.source) + '</caption>' +
         '<thead><tr><th scope="col">Date</th><th scope="col">Entry</th></tr></thead><tbody>' +
         ch.record.entries.map(function (r) { return '<tr><th scope="row">' + e(r.date) + '</th><td>' + e(r.entry) + '</td></tr>'; }).join('') +
-        '</tbody></table></section>';
+        '</tbody></table></div></section>';
     }
     if (!scenes) {
       html += '<div class="pending" role="note"><p><strong>This chapter is still being researched.</strong> Its scenes will appear here once the research is complete.</p></div>';
@@ -189,9 +189,9 @@
     return '<section class="army-record" aria-labelledby="ar-title">' + badge('archival') +
       '<h2 id="ar-title" class="sub">His casualty record</h2>' +
       '<p class="ar-meta">29774 L/Cpl H. Bowles. Somerset Light Infantry, then Wiltshire Regiment.</p>' +
-      '<table><thead><tr><th scope="col">Date</th><th scope="col">Entry</th></tr></thead><tbody>' +
+      '<div class="table-scroll" role="region" tabindex="0" aria-label="Casualty record table, scrolls sideways if needed"><table><thead><tr><th scope="col">Date</th><th scope="col">Entry</th></tr></thead><tbody>' +
       sc.record.map(function (r) { return '<tr><th scope="row">' + e(r.date) + '</th><td>' + e(r.entry) + '</td></tr>'; }).join('') +
-      '</tbody></table><p class="source">' + e(sc.recordSource) + '</p></section>' +
+      '</tbody></table></div><p class="source">' + e(sc.recordSource) + '</p></section>' +
       (sc.context ? contextCards(sc.context) : '') +
       (sc.family ? '<blockquote class="family-quote">' + badge('family') + '<p>' + e(sc.family.text) + '</p><footer>' + e(sc.family.source) + '</footer></blockquote>' : '');
   }
