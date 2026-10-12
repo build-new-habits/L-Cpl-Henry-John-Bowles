@@ -76,3 +76,8 @@
 .welcome__about a, .welcome__footer a { color: #F0C24B; }
 .welcome__about a:hover, .welcome__footer a:hover { color: #FFD86B; }
 .welcome__footer { border-top-color: #3A352B; color: #B8AE9C; }
+
+/* Maker's credit: visible, but quieter than the exhibition */
+.site-footer__credit { margin: 10px 0 0; font-size: 0.85rem; }
+.site-footer__credit a { color: inherit; font-weight: 700; }
+.welcome__footer .site-footer__credit a { color: #F0C24B; }

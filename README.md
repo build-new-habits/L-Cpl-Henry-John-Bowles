@@ -71,4 +71,12 @@ The source list is built from the chapter files. After editing a chapter, run `p
 
 Family photographs and papers are © the Bowles family and may not be reused without permission. Third-party sources are credited where they appear. Material from the Commonwealth War Graves Commission is used with credit to the CWGC.
 
+## Made by
+
+- **Angela Wright**, Henry's granddaughter: *Memories of Grandad*, the family memoir at the heart of the exhibition
+- **Graeme Wright**, Henry's great-grandson: exhibition and UX design, additional research
+- **Tristan Cobb**, Graeme's cousin: initial research
+
+Built by Graeme Wright at [Build New Habits](https://buildnewhabits.co.uk). Coded with Claude (Anthropic) to Graeme's design.
+
 *In memory of L/Cpl Henry John Bowles, and for the family who carry his story.*

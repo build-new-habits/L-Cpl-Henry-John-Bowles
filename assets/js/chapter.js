@@ -670,7 +670,7 @@
     });
   }
 
-  /* ---------- Your memories (kept on this device, for this visitor) ---------- */
+  /* ---------- Your memories (kept on this device) ---------- */
   function memoriesBlock(sc) {
     var saved = (QS.profile().memories || {});
     return '<section class="memories" aria-labelledby="mem-' + sc.id + '"><h2 class="sub" id="mem-' + sc.id + '">' + e(sc.memHeading) + '</h2>' +

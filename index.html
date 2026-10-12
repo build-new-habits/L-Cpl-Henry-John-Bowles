@@ -33,14 +33,6 @@
         <h1>The Quiet Soldier</h1>
         <p class="welcome__lede">The life of Henry John Bowles: farm hand, soldier and father. Told through the records he left, the places he stood, and a voice imagined for him.</p>
 
-        <fieldset class="visitor">
-          <legend>Who's visiting?</legend>
-          <div class="choice-row">
-            <label class="choice"><input type="radio" name="visitor" value="mum">Mum</label>
-            <label class="choice"><input type="radio" name="visitor" value="graeme">Graeme</label>
-            <label class="choice"><input type="radio" name="visitor" value="guest">Guest</label>
-          </div>
-        </fieldset>
 
         <div class="welcome__actions">
           <a class="btn btn--primary" id="continue" href="journey.html">Open the journey map</a>
@@ -75,19 +67,18 @@
       <li><a href="making.html">How it was made</a></li>
       <li><a href="sources.html">Sources and credits</a></li>
     </ul>
+  <p class="site-footer__credit">Built by Graeme Wright at <a href="https://buildnewhabits.co.uk" target="_blank" rel="noopener">Build New Habits<span class="visually-hidden"> (opens in a new tab)</span></a></p>
   </footer>
 </div>
 
 <script>
 (function () {
   var data = QS.load();
-  var radios = document.querySelectorAll('input[name="visitor"]');
   var cont = document.getElementById('continue');
   var start = document.getElementById('start');
 
   function refresh() {
     var p = QS.profile().progress;
-    radios.forEach(function (r) { r.checked = r.value === QS.load().visitor; });
     if (p.last) {
       cont.textContent = 'Continue where you left off';
       cont.href = 'chapter.html#' + p.last;
@@ -100,9 +91,6 @@
       start.href = 'chapter.html#1';
     }
   }
-  radios.forEach(function (r) {
-    r.addEventListener('change', function () { QS.setVisitor(r.value); refresh(); });
-  });
   refresh();
 })();
 </script>
