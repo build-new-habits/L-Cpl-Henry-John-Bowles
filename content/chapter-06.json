@@ -294,6 +294,7 @@
      "place": "Later",
      "audio": "assets/audio/6-4-never-tell-mother.mp3",
      "paras": [
+      "I can't write this. I'll write it.",
       "A quiet day. That's what the officer will put in the diary tonight, a quiet day. One shell. Just the one, in the middle of the afternoon, out of nowhere, the way they do. Not aimed at anybody. Aimed at a map.",
       "He was fetching the tea.",
       "I was ten yards off. If I'd gone for the tea, like I said I would, it would have been me. I keep thinking that, and then I keep thinking I'd rather it had been, and then I'm ashamed, because I wouldn't, not truly, and he'd laugh at me for saying it.",
@@ -647,7 +648,7 @@
       ],
       [
        "family",
-       "As the eldest of twelve, he kept his brothers and sisters in line well into adult life (Grandma Angela's memoir)."
+       "As the eldest of twelve, he kept his brothers and sisters in line well into adult life (family memoir)."
       ],
       [
        "imagined",
@@ -765,7 +766,7 @@
     "height": 1019,
     "alt": "A British artillery map dated 16 April 1918 showing the villages of Frémicourt, Beugnâtre and Beugny, with green bands marking trenches and wire running between them.",
     "badge": "archival",
-    "caption": "British artillery map, 16 April 1918, sheet 57c, from air photographs taken after 21 March. Copy given to the family by Frank, their battlefield guide, in 2026; original publisher not known.",
+    "caption": "British artillery map, 16 April 1918, sheet 57c, from air photographs taken after 21 March. Source website to be confirmed.",
     "spots": [
      {
       "x": 43,
@@ -1114,7 +1115,7 @@
     {
      "cat": "Q 69487",
      "file": "q69487.jpg",
-     "caption": "A prisoner-of-war barrack in Germany, winter 1917 to 1918. Not Münster itself, but a camp like the ones Henry was held in.",
+     "caption": "A prisoner-of-war barrack in Germany, winter 1917 to 1918. No photograph of the Münster camps has been found at IWM yet.",
      "alt": "A long wooden hut in a snowy camp.",
      "url": "https://www.iwm.org.uk/collections/item/object/205358696",
      "credit": "Image: IWM (Q 69487)",
@@ -1853,7 +1854,7 @@
       ],
       [
        "family",
-       "He married Ellen \"Nell\" Taylor that December (Grandma Angela's memoir). That they were already courting is our guess."
+       "He married Ellen \"Nell\" Taylor that December (family memoir). That they were already courting is our guess."
       ],
       [
        "imagined",

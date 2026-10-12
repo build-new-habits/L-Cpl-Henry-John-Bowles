@@ -47,7 +47,7 @@ html[data-tint="night"] {
   --ink: #F3EDE2; --ink-soft: #D9CFBC; --muted: #B8AE9C;
   --rule: #3A352B; --rule-strong: #6B6252;
   --link: #F0C24B; --link-hover: #FFD86B; --focus: #F0C24B;
-  --poppy: #C2392D; --khaki: #8E9A5B; --on-khaki: #16140F;
+  --poppy: #C2392D; --khaki: #8E9A5B;
   color-scheme: dark;
 }
 /* "Same as my device": follows the system or viewer theme */
@@ -56,7 +56,7 @@ html[data-tint="night"] {
   --ink: #F3EDE2; --ink-soft: #D9CFBC; --muted: #B8AE9C;
   --rule: #3A352B; --rule-strong: #6B6252;
   --link: #F0C24B; --link-hover: #FFD86B; --focus: #F0C24B;
-  --poppy: #C2392D; --khaki: #8E9A5B; --on-khaki: #16140F;
+  --poppy: #C2392D; --khaki: #8E9A5B;
   color-scheme: dark;
 } }
 html[data-tint="auto"][data-theme="dark"] {
@@ -64,7 +64,7 @@ html[data-tint="auto"][data-theme="dark"] {
   --ink: #F3EDE2; --ink-soft: #D9CFBC; --muted: #B8AE9C;
   --rule: #3A352B; --rule-strong: #6B6252;
   --link: #F0C24B; --link-hover: #FFD86B; --focus: #F0C24B;
-  --poppy: #C2392D; --khaki: #8E9A5B; --on-khaki: #16140F;
+  --poppy: #C2392D; --khaki: #8E9A5B;
   color-scheme: dark;
 }
 
@@ -144,8 +144,7 @@ p { margin: 0; max-width: var(--measure); }
   background: var(--paper);
 }
 .site-header__left { display: flex; align-items: center; gap: 14px; min-width: 0; }
-.site-title { font-family: var(--font-display); font-size: 1.45rem; color: var(--ink); text-decoration: none; white-space: nowrap; min-width: 0; }
-@media (max-width: 400px) { .site-title { white-space: normal; } }
+.site-title { font-family: var(--font-display); font-size: 1.45rem; color: var(--ink); text-decoration: none; white-space: nowrap; }
 .site-title:hover { color: var(--ink); text-decoration: underline; }
 .site-header__right { display: flex; align-items: center; gap: 14px; }
 .saved-note { display: flex; align-items: center; gap: 6px; color: var(--muted); font-size: 0.9rem; }
@@ -356,6 +355,3 @@ html[data-tint="auto"][data-theme="dark"] .chapter-list a[aria-current] { backgr
 .welcome .install-banner .btn:hover { background: var(--paper-deep); color: var(--ink); }
 .welcome .install-banner .btn--primary { border-color: var(--poppy); background: var(--poppy); color: #FFFFFF; }
 .welcome .install-banner .btn--primary:hover { background: #82201A; color: #FFFFFF; }
-
-/* Reflow (WCAG 1.4.10, 1.4.12): long words and wider text spacing wrap instead of pushing the page sideways. */
-h1, h2, h3, .kicker, .lede, .site-title { overflow-wrap: break-word; }

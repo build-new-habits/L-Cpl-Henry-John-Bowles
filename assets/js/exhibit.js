@@ -1,5 +1,5 @@
 /* The Quiet Soldier: shared behaviour
-   - one set of settings and progress per device, so anyone can pick up where they left off
+   - visitor profiles (Mum, Graeme, Guest), each with its own settings and progress
    - settings dialog, applied to <html> as data attributes
    - progress saving
    Everything is stored in localStorage when available, and kept in memory otherwise. */
@@ -7,6 +7,7 @@
   'use strict';
 
   var KEY = 'quiet-soldier:v1';
+  var VISITORS = { mum: 'Mum', graeme: 'Graeme', guest: 'Guest' };
   var DEFAULTS = {
     tint: 'auto', font: 'standard', size: '100', spacing: 'normal',
     motion: 'system', captions: true, notes: true
@@ -18,22 +19,21 @@
     var data = null;
     try { data = JSON.parse(window.localStorage.getItem(KEY)); } catch (e) { data = null; }
     if (!data || typeof data !== 'object') data = {};
+    if (!VISITORS[data.visitor]) data.visitor = 'mum';
     data.profiles = data.profiles || {};
-    // Earlier versions kept separate visitors (Mum, Graeme, Guest). Carry the
-    // last visitor's settings and progress over, so nobody loses their place.
-    if (!data.profiles.device) data.profiles.device = (data.visitor && data.profiles[data.visitor]) || {};
-    data.visitor = 'device';
-    var p = data.profiles.device;
-    p.settings = Object.assign({}, DEFAULTS, p.settings || {});
-    p.progress = p.progress || { chapters: {}, last: null };
-    p.progress.chapters = p.progress.chapters || {};
+    Object.keys(VISITORS).forEach(function (id) {
+      var p = data.profiles[id] = data.profiles[id] || {};
+      p.settings = Object.assign({}, DEFAULTS, p.settings || {});
+      p.progress = p.progress || { chapters: {}, last: null };
+      p.progress.chapters = p.progress.chapters || {};
+    });
     memory = data;
     return data;
   }
   function save() {
     try { window.localStorage.setItem(KEY, JSON.stringify(memory)); return true; } catch (e) { return false; }
   }
-  function profile() { return load().profiles.device; }
+  function profile() { var d = load(); return d.profiles[d.visitor]; }
 
   /* Settings */
   function applySettings(s) {
@@ -120,7 +120,7 @@
       var t = e.target, s = profile().settings;
       if (t.type === 'checkbox') s[t.name] = t.checked; else s[t.name] = t.value;
       applySettings(s);
-      announce(save() ? 'Saved on this device.' : 'Applied. This browser cannot keep settings after you close it.');
+      announce(save() ? 'Saved for ' + VISITORS[load().visitor] + '.' : 'Applied. This browser cannot keep settings after you close it.');
     });
     d.querySelector('[data-reset]').addEventListener('click', function () {
       profile().settings = Object.assign({}, DEFAULTS);
@@ -270,8 +270,8 @@
     btn.disabled = true;
     status.textContent = 'Getting the list of files…';
     fetch('offline-files.json', { cache: 'no-cache' }).then(function (r) { return r.json(); }).then(function (list) {
-      var pages = ['./', 'index.html', 'chapter.html', 'journey.html', 'historian.html', 'about.html', 'making.html', 'sources.html', 'manifest.webmanifest', 'offline-files.json',
-        'assets/css/exhibit.css', 'assets/css/chapter.css', 'assets/css/about.css', 'assets/js/exhibit.js', 'assets/js/chapter.js', 'assets/js/journal.js'];
+      var pages = ['./', 'index.html', 'chapter.html', 'journey.html', 'historian.html', 'manifest.webmanifest', 'offline-files.json',
+        'assets/css/exhibit.css', 'assets/css/chapter.css', 'assets/js/exhibit.js', 'assets/js/chapter.js', 'assets/js/journal.js'];
       var text = pages.concat(list.text), media = list.media, done = 0, failed = 0, total = text.length + media.length;
       var mb = Math.round(list.mediaBytes / 1e6);
       function tick() { done++; if (done % 5 === 0 || done === total) status.textContent = 'Saving… ' + Math.round(done / total * 100) + '% (about ' + mb + ' MB in all)'; }
@@ -342,6 +342,8 @@
     });
     document.querySelectorAll('[data-icon]').forEach(function (el) { el.insertAdjacentHTML('afterbegin', ICONS[el.dataset.icon]); });
     document.querySelectorAll('[data-badge]').forEach(function (el) { el.outerHTML = badge(el.dataset.badge); });
+    var chip = document.querySelector('[data-visitor-chip]');
+    if (chip) chip.textContent = 'Visiting as ' + VISITORS[load().visitor];
     var saved = document.querySelector('[data-saved-note]');
     if (saved) saved.innerHTML = ICONS.tick + 'Progress saved';
   }
@@ -371,8 +373,9 @@
   document.addEventListener('DOMContentLoaded', wireHeader);
 
   window.QS = {
-    load: load, save: save, profile: profile, applySettings: applySettings,
+    VISITORS: VISITORS, load: load, save: save, profile: profile, applySettings: applySettings,
     badge: badge, icons: ICONS, chapterState: chapterState, setChapterState: setChapterState,
-    loadChapters: loadChapters, esc: esc
+    loadChapters: loadChapters, esc: esc,
+    setVisitor: function (id) { if (VISITORS[id]) { load().visitor = id; applySettings(profile().settings); save(); } }
   };
 })();

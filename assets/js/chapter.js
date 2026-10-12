@@ -61,10 +61,10 @@
     if (ch.record) {
       html += '<section class="record" aria-labelledby="record-title">' + badge('archival') +
         '<h2 id="record-title">From his army record</h2>' +
-        '<div class="table-scroll" role="region" tabindex="0" aria-label="Army record table, scrolls sideways if needed"><table><caption>' + e(ch.record.source) + '</caption>' +
+        '<table><caption>' + e(ch.record.source) + '</caption>' +
         '<thead><tr><th scope="col">Date</th><th scope="col">Entry</th></tr></thead><tbody>' +
         ch.record.entries.map(function (r) { return '<tr><th scope="row">' + e(r.date) + '</th><td>' + e(r.entry) + '</td></tr>'; }).join('') +
-        '</tbody></table></div></section>';
+        '</tbody></table></section>';
     }
     if (!scenes) {
       html += '<div class="pending" role="note"><p><strong>This chapter is still being researched.</strong> Its scenes will appear here once the research is complete.</p></div>';
@@ -189,9 +189,9 @@
     return '<section class="army-record" aria-labelledby="ar-title">' + badge('archival') +
       '<h2 id="ar-title" class="sub">His casualty record</h2>' +
       '<p class="ar-meta">29774 L/Cpl H. Bowles. Somerset Light Infantry, then Wiltshire Regiment.</p>' +
-      '<div class="table-scroll" role="region" tabindex="0" aria-label="Casualty record table, scrolls sideways if needed"><table><thead><tr><th scope="col">Date</th><th scope="col">Entry</th></tr></thead><tbody>' +
+      '<table><thead><tr><th scope="col">Date</th><th scope="col">Entry</th></tr></thead><tbody>' +
       sc.record.map(function (r) { return '<tr><th scope="row">' + e(r.date) + '</th><td>' + e(r.entry) + '</td></tr>'; }).join('') +
-      '</tbody></table></div><p class="source">' + e(sc.recordSource) + '</p></section>' +
+      '</tbody></table><p class="source">' + e(sc.recordSource) + '</p></section>' +
       (sc.context ? contextCards(sc.context) : '') +
       (sc.family ? '<blockquote class="family-quote">' + badge('family') + '<p>' + e(sc.family.text) + '</p><footer>' + e(sc.family.source) + '</footer></blockquote>' : '');
   }
@@ -327,7 +327,7 @@
     refresh();
   }
 
-  /* ---------- Photographs (any whose file is missing are left out) ---------- */
+  /* ---------- Photographs (with slots until the files arrive) ---------- */
   function photoBlock(sc, key, heading) {
     key = key || 'photos';
     var list = sc[key];
@@ -347,35 +347,19 @@
   function wirePhotos(root, sc) {
     root.querySelectorAll('img[data-photo]').forEach(function (img) {
       var fig = img.closest('.photo'), p = sc[fig.dataset.list][+fig.dataset.i];
-      var settled = false;
-      /* A photo whose file is not there yet is simply left out, so visitors
-         never see an empty "to come" box. If a section ends up with no
-         photos at all, the whole section and its heading go too. */
       function slot() {
-        if (settled) return; settled = true;
-        var section = fig.closest('.photos');
-        fig.remove();
-        if (section && !section.querySelector('.photo')) section.remove();
-      }
-      /* Lazy images can report "complete" before they have even been fetched,
-         so check with a second request before deciding a file is missing. */
-      function confirmMissing() {
-        var probe = new Image();
-        probe.onload = function () { if (!img.naturalWidth) img.src = probe.src; ready(); };
-        probe.onerror = slot;
-        probe.src = img.currentSrc || img.src;
+        img.closest('.photo-frame').outerHTML = '<div class="photo-slot"><svg width="34" height="34" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true" focusable="false"><path d="M4 7h3l2-2h6l2 2h3v12H4z"/><circle cx="12" cy="13" r="3.5"/></svg>' +
+          '<span class="photo-slot__title">Photograph to come</span><span class="photo-slot__cat">' + e(p.slot || ('IWM ' + p.cat)) + '</span></div>';
       }
       function ready() {
-        if (settled) return; settled = true;
         var b = document.createElement('button');
         b.type = 'button'; b.className = 'btn photo-zoom'; b.textContent = 'Enlarge';
         b.setAttribute('aria-label', 'Enlarge the photograph: ' + p.caption);
         b.addEventListener('click', function () { openZoom(img.src, p.alt, b, 'Enlarged photograph'); });
         fig.querySelector('figcaption').appendChild(b);
       }
-      img.addEventListener('load', ready);
-      img.addEventListener('error', confirmMissing);
-      if (img.complete) { if (img.naturalWidth) ready(); else confirmMissing(); }
+      if (img.complete) { if (img.naturalWidth) ready(); else slot(); }
+      else { img.addEventListener('load', ready); img.addEventListener('error', slot); }
     });
   }
 
@@ -670,7 +654,7 @@
     });
   }
 
-  /* ---------- Your memories (kept on this device) ---------- */
+  /* ---------- Your memories (kept on this device, for this visitor) ---------- */
   function memoriesBlock(sc) {
     var saved = (QS.profile().memories || {});
     return '<section class="memories" aria-labelledby="mem-' + sc.id + '"><h2 class="sub" id="mem-' + sc.id + '">' + e(sc.memHeading) + '</h2>' +

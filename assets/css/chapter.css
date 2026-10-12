@@ -22,14 +22,14 @@ main:focus { outline: none; }
 .intro-scenes { color: var(--muted); }
 .muted { color: var(--muted); }
 .source { color: var(--muted); font-size: 0.9rem; display: flex; flex-wrap: wrap; gap: 8px; align-items: center; }
-.btn--khaki { background: var(--khaki); border-color: var(--khaki); color: var(--on-khaki, #FFFFFF); }
-.btn--khaki:hover { filter: brightness(0.9); color: var(--on-khaki, #FFFFFF); background: var(--khaki); }
+.btn--khaki { background: var(--khaki); border-color: var(--khaki); color: #FFFFFF; }
+.btn--khaki:hover { filter: brightness(0.9); color: #FFFFFF; background: var(--khaki); }
 .btn--link { border-color: transparent; text-decoration: underline; }
 h2.sub { font-size: 1.6rem; }
 
 /* Scene frame */
-.scene { padding-block: clamp(20px, 4vw, 40px) 8px; display: grid; grid-template-columns: minmax(0, 1fr); gap: 24px; }
-.scene-head { display: grid; grid-template-columns: minmax(0, 1fr); gap: 10px; }
+.scene { padding-block: clamp(20px, 4vw, 40px) 8px; display: grid; gap: 24px; }
+.scene-head { display: grid; gap: 10px; }
 .scene-head .kicker { color: var(--muted); }
 .scene-head h1 { font-size: clamp(2.2rem, 6vw, 3.4rem); }
 .scene-head .lede { font-size: 1.15rem; line-height: 1.5; }
@@ -382,13 +382,3 @@ html[data-font="lexend"] .letter p, html[data-font="plain"] .letter p { font-fam
 .mem-field textarea { width: 100%; min-height: 8rem; font: inherit; line-height: 1.5; padding: 10px 12px; border: 2px solid var(--ink); border-radius: 8px; background: var(--paper); color: var(--ink); resize: vertical; }
 .mem-status { min-height: 1.5em; font-weight: 700; }
 .photo-grid > .photo:only-child { grid-column: 1 / -1; max-width: 820px; }
-
-/* Reflow (WCAG 1.4.10, 1.4.12): grid columns may shrink to the screen, and long
-   words wrap, so nothing pushes the page sideways at 320px or with wider spacing. */
-.journal, .journal-lead, .act-slot, .challenge, .army-record { grid-template-columns: minmax(0, 1fr); }
-.journal > *, .journal-lead > *, .act-slot > *, .challenge > *, .army-record > * { min-width: 0; }
-.scene, .journal__page, .challenge { overflow-wrap: break-word; }
-@media (max-width: 380px) { .journal__hand { font-size: 1.5rem; } }
-.table-scroll { max-width: 100%; overflow-x: auto; }
-.table-scroll table { width: 100%; }
-.table-scroll td { overflow-wrap: anywhere; }
