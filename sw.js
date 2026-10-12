@@ -1,12 +1,13 @@
 /* The Quiet Soldier: offline support.
    Pages, styles, scripts and text: network first, so updates arrive; the saved copy is used when offline.
    Photos and recordings: saved copy first (they rarely change), refreshed in the background. */
-var VERSION = '779c336335';
+var VERSION = '20261012d';
 var SHELL = 'qs-shell-' + VERSION;
 var MEDIA = 'qs-media';
 var CORE = [
   './', 'index.html', 'chapter.html', 'journey.html', 'historian.html',
-  'assets/css/exhibit.css', 'assets/css/chapter.css',
+  'about.html', 'making.html', 'sources.html',
+  'assets/css/exhibit.css', 'assets/css/chapter.css', 'assets/css/about.css',
   'assets/js/exhibit.js', 'assets/js/chapter.js', 'assets/js/journal.js',
   'manifest.webmanifest', 'offline-files.json',
   'assets/icons/icon-192.png', 'assets/icons/icon-512.png'
@@ -24,8 +25,23 @@ self.addEventListener('activate', function (e) {
   e.waitUntil(caches.keys().then(function (keys) {
     return Promise.all(keys.filter(function (k) { return k.indexOf('qs-shell-') === 0 && k !== SHELL; })
       .map(function (k) { return caches.delete(k); }));
-  }).then(function () { return self.clients.claim(); }));
+  }).then(clearSavedAudio).then(function () { return self.clients.claim(); }));
 });
+
+/* Recordings were renamed in October 2026 so each one plays with the right
+   journal entry. Drop any saved copies so the corrected files are fetched. */
+function clearSavedAudio() {
+  return caches.keys().then(function (keys) {
+    return Promise.all(keys.map(function (k) {
+      return caches.open(k).then(function (c) {
+        return c.keys().then(function (reqs) {
+          return Promise.all(reqs.filter(function (r) { return /\.(mp3|m4a)$/i.test(new URL(r.url).pathname); })
+            .map(function (r) { return c.delete(r); }));
+        });
+      });
+    }));
+  }).catch(function () {});
+}
 
 function isMedia(url) { return /\.(jpe?g|png|gif|webp|svg|mp3|m4a)$/i.test(url.pathname); }
 

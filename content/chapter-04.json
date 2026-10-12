@@ -135,7 +135,7 @@
     "height": 1273,
     "alt": "A 1916 battle map of Redan Ridge. British units are drawn in red on the left, German trenches in green on the right. The 1st Somerset Light Infantry is marked in the second line of the 11th Brigade, facing the Quadrilateral.",
     "badge": "archival",
-    "caption": "The attack on Redan Ridge, 1 July 1916. British units in red, German trenches in green. Source to be confirmed (probably the Official History).",
+    "caption": "The attack on Redan Ridge, 1 July 1916. British units in red, German trenches in green. Copy given to the family by Frank, their battlefield guide, in 2026; original publisher not known.",
     "spots": [
      {
       "x": 16,
@@ -501,7 +501,7 @@
     "height": 1273,
     "alt": "The same 1916 map of Redan Ridge, with five numbered markers around the Quadrilateral.",
     "badge": "archival",
-    "caption": "The attack on Redan Ridge, 1 July 1916.",
+    "caption": "The attack on Redan Ridge, 1 July 1916. Copy given to the family by Frank, their battlefield guide; original publisher not known.",
     "spots": [
      {
       "x": 32,
@@ -557,7 +557,7 @@
    "type": "voices",
    "intro": "Facing Henry's brigade on 1 July were men from Württemberg in southern Germany, of Reserve Infantry Regiment 121. They had held this ground for nearly two years. This is how they remembered the day.",
    "voicesHeading": "German accounts",
-   "voicesNote": "These are real accounts, translated from German regimental histories. Where the two sides disagree, both versions are shown.",
+   "voicesNote": "These are real accounts from German regimental histories, quoted in translation or summarised in our own words. Where the two sides disagree, both versions are shown.",
    "voices": [
     {
      "quote": "When will they finally come?",
@@ -567,9 +567,9 @@
      "caution": "From a translator's blog quoting Lais's account."
     },
     {
-     "quote": "In a moment the garrisons of the dugouts came forth and received the attackers with rifle fire or hand grenades.",
+     "text": "The regiment's history says that the moment the shelling lifted, the men in the deep dugouts climbed out and met the attackers with rifles and hand grenades.",
      "who": "History of Reserve Infantry Regiment 121, on the Heidenkopf (the Quadrilateral)",
-     "source": "Translated by Ralph J. Whitehead, Great War Forum",
+     "source": "In our own words, from the translation by Ralph J. Whitehead, Great War Forum",
      "url": "https://www.greatwarforum.org/topic/2746-heidenkopf-quadrilateral-redoubt-redan-ridge/"
     },
     {
@@ -581,19 +581,19 @@
      "text": "The German account says their mines under the Heidenkopf \"blew up according to plan\" once the British were inside, killing their own demolition squad as well. The British Official History says the mine went off too early by accident, after a machine gun jammed. Nobody alive can now say which is true.",
      "who": "Two versions of the same explosion",
      "badge": "unit",
-     "source": "Reichsarchiv, Somme-Nord, translated by R. J. Whitehead",
+     "source": "In our own words, from Reichsarchiv, Somme-Nord, translated by Ralph J. Whitehead, Great War Forum",
      "url": "https://www.greatwarforum.org/topic/2746-heidenkopf-quadrilateral-redoubt-redan-ridge/"
     },
     {
      "text": "Bombing parties fought back along the trenches from the strongpoint behind, the Feste Soden, with help from men of the next regiment. The Heidenkopf was cleared at nightfall, and the last British held out until 2 July. The regiment counted about 150 of its own dead there, and three times as many British.",
      "who": "History of Reserve Infantry Regiment 121",
-     "source": "Translated by Ralph J. Whitehead, Great War Forum",
+     "source": "In our own words, from the translation by Ralph J. Whitehead, Great War Forum",
      "url": "https://www.greatwarforum.org/topic/2746-heidenkopf-quadrilateral-redoubt-redan-ridge/"
     },
     {
-     "quote": "It took ten days until all attainable bodies had recovered.",
+     "text": "The regiment's history records that it took ten days to recover all the bodies that could be reached.",
      "who": "History of Reserve Infantry Regiment 121. Their dead were buried in a mass grave behind the Feste Soden.",
-     "source": "Translated by Ralph J. Whitehead, Great War Forum",
+     "source": "In our own words, from the translation by Ralph J. Whitehead, Great War Forum",
      "url": "https://www.greatwarforum.org/topic/2746-heidenkopf-quadrilateral-redoubt-redan-ridge/"
     }
    ],

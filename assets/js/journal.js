@@ -1,6 +1,6 @@
 /* Henry's Reflections: a journal page written word by word, in time with
-   Henry's voice when the audio file exists, or at a gentle writing pace
-   when it doesn't. The full text is always in the page for screen readers,
+   Henry's voice when the audio file exists. Without a recording the page
+   is shown fully written. The full text is always in the page for screen readers,
    and a typed version is one tap away. */
 (function () {
   'use strict';
@@ -142,22 +142,31 @@
       }
     }
 
+    // Without a working recording the page simply rests fully written, with
+    // only the typed-version button. The writing animation is kept for
+    // Henry's voice, so it always means "listen".
+    function silent() {
+      narrated = false; audio = null; audioOk = false;
+      wrap.classList.remove('is-narrated', 'is-started');
+      spans.forEach(function (s) { s.classList.add('is-on'); });
+      wrap.classList.add('is-written', 'is-silent');
+      var inv = page.querySelector('.journal__invite');
+      if (inv) inv.remove();
+      if (playBtn.parentNode) playBtn.remove();
+      if (showBtn.parentNode) showBtn.remove();
+      note.textContent = '';
+    }
+
     if (narrated) {
+      wrap.classList.add('is-narrated');
       audio = new Audio();
       audio.preload = 'metadata';
       audio.addEventListener('loadedmetadata', function () { audioOk = true; note.textContent = ''; setLabel(); });
-      audio.addEventListener('error', function () {
-        audioOk = false;
-        note.textContent = 'Henry\'s voice is still being recorded. For now the page writes itself without sound.';
-        setLabel();
-      });
+      audio.addEventListener('error', function () { if (!playing) silent(); });
       audio.src = entry.audio;
     } else {
-      // Unnarrated entries rest fully written; the button replays the writing.
-      showAll();
-      wrap.classList.remove('is-started');
+      silent();
     }
-    if (narrated) wrap.classList.add('is-narrated');
 
     playBtn.addEventListener('click', function () { playing ? stop() : start(); });
     showBtn.addEventListener('click', showAll);

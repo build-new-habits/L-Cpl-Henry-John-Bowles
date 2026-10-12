@@ -11,7 +11,7 @@
     {
      "badge": "family",
      "text": "\"How you got 14 people into that house I will never know.\"",
-     "source": "Family memoir by his granddaughter, page 1"
+     "source": "Grandma Angela's memoir, page 1"
     },
     {
      "badge": "unit",
@@ -38,7 +38,7 @@
       ],
       [
        "family",
-       "He \"never talked to anybody about the War\" (family memoir)."
+       "He \"never talked to anybody about the War\" (Grandma Angela's memoir)."
       ],
       [
        "imagined",
@@ -58,7 +58,7 @@
      "basis": [
       [
        "family",
-       "His parents lived in \"a small terraced house out by Yeovil Junction Railway Station, Stoford\". The family memoir says: \"How you got 14 people into that house I will never know.\" Henry was the eldest of twelve and worked as a farm hand."
+       "His parents lived in \"a small terraced house out by Yeovil Junction Railway Station, Stoford\". Grandma Angela's memoir says: \"How you got 14 people into that house I will never know.\" Henry was the eldest of twelve and worked as a farm hand."
       ],
       [
        "history",
@@ -84,51 +84,51 @@
    "id": "eldest-of-twelve",
    "title": "The eldest of twelve",
    "type": "stories",
-   "intro": "Most of what we know about Henry's early life comes from what his granddaughter remembers and wrote down. These are her words.",
+   "intro": "Most of what we know about Henry's early life comes from what his granddaughter, Angela Wright, remembers and wrote down. These are her words.",
    "stories": [
     {
      "title": "Henry, or Harry",
      "badge": "family",
      "quote": "Henry Bowles (or Harry as some knew him)",
-     "who": "Family memoir by his granddaughter",
+     "who": "Grandma Angela's memoir",
      "body": "At home and in the army he was Henry John Bowles. To many people he was Harry.",
-     "source": "Family memoir by his granddaughter, page 1"
+     "source": "Grandma Angela's memoir, page 1"
     },
     {
      "title": "Twelve children",
      "badge": "family",
      "body": "Henry was the eldest child of Arthur Bowles and his wife. They lived into their nineties, in the same small house by Yeovil Junction station.",
-     "source": "Family memoir by his granddaughter, page 1",
+     "source": "Grandma Angela's memoir, page 1",
      "quote": "the eldest of 12 children who all survived WWI",
-     "who": "Family memoir by his granddaughter"
+     "who": "Grandma Angela's memoir"
     },
     {
      "title": "The twelve",
      "badge": "family",
-     "source": "Memories of Grandad, by his granddaughter, and the family photograph",
+     "source": "Memories of Grandad, by Angela Wright, and the family photograph",
      "body": "Henry was the eldest. His brothers and sisters were Reg, Winnie, Frank, George, Ethel, Arthur, Amy, Lilly, Bill, Kit and Oliver, the youngest. Their mother's first name is still to be found."
     },
     {
      "title": "Granfy Bowles",
      "badge": "family",
      "body": "Henry's father Arthur was a farm labourer all his life.",
-     "source": "Memories of Grandad, by his granddaughter",
+     "source": "Memories of Grandad, by Angela Wright",
      "quote": "there is a newspaper report of him still digging ditches at the age of 90",
-     "who": "Memories of Grandad, by his granddaughter"
+     "who": "Memories of Grandad, by Angela Wright"
     },
     {
      "title": "Keeping them in line",
      "badge": "family",
      "body": "He did not like rudeness or bad language, especially in front of women and children, and he told his brothers and sisters so, even when they were grown up. Some of them, the family only visited now and then.",
-     "source": "Family memoir by his granddaughter, page 1",
+     "source": "Grandma Angela's memoir, page 1",
      "quote": "would often reprimand his siblings for their behaviour, right into their adult life",
-     "who": "Family memoir by his granddaughter"
+     "who": "Grandma Angela's memoir"
     },
     {
      "title": "On the land",
      "badge": "family",
      "body": "Henry worked as a farm hand. A family photograph from about 1920 shows him on a horse-drawn mower behind two heavy horses, with his baby son Gilbert on his lap (Chapter 7).",
-     "source": "Family memoir by his granddaughter, page 1"
+     "source": "Grandma Angela's memoir, page 1"
     }
    ],
    "photos": [
@@ -165,8 +165,8 @@
       {
        "text": "He was the eldest of twelve children.",
        "answer": 0,
-       "explain": "From his granddaughter's memoir. No birth or census record has been found yet.",
-       "source": "Family memoir by his granddaughter"
+       "explain": "From Grandma Angela's memoir. No birth or census record has been found yet.",
+       "source": "Grandma Angela's memoir"
       },
       {
        "text": "His service number was 29774.",
@@ -183,8 +183,8 @@
       {
        "text": "He worked as a farm hand.",
        "answer": 0,
-       "explain": "The memoir describes him on the land, and the photograph on the plough.",
-       "source": "Family memoir by his granddaughter"
+       "explain": "Grandma Angela's memoir describes him on the land, and the photograph on the plough.",
+       "source": "Grandma Angela's memoir"
       },
       {
        "text": "His date of birth.",
@@ -213,7 +213,7 @@
      "title": "The land and the railway",
      "badge": "unit",
      "body": "Around the town, families like Henry's lived by farming and the railway. The Bowles family lived right by Yeovil Junction station at Stoford.",
-     "source": "Somerset Historic Environment Record; family memoir",
+     "source": "Somerset Historic Environment Record; Grandma Angela's memoir",
      "url": "https://www.somersetheritage.org.uk/eus/stoford_eus.html"
     },
     {
