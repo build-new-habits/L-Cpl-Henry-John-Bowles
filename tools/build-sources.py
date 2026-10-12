@@ -26,7 +26,7 @@ MERGE = [
     (re.compile(r'^(25th Division history|The 25th Division in France)'),
      'The 25th Division in France and Flanders'),
     (re.compile(r'^1st Wiltshires war diary'), '1st Battalion, Wiltshire Regiment, war diary'),
-    (re.compile(r'^(Translated by Ralph J\. Whitehead|Reichsarchiv, Somme-Nord)'),
+    (re.compile(r'(Translated by Ralph J\. Whitehead|Reichsarchiv, Somme-Nord|translation by Ralph J\. Whitehead)'),
      'Reichsarchiv, Somme-Nord, translated by Ralph J. Whitehead (Great War Forum)'),
     (re.compile(r'^(Redan Ridge \(Battleground Europe\)|A soldier\'s account, quoted in Redan Ridge)'),
      'Redan Ridge (Battleground Europe series)'),

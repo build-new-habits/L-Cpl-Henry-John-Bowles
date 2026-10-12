@@ -67,6 +67,10 @@ Go to **Settings → Pages**, choose **Deploy from a branch**, then set the bran
 
 The source list is built from the chapter files. After editing a chapter, run `python3 tools/build-sources.py`.
 
+## Moving to another web address
+
+The link-preview tags (`og:url`, `og:image`) in each page and `sitemap.xml` use the GitHub Pages address. When the exhibition moves, replace `https://build-new-habits.github.io/L-Cpl-Henry-John-Bowles/` with the new address in those files, and submit the new `sitemap.xml` in Google Search Console.
+
 ## Credits and rights
 
 Family photographs and papers are © the Bowles family and may not be reused without permission. Third-party sources are credited where they appear. Material from the Commonwealth War Graves Commission is used with credit to the CWGC.
