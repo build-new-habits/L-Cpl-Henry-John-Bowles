@@ -1,5 +1,5 @@
 {
- "version": "779c336335",
+ "version": "20261012d",
  "text": [
   "content/chapter-01.json",
   "content/chapter-02.json",
@@ -19,12 +19,6 @@
   "content/sources.json"
  ],
  "media": [
-  "assets/audio/2-1-signing-on.mp3",
-  "assets/audio/3-1-joining.mp3",
-  "assets/audio/3-2-in-the-line.mp3",
-  "assets/audio/4-1-the-march-up.mp3",
-  "assets/audio/4-2-hit.mp3",
-  "assets/audio/6-4-never-tell-mother.mp3",
   "assets/icons/apple-touch-icon.png",
   "assets/icons/favicon-32.png",
   "assets/icons/icon-192.png",
@@ -78,7 +72,20 @@
   "assets/img/family/trip-wreath.jpg",
   "assets/img/family/wedding.jpg",
   "assets/maps/fremicourt-artillery-16-april-1918.jpg",
-  "assets/maps/redan-ridge-attack-1-july-1916.jpg"
+  "assets/maps/redan-ridge-attack-1-july-1916.jpg",
+  "assets/audio/1-0-the-old-notebook.mp3",
+  "assets/audio/2-1-signing-on.mp3",
+  "assets/audio/3-1-joining.mp3",
+  "assets/audio/3-2-in-the-line.mp3",
+  "assets/audio/4-1-the-march-up.mp3",
+  "assets/audio/4-2-hit.mp3",
+  "assets/audio/4-3-forty-years-on.mp3",
+  "assets/audio/6-1-taken.mp3",
+  "assets/audio/6-2-munster.mp3",
+  "assets/audio/6-3-no-mans-land.mp3",
+  "assets/audio/6-4-never-tell-mother.mp3",
+  "assets/audio/6-5-messines.mp3",
+  "assets/audio/7-1-the-barbed-wire.mp3"
  ],
- "mediaBytes": 22430564
+ "mediaBytes": 28643808
 }

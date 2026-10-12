@@ -25,4 +25,6 @@ Henry's narrated journal entries go here, one file per script.
 - The imagined German soldier's diaries are not narrated. If you want them read aloud, use a different voice so nobody mistakes them for Henry.
 
 ## October 2026 check
-Five files had been uploaded under the wrong names, so Henry was reading the wrong entry. Each file was listened to (by speech recognition) and renamed to match what it says. Recorded so far: 2-1, 3-1, 3-2, 4-1, 4-2, 6-4. Still to record: 1-0, 4-3, 6-1, 6-2, 6-3, 6-5, 7-1.
+Files had been uploaded under the wrong names, so Henry was reading the wrong entry. Each file was listened to (by speech recognition) and renamed to match what it says.
+
+On 12 October 2026 the last eight ElevenLabs downloads were matched the same way and renamed: 6-3, 6-4 (a new take, replacing the first), 6-5, 6-1 and 6-2 in the young voice; 1-0, 4-3 and 7-1 in the older voice. All thirteen entries are now voiced.
