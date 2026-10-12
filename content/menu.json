@@ -4,6 +4,11 @@
    "title": "Find your way",
    "items": [
     {
+     "t": "About this exhibition",
+     "m": "Why the family made it",
+     "href": "about.html"
+    },
+    {
      "t": "Welcome",
      "href": "index.html"
     },
@@ -245,6 +250,29 @@
     {
      "t": "What was shell shock?",
      "href": "historian.html#shellshock"
+    }
+   ]
+  },
+  {
+   "title": "Behind the exhibition",
+   "items": [
+    {
+     "t": "How it was made",
+     "m": "Research, AI, accessibility and privacy",
+     "href": "making.html"
+    },
+    {
+     "t": "Sources and credits",
+     "m": "Every source, and where it is used",
+     "href": "sources.html"
+    },
+    {
+     "t": "Rights and reuse",
+     "href": "sources.html#rights"
+    },
+    {
+     "t": "How to cite this exhibition",
+     "href": "sources.html#cite"
     }
    ]
   }

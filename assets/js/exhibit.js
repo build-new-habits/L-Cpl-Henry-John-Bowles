@@ -270,8 +270,8 @@
     btn.disabled = true;
     status.textContent = 'Getting the list of files…';
     fetch('offline-files.json', { cache: 'no-cache' }).then(function (r) { return r.json(); }).then(function (list) {
-      var pages = ['./', 'index.html', 'chapter.html', 'journey.html', 'historian.html', 'manifest.webmanifest', 'offline-files.json',
-        'assets/css/exhibit.css', 'assets/css/chapter.css', 'assets/js/exhibit.js', 'assets/js/chapter.js', 'assets/js/journal.js'];
+      var pages = ['./', 'index.html', 'chapter.html', 'journey.html', 'historian.html', 'about.html', 'making.html', 'sources.html', 'manifest.webmanifest', 'offline-files.json',
+        'assets/css/exhibit.css', 'assets/css/chapter.css', 'assets/css/about.css', 'assets/js/exhibit.js', 'assets/js/chapter.js', 'assets/js/journal.js'];
       var text = pages.concat(list.text), media = list.media, done = 0, failed = 0, total = text.length + media.length;
       var mb = Math.round(list.mediaBytes / 1e6);
       function tick() { done++; if (done % 5 === 0 || done === total) status.textContent = 'Saving… ' + Math.round(done / total * 100) + '% (about ' + mb + ' MB in all)'; }

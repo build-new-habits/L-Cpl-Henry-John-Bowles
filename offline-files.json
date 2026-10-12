@@ -11,7 +11,12 @@
   "content/chapter-08.json",
   "content/chapters.json",
   "content/historian.json",
-  "content/menu.json"
+  "content/menu.json",
+  "about.html",
+  "making.html",
+  "sources.html",
+  "assets/css/about.css",
+  "content/sources.json"
  ],
  "media": [
   "assets/audio/2-1-signing-on.mp3",

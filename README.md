@@ -59,6 +59,14 @@ This repository holds the public website only. The research archive behind it is
 
 Go to **Settings → Pages**, choose **Deploy from a branch**, then set the branch to `main` and the folder to `/docs`.
 
+## About, sources and AI
+
+- [about.html](about.html): why the family made the exhibition, and who made it
+- [making.html](making.html): how it was researched, where AI was used, accessibility and privacy
+- [sources.html](sources.html): every source and where it is used, picture credits, rights and how to cite
+
+The source list is built from the chapter files. After editing a chapter, run `python3 tools/build-sources.py`.
+
 ## Credits and rights
 
 Family photographs and papers are © the Bowles family and may not be reused without permission. Third-party sources are credited where they appear. Material from the Commonwealth War Graves Commission is used with credit to the CWGC.

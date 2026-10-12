@@ -1,0 +1,78 @@
+/* About, How it was made, Sources and credits: quieter, museum-label pages */
+.info { padding-block: clamp(24px, 5vw, 56px) 56px; display: grid; grid-template-columns: minmax(0, 1fr); gap: clamp(28px, 4vw, 44px); max-width: 860px; }
+.info > * { min-width: 0; }
+.info h1 { font-size: clamp(2.3rem, 6.5vw, 3.6rem); }
+.info h2 { font-size: clamp(1.6rem, 4vw, 2.1rem); }
+.info h3 { font-family: var(--font-body); font-weight: 700; font-size: 1.1rem; line-height: 1.3; }
+.info p, .info li { max-width: var(--measure); }
+.info-head { display: grid; gap: 12px; }
+.info-section { display: grid; gap: 14px; }
+.info-section > h2 { border-bottom: 2px solid var(--rule-strong); padding-bottom: 6px; }
+.info ul.plain { margin: 0; padding-left: 1.2em; display: grid; gap: 8px; }
+
+/* Dedication */
+.dedication { display: grid; gap: 14px; justify-items: center; text-align: center; padding: clamp(24px, 5vw, 44px) clamp(16px, 4vw, 40px);
+  background: var(--card); border: 1px solid var(--rule-strong); border-radius: 4px; box-shadow: inset 0 0 0 6px var(--card), inset 0 0 0 7px var(--rule); }
+.dedication__poppy { width: 44px; height: 44px; color: var(--poppy); }
+.dedication p { margin: 0 auto; }
+.dedication__lead { font-family: var(--font-display); font-size: clamp(1.35rem, 3.6vw, 1.75rem); line-height: 1.3; font-style: italic; }
+.dedication__name { font-family: var(--font-display); font-size: clamp(1.7rem, 5vw, 2.4rem); line-height: 1.15; }
+.dedication__unit { color: var(--ink-soft); }
+.dedication__from { color: var(--muted); }
+
+/* Museum label: who he was, at a glance */
+.label-card { display: grid; grid-template-columns: minmax(0, 1fr); gap: 22px; }
+@media (min-width: 720px) { .label-card { grid-template-columns: minmax(0, 260px) minmax(0, 1fr); align-items: start; } }
+.label-card figure { margin: 0; display: grid; gap: 8px; }
+.label-card img { width: 100%; height: auto; display: block; padding: 10px; background: #EDE6D3; border-radius: 3px; filter: sepia(0.12); }
+.label-card figcaption { font-size: 0.92rem; color: var(--muted); }
+.facts { margin: 0; display: grid; grid-template-columns: minmax(7.5rem, 11rem) minmax(0, 1fr); border-top: 1px solid var(--rule); }
+.facts dt { font-weight: 700; padding: 9px 12px 9px 0; border-bottom: 1px solid var(--rule); }
+.facts dd { margin: 0; padding: 9px 0; border-bottom: 1px solid var(--rule); }
+@media (max-width: 520px) { .facts { grid-template-columns: minmax(0, 1fr); } .facts dt { border-bottom: 0; padding-bottom: 0; } }
+
+/* Callouts */
+.callout { background: var(--card); border: 1px solid var(--rule); border-left: 5px solid var(--khaki); border-radius: 0 10px 10px 0; padding: 16px 20px; display: grid; gap: 8px; }
+.callout--ai { border-left-color: var(--badge-ai); }
+.callout--poppy { border-left-color: var(--poppy); }
+.cite { font-family: 'Courier New', Courier, monospace; font-size: 0.95rem; background: var(--paper-deep); padding: 12px 14px; border-radius: 6px; overflow-wrap: anywhere; }
+
+/* Label key */
+.label-key { display: grid; grid-template-columns: minmax(0, 1fr); gap: 10px; margin: 0; padding: 0; list-style: none; }
+.label-key li { display: grid; gap: 6px; background: var(--card); border: 1px solid var(--rule); border-radius: 10px; padding: 12px 16px; }
+@media (min-width: 720px) { .label-key { grid-template-columns: repeat(2, minmax(0, 1fr)); } }
+
+/* Page contents */
+.info-toc { background: var(--card); border: 1px solid var(--rule); border-radius: 12px; padding: 14px 20px; }
+.info-toc h2 { font-family: var(--font-body); font-weight: 700; font-size: 1.05rem; border: 0; padding: 0; margin-bottom: 6px; }
+.info-toc ol { margin: 0; padding-left: 1.3em; display: grid; gap: 4px; }
+
+/* Bibliography */
+.biblio { margin: 0; padding: 0; list-style: none; display: grid; gap: 0; }
+.biblio li { padding: 10px 0; border-bottom: 1px solid var(--rule); display: grid; gap: 4px; max-width: none; }
+.biblio__title { overflow-wrap: anywhere; }
+.biblio__where { font-size: 0.9rem; color: var(--muted); }
+.biblio__where a { color: inherit; }
+.biblio-group { display: grid; gap: 8px; scroll-margin-top: 16px; }
+.biblio-group > h3 { font-size: 1.15rem; margin-top: 8px; }
+.biblio-group > p { color: var(--muted); }
+.biblio-images { columns: 2 16rem; column-gap: 28px; }
+.biblio-images li { break-inside: avoid; }
+
+/* Footer links on every page */
+.site-footer__links { display: flex; flex-wrap: wrap; gap: 4px 18px; margin: 8px 0 0; padding: 0; list-style: none; }
+.site-footer__links a { color: inherit; display: inline-block; padding-block: 6px; }
+
+@media print {
+  .site-header, .skip-link, .note-actions, .site-footer__links { display: none !important; }
+  .info { max-width: none; padding: 0; }
+  .dedication { box-shadow: none; }
+  .biblio li { break-inside: avoid; }
+  a[href^="http"]::after { content: " (" attr(href) ")"; font-size: 0.8em; overflow-wrap: anywhere; }
+}
+
+/* Front page */
+.welcome__about { margin-top: 22px; color: #D9CFBC; max-width: 46ch; }
+.welcome__about a, .welcome__footer a { color: #F0C24B; }
+.welcome__about a:hover, .welcome__footer a:hover { color: #FFD86B; }
+.welcome__footer { border-top-color: #3A352B; color: #B8AE9C; }

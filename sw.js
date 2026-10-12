@@ -1,12 +1,13 @@
 /* The Quiet Soldier: offline support.
    Pages, styles, scripts and text: network first, so updates arrive; the saved copy is used when offline.
    Photos and recordings: saved copy first (they rarely change), refreshed in the background. */
-var VERSION = '20261011c';
+var VERSION = '20261012a';
 var SHELL = 'qs-shell-' + VERSION;
 var MEDIA = 'qs-media';
 var CORE = [
   './', 'index.html', 'chapter.html', 'journey.html', 'historian.html',
-  'assets/css/exhibit.css', 'assets/css/chapter.css',
+  'about.html', 'making.html', 'sources.html',
+  'assets/css/exhibit.css', 'assets/css/chapter.css', 'assets/css/about.css',
   'assets/js/exhibit.js', 'assets/js/chapter.js', 'assets/js/journal.js',
   'manifest.webmanifest', 'offline-files.json',
   'assets/icons/icon-192.png', 'assets/icons/icon-512.png'
