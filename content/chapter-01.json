@@ -61,12 +61,12 @@
        "His parents lived in \"a small terraced house out by Yeovil Junction Railway Station, Stoford\". Grandma Angela's memoir says: \"How you got 14 people into that house I will never know.\" Henry was the eldest of twelve and worked as a farm hand."
       ],
       [
-       "history",
-       "Britain declared war on Germany on 4 August 1914, in the middle of the harvest."
+       "record",
+       "Henry was born on 14 June 1894, so he was 20 when war broke out (his birth certificate)."
       ],
       [
-       "unknown",
-       "Henry's age in 1914 is not yet known; his birth record has not been found."
+       "history",
+       "Britain declared war on Germany on 4 August 1914, in the middle of the harvest."
       ],
       [
        "family",
@@ -105,8 +105,36 @@
     {
      "title": "The twelve",
      "badge": "family",
-     "source": "Memories of Grandad, by Angela Wright, and the family photograph",
-     "body": "Henry was the eldest. His brothers and sisters were Reg, Winnie, Frank, George, Ethel, Arthur, Amy, Lilly, Bill, Kit and Oliver, the youngest. Their mother's first name is still to be found."
+     "source": "Memories of Grandad, by Angela Wright; the family photograph; newspaper cutting, December 1953",
+     "body": "Henry was the eldest. His brothers and sisters were Reg, Winnie, Frank, George, Ethel, Arthur, Amy, Lilly, Bill, Kit and Oliver, the youngest. Their mother was Eliza Ann Bowles. Her maiden name is still to be found."
+    },
+    {
+     "title": "Born near Glastonbury",
+     "badge": "family",
+     "body": "Henry was born on 14 June 1894. His birth was registered in the Glastonbury sub-district of Wells, in the middle of Somerset, so the family only moved to Stoford, near Yeovil, later. Exactly where he was born, and when they moved, is still to be found.",
+     "source": "His birth certificate"
+    },
+    {
+     "title": "Sixty years married",
+     "badge": "family",
+     "body": "Arthur and Eliza Ann Bowles married on 27 December 1893, and celebrated their diamond wedding in December 1953 with a party at the R.A.O.B. Club in Yeovil: the Buffaloes, the same order Henry belonged to. They had seven sons, five daughters, 32 grandchildren and 14 great-grandchildren. The eldest of the family was 59: that was Henry. Only one of them had died, the eldest grandson Gilbert, Henry's son.",
+     "source": "Newspaper cutting, December 1953"
+    },
+    {
+     "title": "Six oxen",
+     "badge": "family",
+     "body": "At 87, Arthur had done every job on a farm except drive a tractor, and remembered ploughing with a team of six oxen. A fortnight before the party he had laid a hedge untouched for thirty years. When they married he earned ten shillings a week, and Eliza Ann £7 a year in service.",
+     "source": "Newspaper cutting, December 1953",
+     "quote": "better than horses",
+     "who": "Arthur Bowles, on ploughing with oxen"
+    },
+    {
+     "title": "Bright as a button",
+     "badge": "family",
+     "body": "At 82, Eliza Ann still took the train into Yeovil to shop two or three times a week, and did all her own washing. She had met Arthur when she was 16.",
+     "source": "Newspaper cutting, December 1953",
+     "quote": "I look after Grandpa, and he looks after me.",
+     "who": "Eliza Ann Bowles"
     },
     {
      "title": "Granfy Bowles",
@@ -140,9 +168,78 @@
      "alt": "A large family group of eighteen people in 1920s clothes in front of two numbered front doors of a brick terrace. An older couple sit in the middle, surrounded by their grown-up sons and daughters, with a young woman and a boy sitting on the step in front.",
      "credit": "Family photograph",
      "slot": "Family photo"
+    },
+    {
+     "cat": "Family record",
+     "file": "diamond-wedding-1953.jpg",
+     "dir": "family",
+     "docName": "Newspaper cutting, He Ploughed With Six Oxen",
+     "caption": "A local newspaper cutting from December 1953, kept by the family: Henry's parents, Arthur and Eliza Ann Bowles, celebrate sixty years of marriage. The paper's name and date were cut off.",
+     "alt": "A yellowed newspaper cutting with the headline He Ploughed With Six Oxen. A full transcript follows.",
+     "credit": "Newspaper cutting kept by the family",
+     "slot": "Family record",
+     "transcript": [
+      "He Ploughed With Six Oxen",
+      "A family of 60, one for each of 60 years of happy marriage, will celebrate a diamond wedding at a Yeovil party on Saturday.",
+      "Mr. and Mrs. Arthur Bowles, of 7, Hillside View, Stoford, married on December 27 1893, have seven sons, five daughters, 32 grandchildren and 14 great-grandchildren.",
+      "All but one of the family, Mr. Bill Bowles, of Yeovil, ill in hospital, will be at the party at the R.A.O.B. Club. Their ages range from 59 to a few days: the youngest grandchild was born on Christmas Eve.",
+      "Mr. Bowles, 87 on Christmas Day, has been a farm-worker all his life. He has done every job on a farm except drive a tractor, and he remembers ploughing with a team of six oxen: \"better than horses.\"",
+      "Wiry and tough, he still does odd jobs for local farmers. A fortnight ago he laid a hedge that had been untouched for 30 years.",
+      "Earned 10s. week",
+      "Mrs. Eliza Ann Bowles, 82 on December 18, is still bright as a button. She takes the train into Yeovil two or three times a week to go shopping, does all her own washing, and cleans her own house.",
+      "She met her husband when she was 16. When they married, five years later, she earned £7 a year in service, and he earned 10s. a week.",
+      "In their 60 years together only one member of the family has died: Gilbert, the eldest grandson, six years ago.",
+      "How to be healthy and happy together for 60 years? Hard work, and give and take. \"I look after Grandpa, and he looks after me,\" says Mrs. Bowles."
+     ],
+     "transcriptNote": "Transcribed from the cutting. The original says \"saws Mrs. Bowles\", a printer's slip for \"says\"."
+    },
+    {
+     "cat": "Family record",
+     "file": "birth-certificate-1894.jpg",
+     "dir": "family",
+     "docName": "Henry's birth certificate",
+     "caption": "Henry's birth certificate. He was born on 14 June 1894, and his birth was registered in the Glastonbury sub-district of Wells, so he was born in mid-Somerset, not at Stoford. This short copy was issued in 1957.",
+     "alt": "A red and white printed certificate headed Certificate of Birth, with a royal coat of arms and typed entries. A full transcript follows.",
+     "credit": "Family papers",
+     "slot": "Family record",
+     "transcript": [
+      [
+       "Certificate",
+       "YF 137125. Certificate of Birth (short form)"
+      ],
+      [
+       "Name and surname",
+       "Henry John Bowles"
+      ],
+      [
+       "Sex",
+       "Boy"
+      ],
+      [
+       "Date of birth",
+       "Fourteenth June 1894"
+      ],
+      [
+       "Registration district",
+       "Wells"
+      ],
+      [
+       "Sub-district",
+       "Glastonbury"
+      ],
+      [
+       "Certified by",
+       "John Gardiner Woodhouse, Deputy Superintendent Registrar for the Registration District of Wells, compiled from an entry in a register in his custody"
+      ],
+      [
+       "Dated",
+       "9th September 1957"
+      ]
+     ],
+     "transcriptNote": "A short birth certificate gives only the name, sex, date and district. The full register entry would also give the exact place of birth and his parents' names."
     }
    ],
-   "photosHeading": "The family of twelve"
+   "photosHeading": "The family of twelve: photographs and papers"
   },
   {
    "id": "yeovil-before-the-war",
@@ -157,7 +254,7 @@
      "question": "What do we really know about young Henry?",
      "hint": "For each fact, choose where our knowledge comes from.",
      "choices": [
-      "The family remembers",
+      "The family remembers or kept",
       "His army record",
       "Not known yet"
      ],
@@ -165,8 +262,8 @@
       {
        "text": "He was the eldest of twelve children.",
        "answer": 0,
-       "explain": "From Grandma Angela's memoir. No birth or census record has been found yet.",
-       "source": "Grandma Angela's memoir"
+       "explain": "From Grandma Angela's memoir. A 1953 newspaper cutting the family kept agrees: twelve children, the eldest aged 59, which was Henry.",
+       "source": "Grandma Angela's memoir; newspaper cutting, December 1953"
       },
       {
        "text": "His service number was 29774.",
@@ -188,9 +285,9 @@
       },
       {
        "text": "His date of birth.",
-       "answer": 2,
-       "explain": "Not found yet. A search of the birth index and the 1901 and 1911 census for the Yeovil district should find it.",
-       "source": "Jobs list"
+       "answer": 0,
+       "explain": "From his birth certificate, which the family kept: 14 June 1894.",
+       "source": "His birth certificate"
       },
       {
        "text": "Where he went to school.",
@@ -219,7 +316,7 @@
     {
      "title": "What we don't know yet",
      "badge": "unit",
-     "body": "We don't yet know Henry's date of birth, his parents' first names, or where he went to school. The birth index and the 1901 and 1911 census should tell us. These are on the family's jobs list.",
+     "body": "We now know Henry's date of birth, 14 June 1894, from his birth certificate, and his parents' names, Arthur and Eliza Ann, from a newspaper cutting. We still don't know his mother's maiden name, exactly where he was born, when the family moved to Stoford, or where he went to school. The full birth register entry and the 1901 and 1911 census should tell us. These are on the family's jobs list.",
      "source": "Jobs list"
     }
    ]

@@ -2,13 +2,13 @@
  "n": 7,
  "title": "After",
  "contentNote": "This chapter touches on how the war stayed with Henry in later life, including the memories that troubled him when he was old.",
- "summary": "In short: Henry came home in December 1918 and married Nell that month. He drove one of Yeovil's first charabancs and later long-distance lorries, kept prize canaries and budgies, and raised three children. He had been gassed, and his breathing was never right again. He never talked about the war, but it stayed with him. He died on 18 January 1963.",
+ "summary": "In short: Henry came home in December 1918 and married Nell on 28 December. He drove one of Yeovil's first charabancs and later long-distance lorries, kept prize canaries and budgies, and raised three children. He had been gassed, and his breathing was never right again. He never talked about the war, but it stayed with him. He died on 18 January 1963.",
  "scenes": [
   {
    "id": "home",
    "title": "Home",
    "type": "reflection",
-   "intro": "Henry landed at Hull on 4 December 1918 and came home to Stoford. That same month he married Ellen Taylor, known as Nell.",
+   "intro": "Henry landed at Hull on 4 December 1918. Just over three weeks later, on 28 December, he married Ellen Mary Taylor, known as Nell, at the parish church in Maperton, Somerset.",
    "context": [
     {
      "badge": "unit",
@@ -26,6 +26,11 @@
      "badge": "archival",
      "text": "Discharged to the Class Z Reserve on 13 March 1919.",
      "source": "His casualty record"
+    },
+    {
+     "badge": "family",
+     "text": "Married at Maperton parish church on 28 December 1918, by licence. Henry, a bachelor, gave his rank as Lance Corporal and his home as Maperton; Nell, a spinster, lived in Yeovil. Both fathers, Arthur Bowles and Henry Taylor, were labourers.",
+     "source": "Their marriage certificate"
     }
    ],
    "photos": [
@@ -33,10 +38,63 @@
      "cat": "Family photo",
      "file": "wedding.jpg",
      "dir": "family",
-     "caption": "Henry and Nell on their wedding day, December 1918. Henry is still in uniform: he stayed a soldier, on prisoner-of-war leave, until March 1919.",
+     "caption": "Henry and Nell on their wedding day, 28 December 1918. Henry is still in uniform: he stayed a soldier, on prisoner-of-war leave, until March 1919.",
      "alt": "Henry in army uniform and peaked cap, with a moustache, standing beside Nell in a wide-brimmed hat and dark coat.",
      "credit": "Family photograph",
      "slot": "Family photo"
+    },
+    {
+     "cat": "Family record",
+     "file": "marriage-certificate-1918.jpg",
+     "dir": "family",
+     "docName": "Henry and Nell's marriage certificate",
+     "caption": "Henry and Nell's marriage certificate, 28 December 1918. He gave his rank as \"Soldier, L. Corp\": a Lance Corporal, still in the army just over three weeks after landing back in England.",
+     "alt": "A green-bordered handwritten certificate headed Certified Copy of an Entry of Marriage, with a red one-penny King George V stamp at the foot. A full transcript follows.",
+     "credit": "Family papers",
+     "slot": "Family record",
+     "transcript": [
+      [
+       "Where",
+       "The Parish Church, in the Parish of Maperton, in the County of Somerset. Entry number 105"
+      ],
+      [
+       "When married",
+       "28 December 1918"
+      ],
+      [
+       "Bridegroom",
+       "Henry John Bowles, aged 25, bachelor. Rank or profession: Soldier, L. Corp. Residence: Maperton"
+      ],
+      [
+       "His father",
+       "Arthur Bowles, labourer"
+      ],
+      [
+       "Bride",
+       "Ellen Mary Taylor, aged 25, spinster. Residence: Yeovil"
+      ],
+      [
+       "Her father",
+       "Henry Taylor, labourer"
+      ],
+      [
+       "How",
+       "According to the rites and ceremonies of the Church of England, by licence"
+      ],
+      [
+       "Witnesses",
+       "Harry Taylor and Ethel Joyce Bowles (the handwriting of both names is hard to read)"
+      ],
+      [
+       "Married by",
+       "C. White, Rector"
+      ],
+      [
+       "Certified by",
+       "Cyril White, Rector of Maperton, 28th December 1918"
+      ]
+     ],
+     "transcriptNote": "The register gives Henry's age as 25. By his birth certificate he was 24, six months short of 25. Small slips like this were common."
     },
     {
      "cat": "Family photo",
@@ -61,7 +119,7 @@
    "entries": [
     {
      "date": "December 1918",
-     "place": "Stoford",
+     "place": "Maperton",
      "paras": [
       "Home. Mother didn't say anything at all, just held on to me in the doorway till Father said let the boy in, he's letting the cold in. Then she cried, and then she made tea, the way she did the day I told her I'd joined.",
       "The little ones aren't little. Some of them are taller than me now. They look at me like they're waiting for me to say something about it. I don't.",
@@ -75,8 +133,8 @@
        "Landed at Hull on 4 December 1918 (casualty record)."
       ],
       [
-       "family",
-       "He married Ellen \"Nell\" Taylor in December 1918 (Grandma Angela's memoir). The exact day is not yet known."
+       "record",
+       "He married Ellen Mary Taylor on 28 December 1918 at Maperton parish church, giving his home as Maperton and his rank as Lance Corporal (their marriage certificate)."
       ],
       [
        "typical",
@@ -259,20 +317,47 @@
    ],
    "photos": [
     {
+     "cat": "Family photo",
+     "file": "weymouth.jpg",
+     "dir": "family",
+     "caption": "Grandma, Grandad and Angela on the beach at Weymouth, in the early 1950s. Henry is in shirt, braces and long trousers, just as Angela remembers him at the seaside.",
+     "alt": "On a crowded beach, an older woman in round glasses and a flowered dress and a man in an open-necked shirt and braces sit in deckchairs either side of a small fair-haired girl with a bow in her hair. Beach huts and seafront buildings are behind them.",
+     "credit": "Family photograph, lent by Angela Wright",
+     "slot": "Family photo"
+    },
+    {
+     "cat": "Family photo",
+     "file": "henry-birds.jpg",
+     "dir": "family",
+     "caption": "Grandad and Angela with one of his birds, in the 1950s. He kept canaries and budgies, and showed them in Yeovil.",
+     "alt": "A man in a sleeveless pullover kneels in a vegetable garden beside a small girl. Together they hold a bird cage standing on a wooden stool, with a terrace of houses behind them.",
+     "credit": "Family photograph, lent by Angela Wright",
+     "slot": "Family photo"
+    },
+    {
+     "cat": "Family photo",
+     "file": "poole-bungalow.jpg",
+     "dir": "family",
+     "caption": "At Aunty Winnie's bungalow in Poole, in the 1950s. Standing, from the left: Grandad, Grandma Bush (Angela's other grandmother) and Grandma Nell. Kneeling: Aunty Winnie, Henry's sister, and Angela.",
+     "alt": "Five people outside a pebble-dashed bungalow. Standing are a man in shirt and braces, a very elderly woman in a dark dress holding a walking stick, and a woman in round glasses and a flowered dress. Kneeling in front are a smiling woman in a flowered dress and a young girl in a checked dress with a white collar.",
+     "credit": "Family photograph, lent by Angela Wright",
+     "slot": "Family photo"
+    },
+    {
+     "cat": "Family photo",
+     "file": "the-nothe-1962.jpg",
+     "dir": "family",
+     "caption": "Grandad and Angela on the grass at the Nothe, Weymouth, in about 1962, when she was 13. His cap lies on the grass beside him.",
+     "alt": "A white-haired man in a shirt with rolled sleeves and dark trousers sits on a grassy slope beside a teenage girl in a sun hat, blouse and full skirt. A pale cap and a dark jacket lie on the grass beside him.",
+     "credit": "Family photograph, lent by Angela Wright",
+     "slot": "Family photo"
+    },
+    {
      "cat": "Family photo wanted",
      "file": "henry-flat-cap.jpg",
      "dir": "family",
      "caption": "Henry in his flat cap, if the family has a photograph.",
      "alt": "Henry wearing a flat cap.",
-     "credit": "Family photograph",
-     "slot": "Family photo wanted"
-    },
-    {
-     "cat": "Family photo wanted",
-     "file": "weymouth.jpg",
-     "dir": "family",
-     "caption": "Holidays at Weymouth, if any photographs survive.",
-     "alt": "The family on holiday at Weymouth.",
      "credit": "Family photograph",
      "slot": "Family photo wanted"
     }
@@ -343,8 +428,8 @@
     {
      "title": "Gassed",
      "badge": "family",
-     "body": "Every winter he had bronchitis and chest infections. His army record doesn't mention gas, so we don't know when it happened. His Wiltshire battalion met mustard gas near Ypres in July 1917.",
-     "source": "Memories of Grandad, by Angela Wright",
+     "body": "Every winter he had bronchitis and chest infections. His army record doesn't mention gas, so we don't know when it happened. His Wiltshire battalion met mustard gas near Ypres in July 1917. When he died in 1963, his death certificate gave acute and chronic bronchitis as the cause.",
+     "source": "Memories of Grandad, by Angela Wright; his death certificate",
      "quote": "Grandad had been gassed during WWI in France and since then had always had problems breathing.",
      "who": "Memories of Grandad, by Angela Wright"
     },
@@ -427,7 +512,7 @@
    "id": "a-happy-note",
    "title": "A happy note",
    "type": "stories",
-   "intro": "Henry died on 18 January 1963. His granddaughter was nearly fourteen.",
+   "intro": "Henry died at Yeovil General Hospital on 18 January 1963, aged 68. His granddaughter Angela was two days short of her fourteenth birthday.",
    "stories": [
     {
      "title": "A happy note",
@@ -453,6 +538,54 @@
     }
    ],
    "photos": [
+    {
+     "cat": "Family record",
+     "file": "death-certificate-1963.jpg",
+     "dir": "family",
+     "docName": "Henry's death certificate",
+     "caption": "Henry's death certificate, January 1963. The cause of death, bronchitis and heart failure, is the chest trouble the family always linked to his being gassed in the war. The copy was issued to his daughter, Joyce Bush.",
+     "alt": "A printed form headed Certified Copy of an Entry of Death, with typed entries in columns. A full transcript follows.",
+     "credit": "Family papers",
+     "slot": "Family record",
+     "transcript": [
+      [
+       "Where registered",
+       "Sub-district of Yeovil, Registration District of Yeovil, County of Somerset. 1963, entry number 129"
+      ],
+      [
+       "When and where died",
+       "Eighteenth January 1963, Yeovil General Hospital, Yeovil"
+      ],
+      [
+       "Name",
+       "Henry John Bowles"
+      ],
+      [
+       "Sex and age",
+       "Male, 68 years"
+      ],
+      [
+       "Occupation",
+       "Of 67, Southville, Yeovil. A lorry driver (retired)"
+      ],
+      [
+       "Cause of death",
+       "1a. Acute bronchitis. b. Chronic bronchitis and right heart failure. Certified by J. Lakshan Fernando, LRCP"
+      ],
+      [
+       "Informant",
+       "Cyril E. Bush, son-in-law, 25, Southville, Yeovil"
+      ],
+      [
+       "When registered",
+       "Eighteenth January 1963, by E. Shire, Registrar"
+      ],
+      [
+       "Copy issued",
+       "21st January 1963, to Joyce Bush, 25, Southville, Yeovil. Relationship to deceased: child"
+      ]
+     ]
+    },
     {
      "cat": "Family photo",
      "file": "henry-and-nell-last.jpg",

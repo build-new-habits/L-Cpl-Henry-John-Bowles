@@ -281,6 +281,16 @@ html[data-spacing="wide"] .journal__hand { letter-spacing: 0.03em; }
 .qa-inline > summary::after { content: "+"; position: absolute; right: 16px; top: 50%; transform: translateY(-50%); font-size: 1.5rem; color: var(--muted); font-weight: 400; }
 .qa-inline[open] > summary::after { content: "\2212"; }
 .qa-inline__body { padding: 0 14px 14px; display: grid; gap: 10px; }
+/* Transcripts under documents (certificates, newspaper cuttings) */
+.doc-transcript { font-size: 1rem; }
+.doc-transcript > summary { font-size: 0.95rem; }
+.doc-rows { margin: 0; display: grid; gap: 8px; }
+.doc-row { display: grid; grid-template-columns: minmax(7rem, 38%) 1fr; gap: 4px 12px; }
+.doc-row dt { font-weight: 700; color: var(--muted); }
+.doc-row dd { margin: 0; }
+.doc-transcript p { margin: 0; line-height: 1.6; }
+.doc-note { color: var(--muted); font-size: 0.9rem; }
+@media (max-width: 30em) { .doc-row { grid-template-columns: 1fr; } }
 .qa-sure { padding: 10px 14px; border-left: 4px solid var(--badge-ai); background: var(--paper-deep); border-radius: 0 8px 8px 0; }
 .qa-src { display: grid; gap: 2px; }
 .act-slot { display: grid; }

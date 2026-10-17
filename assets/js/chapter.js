@@ -327,6 +327,22 @@
     refresh();
   }
 
+  /* A document (a certificate, a newspaper cutting) can carry a full transcript,
+     so its words can be read at any size and by a screen reader. Each item is
+     either a paragraph, or [label, value] for a row of a printed form. */
+  function transcriptBlock(p) {
+    if (!p.transcript || !p.transcript.length) return '';
+    var rows = [], paras = [];
+    p.transcript.forEach(function (t) {
+      if (Array.isArray(t)) rows.push('<div class="doc-row"><dt>' + e(t[0]) + '</dt><dd>' + e(t[1]) + '</dd></div>');
+      else paras.push('<p>' + e(t) + '</p>');
+    });
+    return '<details class="qa-inline doc-transcript"><summary>Read the transcript' +
+      '<span class="visually-hidden">: ' + e(p.docName || p.caption) + '</span></summary><div class="qa-inline__body">' +
+      (rows.length ? '<dl class="doc-rows">' + rows.join('') + '</dl>' : '') + paras.join('') +
+      (p.transcriptNote ? '<p class="doc-note">' + e(p.transcriptNote) + '</p>' : '') + '</div></details>';
+  }
+
   /* ---------- Photographs (any whose file is missing are left out) ---------- */
   function photoBlock(sc, key, heading) {
     key = key || 'photos';
@@ -340,7 +356,8 @@
         return '<figure class="photo" data-list="' + key + '" data-i="' + i + '"><div class="photo-frame">' +
           '<img src="' + e(p.src || ('assets/img/' + dir + '/' + p.file)) + '" alt="' + e(p.alt) + '" loading="lazy" data-photo>' +
           '</div><figcaption><span>' + e(p.caption) + '</span>' +
-          '<span class="photo-credit">' + e(credit) + (p.url ? ' <a href="' + e(p.url) + '" target="_blank" rel="noopener">See it at IWM<span class="visually-hidden"> (opens in a new tab)</span></a>' : '') + '</span></figcaption></figure>';
+          '<span class="photo-credit">' + e(credit) + (p.url ? ' <a href="' + e(p.url) + '" target="_blank" rel="noopener">See it at IWM<span class="visually-hidden"> (opens in a new tab)</span></a>' : '') + '</span>' +
+          transcriptBlock(p) + '</figcaption></figure>';
       }).join('') + '</div></section>';
   }
 
@@ -371,7 +388,8 @@
         b.type = 'button'; b.className = 'btn photo-zoom'; b.textContent = 'Enlarge';
         b.setAttribute('aria-label', 'Enlarge the photograph: ' + p.caption);
         b.addEventListener('click', function () { openZoom(img.src, p.alt, b, 'Enlarged photograph'); });
-        fig.querySelector('figcaption').appendChild(b);
+        var cap = fig.querySelector('figcaption');
+        cap.insertBefore(b, cap.querySelector('.doc-transcript'));
       }
       img.addEventListener('load', ready);
       img.addEventListener('error', confirmMissing);

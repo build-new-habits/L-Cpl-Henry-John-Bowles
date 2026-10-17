@@ -29,3 +29,11 @@ Each family photo is left out of the exhibition until a file with the name below
 - Kept private (not on the site): 23, 26 full card, 27, 28 (living family), 39 (family member in basilica). Held back for rights: 31, 32 (photos of other people's prints).
 - Still wanted: trip-quadrilateral.jpg
 - Still wanted: the original print of the homepage portrait (currently copied from Grandma Angela's memoir), lorry.jpg, henry-flat-cap.jpg, weymouth.jpg.
+
+## Added 17 October 2026 (from Angela Wright's papers and albums)
+- Ch 1 "The eldest of twelve": diamond-wedding-1953.jpg (newspaper cutting, Arthur and Eliza Ann's diamond wedding, December 1953), birth-certificate-1894.jpg (short certificate issued 1957). Both carry full transcripts.
+- Ch 7 "Home": marriage-certificate-1918.jpg (Maperton, 28 December 1918), with transcript.
+- Ch 7 "Grandad": weymouth.jpg (Weymouth beach), henry-birds.jpg (Henry and Angela with one of his birds), poole-bungalow.jpg (Aunty Winnie's bungalow in Poole: Henry, Grandma Bush, Nell; Winnie and Angela kneeling), the-nothe-1962.jpg (Henry and Angela at the Nothe, about 1962).
+- Ch 7 "A happy note": death-certificate-1963.jpg, with transcript.
+- Photo files were saved without their phone metadata (no location data).
+- Offered and still to come: more photos of Grandma Nell and Angela, and Grandma Bush holding Angela as a baby.

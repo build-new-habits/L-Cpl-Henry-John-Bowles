@@ -5,6 +5,20 @@
    "title": "Henry's own records",
    "items": [
     {
+     "title": "His birth, marriage and death certificates (family papers)",
+     "urls": [],
+     "where": [
+      {
+       "label": "Chapter 1",
+       "href": "chapter.html#1"
+      },
+      {
+       "label": "Chapter 7",
+       "href": "chapter.html#7"
+      }
+     ]
+    },
+    {
      "title": "His service and casualty records",
      "urls": [],
      "where": [
@@ -123,6 +137,16 @@
       {
        "label": "Chapter 4",
        "href": "chapter.html#4"
+      }
+     ]
+    },
+    {
+     "title": "Newspaper cutting: Arthur and Eliza Ann Bowles's diamond wedding, December 1953 (kept by the family)",
+     "urls": [],
+     "where": [
+      {
+       "label": "Chapter 1",
+       "href": "chapter.html#1"
       }
      ]
     }

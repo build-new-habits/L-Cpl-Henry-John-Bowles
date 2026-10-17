@@ -40,6 +40,10 @@ MERGE = [
     (re.compile(r'^UK Parliament: Conscription'), 'UK Parliament, Conscription: the First World War'),
     (re.compile(r'^1900s\.org\.uk'), '1900s.org.uk, Rationing and shortages in WW1'),
     (re.compile(r'^(Family photograph|Family photographs)'), 'Family photographs'),
+    (re.compile(r'^(His birth certificate|Their marriage certificate|His death certificate|Family papers$)', re.I),
+     'His birth, marriage and death certificates (family papers)'),
+    (re.compile(r'^Newspaper cutting'),
+     "Newspaper cutting: Arthur and Eliza Ann Bowles's diamond wedding, December 1953 (kept by the family)"),
     (re.compile(r'^Somerset Historic Environment Record'), 'Somerset Historic Environment Record, Stoford'),
     (re.compile(r'^Quoted in the British Official History'),
      'Military Operations, France and Belgium, 1916, volume 1 (the British Official History)'),
@@ -59,9 +63,9 @@ def group_of(title):
     t = title.lower()
     if t.startswith(('image: iwm', '© harold robson/iwm')) or re.match(r'iwm, q \d', t):
         return 'iwm-images'
-    if t.startswith(('his service', 'letter from the rifles')):
+    if t.startswith(('his service', 'letter from the rifles', 'his birth, marriage')):
         return 'records'
-    if t.startswith(('angela wright', 'family', "the family's", 'from the family')):
+    if t.startswith(('angela wright', 'family', "the family's", 'from the family', 'newspaper cutting')):
         return 'family'
     if any(k in t for k in ('war diary', 'wyrall', '25th division', 'reichsarchiv', 'redan ridge (', 'storm of steel, translated',
                             'leben im lager', 'official history', 'western front of the first world war', 'storm of steel, trans')):

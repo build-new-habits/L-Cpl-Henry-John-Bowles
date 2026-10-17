@@ -1,5 +1,5 @@
 {
- "version": "20261012d",
+ "version": "20261017a",
  "text": [
   "content/chapter-01.json",
   "content/chapter-02.json",
@@ -85,7 +85,15 @@
   "assets/audio/6-3-no-mans-land.mp3",
   "assets/audio/6-4-never-tell-mother.mp3",
   "assets/audio/6-5-messines.mp3",
-  "assets/audio/7-1-the-barbed-wire.mp3"
+  "assets/audio/7-1-the-barbed-wire.mp3",
+  "assets/img/family/birth-certificate-1894.jpg",
+  "assets/img/family/diamond-wedding-1953.jpg",
+  "assets/img/family/marriage-certificate-1918.jpg",
+  "assets/img/family/death-certificate-1963.jpg",
+  "assets/img/family/weymouth.jpg",
+  "assets/img/family/henry-birds.jpg",
+  "assets/img/family/poole-bungalow.jpg",
+  "assets/img/family/the-nothe-1962.jpg"
  ],
- "mediaBytes": 28643808
+ "mediaBytes": 30376755
 }
