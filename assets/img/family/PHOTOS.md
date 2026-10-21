@@ -37,3 +37,10 @@ Each family photo is left out of the exhibition until a file with the name below
 - Ch 7 "A happy note": death-certificate-1963.jpg, with transcript.
 - Photo files were saved without their phone metadata (no location data).
 - Offered and still to come: more photos of Grandma Nell and Angela, and Grandma Bush holding Angela as a baby.
+
+## Added 21 October 2026 (from Tristan Cobb's research notes, photographed from printouts)
+- Ch 6 "Snow and one stripe": henry-lance-corporal.jpg (studio portrait with cane, one stripe)
+- Ch 7 "The farm and the lorries": buffaloes-medals.jpg (RAOB medals, now with Angela)
+- Ch 7 "Grandad": henry-nell-weymouth.jpg (Henry and Nell walking in Weymouth; replaces the henry-flat-cap.jpg wanted slot)
+- Held back, to ask: the crashed British Road Services lorry (NLJ 958), the man with a horse and roller, the two March 1918 maps.
+- Better copies wanted: Tristan's original digital files would be sharper than these photos of printouts.

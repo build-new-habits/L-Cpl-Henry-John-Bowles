@@ -189,7 +189,7 @@
    "id": "the-farm-and-the-lorries",
    "title": "The farm and the lorries",
    "type": "stories",
-   "intro": "Henry and Nell had three children: Gilbert John, Joyce, always called Joycie, and William George, known as Bill. These memories are their granddaughter Angela's.",
+   "intro": "Henry and Nell had three children: Gilbert, Joyce, always called Joycie, born on 22 July 1921, and William George, known as Bill, born in 1924. These memories are their granddaughter Angela's, with some from Joyce's grandson Tristan.",
    "stories": [
     {
      "title": "On the mower",
@@ -206,6 +206,32 @@
      "who": "Memories of Grandad, by Angela Wright"
     },
     {
+     "title": "Bird Brothers and British Road Services",
+     "badge": "family",
+     "body": "In 1924 the family moved to 67 Southville, Yeovil, the year their youngest, Bill, was born. Henry drove for Bird Brothers, and later long-distance lorries for British Road Services. The 1939 Register lists him at 67 Southville as a lorry driver, \"heavy worker\".",
+     "source": "Tristan Cobb's family research"
+    },
+    {
+     "title": "Twelve miles an hour",
+     "badge": "archival",
+     "body": "In 1924 two policemen timed his lorry over a measured furlong near Blandford: 16 miles 928 yards an hour, when the limit for a heavy lorry was 12. Henry said he was sorry, and told the constable that lorries ought to be made to carry speedometers. He was fined ten shillings. In 1935 he was fined £1 for going over 20 miles an hour.",
+     "source": "Newspaper reports, from Tristan Cobb's family research"
+    },
+    {
+     "title": "A working man",
+     "badge": "archival",
+     "body": "In 1931 a policeman at Broadwindsor stopped his lorry, carrying the sections of a building laid flat, 9 feet wide, too wide to pass another lorry. Henry wrote to the magistrates pleading guilty. He had not meant it, he said, and hoped they would be lenient. The case was dismissed with a caution.",
+     "source": "Newspaper report, 17 July 1931, from Tristan Cobb's family research",
+     "quote": "only a working man with a wife and three children",
+     "who": "Henry, writing to the magistrates"
+    },
+    {
+     "title": "Knight of the Road",
+     "badge": "family",
+     "body": "For all that, he was given a \"Knight of the Road\" award for his driving, and he had never taken a driving test.",
+     "source": "Tristan Cobb's family research"
+    },
+    {
      "title": "\"Hello then\"",
      "badge": "family",
      "body": "On holiday in a hired car, if another driver did something wrong, Henry wound down the window and said \"hello then\". Asked if he knew them, he said: \"No, but they know what I mean.\"",
@@ -218,10 +244,22 @@
      "source": "Grandma Angela's memoir, page 1"
     },
     {
+     "title": "Pack it away",
+     "badge": "family",
+     "body": "The story goes, from Joyce, that if she or her brothers came home and left anything lying about, like shoes kicked off after a dance, Henry would go and wake them up and tell them to put it away: their mother was not their servant.",
+     "source": "Joyce Bush's memory, from Tristan Cobb's family research"
+    },
+    {
+     "title": "Burnt to a crisp",
+     "badge": "family",
+     "body": "It is said he liked his bacon burnt to a crisp, just as his great-grandson Tristan does.",
+     "source": "Tristan Cobb's family research"
+    },
+    {
      "title": "The bird hospital",
      "badge": "family",
-     "body": "He turned an old shed into an aviary for canaries and budgies, with two cages kept for sick birds: his \"bird hospital\". Seed and water were measured out exactly. He showed his birds in Yeovil and usually came home with certificates.",
-     "source": "Memories of Grandad, by Angela Wright",
+     "body": "He turned an old shed into an aviary for canaries and budgies, with two cages kept for sick birds: his \"bird hospital\". Seed and water were measured out exactly. He showed his birds in Yeovil and usually came home with certificates. He was a member of the cage bird association in Yeovil, and built the aviary in his back garden.",
+     "source": "Memories of Grandad, by Angela Wright; Tristan Cobb's family research",
      "quote": "It was special to do that with him.",
      "who": "Memories of Grandad, by Angela Wright"
     },
@@ -234,8 +272,8 @@
     {
      "title": "The Buffaloes",
      "badge": "family",
-     "body": "He was a member of the Royal Antediluvian Order of Buffaloes, and head of the lodge opposite the Salvation Army in Southville, Yeovil.",
-     "source": "Grandma Angela's memoir, page 1"
+     "body": "He was a member of the Royal Antediluvian Order of Buffaloes, and head of the lodge opposite the Salvation Army in Southville, Yeovil. He won many Buffaloes medals, which are now kept by his granddaughter Angela.",
+     "source": "Grandma Angela's memoir, page 1; Tristan Cobb's family research"
     }
    ],
    "photos": [
@@ -265,6 +303,15 @@
      "alt": "A studio portrait of an older couple seated, the woman in round glasses, with two young men in suits and a young woman in pearls standing behind them.",
      "credit": "Family photograph",
      "slot": "Family photo"
+    },
+    {
+     "cat": "Family record",
+     "file": "buffaloes-medals.jpg",
+     "dir": "family",
+     "caption": "Henry's medals from the Royal Antediluvian Order of Buffaloes, now kept by his granddaughter Angela. Some carry the names of lodge offices, such as Minstrel, Waiter and Primo.",
+     "alt": "Seventeen medals laid out in three rows on a table, each hanging from a striped ribbon with an ornate bar. The medals are crosses, stars and round badges, one with a buffalo's head; a long sash with a round badge lies at the end of the bottom row.",
+     "credit": "Family photograph, from Tristan Cobb's family research",
+     "slot": "Family record"
     },
     {
      "cat": "Family photo wanted",
@@ -318,6 +365,15 @@
    "photos": [
     {
      "cat": "Family photo",
+     "file": "henry-nell-weymouth.jpg",
+     "dir": "family",
+     "caption": "Henry and Nell walking arm in arm in Weymouth, Henry in his flat cap.",
+     "alt": "An older couple walk towards the camera along a seaside promenade with flags behind them. The man wears a flat cap, jacket and pullover; the woman, in round glasses, wears a long coat over a pale dress.",
+     "credit": "Family photograph, from Tristan Cobb's family research",
+     "slot": "Family photo"
+    },
+    {
+     "cat": "Family photo",
      "file": "weymouth.jpg",
      "dir": "family",
      "caption": "Grandma, Grandad and Angela on the beach at Weymouth, in the early 1950s. Henry is in shirt, braces and long trousers, just as Angela remembers him at the seaside.",
@@ -351,15 +407,6 @@
      "alt": "A white-haired man in a shirt with rolled sleeves and dark trousers sits on a grassy slope beside a teenage girl in a sun hat, blouse and full skirt. A pale cap and a dark jacket lie on the grass beside him.",
      "credit": "Family photograph, lent by Angela Wright",
      "slot": "Family photo"
-    },
-    {
-     "cat": "Family photo wanted",
-     "file": "henry-flat-cap.jpg",
-     "dir": "family",
-     "caption": "Henry in his flat cap, if the family has a photograph.",
-     "alt": "Henry wearing a flat cap.",
-     "credit": "Family photograph",
-     "slot": "Family photo wanted"
     }
    ],
    "photosHeading": "Family photographs"
@@ -403,8 +450,8 @@
     {
      "title": "The only time",
      "badge": "family",
-     "body": "Nell died of cancer, before Henry. That morning, her granddaughter called in as usual. Henry was alone in the garden.",
-     "source": "Memories of Grandad, by Angela Wright",
+     "body": "Nell died of cancer on 5 June 1961, aged 67. That morning, her granddaughter called in as usual. Henry was alone in the garden.",
+     "source": "Memories of Grandad, by Angela Wright; Tristan Cobb's family research",
      "quote": "As I walked down the path I could see he was crying. That was the only time I saw him cry.",
      "who": "Memories of Grandad, by Angela Wright"
     }
@@ -426,9 +473,15 @@
      "who": "Grandma Angela's memoir"
     },
     {
+     "title": "What the family knew",
+     "badge": "family",
+     "body": "The stories of him in the Great War were few. The family knew he had been a prisoner, and that he brought the walking stick home. Joyce's husband, Cyril Bush, always believed Henry had served in the Somerset Light Infantry. Nobody mentioned the Wiltshire Regiment, where he spent most of his war. He did tell them he had been gassed, which is why they went to Weymouth for the sea air.",
+     "source": "Tristan Cobb's family research"
+    },
+    {
      "title": "Gassed",
      "badge": "family",
-     "body": "Every winter he had bronchitis and chest infections. His army record doesn't mention gas, so we don't know when it happened. His Wiltshire battalion met mustard gas near Ypres in July 1917. When he died in 1963, his death certificate gave acute and chronic bronchitis as the cause.",
+     "body": "Every winter he had bronchitis and chest infections. His army record doesn't mention gas, so we don't know when it happened. His Wiltshire battalion met mustard gas near Ypres in July 1917, though Henry may only have rejoined it that August. When he died in 1963, his death certificate gave acute and chronic bronchitis as the cause.",
      "source": "Memories of Grandad, by Angela Wright; his death certificate",
      "quote": "Grandad had been gassed during WWI in France and since then had always had problems breathing.",
      "who": "Memories of Grandad, by Angela Wright"
@@ -521,6 +574,12 @@
      "source": "Grandma Angela's memoir, page 10",
      "quote": "Grandad's life did end on a happy note",
      "who": "Grandma Angela's memoir"
+    },
+    {
+     "title": "Together again",
+     "badge": "archival",
+     "body": "Henry was buried with Nell at Yeovil Cemetery, in grave B3817. In March 1963 his affairs were settled by Joyce and Bill, then a confectionery salesman. He left £382 4s.",
+     "source": "Probate calendar and burial record, from Tristan Cobb's family research"
     },
     {
      "title": "Their sons",

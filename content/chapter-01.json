@@ -6,7 +6,7 @@
    "id": "the-house-by-the-junction",
    "title": "The house by the Junction",
    "type": "reflection",
-   "intro": "Henry grew up at Stoford, on the edge of Yeovil, in a small terraced house by Yeovil Junction railway station. He was the eldest of twelve children.",
+   "intro": "Henry was the eldest of twelve children. He was born in 1894 at Walton, near Street, and grew up wherever his father found farm work, in Somerset and then in Wiltshire. Later the family settled at Stoford, on the edge of Yeovil, in a small terraced house by Yeovil Junction railway station.",
    "context": [
     {
      "badge": "family",
@@ -48,17 +48,21 @@
     },
     {
      "date": "August 1914",
-     "place": "Stoford",
+     "place": "At home",
      "paras": [
       "Harvest's late this year and every hand is wanted, so I'm in the fields from first light till you can't see the stooks. Came home tonight with my arms scratched to ribbons and my back like an old man's.",
       "Fourteen of us in that little house now, counting Mother and Father. You can't turn round without treading on somebody. The little ones sleep three to a bed and the trains go by the bottom of the garden all night, and none of us hears them any more.",
-      "But tonight the trains were different. Train after train going through the Junction, and men on the platform saying it's war. Germany. Nobody seems to know rightly what it's about, only that we're in it now, and the papers say it'll be over by Christmas.",
+      "But tonight the trains were different. Train after train going through the station, and men on the platform saying it's war. Germany. Nobody seems to know rightly what it's about, only that we're in it now, and the papers say it'll be over by Christmas.",
       "Mother says it's nothing to do with us. Father says it's everything to do with us. I said nothing and went to bed, and lay there listening to the trains."
      ],
      "basis": [
       [
+       "unknown",
+       "Where the family lived in August 1914 is not known. In 1911 they were farming at Yatton Keynell in Wiltshire; later they settled at Stoford, by Yeovil Junction (Tristan Cobb's family research)."
+      ],
+      [
        "family",
-       "His parents lived in \"a small terraced house out by Yeovil Junction Railway Station, Stoford\". Grandma Angela's memoir says: \"How you got 14 people into that house I will never know.\" Henry was the eldest of twelve and worked as a farm hand."
+       "Henry was the eldest of twelve and worked on the land. Grandma Angela's memoir remembers the family's small house: \"How you got 14 people into that house I will never know.\""
       ],
       [
        "record",
@@ -97,22 +101,28 @@
     {
      "title": "Twelve children",
      "badge": "family",
-     "body": "Henry was the eldest child of Arthur Bowles and his wife. They lived into their nineties, in the same small house by Yeovil Junction station.",
-     "source": "Grandma Angela's memoir, page 1",
+     "body": "Henry was the eldest child of Arthur John Bowles and Eliza Ann Bowles, born Eliza Ann Perry. They lived into their nineties, and ended their days in the same small house by Yeovil Junction station.",
+     "source": "Grandma Angela's memoir, page 1; Tristan Cobb's family research",
      "quote": "the eldest of 12 children who all survived WWI",
      "who": "Grandma Angela's memoir"
     },
     {
      "title": "The twelve",
      "badge": "family",
-     "source": "Memories of Grandad, by Angela Wright; the family photograph; newspaper cutting, December 1953",
-     "body": "Henry was the eldest. His brothers and sisters were Reg, Winnie, Frank, George, Ethel, Arthur, Amy, Lilly, Bill, Kit and Oliver, the youngest. Their mother was Eliza Ann Bowles. Her maiden name is still to be found."
+     "source": "Memories of Grandad, by Angela Wright; the family photograph; Tristan Cobb's family research",
+     "body": "Henry was the eldest. His brothers and sisters were Reg, Winnie, Frank, George, Ethel, Arthur, Amy, Lilly, Bill, Kit and Oliver, the youngest. Their mother was Eliza Ann, born Eliza Ann Perry."
     },
     {
-     "title": "Born near Glastonbury",
+     "title": "Born at Walton",
      "badge": "family",
-     "body": "Henry was born on 14 June 1894. His birth was registered in the Glastonbury sub-district of Wells, in the middle of Somerset, so the family only moved to Stoford, near Yeovil, later. Exactly where he was born, and when they moved, is still to be found.",
-     "source": "His birth certificate"
+     "body": "Henry was born on 14 June 1894 at Walton, a village near Street and Glastonbury, and christened there on 12 August. Queen Victoria was on the throne, and Lord Rosebery was Prime Minister.",
+     "source": "His birth certificate; Tristan Cobb's family research"
+    },
+    {
+     "title": "On the move",
+     "badge": "archival",
+     "body": "Farm labourers' families moved with the work. In the 1901 census Henry, aged 6, was at East Horrington, near Wells. In 1911, aged 16, he was a farm labourer at New Buildings, Easton Piercy Farm, Yatton Keynell, near Chippenham in Wiltshire, living with his family. Five years later the army, by chance, put him in the Wiltshire Regiment. When the family settled at Stoford is still to be found.",
+     "source": "1901 and 1911 census, from Tristan Cobb's family research"
     },
     {
      "title": "Sixty years married",
@@ -198,7 +208,7 @@
      "file": "birth-certificate-1894.jpg",
      "dir": "family",
      "docName": "Henry's birth certificate",
-     "caption": "Henry's birth certificate. He was born on 14 June 1894, and his birth was registered in the Glastonbury sub-district of Wells, so he was born in mid-Somerset, not at Stoford. This short copy was issued in 1957.",
+     "caption": "Henry's birth certificate. He was born on 14 June 1894, and his birth was registered in the Glastonbury sub-district of Wells. Family research places it at Walton, near Street. This short copy was issued in 1957.",
      "alt": "A red and white printed certificate headed Certificate of Birth, with a royal coat of arms and typed entries. A full transcript follows.",
      "credit": "Family papers",
      "slot": "Family record",
@@ -268,7 +278,7 @@
       {
        "text": "His service number was 29774.",
        "answer": 1,
-       "explain": "It is on his casualty record, which the regimental museum summarised for the family.",
+       "explain": "It is on his casualty record, which the regimental museum summarised for the family. That was his Wiltshire Regiment number; in the Somerset Light Infantry he had been 17188.",
        "source": "His casualty record"
       },
       {
@@ -316,7 +326,7 @@
     {
      "title": "What we don't know yet",
      "badge": "unit",
-     "body": "We now know Henry's date of birth, 14 June 1894, from his birth certificate, and his parents' names, Arthur and Eliza Ann, from a newspaper cutting. We still don't know his mother's maiden name, exactly where he was born, when the family moved to Stoford, or where he went to school. The full birth register entry and the 1901 and 1911 census should tell us. These are on the family's jobs list.",
+     "body": "We now know a great deal more: Henry's date and place of birth, his parents' names, his mother's maiden name, Perry, and where the family lived in 1901 and 1911. We still don't know when the family came to Stoford, or where Henry went to school. These are on the family's jobs list.",
      "source": "Jobs list"
     }
    ]

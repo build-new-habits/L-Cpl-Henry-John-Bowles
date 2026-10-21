@@ -42,6 +42,8 @@ MERGE = [
     (re.compile(r'^(Family photograph|Family photographs)'), 'Family photographs'),
     (re.compile(r'^(His birth certificate|Their marriage certificate|His death certificate|Family papers$)', re.I),
      'His birth, marriage and death certificates (family papers)'),
+    (re.compile(r"(Tristan Cobb's family research|Joyce Bush's memory)"),
+     "Tristan Cobb, family research notes (census, newspaper reports, probate and family stories)"),
     (re.compile(r'^Newspaper cutting'),
      "Newspaper cutting: Arthur and Eliza Ann Bowles's diamond wedding, December 1953 (kept by the family)"),
     (re.compile(r'^Somerset Historic Environment Record'), 'Somerset Historic Environment Record, Stoford'),
@@ -65,7 +67,7 @@ def group_of(title):
         return 'iwm-images'
     if t.startswith(('his service', 'letter from the rifles', 'his birth, marriage')):
         return 'records'
-    if t.startswith(('angela wright', 'family', "the family's", 'from the family', 'newspaper cutting')):
+    if t.startswith(('angela wright', 'family', "the family's", 'from the family', 'newspaper cutting', 'tristan cobb')):
         return 'family'
     if any(k in t for k in ('war diary', 'wyrall', '25th division', 'reichsarchiv', 'redan ridge (', 'storm of steel, translated',
                             'leben im lager', 'official history', 'western front of the first world war', 'storm of steel, trans')):

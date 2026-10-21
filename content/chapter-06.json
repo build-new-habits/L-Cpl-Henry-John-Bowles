@@ -400,9 +400,9 @@
       },
       {
        "text": "1 to 5 August 1917: Westhoek Ridge, Ypres.",
-       "answer": 2,
-       "explain": "His record can be read as rejoining the battalion on 13 June or in August, so we can't be sure he was back in time.",
-       "source": "His casualty record"
+       "answer": 1,
+       "explain": "Most likely not. After his ear trouble he went to the base depot on 12 June, and Tristan Cobb's family research reads his record as rejoining the battalion on 13 August, a week after Westhoek.",
+       "source": "His casualty record; Tristan Cobb's family research"
       },
       {
        "text": "11 to 25 January 1918: the battalion in the snow at Lagnicourt.",
@@ -507,7 +507,7 @@
       ],
       [
        "unknown",
-       "His record can be read as rejoining the battalion on 13 June or in August 1917. If it was June, this digging was very likely his first job back. If it was August, he did not see this."
+       "His record can be read as rejoining the battalion on 13 June or in August 1917. Tristan Cobb's family research reads it as 13 August, after time at the 3rd Division base depot from 12 June. If that is right, Henry did not see this digging."
       ],
       [
        "imagined",
@@ -686,7 +686,19 @@
      "id": "weather",
      "q": "What was the weather like?"
     }
-   ]
+   ],
+   "photos": [
+    {
+     "cat": "Family photo",
+     "file": "henry-lance-corporal.jpg",
+     "dir": "family",
+     "caption": "Henry in a studio, with his cap on the table and a swagger cane across his knees. There is a single stripe on his sleeve, so the photograph was probably taken after he became a lance corporal in January 1918, perhaps on his leave that month. The small marks on his lower left sleeve may be wound stripes.",
+     "alt": "A soldier with a moustache sits on a carved table in a photographer's studio, in uniform with puttees wound up his legs, holding a thin cane across his knees. His peaked cap rests on the table beside him, and a painted garden backdrop is behind him.",
+     "credit": "Family photograph, from Tristan Cobb's family research",
+     "slot": "Family photo"
+    }
+   ],
+   "photosHeading": "Family photograph"
   },
   {
    "id": "army-line",
@@ -1095,6 +1107,12 @@
      "text": "Only a quarter or so of the 90,000 prisoners registered at Münster lived in the camps. The rest were out on work parties, mostly on farms in the countryside around, some in coal mines. The guards were mostly older reservists.",
      "source": "Pöppinghege (1999)",
      "url": "https://www.lwl.org/westfaelische-geschichte/txt/wz-6171.pdf"
+    },
+    {
+     "badge": "family",
+     "title": "Souvenir de Waltrop",
+     "text": "Henry came home with a walking stick carved \"Souvenir de Waltrop\", \"1914 1917\" and \"Allemagne\", French for Germany. Waltrop is a coal-mining town about 25 miles south of Münster, so the stick may mean he was sent out from the camp on a work party there. The stick is still in the family, kept by Henry's great-grandson Tristan.",
+     "source": "Tristan Cobb's family research"
     },
     {
      "badge": "archival",
