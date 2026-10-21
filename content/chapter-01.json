@@ -180,6 +180,15 @@
      "slot": "Family photo"
     },
     {
+     "cat": "Family photo",
+     "file": "henry-horse-roller.jpg",
+     "dir": "family",
+     "caption": "Henry with a working horse harnessed to a field roller. When and where it was taken is not known.",
+     "alt": "A young man in a flat cap and jacket stands in a field of young crops, holding the head of a dark heavy horse in harness. The horse is hitched to an iron roller with a seat on top. Pine trees and a house are on the skyline.",
+     "credit": "Family photograph, from Tristan Cobb's family research",
+     "slot": "Family photo"
+    },
+    {
      "cat": "Family record",
      "file": "diamond-wedding-1953.jpg",
      "dir": "family",

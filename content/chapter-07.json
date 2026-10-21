@@ -189,7 +189,7 @@
    "id": "the-farm-and-the-lorries",
    "title": "The farm and the lorries",
    "type": "stories",
-   "intro": "Henry and Nell had three children: Gilbert, Joyce, always called Joycie, born on 22 July 1921, and William George, known as Bill, born in 1924. These memories are their granddaughter Angela's, with some from Joyce's grandson Tristan.",
+   "intro": "Henry and Nell had three children: Gilbert Henry Arthur, Joyce, always called Joycie, born on 22 July 1921, and William George, known as Bill, born in 1924. These memories are their granddaughter Angela's, with some from Joyce's grandson Tristan.",
    "stories": [
     {
      "title": "On the mower",
@@ -314,13 +314,13 @@
      "slot": "Family record"
     },
     {
-     "cat": "Family photo wanted",
+     "cat": "Family photo",
      "file": "lorry.jpg",
      "dir": "family",
-     "caption": "Henry with his lorry, if a photograph exists.",
-     "alt": "Henry beside his lorry.",
-     "credit": "Family photograph",
-     "slot": "Family photo wanted"
+     "caption": "Henry, crouching on the left, beside his British Road Services lorry, NLJ 958, after a crash. The front of the cab is smashed. When and where it happened is not known.",
+     "alt": "A badly damaged lorry with a crushed cab and broken windscreen, its front wheels in a grassy ditch. The registration plate reads NLJ 958. A man in a cap crouches at the bottom left, beside the front of the lorry.",
+     "credit": "Family photograph, from Tristan Cobb's family research",
+     "slot": "Family photo"
     }
    ],
    "photosHeading": "Family photographs"

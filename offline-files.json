@@ -1,5 +1,5 @@
 {
- "version": "20261021a",
+ "version": "20261021b",
  "text": [
   "content/chapter-01.json",
   "content/chapter-02.json",
@@ -96,7 +96,9 @@
   "assets/img/family/the-nothe-1962.jpg",
   "assets/img/family/buffaloes-medals.jpg",
   "assets/img/family/henry-nell-weymouth.jpg",
-  "assets/img/family/henry-lance-corporal.jpg"
+  "assets/img/family/henry-lance-corporal.jpg",
+  "assets/img/family/lorry.jpg",
+  "assets/img/family/henry-horse-roller.jpg"
  ],
- "mediaBytes": 31005944
+ "mediaBytes": 31480506
 }

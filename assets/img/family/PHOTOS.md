@@ -42,5 +42,4 @@ Each family photo is left out of the exhibition until a file with the name below
 - Ch 6 "Snow and one stripe": henry-lance-corporal.jpg (studio portrait with cane, one stripe)
 - Ch 7 "The farm and the lorries": buffaloes-medals.jpg (RAOB medals, now with Angela)
 - Ch 7 "Grandad": henry-nell-weymouth.jpg (Henry and Nell walking in Weymouth; replaces the henry-flat-cap.jpg wanted slot)
-- Held back, to ask: the crashed British Road Services lorry (NLJ 958), the man with a horse and roller, the two March 1918 maps.
-- Better copies wanted: Tristan's original digital files would be sharper than these photos of printouts.
+- Added after checking with Graeme: lorry.jpg (Henry by his crashed BRS lorry, ch 7) and henry-horse-roller.jpg (ch 1). The two March 1918 maps are left out: too blurry, and no originals are available.
