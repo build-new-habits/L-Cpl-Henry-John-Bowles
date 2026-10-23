@@ -409,6 +409,31 @@
      ]
     }
    ]
+  },
+  {
+   "title": "After the war",
+   "items": [
+    {
+     "id": "buffaloes",
+     "q": "Who were the Buffaloes, and why did so many old soldiers join societies like it?",
+     "a": [
+      "The Royal Antediluvian Order of Buffaloes began in London in 1822 among theatre stagehands, and spread across Britain and the Empire. Lodges usually met in pubs and clubs. They mixed formal ceremony with songs and jokes, raised money for charity, and helped members and their families through illness, unemployment and death.",
+      "Before the welfare state, societies like the Buffaloes were one of the few safety nets a working man had. After the First World War they also gave many former soldiers a place among other men, with ranks, rituals and comradeship that felt familiar from army life.",
+      "Members rose through four degrees: Brother, Certified Primo, Knight of the Order of Merit and the Roll of Honour. The Buffaloes are still active today."
+     ],
+     "confidence": "The history of the Order is well recorded. How many members were ex-servicemen, and why Henry himself joined, are not recorded.",
+     "sources": [
+      {
+       "source": "Royal Antediluvian Order of Buffaloes, Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/Royal_Antediluvian_Order_of_Buffaloes"
+      },
+      {
+       "source": "Grove House, Harrogate, Wikipedia",
+       "url": "https://en.wikipedia.org/wiki/Grove_House,_Harrogate"
+      }
+     ]
+    }
+   ]
   }
  ],
  "glossary": [

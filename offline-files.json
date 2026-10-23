@@ -1,5 +1,5 @@
 {
- "version": "20261023d",
+ "version": "20261023e",
  "text": [
   "content/chapter-01.json",
   "content/chapter-02.json",
@@ -99,7 +99,20 @@
   "assets/img/family/henry-lance-corporal.jpg",
   "assets/img/family/lorry.jpg",
   "assets/img/family/henry-horse-roller.jpg",
-  "assets/img/family/raob-outing.jpg"
+  "assets/img/family/raob-outing.jpg",
+  "assets/img/family/raob-clay-pipe.jpg",
+  "assets/img/family/raob-gilbert-1946.jpg",
+  "assets/img/family/raob-jubilee-1935.jpg",
+  "assets/img/family/raob-knighthood-1936.jpg",
+  "assets/img/family/raob-orphanage-donor.jpg",
+  "assets/img/family/raob-primo-1931.jpg",
+  "assets/img/family/raob-roll-of-honour-sash.jpg",
+  "assets/img/family/raob-roll-of-honour.jpg",
+  "assets/img/family/raob-selwyn-lodge.jpg",
+  "assets/img/family/raob-st-johns-attendance.jpg",
+  "assets/img/family/raob-treasurer-1952.jpg",
+  "assets/img/family/raob-trinity-attendance.jpg",
+  "assets/img/family/raob-waiter-1940.jpg"
  ],
  "mediaBytes": 31567802
 }
