@@ -90,7 +90,8 @@
      "alt": "A column of cheering soldiers on a road, waving steel helmets.",
      "url": "https://www.iwm.org.uk/collections/item/object/205194572",
      "credit": "Image: IWM (Q 740)",
-     "src": "https://media.iwm.org.uk/ciim5/37/582/mid_000000.jpg?action=e&cat=Photographs"
+     "src": "https://media.iwm.org.uk/ciim5/37/582/mid_000000.jpg?action=e&cat=Photographs",
+     "with": "Early August 1916"
     }
    ],
    "asks": [
@@ -135,7 +136,8 @@
      "alt": "Horses and men straining to drag a heavy gun through deep mud.",
      "url": "https://www.iwm.org.uk/collections/item/object/205194580",
      "credit": "Image: IWM (Q 4364)",
-     "src": "https://media.iwm.org.uk/ciim5/37/590/mid_000000.jpg?action=e&cat=Photographs"
+     "src": "https://media.iwm.org.uk/ciim5/37/590/mid_000000.jpg?action=e&cat=Photographs",
+     "with": "Sunday 1 October 1916"
     },
     {
      "cat": "Q 2488",
@@ -144,7 +146,8 @@
      "alt": "A large rhomboid-shaped tank crossing rough ground.",
      "url": "https://www.iwm.org.uk/collections/item/object/205078852",
      "credit": "Image: IWM (Q 2488)",
-     "src": "https://media.iwm.org.uk/ciim5/13/379/mid_000000.jpg?action=e&cat=Photographs"
+     "src": "https://media.iwm.org.uk/ciim5/13/379/mid_000000.jpg?action=e&cat=Photographs",
+     "with": "Saturday 21 October 1916"
     },
     {
      "cat": "Q 49248",
@@ -153,7 +156,8 @@
      "alt": "A wrecked tank tilted in a shell-torn landscape.",
      "url": "https://www.iwm.org.uk/collections/item/object/205283106",
      "credit": "Image: IWM (Q 49248)",
-     "src": "https://media.iwm.org.uk/ciim5/316/44/mid_000000.jpg?action=e&cat=Photographs"
+     "src": "https://media.iwm.org.uk/ciim5/316/44/mid_000000.jpg?action=e&cat=Photographs",
+     "with": "Saturday 21 October 1916"
     }
    ],
    "asks": [
@@ -668,7 +672,8 @@
      "caption": "Henry in a studio, with his cap on the table and a swagger cane across his knees. There is a single stripe on his sleeve, so the photograph was probably taken after he became a lance corporal in January 1918, perhaps on his leave that month. The small marks on his lower left sleeve may be wound stripes.",
      "alt": "A soldier with a moustache sits on a carved table in a photographer's studio, in uniform with puttees wound up his legs, holding a thin cane across his knees. His peaked cap rests on the table beside him, and a painted garden backdrop is behind him.",
      "credit": "Family photograph, from Tristan Cobb's family research",
-     "slot": "Family photo"
+     "slot": "Family photo",
+     "with": "Sunday 6 January 1918"
     }
    ],
    "photosHeading": "Family photograph"

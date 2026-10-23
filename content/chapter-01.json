@@ -177,7 +177,8 @@
      "caption": "Arthur Bowles and his wife with all twelve of their children, outside the family's terraced house by Yeovil Junction station, in the 1920s. Back row, left to right: Arthur, Ethel, George, Frank, Winnie and Reg. Middle row, left to right: Bill, Lilly, their father Arthur, their mother, Amy and Henry, the eldest, on the far right. On the step: Kit and Oliver, the youngest.",
      "alt": "A large family group of eighteen people in 1920s clothes in front of two numbered front doors of a brick terrace. An older couple sit in the middle, surrounded by their grown-up sons and daughters, with a young woman and a boy sitting on the step in front.",
      "credit": "Family photograph",
-     "slot": "Family photo"
+     "slot": "Family photo",
+     "with": "The twelve"
     },
     {
      "cat": "Family photo",
@@ -186,7 +187,8 @@
      "caption": "Henry with a working horse harnessed to a field roller. When and where it was taken is not known.",
      "alt": "A young man in a flat cap and jacket stands in a field of young crops, holding the head of a dark heavy horse in harness. The horse is hitched to an iron roller with a seat on top. Pine trees and a house are on the skyline.",
      "credit": "Family photograph, from Tristan Cobb's family research",
-     "slot": "Family photo"
+     "slot": "Family photo",
+     "with": "On the land"
     },
     {
      "cat": "Family record",
@@ -210,7 +212,8 @@
       "In their 60 years together only one member of the family has died: Gilbert, the eldest grandson, six years ago.",
       "How to be healthy and happy together for 60 years? Hard work, and give and take. \"I look after Grandpa, and he looks after me,\" says Mrs. Bowles."
      ],
-     "transcriptNote": "Transcribed from the cutting. The original says \"saws Mrs. Bowles\", a printer's slip for \"says\"."
+     "transcriptNote": "Transcribed from the cutting. The original says \"saws Mrs. Bowles\", a printer's slip for \"says\".",
+     "with": "Sixty years married"
     },
     {
      "cat": "Family record",
@@ -255,7 +258,8 @@
        "9th September 1957"
       ]
      ],
-     "transcriptNote": "A short birth certificate gives only the name, sex, date and district. The full register entry would also give the exact place of birth and his parents' names."
+     "transcriptNote": "A short birth certificate gives only the name, sex, date and district. The full register entry would also give the exact place of birth and his parents' names.",
+     "with": "Born at Walton"
     }
    ],
    "photosHeading": "The family of twelve: photographs and papers"

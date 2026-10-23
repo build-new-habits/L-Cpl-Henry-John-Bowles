@@ -41,7 +41,8 @@
      "caption": "Henry and Nell on their wedding day, 28 December 1918. Henry is still in uniform: he stayed a soldier, on prisoner-of-war leave, until March 1919.",
      "alt": "Henry in army uniform and peaked cap, with a moustache, standing beside Nell in a wide-brimmed hat and dark coat.",
      "credit": "Family photograph",
-     "slot": "Family photo"
+     "slot": "Family photo",
+     "with": "December 1918"
     },
     {
      "cat": "Family record",
@@ -94,7 +95,8 @@
        "Cyril White, Rector of Maperton, 28th December 1918"
       ]
      ],
-     "transcriptNote": "The register gives Henry's age as 25. By his birth certificate he was 24, six months short of 25. Small slips like this were common."
+     "transcriptNote": "The register gives Henry's age as 25. By his birth certificate he was 24, six months short of 25. Small slips like this were common.",
+     "with": "December 1918"
     },
     {
      "cat": "Family photo",
@@ -103,7 +105,8 @@
      "caption": "About 1919 to 1920: Henry and Nell, seated, with baby Gilbert. Behind Henry stand his parents, Arthur Bowles and his wife; behind Nell, her brother George Taylor; on the right, Nell's parents, Mr and Mrs Taylor.",
      "alt": "A sepia family group in a garden: a young man and a young woman holding a baby in a long white gown sit in front of two older couples and a younger man.",
      "credit": "Family photograph",
-     "slot": "Family photo"
+     "slot": "Family photo",
+     "with": "March 1919"
     },
     {
      "cat": "EPH 4582",
@@ -112,7 +115,8 @@
      "alt": "A framed printed letter with a royal crest.",
      "url": "https://www.iwm.org.uk/collections/item/object/30084510",
      "credit": "Image: IWM (EPH 4582)",
-     "src": "https://media.iwm.org.uk/ciim5/196/744/mid_000000.jpg?action=e&cat=Souvenirs%20and%20ephemera"
+     "src": "https://media.iwm.org.uk/ciim5/196/744/mid_000000.jpg?action=e&cat=Souvenirs%20and%20ephemera",
+     "with": "December 1918"
     }
    ],
    "photosHeading": "Family photographs",
@@ -284,7 +288,8 @@
      "caption": "Henry with little Gilbert on his lap, on a horse-drawn mower behind two heavy horses, about 1920.",
      "alt": "Two large dark working horses in harness pull a mowing machine through long grass; a man in a hat and waistcoat sits on the seat holding a small child in white.",
      "credit": "Family photograph",
-     "slot": "Family photo"
+     "slot": "Family photo",
+     "with": "On the mower"
     },
     {
      "cat": "Family photo",
@@ -293,7 +298,8 @@
      "caption": "The three children, about 1930. From the left: Bill, the youngest, Joyce and Gilbert.",
      "alt": "A studio photograph of two boys in jackets and long socks either side of a girl in a pale dress.",
      "credit": "Family photograph",
-     "slot": "Family photo"
+     "slot": "Family photo",
+     "with": "Pack it away"
     },
     {
      "cat": "Family photo",
@@ -302,7 +308,8 @@
      "caption": "Henry and Nell with their grown-up children, before the children went off to the Second World War. Standing, from the left: Bill, Joyce and Gilbert.",
      "alt": "A studio portrait of an older couple seated, the woman in round glasses, with two young men in suits and a young woman in pearls standing behind them.",
      "credit": "Family photograph",
-     "slot": "Family photo"
+     "slot": "Family photo",
+     "with": "Pack it away"
     },
     {
      "cat": "Family record",
@@ -311,7 +318,8 @@
      "caption": "Henry's medals from the Royal Antediluvian Order of Buffaloes, now kept by his granddaughter Angela. Some carry the names of lodge offices, such as Minstrel, Waiter and Primo.",
      "alt": "Seventeen medals laid out in three rows on a table, each hanging from a striped ribbon with an ornate bar. The medals are crosses, stars and round badges, one with a buffalo's head; a long sash with a round badge lies at the end of the bottom row.",
      "credit": "Family photograph, from Tristan Cobb's family research",
-     "slot": "Family record"
+     "slot": "Family record",
+     "with": "The Buffaloes"
     },
     {
      "cat": "Family photo",
@@ -320,7 +328,18 @@
      "caption": "Henry, crouching on the left, beside his British Road Services lorry, NLJ 958, after a crash. The front of the cab is smashed. When and where it happened is not known.",
      "alt": "A badly damaged lorry with a crushed cab and broken windscreen, its front wheels in a grassy ditch. The registration plate reads NLJ 958. A man in a cap crouches at the bottom left, beside the front of the lorry.",
      "credit": "Family photograph, from Tristan Cobb's family research",
-     "slot": "Family photo"
+     "slot": "Family photo",
+     "with": "Bird Brothers and British Road Services"
+    },
+    {
+     "cat": "Family photo",
+     "file": "henry-birds.jpg",
+     "dir": "family",
+     "caption": "Grandad and Angela with one of his birds, in the 1950s. He kept canaries and budgies, and showed them in Yeovil.",
+     "alt": "A man in a sleeveless pullover kneels in a vegetable garden beside a small girl. Together they hold a bird cage standing on a wooden stool, with a terrace of houses behind them.",
+     "credit": "Family photograph, lent by Angela Wright",
+     "slot": "Family photo",
+     "with": "The bird hospital"
     }
    ],
    "photosHeading": "Family photographs"
@@ -370,7 +389,8 @@
      "caption": "Henry and Nell walking arm in arm in Weymouth, Henry in his flat cap.",
      "alt": "An older couple walk towards the camera along a seaside promenade with flags behind them. The man wears a flat cap, jacket and pullover; the woman, in round glasses, wears a long coat over a pale dress.",
      "credit": "Family photograph, from Tristan Cobb's family research",
-     "slot": "Family photo"
+     "slot": "Family photo",
+     "with": "Flat cap and boots"
     },
     {
      "cat": "Family photo",
@@ -379,16 +399,8 @@
      "caption": "Grandma, Grandad and Angela on the beach at Weymouth, in the early 1950s. Henry is in shirt, braces and long trousers, just as Angela remembers him at the seaside.",
      "alt": "On a crowded beach, an older woman in round glasses and a flowered dress and a man in an open-necked shirt and braces sit in deckchairs either side of a small fair-haired girl with a bow in her hair. Beach huts and seafront buildings are behind them.",
      "credit": "Family photograph, lent by Angela Wright",
-     "slot": "Family photo"
-    },
-    {
-     "cat": "Family photo",
-     "file": "henry-birds.jpg",
-     "dir": "family",
-     "caption": "Grandad and Angela with one of his birds, in the 1950s. He kept canaries and budgies, and showed them in Yeovil.",
-     "alt": "A man in a sleeveless pullover kneels in a vegetable garden beside a small girl. Together they hold a bird cage standing on a wooden stool, with a terrace of houses behind them.",
-     "credit": "Family photograph, lent by Angela Wright",
-     "slot": "Family photo"
+     "slot": "Family photo",
+     "with": "Flat cap and boots"
     },
     {
      "cat": "Family photo",
@@ -397,7 +409,8 @@
      "caption": "At Aunty Winnie's bungalow in Poole, in the 1950s. Standing, from the left: Grandad, Grandma Bush (Angela's other grandmother) and Grandma Nell. Kneeling: Aunty Winnie, Henry's sister, and Angela.",
      "alt": "Five people outside a pebble-dashed bungalow. Standing are a man in shirt and braces, a very elderly woman in a dark dress holding a walking stick, and a woman in round glasses and a flowered dress. Kneeling in front are a smiling woman in a flowered dress and a young girl in a checked dress with a white collar.",
      "credit": "Family photograph, lent by Angela Wright",
-     "slot": "Family photo"
+     "slot": "Family photo",
+     "with": "Queen and princess"
     },
     {
      "cat": "Family photo",
@@ -406,7 +419,8 @@
      "caption": "Grandad and Angela on the grass at the Nothe, Weymouth, in about 1962, when she was 13. His cap lies on the grass beside him.",
      "alt": "A white-haired man in a shirt with rolled sleeves and dark trousers sits on a grassy slope beside a teenage girl in a sun hat, blouse and full skirt. A pale cap and a dark jacket lie on the grass beside him.",
      "credit": "Family photograph, lent by Angela Wright",
-     "slot": "Family photo"
+     "slot": "Family photo",
+     "with": "Queen and princess"
     }
    ],
    "photosHeading": "Family photographs"
@@ -643,7 +657,8 @@
        "Copy issued",
        "21st January 1963, to Joyce Bush, 25, Southville, Yeovil. Relationship to deceased: child"
       ]
-     ]
+     ],
+     "with": "Together again"
     },
     {
      "cat": "Family photo",
@@ -652,7 +667,8 @@
      "caption": "Henry and Nell, at a relative's bungalow in Portishead. The last photograph taken before Nell died.",
      "alt": "An elderly woman with white hair and glasses leaning out of an open window, smiling, and an elderly man in a jumper sitting outside below her, also smiling.",
      "credit": "Family photograph",
-     "slot": "Family photo"
+     "slot": "Family photo",
+     "with": "A happy note"
     },
     {
      "cat": "Family photo",
@@ -661,7 +677,8 @@
      "caption": "Joyce's wedding, 13 September 1947, with Henry and Nell on the right.",
      "alt": "A wedding group of six: the bride holding a large bouquet beside the groom, with the parents of the couple and the best man.",
      "credit": "Family photograph",
-     "slot": "Family photo"
+     "slot": "Family photo",
+     "with": "A happy note"
     }
    ],
    "photosHeading": "Family photographs"

@@ -80,7 +80,8 @@
      "caption": "The grave of Lieutenant-Colonel J. A. Thicknesse, Henry's commanding officer, killed on 1 July 1916 aged 46. The family left this little cross and poppy.",
      "alt": "A white headstone carved with the Somerset Light Infantry badge and the words Lieutenant Colonel J. A. Thicknesse, Somerset Light Infantry, 1st July 1916, age 46, with a cross and the line God proved them and found them worthy for himself. A small wooden cross with a red poppy stands in front.",
      "credit": "Family photograph, August 2026",
-     "slot": "Family photo"
+     "slot": "Family photo",
+     "with": "Little crosses"
     },
     {
      "cat": "Family photo",
@@ -89,7 +90,8 @@
      "caption": "What the fields still give up: helmets, shell fuses, barbed wire, bottles, tools and twisted metal, found on the battlefields and shown in a museum on the trip.",
      "alt": "Tables and shelves crowded with rusted First World War finds: German steel helmets, shell nose-cones, coils of barbed wire, glass bottles, spades and corkscrew wire pickets.",
      "credit": "Family photograph, August 2026",
-     "slot": "Family photo"
+     "slot": "Family photo",
+     "with": "The Quadrilateral"
     },
     {
      "cat": "Trip photo wanted",
@@ -98,7 +100,8 @@
      "caption": "The Quadrilateral field today.",
      "alt": "A wide field on Redan Ridge.",
      "credit": "Family photograph",
-     "slot": "Trip photo wanted"
+     "slot": "Trip photo wanted",
+     "with": "The Quadrilateral"
     },
     {
      "cat": "Family photo",
@@ -107,7 +110,8 @@
      "caption": "Newfoundland Park, Beaumont-Hamel: the old trench lines are still there under the grass. Looking from the British side towards the German line by the trees.",
      "alt": "Deep grassy zigzag trenches crossing a field, with a footpath and a single walker, and a line of trees beyond.",
      "credit": "Family photograph, August 2026",
-     "slot": "Family photo"
+     "slot": "Family photo",
+     "with": "Newfoundland Park"
     },
     {
      "cat": "Family photo",
@@ -116,7 +120,8 @@
      "caption": "Across No Man's Land at Newfoundland Park. The humps and hollows are shell holes and trenches.",
      "alt": "A wide field of dry grass, rippled with low humps and hollows, behind a rope fence, with a path leading to trees and a memorial.",
      "credit": "Family photograph, August 2026",
-     "slot": "Family photo"
+     "slot": "Family photo",
+     "with": "Newfoundland Park"
     },
     {
      "cat": "Family photo",
@@ -125,7 +130,8 @@
      "caption": "Inside one of the grassed-over trenches.",
      "alt": "Looking along a deep trench with steep grassy sides, towards a row of trees.",
      "credit": "Family photograph, August 2026",
-     "slot": "Family photo"
+     "slot": "Family photo",
+     "with": "Newfoundland Park"
     },
     {
      "cat": "Family photo",
@@ -134,7 +140,8 @@
      "caption": "The caribou memorial to the Newfoundland Regiment.",
      "alt": "A bronze caribou with its head raised, standing on top of a mound of rocks and shrubs against a blue sky.",
      "credit": "Family photograph, August 2026",
-     "slot": "Family photo"
+     "slot": "Family photo",
+     "with": "The caribou"
     },
     {
      "cat": "Family photo",
@@ -143,7 +150,8 @@
      "caption": "The 29th Division memorial, with the division's red triangle. The 29th fought right next to Henry's division on 1 July 1916.",
      "alt": "A rough granite boulder among trees, with a bronze plaque showing a red triangle and the words 29th Division 1914 to 1918.",
      "credit": "Family photograph, August 2026",
-     "slot": "Family photo"
+     "slot": "Family photo",
+     "with": "Next door to Henry"
     },
     {
      "cat": "Family photo",
@@ -152,7 +160,8 @@
      "caption": "Under the arches of the Thiepval Memorial, every stone face carved with names.",
      "alt": "A man in a cap walks between huge stone piers covered in carved names, towards an archway that opens on to fields and blue sky.",
      "credit": "Family photograph, August 2026",
-     "slot": "Family photo"
+     "slot": "Family photo",
+     "with": "Thiepval"
     },
     {
      "cat": "Family photo",
@@ -161,7 +170,8 @@
      "caption": "The steps up through the great arch at Thiepval to the Stone of Remembrance.",
      "alt": "A long flight of stone steps rising through a tall brick and stone arch, with visitors at the top beside a long stone block.",
      "credit": "Family photograph, August 2026",
-     "slot": "Family photo"
+     "slot": "Family photo",
+     "with": "Thiepval"
     },
     {
      "cat": "Family photo",
@@ -170,7 +180,8 @@
      "caption": "The Anglo-French cemetery below the memorial: French crosses on the left, British headstones on the right, and the Somme fields beyond.",
      "alt": "A cemetery seen from above: rows of small stone crosses on the left and white headstones on the right, a tall stone cross between them, and rolling farmland beyond.",
      "credit": "Family photograph, August 2026",
-     "slot": "Family photo"
+     "slot": "Family photo",
+     "with": "Thiepval"
     }
    ],
    "photosHeading": "Photographs from the trip"
@@ -230,7 +241,8 @@
      "caption": "The Canadian National Vimy Memorial on Vimy Ridge.",
      "alt": "Two tall white stone pylons of a memorial on the skyline, across a wide slope of dry grass, with three trees on the left.",
      "credit": "Family photograph, August 2026",
-     "slot": "Family photo"
+     "slot": "Family photo",
+     "with": "The memorial"
     },
     {
      "cat": "Family photo",
@@ -239,7 +251,8 @@
      "caption": "Shell holes and trench lines still ripple the ground at Vimy, now grassed over.",
      "alt": "Close-up of dry grass with small yellow flowers in front of a field of grassy humps and hollows, with a Canadian flag beyond.",
      "credit": "Family photograph, August 2026",
-     "slot": "Family photo"
+     "slot": "Family photo",
+     "with": "The ground remembers"
     },
     {
      "cat": "Family photo",
@@ -248,7 +261,8 @@
      "caption": "A preserved trench at Vimy, with its fire step. The sandbags were remade in concrete so it would last.",
      "alt": "A narrow trench with walls of grey concrete sandbags, a fire step and a gravel floor.",
      "credit": "Family photograph, August 2026",
-     "slot": "Family photo"
+     "slot": "Family photo",
+     "with": "A real trench"
     },
     {
      "cat": "Family photo",
@@ -257,7 +271,8 @@
      "caption": "The basilica at Notre-Dame de Lorette, among the graves. Each French cross carries a name and the words \"Mort pour la France\".",
      "alt": "A white stone church with a slate dome and bell tower under a deep blue sky, with rows of small white crosses on dry grass in front.",
      "credit": "Family photograph, August 2026",
-     "slot": "Family photo"
+     "slot": "Family photo",
+     "with": "Notre-Dame de Lorette"
     },
     {
      "cat": "Family photo",
@@ -266,7 +281,8 @@
      "caption": "Row after row of French crosses at Lorette.",
      "alt": "Four white crosses with name plates in the foreground, and thousands more in rows stretching away under tall trees.",
      "credit": "Family photograph, August 2026",
-     "slot": "Family photo"
+     "slot": "Family photo",
+     "with": "Notre-Dame de Lorette"
     },
     {
      "cat": "Family photo",
@@ -275,7 +291,8 @@
      "caption": "Looking out from Lorette across the Artois plain, fought over from 1914 to 1918.",
      "alt": "A line of white crosses on dry grass in front of a hedge, with a flat plain and distant wind turbines beyond.",
      "credit": "Family photograph, August 2026",
-     "slot": "Family photo"
+     "slot": "Family photo",
+     "with": "Notre-Dame de Lorette"
     },
     {
      "cat": "Family photo",
@@ -284,7 +301,8 @@
      "caption": "\"Here lie the bodies of 4,563 unknown soldiers.\"",
      "alt": "A stone slab carved in French: Ici reposent les corps de 4563 soldats inconnus.",
      "credit": "Family photograph, August 2026",
-     "slot": "Family photo"
+     "slot": "Family photo",
+     "with": "Notre-Dame de Lorette"
     },
     {
      "cat": "Family photo",
@@ -293,7 +311,8 @@
      "caption": "\"Peoples, be united; men, be humane!\"",
      "alt": "Carved capital letters on a stone wall, a French verse ending Peuples, soyez unis; hommes, soyez humains.",
      "credit": "Family photograph, August 2026",
-     "slot": "Family photo"
+     "slot": "Family photo",
+     "with": "Peoples, be united"
     }
    ],
    "photosHeading": "Photographs from the trip"
@@ -335,7 +354,8 @@
      "caption": "One of the two fields near Frémicourt where Henry was most likely captured, on 24 March 1918. Today it grows sugar beet.",
      "alt": "A wide field of green leafy crops under a blue sky, with a stubble field, a line of electricity poles and distant wind turbines beyond.",
      "credit": "Family photograph",
-     "slot": "Family photo"
+     "slot": "Family photo",
+     "with": "Where he was taken"
     },
     {
      "cat": "Family photo",
@@ -344,7 +364,8 @@
      "caption": "The Pool of Peace at Spanbroekmolen, near Messines: the crater of one of the nineteen mines blown on 7 June 1917. A small cross and poppy stand at the edge.",
      "alt": "A large still pool ringed with trees, with water lilies near the bank and a wooden edge in the foreground.",
      "credit": "Family photograph",
-     "slot": "Family photo"
+     "slot": "Family photo",
+     "with": "The Pool of Peace"
     }
    ],
    "photosHeading": "Photographs from the trip"
@@ -396,7 +417,8 @@
      "caption": "\"Their name liveth for evermore\": the Stone of Remembrance at Tyne Cot.",
      "alt": "The words Their Name Liveth For Evermore carved in a long white stone, against a blue sky.",
      "credit": "Family photograph, August 2026",
-     "slot": "Family photo"
+     "slot": "Family photo",
+     "with": "Tyne Cot"
     },
     {
      "cat": "Family photo",
@@ -405,7 +427,8 @@
      "caption": "Tyne Cot, the largest Commonwealth war cemetery in the world, on the slope of Passchendaele Ridge. \"Sooo big, sooo many graves.\"",
      "alt": "Row upon row of white headstones in the shade of a tree, with fields stretching away beyond the cemetery wall.",
      "credit": "Family photograph, August 2026",
-     "slot": "Family photo"
+     "slot": "Family photo",
+     "with": "Tyne Cot"
     },
     {
      "cat": "Family photo",
@@ -414,7 +437,8 @@
      "caption": "The Cross of Sacrifice at Tyne Cot is built on top of a German blockhouse, captured in October 1917. Visitors had left poppy wreaths and small crosses.",
      "alt": "A tall white stone cross with a bronze sword, standing above a stone wall with an inscription, poppy wreaths and small wooden crosses at its foot.",
      "credit": "Family photograph, August 2026",
-     "slot": "Family photo"
+     "slot": "Family photo",
+     "with": "Tyne Cot"
     },
     {
      "cat": "Family photo",
@@ -423,7 +447,8 @@
      "caption": "Graves of soldiers whose names are not known: \"A Soldier of the Great War, Known unto God\".",
      "alt": "White headstones carved A Soldier of the Great War, two with a maple leaf, with flowers and a poppy, and a visitor looking on.",
      "credit": "Family photograph, August 2026",
-     "slot": "Family photo"
+     "slot": "Family photo",
+     "with": "Tyne Cot"
     },
     {
      "cat": "Family photo",
@@ -432,7 +457,8 @@
      "caption": "Inside Tyne Cot lie a few German soldiers too. A red candle burns on one German grave, in front of the wall naming nearly 35,000 British and Commonwealth men with no known grave.",
      "alt": "A single small German grave marker with a red candle on top, in front of a long memorial wall of names.",
      "credit": "Family photograph, August 2026",
-     "slot": "Family photo"
+     "slot": "Family photo",
+     "with": "Tyne Cot"
     },
     {
      "cat": "Family photo",
@@ -441,7 +467,8 @@
      "caption": "The family's poppy wreath under the Menin Gate. The card reads \"In Remembrance. L/Cpl Henry Bowles. With our love and grateful thanks for all you and your comrades did for us. Grateful you survived too.\"",
      "alt": "A close-up of a red poppy wreath with a white card handwritten In Remembrance, L/Cpl Henry Bowles, followed by the message.",
      "credit": "Family photograph, August 2026",
-     "slot": "Family photo"
+     "slot": "Family photo",
+     "with": "The card on the wreath"
     },
     {
      "cat": "Family photo",
@@ -450,7 +477,8 @@
      "caption": "The wreath in place, below panels of names of men with no known grave.",
      "alt": "A poppy wreath hanging on a rail below a stone wall carved with columns of soldiers' names.",
      "credit": "Family photograph, August 2026",
-     "slot": "Family photo"
+     "slot": "Family photo",
+     "with": "The Menin Gate"
     }
    ],
    "photosHeading": "Photographs from the trip"

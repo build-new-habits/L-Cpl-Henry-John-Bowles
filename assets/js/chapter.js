@@ -213,7 +213,7 @@
   function factCards(sc) {
     return '<div class="fact-grid">' + sc.cards.map(function (c) {
       return '<details class="fact-card"><summary><span class="fact-title">' + e(c.title) + '</span></summary>' +
-        '<div class="fact-body">' + badge(c.badge || 'unit') + '<p>' + e(c.body) + '</p>' + sourceLine(c) + '</div></details>';
+        '<div class="fact-body">' + badge(c.badge || 'unit') + '<p>' + e(c.body) + '</p>' + sourceLine(c) + inlinePhotos(sc, c.title) + '</div></details>';
     }).join('') + '</div>';
   }
 
@@ -344,21 +344,43 @@
   }
 
   /* ---------- Photographs (any whose file is missing are left out) ---------- */
+  function photoFigure(p, key, i) {
+    var credit = p.credit || ('Image: IWM (' + p.cat + ')');
+    var dir = p.dir || 'iwm';
+    return '<figure class="photo" data-list="' + key + '" data-i="' + i + '"><div class="photo-frame">' +
+      '<img src="' + e(p.src || ('assets/img/' + dir + '/' + p.file)) + '" alt="' + e(p.alt) + '" loading="lazy" data-photo>' +
+      '</div><figcaption><span>' + e(p.caption) + '</span>' +
+      '<span class="photo-credit">' + e(credit) + (p.url ? ' <a href="' + e(p.url) + '" target="_blank" rel="noopener">See it at IWM<span class="visually-hidden"> (opens in a new tab)</span></a>' : '') + '</span>' +
+      transcriptBlock(p) + '</figcaption></figure>';
+  }
+
+  /* A photo can name the story, fact card or journal entry it belongs to
+     ("with": the story or card title, or the entry date). It is then shown
+     right beside that text, so picture and words are read together. Photos
+     with no "with", or one that matches nothing, stay in the scene's gallery. */
+  function photoTargets(sc) {
+    var t = {};
+    (sc.stories || []).forEach(function (x) { t[x.title] = 1; });
+    (sc.cards || []).forEach(function (x) { t[x.title] = 1; });
+    (sc.entries || []).forEach(function (x) { t[x.date] = 1; });
+    return t;
+  }
+  function inlinePhotos(sc, target) {
+    var html = '';
+    ['photos', 'visitPhotos'].forEach(function (key) {
+      (sc[key] || []).forEach(function (p, i) { if (p['with'] === target) html += photoFigure(p, key, i); });
+    });
+    return html ? '<div class="photo-grid inline-photos">' + html + '</div>' : '';
+  }
+
   function photoBlock(sc, key, heading) {
     key = key || 'photos';
-    var list = sc[key];
-    if (!list || !list.length) return '';
+    var targets = photoTargets(sc);
+    var figs = (sc[key] || []).map(function (p, i) { return (p['with'] && targets[p['with']]) ? '' : photoFigure(p, key, i); }).join('');
+    if (!figs) return '';
     var hid = 'ph-' + sc.id + '-' + key;
     return '<section class="photos" aria-labelledby="' + hid + '"><h2 class="sub" id="' + hid + '">' + e(heading || sc.photosHeading || 'Photographs from the time') + '</h2>' +
-      '<div class="photo-grid">' + list.map(function (p, i) {
-        var credit = p.credit || ('Image: IWM (' + p.cat + ')');
-        var dir = p.dir || 'iwm';
-        return '<figure class="photo" data-list="' + key + '" data-i="' + i + '"><div class="photo-frame">' +
-          '<img src="' + e(p.src || ('assets/img/' + dir + '/' + p.file)) + '" alt="' + e(p.alt) + '" loading="lazy" data-photo>' +
-          '</div><figcaption><span>' + e(p.caption) + '</span>' +
-          '<span class="photo-credit">' + e(credit) + (p.url ? ' <a href="' + e(p.url) + '" target="_blank" rel="noopener">See it at IWM<span class="visually-hidden"> (opens in a new tab)</span></a>' : '') + '</span>' +
-          transcriptBlock(p) + '</figcaption></figure>';
-      }).join('') + '</div></section>';
+      '<div class="photo-grid">' + figs + '</div></section>';
   }
 
   function wirePhotos(root, sc) {
@@ -370,7 +392,7 @@
          photos at all, the whole section and its heading go too. */
       function slot() {
         if (settled) return; settled = true;
-        var section = fig.closest('.photos');
+        var section = fig.closest('.photos, .inline-photos');
         fig.remove();
         if (section && !section.querySelector('.photo')) section.remove();
       }
@@ -423,7 +445,7 @@
     return '<ol class="stories">' + sc.stories.map(function (st) {
       return '<li class="story">' + badge(st.badge || 'archival') + '<h2 class="story__title">' + e(st.title) + '</h2>' +
         (st.quote ? '<blockquote class="story__quote"><p>“' + e(st.quote) + '”</p>' + (st.who ? '<footer>' + e(st.who) + '</footer>' : '') + '</blockquote>' : '') +
-        (st.body ? '<p>' + e(st.body) + '</p>' : '') + sourceLine(st) + '</li>';
+        (st.body ? '<p>' + e(st.body) + '</p>' : '') + sourceLine(st) + inlinePhotos(sc, st.title) + '</li>';
     }).join('') + '</ol>';
   }
 
@@ -794,7 +816,11 @@
     view.innerHTML = html;
 
     var slot = view.querySelector('[data-journals]');
-    (sc.entries || []).forEach(function (en) { slot.appendChild(QSJournal.build(en)); });
+    (sc.entries || []).forEach(function (en) {
+      slot.appendChild(QSJournal.build(en));
+      var ph = inlinePhotos(sc, en.date);
+      if (ph) slot.insertAdjacentHTML('beforeend', ph);
+    });
     if (sc.type === 'map') wireMap(view.querySelector('.map-scene'), sc.map);
     acts.forEach(function (a, i) { ACTIVITIES[a.type][1](view.querySelector('.act-slot[data-act="' + i + '"] .challenge'), a); });
     view.querySelectorAll('[data-skip]').forEach(function (b) {
