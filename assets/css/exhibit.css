@@ -216,6 +216,7 @@ main { flex: 1 0 auto; }
 .welcome__dates { color: #B8AE9C; font-size: 1.05rem; margin-bottom: 18px; }
 .welcome h1 { font-size: clamp(3rem, 9vw, 5.6rem); line-height: 0.95; margin-bottom: 22px; }
 .welcome__lede { font-size: 1.2rem; line-height: 1.5; max-width: 32ch; margin-bottom: 30px; }
+.welcome__family { font-size: 1.05rem; line-height: 1.6; max-width: 46ch; margin: -12px 0 28px; padding-left: 14px; border-left: 4px solid var(--rule-strong); color: var(--ink-soft); }
 .visitor { border: 0; padding: 0; margin: 0 0 26px; }
 .visitor legend { color: #B8AE9C; padding: 0; margin-bottom: 10px; font-size: 1rem; }
 .visitor .choice { background: transparent; border-color: #6B6252; color: #F3EDE2; }

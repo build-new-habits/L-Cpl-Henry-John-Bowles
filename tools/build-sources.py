@@ -17,7 +17,7 @@ SKIP = re.compile(r'^(Ask the historian|See Chapter|Jobs list|Map legend|IWM)$|^
 
 # Many small citations roll up into one bibliography entry.
 MERGE = [
-    (re.compile(r"^(Grandma Angela's memoir|Memories of Grandad, by Angela Wright)"),
+    (re.compile(r"^(Grandma Angela's memoir|Angela Wright's memoir|Memories of Grandad, by Angela Wright)"),
      "Angela Wright, Memories of Grandad"),
     (re.compile(r'^(Wyrall, page|Everard Wyrall)'),
      'Everard Wyrall, The History of the Somerset Light Infantry (Prince Albert\'s) 1914–1919'),
