@@ -340,6 +340,16 @@
      "credit": "Family photograph, lent by Angela Wright",
      "slot": "Family photo",
      "with": "The bird hospital"
+    },
+    {
+     "cat": "Family photo",
+     "file": "raob-outing.jpg",
+     "dir": "family",
+     "with": "The Buffaloes",
+     "caption": "A Buffaloes outing in the 1950s, gathered in front of the coach. Henry is on the far right of the back row. Angela is the fourth child from the left in the front row, with her mother Joyce standing behind her and her father Cyril behind Joyce.",
+     "alt": "About forty men, women and children in 1950s clothes pose in rows in front of a coach parked by houses. The men at the back wear suits and ties; children in dresses, shorts and white socks stand in the front row.",
+     "credit": "Family photograph, lent by Angela Wright",
+     "slot": "Family photo"
     }
    ],
    "photosHeading": "Family photographs"

@@ -43,3 +43,4 @@ Each family photo is left out of the exhibition until a file with the name below
 - Ch 7 "The farm and the lorries": buffaloes-medals.jpg (RAOB medals, now with Angela)
 - Ch 7 "Grandad": henry-nell-weymouth.jpg (Henry and Nell walking in Weymouth; replaces the henry-flat-cap.jpg wanted slot)
 - Added after checking with Graeme: lorry.jpg (Henry by his crashed BRS lorry, ch 7) and henry-horse-roller.jpg (ch 1). The two March 1918 maps are left out: too blurry, and no originals are available.
+- Ch 7 "The farm and the lorries" (with The Buffaloes): raob-outing.jpg, RAOB coach outing, 1950s (Henry back row far right; Angela 4th child from left, front row; Joyce and Cyril behind her)
