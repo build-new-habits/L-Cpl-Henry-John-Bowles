@@ -2,7 +2,7 @@
  "n": 7,
  "title": "After",
  "contentNote": "This chapter touches on how the war stayed with Henry in later life, including the memories that troubled him when he was old.",
- "summary": "In short: Henry came home in December 1918 and married Nell on 28 December. He drove one of Yeovil's first charabancs and later long-distance lorries, kept prize canaries and budgies, and raised three children. He had been gassed, and his breathing was never right again. He never talked about the war, but it stayed with him. He died on 18 January 1963.",
+ "summary": "In short: Henry came home in December 1918 and married Nell on 28 December. He drove one of Yeovil's first charabancs and later long-distance lorries, kept prize canaries and budgies, rose through the Buffaloes to the Roll of Honour, and raised three children. He had been gassed, and his breathing was never right again. He never talked about the war, but it stayed with him. He died on 18 January 1963.",
  "scenes": [
   {
    "id": "home",
@@ -276,7 +276,7 @@
     {
      "title": "The Buffaloes",
      "badge": "family",
-     "body": "Henry was a member of the Royal Antediluvian Order of Buffaloes, and head of the lodge opposite the Salvation Army in Southville, Yeovil. He won many Buffaloes medals, which are now kept by his granddaughter Angela.",
+     "body": "Henry was a member of the Royal Antediluvian Order of Buffaloes for more than twenty years. The next scene tells that story through the jewels he was given.",
      "source": "Angela Wright's memoir, page 1; Tristan Cobb's family research"
     }
    ],
@@ -312,16 +312,6 @@
      "with": "Pack it away"
     },
     {
-     "cat": "Family record",
-     "file": "buffaloes-medals.jpg",
-     "dir": "family",
-     "caption": "Henry's medals from the Royal Antediluvian Order of Buffaloes, now kept by his granddaughter Angela. Some carry the names of lodge offices, such as Minstrel, Waiter and Primo.",
-     "alt": "Seventeen medals laid out in three rows on a table, each hanging from a striped ribbon with an ornate bar. The medals are crosses, stars and round badges, one with a buffalo's head; a long sash with a round badge lies at the end of the bottom row.",
-     "credit": "Family photograph, from Tristan Cobb's family research",
-     "slot": "Family record",
-     "with": "The Buffaloes"
-    },
-    {
      "cat": "Family photo",
      "file": "lorry.jpg",
      "dir": "family",
@@ -340,19 +330,476 @@
      "credit": "Family photograph, lent by Angela Wright",
      "slot": "Family photo",
      "with": "The bird hospital"
+    }
+   ],
+   "photosHeading": "Family photographs"
+  },
+  {
+   "id": "the-buffaloes",
+   "title": "The Buffaloes",
+   "type": "stories",
+   "intro": "For more than twenty years after the war, Henry belonged to the Royal Antediluvian Order of Buffaloes, a friendly society of working men known as the Buffs. The jewels he was given, engraved on the back with names and dates, are now kept by his granddaughter Angela. Read together, they tell the story of his life in the lodge.",
+   "entriesHeading": "Henry's Reflections",
+   "panelsTitle": "Who were the Buffaloes?",
+   "panels": [
+    {
+     "badge": "unit",
+     "title": "A society of working men",
+     "text": "The Royal Antediluvian Order of Buffaloes began in London in 1822 among theatre stagehands. \"Antediluvian\" means \"from before the Flood\", a joke about how old it claimed to be. Lodges met in rooms above pubs and in clubs, raised money for charity, and looked after members and their families when times were hard.",
+     "source": "Royal Antediluvian Order of Buffaloes, Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Royal_Antediluvian_Order_of_Buffaloes"
+    },
+    {
+     "badge": "unit",
+     "title": "Four degrees",
+     "text": "A new member, a Brother, was in the first degree, nicknamed the Kangaroo. Next came the second degree, Certified Primo, written C.P., then the third, Knight of the Order of Merit, written K.O.M. The fourth, the Roll of Honour, is today given only to members of at least ten years' standing after their second degree. Henry reached all four.",
+     "source": "Royal Antediluvian Order of Buffaloes, Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Royal_Antediluvian_Order_of_Buffaloes"
+    },
+    {
+     "badge": "unit",
+     "title": "Business, then harmony",
+     "text": "A lodge meeting began with its formal business, led by the Worthy Primo. Then it moved into \"harmony\": songs, jokes and turns from the members. Offices with names like Waiter, Minstrel and Treasurer were shared out among the brothers.",
+     "source": "Royal Antediluvian Order of Buffaloes, Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Royal_Antediluvian_Order_of_Buffaloes"
+    },
+    {
+     "badge": "unit",
+     "title": "The motto",
+     "text": "Many of the jewels carry the Order's Latin motto, Nemo mortalium omnibus horis sapit: \"No man is wise at all times.\" The Roll of Honour jewel has its own: Palma non sine pulvere, \"No prize without effort.\"",
+     "source": "The jewels themselves"
+    }
+   ],
+   "stories": [
+    {
+     "title": "The broken pipe",
+     "badge": "family",
+     "body": "Among Henry's things is a white clay pipe with buffalo horns and the letters R.A.O.B. moulded on the bowl. Its stem is broken. Every new member of the Buffaloes takes part in an initiation ceremony that involves breaking a clay pipe. Nobody can now say for certain, but this may be the pipe from Henry's own first night in the lodge, kept for the rest of his life.",
+     "source": "The pipe, kept by the family; Hackney Museum, RAOB clay pipe",
+     "url": "https://museum-collection.hackney.gov.uk/object-1989-221"
+    },
+    {
+     "title": "18 June 1928: a Brother",
+     "badge": "family",
+     "body": "The first bar on Henry's knighthood jewel gives the date he joined: his first degree, 18 June 1928. He had turned 34 four days earlier, and was nearly ten years home from the war: a lorry driver with a wife and three children at 67 Southville, Yeovil.",
+     "source": "Henry's Buffaloes jewels, kept by his granddaughter Angela Wright"
+    },
+    {
+     "title": "7 December 1931: Certified Primo",
+     "badge": "family",
+     "body": "Three and a half years later Henry took his second degree. St John's Lodge, No. 4652, gave him a silver jewel on a royal blue ribbon, with PRIMO on the bar. The engraving on the back calls him by the name his friends used: Harry.",
+     "quote": "Presented to Bro Harry Bowles by the St Johns Lodge No 4652",
+     "who": "Engraved on the back of the jewel",
+     "source": "Henry's Buffaloes jewels, kept by his granddaughter Angela Wright"
+    },
+    {
+     "title": "Never missing a meeting",
+     "badge": "family",
+     "body": "Several of Henry's jewels were given for attendance. Trinity Lodge, No. 6620, added a bar for the years 1931, 1932 and 1933. Selwyn Lodge, No. 7206, and St John's Lodge each gave him a jewel too, for services rendered and for regular attendance. He seems to have belonged to more than one lodge at once.",
+     "source": "Henry's Buffaloes jewels, kept by his granddaughter Angela Wright"
+    },
+    {
+     "title": "A gift for the orphans",
+     "badge": "family",
+     "body": "The Buffaloes ran their own orphanage at Grove House in Harrogate, from 1927 until 1947, when the new welfare state took over. Henry gave money to it, and was presented with a Donor jewel showing the orphanage building. It names him H. J. Bowles C.P., so he gave it between 1931 and 1936.",
+     "source": "Henry's Buffaloes jewels, kept by his granddaughter Angela Wright; Grove House, Harrogate, Wikipedia",
+     "url": "https://en.wikipedia.org/wiki/Grove_House,_Harrogate"
+    },
+    {
+     "title": "1935: the Silver Jubilee",
+     "badge": "family",
+     "body": "In 1935 King George V and Queen Mary celebrated 25 years on the throne. Selwyn Lodge marked it with a jewel showing the King and Queen, hanging from a bar of buffalo horns, engraved for \"Bro. H. Bowles C.P.\" The man who had answered the King's call in 1915 now wore the King's face on his lodge ribbon.",
+     "source": "Henry's Buffaloes jewels, kept by his granddaughter Angela Wright"
+    },
+    {
+     "title": "23 April 1936: a Knight",
+     "badge": "family",
+     "body": "On St George's Day 1936 Selwyn Lodge made Henry a Knight of the Order of Merit, the third degree. The back of the gilt cross carries the longest engraving of all his jewels. It says the honour was given in appreciation of his services to the Buffaloes, and of their regard for him as a man and a brother.",
+     "quote": "their regard for him as a man and a brother",
+     "who": "Engraved on the back of his knighthood jewel",
+     "source": "Henry's Buffaloes jewels, kept by his granddaughter Angela Wright"
+    },
+    {
+     "title": "Waiter, 1940",
+     "badge": "family",
+     "body": "In the first winter of the Second World War, with all three of his children grown up, St John's Lodge gave \"Bro. H. Bowles K.O.M.\" a jewel for services rendered, dated 6 December 1940. Its bar reads WAITER, one of the lodge offices he held.",
+     "source": "Henry's Buffaloes jewels, kept by his granddaughter Angela Wright"
+    },
+    {
+     "title": "Father and son",
+     "badge": "family",
+     "body": "Henry's eldest son, Gilbert Henry Arthur Bowles, followed him into St John's Lodge. Gilbert's own knighthood cross, on the same crimson ribbon as his father's, has bars for his first degree on 22 December 1940 and his second on 14 October 1942. On 19 August 1946 he was \"Exalted\" to the third degree, as his father had been ten years before. Gilbert died of peritonitis in January 1948, less than eighteen months later. His jewel stayed with his father's.",
+     "source": "Henry's Buffaloes jewels, kept by his granddaughter Angela Wright; Angela Wright's family research"
+    },
+    {
+     "title": "Treasurer, 1952",
+     "badge": "family",
+     "body": "By the 1950s Henry was trusted with the lodge's money. His last dated jewel, on a red and green ribbon, names him Treasurer of St John's Lodge and was presented for services rendered in 1952. Family memory remembers him as head of the lodge opposite the Salvation Army in Southville, Yeovil.",
+     "source": "Henry's Buffaloes jewels, kept by his granddaughter Angela Wright; Angela Wright's memoir, page 1; Tristan Cobb's family research"
+    },
+    {
+     "title": "The Roll of Honour",
+     "badge": "family",
+     "body": "Henry's highest honour was the Roll of Honour, the fourth degree, with its star-shaped jewel, its crown and a pale green sash. It is not dated, but it came at least ten years after his second degree, so no earlier than the 1940s.",
+     "source": "Henry's Buffaloes jewels, kept by his granddaughter Angela Wright"
+    },
+    {
+     "title": "Days out with the Buffs",
+     "badge": "family",
+     "body": "The Buffaloes were a family affair too. In the 1950s the lodge hired a coach for an outing, and Henry took his granddaughter Angela. His parents' diamond wedding party, in December 1953, was held at the R.A.O.B. Club in Yeovil.",
+     "source": "Family photograph; diamond wedding newspaper report, 1953"
+    }
+   ],
+   "entries": [
+    {
+     "date": "June 1928",
+     "place": "Yeovil",
+     "paras": [
+      "Joined the Buffs tonight. One of the drivers has been on at me for a year to come along, and Nell said go on, it'll do you good to be among the men of a evening instead of out in the shed with they birds.",
+      "I won't write down what goes on. That's for the lodge. But they gave me a pipe, and I've brought it home, and I'm keeping it.",
+      "It's a funny thing. A room full of men, and half of them were out there same as me, and not one of them said a word about it. We sang instead, and I laughed till I coughed.",
+      "First time I've felt like one of a company since the Army. I didn't know I'd missed it."
+     ],
+     "basis": [
+      [
+       "record",
+       "His first degree in the Buffaloes was taken on 18 June 1928 (the bar on his knighthood jewel)."
+      ],
+      [
+       "history",
+       "Initiation into the Buffaloes involves breaking a clay pipe; lodge meetings move from business into \"harmony\", with songs and turns (Hackney Museum; Wikipedia)."
+      ],
+      [
+       "family",
+       "Henry kept a broken R.A.O.B. clay pipe, which the family still has. He kept canaries and budgies, and his chest was never right after the war (Memories of Grandad)."
+      ],
+      [
+       "imagined",
+       "The conversation with Nell and every word of the entry. Who brought Henry into the Buffaloes is not known."
+      ]
+     ],
+     "disclosure": "AI imagined journal, written for Henry from his Buffaloes jewels and his family's memories"
+    },
+    {
+     "date": "August 1946",
+     "place": "Yeovil",
+     "paras": [
+      "Our Gilbert was raised to Knight tonight, at St John's. Exalted, they call it. I stood up at the back with the others and I'll own I had to look at the floor for a bit.",
+      "Ten years since they did the same for me. He's a man now, been through his own war, and we come home together after, father and son, walking down Southville in the dark, and neither of us said much. Didn't need to.",
+      "Nell asked how it went. I said he did us proud. She knew what I meant."
+     ],
+     "basis": [
+      [
+       "record",
+       "Gilbert Bowles was \"Exalted\" at St John's Lodge, No. 4652, on 19 August 1946; Henry had been made a Knight of the Order of Merit in April 1936 (their jewels)."
+      ],
+      [
+       "family",
+       "Henry and Nell lived at 67 Southville, Yeovil. Gilbert, Joyce and Bill all went off to the Second World War (family photographs and research)."
+      ],
+      [
+       "imagined",
+       "Whether Henry was there that night is not known. The walk home and every word are imagined."
+      ]
+     ],
+     "disclosure": "AI imagined journal, written for Henry from his Buffaloes jewels and his family's memories"
+    }
+   ],
+   "photosHeading": "Henry's Buffaloes jewels",
+   "photos": [
+    {
+     "cat": "Family record",
+     "file": "buffaloes-medals.jpg",
+     "dir": "family",
+     "caption": "Henry's medals from the Royal Antediluvian Order of Buffaloes, now kept by his granddaughter Angela. Some carry the names of lodge offices, such as Minstrel, Waiter and Primo.",
+     "alt": "Seventeen medals laid out in three rows on a table, each hanging from a striped ribbon with an ornate bar. The medals are crosses, stars and round badges, one with a buffalo's head; a long sash with a round badge lies at the end of the bottom row.",
+     "credit": "Family photograph, from Tristan Cobb's family research",
+     "slot": "Family record"
+    },
+    {
+     "cat": "Family record",
+     "file": "raob-clay-pipe.jpg",
+     "dir": "family",
+     "with": "The broken pipe",
+     "caption": "Henry's clay pipe, with buffalo horns and the letters R.A.O.B. on the bowl. The stem has been broken off short.",
+     "alt": "A short white clay pipe lying on a pale background. The bowl is moulded with a pair of curved horns and the raised letters R and A; the stem is broken off a few inches from the bowl.",
+     "credit": "Family photograph of the pipe kept by Angela Wright, October 2026",
+     "slot": "Family record"
+    },
+    {
+     "cat": "Family record",
+     "file": "raob-primo-1931.jpg",
+     "dir": "family",
+     "caption": "Front and back: Henry's Certified Primo jewel from St John's Lodge, No. 4652, 7 December 1931. The motto on the badge reads Justice, Truth, Philanthropy.",
+     "alt": "Two photographs side by side. Left: a silver jewel on a royal blue ribbon woven with the R.A.O.B. monogram and G.L.E., with a bar reading PRIMO at the top, a bar reading St John's Lodge No. 4652 below, and a round enamelled badge under a red crown. Right: the back of the same jewel, the round badge engraved with several lines of small lettering.",
+     "credit": "Family photograph of the jewels kept by Angela Wright, October 2026",
+     "slot": "Family record",
+     "with": "7 December 1931: Certified Primo",
+     "docName": "The engraving on the back",
+     "transcript": [
+      [
+       "Presented to",
+       "Bro. Harry Bowles"
+      ],
+      [
+       "By",
+       "the St Johns Lodge No. 4652"
+      ],
+      [
+       "Certified on",
+       "the 7 Dec 1931"
+      ]
+     ],
+     "transcriptNote": "The engraving is worn and small; this is the best reading from the photograph."
+    },
+    {
+     "cat": "Family record",
+     "file": "raob-trinity-attendance.jpg",
+     "dir": "family",
+     "caption": "Front and back: Trinity Lodge, No. 6620, attendance jewel, with a silver bar for 1931, 1932 and 1933.",
+     "alt": "Two photographs side by side. Left: a gilt jewel on a red, blue and yellow striped ribbon, with a top bar reading ATTENDANCE, a silver bar reading 1931 2 3, a lower bar reading Trinity Lodge No. 6620, and a round enamelled badge with the words Justice, Truth, Philanthropy. Right: the back, a shield-shaped pendant engraved with several lines.",
+     "credit": "Family photograph of the jewels kept by Angela Wright, October 2026",
+     "slot": "Family record",
+     "with": "Never missing a meeting",
+     "docName": "The engraving on the back",
+     "transcript": [
+      [
+       "Presented to",
+       "Bro. H. Bowles C.P."
+      ],
+      [
+       "By",
+       "the members of the Trinity Lodge No. 6620"
+      ],
+      [
+       "For",
+       "services rendered and attendance"
+      ]
+     ]
+    },
+    {
+     "cat": "Family record",
+     "file": "raob-selwyn-lodge.jpg",
+     "dir": "family",
+     "caption": "Front and back: Selwyn Lodge, No. 7206, jewel with a buffalo's head with red glass eyes, presented for services rendered and attendance.",
+     "alt": "Two photographs side by side. Left: a gilt jewel on a red, blue and yellow striped ribbon, with bars reading Selwyn Lodge and No. 7206, and a round pendant with a buffalo's head with small red eyes. Right: the back, a round pendant engraved with several lines of small lettering.",
+     "credit": "Family photograph of the jewels kept by Angela Wright, October 2026",
+     "slot": "Family record",
+     "with": "Never missing a meeting",
+     "docName": "The engraving on the back",
+     "transcript": [
+      [
+       "Presented to",
+       "Bro. H. Bowles C.P."
+      ],
+      [
+       "By",
+       "the members of the Selwyn Lodge No. 7206"
+      ],
+      [
+       "For",
+       "services rendered and attendance"
+      ]
+     ]
+    },
+    {
+     "cat": "Family record",
+     "file": "raob-st-johns-attendance.jpg",
+     "dir": "family",
+     "caption": "Front and back: St John's Lodge, No. 4652, jewel for regular attendance, on the lodge's pale green ribbon with pink and brown stripes.",
+     "alt": "Two photographs side by side. Left: a gilt jewel on a pale green ribbon with pink and dark brown stripes and the R.A.O.B. monogram, with bars reading St John's Lodge and No. 4652, and a crowned enamel badge with the words Justice, Truth, Philanthropy. Right: the back, a shield-shaped pendant engraved with several lines.",
+     "credit": "Family photograph of the jewels kept by Angela Wright, October 2026",
+     "slot": "Family record",
+     "with": "Never missing a meeting",
+     "docName": "The engraving on the back",
+     "transcript": [
+      [
+       "Presented to",
+       "Bro. H. Bowles"
+      ],
+      [
+       "By",
+       "the members of the St Johns Lodge No. 4652"
+      ],
+      [
+       "For",
+       "regular attendance"
+      ]
+     ],
+     "transcriptNote": "Part of the engraving is worn; this is the best reading from the photograph."
+    },
+    {
+     "cat": "Family record",
+     "file": "raob-orphanage-donor.jpg",
+     "dir": "family",
+     "caption": "Front and back: the Grove House Orphanage Donor jewel, showing the orphanage building in Harrogate, on a red, white and blue ribbon.",
+     "alt": "Two photographs side by side. Left: a gilt jewel on a red, white and blue ribbon, with a top bar reading DONOR and a pierced pendant showing a large building, ringed by the words Grove House Orphanage, Harrogate, R.A.O.B. G.L.E. Right: the back of the pendant, engraved Presented to Bro. H. J. Bowles C.P., Donor.",
+     "credit": "Family photograph of the jewels kept by Angela Wright, October 2026",
+     "slot": "Family record",
+     "with": "A gift for the orphans",
+     "docName": "The engraving on the back",
+     "transcript": [
+      [
+       "Presented to",
+       "Bro. H. J. Bowles C.P."
+      ],
+      [
+       "As",
+       "Donor"
+      ]
+     ]
+    },
+    {
+     "cat": "Family record",
+     "file": "raob-jubilee-1935.jpg",
+     "dir": "family",
+     "caption": "Front and back: the 1935 Silver Jubilee jewel, with King George V and Queen Mary, hanging from a bar of buffalo horns.",
+     "alt": "Two photographs side by side. Left: a jewel on a pale green ribbon with pink and brown stripes and the R.A.O.B. monogram, topped by a buffalo's head and hanging from a bar of long curved horns; the round crowned pendant shows the King and Queen in profile, ringed by the words Silver Jubilee George V and Queen Mary 1935. Right: the back, engraved Bro. H. Bowles C.P., Selwyn Lodge No. 7206.",
+     "credit": "Family photograph of the jewels kept by Angela Wright, October 2026",
+     "slot": "Family record",
+     "with": "1935: the Silver Jubilee",
+     "docName": "The engraving on the back",
+     "transcript": [
+      [
+       "Engraved",
+       "Bro. H. Bowles C.P., Selwyn Lodge No. 7206"
+      ]
+     ]
+    },
+    {
+     "cat": "Family record",
+     "file": "raob-knighthood-1936.jpg",
+     "dir": "family",
+     "caption": "Front and back: Henry's Knight of the Order of Merit jewel, conferred by Selwyn Lodge, No. 7206, on 23 April 1936. The bars record his first degree, 18 June 1928, and his second, 7 December 1931.",
+     "alt": "Two photographs side by side. Left: a jewel on a crimson ribbon with an enamel R.A.O.B. badge, between two bars engraved with dates, above a gilt cross with a buffalo's head in the centre ringed by the Latin motto. Right: the back of the cross, covered in engraved lines of text.",
+     "credit": "Family photograph of the jewels kept by Angela Wright, October 2026",
+     "slot": "Family record",
+     "with": "23 April 1936: a Knight",
+     "docName": "The engraving and the bars",
+     "transcript": [
+      [
+       "Engraved",
+       "This Order of Merit and Honour of Knighthood was conferred upon Bro. Henry J. Bowles C.P. by the Selwyn Lodge No. 7206, 23 Apl 1936, as a mark of appreciation for services in the cause of Buffaloism, and their regard for him as a man and a brother."
+      ],
+      [
+       "Top bar",
+       "1st Deg. 18 June 1928"
+      ],
+      [
+       "Lower bar",
+       "2nd Deg. 7 Dec 1931"
+      ]
+     ],
+     "transcriptNote": "Some words on the back are worn; this is the best reading from the photograph."
+    },
+    {
+     "cat": "Family record",
+     "file": "raob-waiter-1940.jpg",
+     "dir": "family",
+     "caption": "Front and back: the Waiter jewel from St John's Lodge, presented to Henry as a Knight of the Order of Merit on 6 December 1940.",
+     "alt": "Two photographs side by side. Left: a jewel on a pale green ribbon with pink and brown stripes, with a blue enamel bar reading WAITER, a bar reading St John's Lodge No. 4652, and a round pendant with the R.A.O.B. monogram and the Latin motto. Right: the back, a round pendant engraved with several lines of text.",
+     "credit": "Family photograph of the jewels kept by Angela Wright, October 2026",
+     "slot": "Family record",
+     "with": "Waiter, 1940",
+     "docName": "The engraving on the back",
+     "transcript": [
+      [
+       "Presented to",
+       "Bro. H. Bowles K.O.M."
+      ],
+      [
+       "By",
+       "the St Johns Lodge No. 4652"
+      ],
+      [
+       "For",
+       "services rendered, 6-12-1940"
+      ]
+     ]
+    },
+    {
+     "cat": "Family record",
+     "file": "raob-gilbert-1946.jpg",
+     "dir": "family",
+     "caption": "Front and back: Gilbert's Knight of the Order of Merit jewel, St John's Lodge, No. 4652. The bars record his first degree, 22 December 1940, and his second, 14 October 1942; the back records that he was Exalted on 19 August 1946.",
+     "alt": "Two photographs side by side. Left: a bright gilt jewel on a crimson ribbon with an enamel R.A.O.B. badge between two dated bars, above a cross with a buffalo's head ringed by the Latin motto. Right: the back of the cross, engraved with Gilbert's name, his lodge and the date.",
+     "credit": "Family photograph of the jewels kept by Angela Wright, October 2026",
+     "slot": "Family record",
+     "with": "Father and son",
+     "docName": "The engraving and the bars",
+     "transcript": [
+      [
+       "Engraved",
+       "Bro. Gilbert H. A. Bowles, St John's Lodge, No. 4652, Exalted 19-8-46"
+      ],
+      [
+       "Top bar",
+       "1st Deg. 22-12-40"
+      ],
+      [
+       "Lower bar",
+       "2nd Deg. 14-10-42"
+      ]
+     ]
+    },
+    {
+     "cat": "Family record",
+     "file": "raob-treasurer-1952.jpg",
+     "dir": "family",
+     "caption": "Front and back: the Treasurer jewel from St John's Lodge, No. 4652, presented for services rendered in 1952.",
+     "alt": "Two photographs side by side. Left: a gilt jewel on a red ribbon edged in green, with a blue enamel bar reading TREASURER, a bar reading St John's Lodge 4652, and a crowned enamel badge with the words Justice, Truth, Philanthropy. Right: the back, a shield-shaped pendant engraved Presented to Bro. H. Bowles for services rendered 1952.",
+     "credit": "Family photograph of the jewels kept by Angela Wright, October 2026",
+     "slot": "Family record",
+     "with": "Treasurer, 1952",
+     "docName": "The engraving on the back",
+     "transcript": [
+      [
+       "Presented to",
+       "Bro. H. Bowles"
+      ],
+      [
+       "For",
+       "services rendered, 1952"
+      ]
+     ]
+    },
+    {
+     "cat": "Family record",
+     "file": "raob-roll-of-honour.jpg",
+     "dir": "family",
+     "with": "The Roll of Honour",
+     "caption": "Henry's Roll of Honour jewel, the Order's fourth degree. The motto reads Palma non sine pulvere: no prize without effort.",
+     "alt": "A jewel on a pale green ribbon, topped by a bar reading ROLL OF HONOR under a red enamel crown, with a gilt spray of leaves carrying three small blank bars on the ribbon, hanging from a bar of wheat ears. The pendant is a rayed star with a blue enamel ring around the R.A.O.B. monogram.",
+     "credit": "Family photograph of the jewel kept by Angela Wright, October 2026",
+     "slot": "Family record"
+    },
+    {
+     "cat": "Family record",
+     "file": "raob-roll-of-honour-sash.jpg",
+     "dir": "family",
+     "with": "The Roll of Honour",
+     "caption": "The pale green Roll of Honour sash, with its enamel badge carrying the same motto.",
+     "alt": "A long, faded pale green silk sash laid flat, with a round gilt and blue enamel badge bearing the R.A.O.B. monogram and the words Palma non sine pulvere.",
+     "credit": "Family photograph of the sash kept by Angela Wright, October 2026",
+     "slot": "Family record"
     },
     {
      "cat": "Family photo",
      "file": "raob-outing.jpg",
      "dir": "family",
-     "with": "The Buffaloes",
+     "with": "Days out with the Buffs",
      "caption": "A Buffaloes outing in the 1950s, gathered in front of the coach. Henry is on the far right of the back row. Angela is the fourth child from the left in the front row, with her mother Joyce standing behind her and her father Cyril behind Joyce.",
      "alt": "About forty men, women and children in 1950s clothes pose in rows in front of a coach parked by houses. The men at the back wear suits and ties; children in dresses, shorts and white socks stand in the front row.",
      "credit": "Family photograph, lent by Angela Wright",
      "slot": "Family photo"
     }
    ],
-   "photosHeading": "Family photographs"
+   "asks": [
+    {
+     "id": "buffaloes",
+     "q": "Who were the Buffaloes, and why did so many old soldiers join societies like it?"
+    }
+   ]
   },
   {
    "id": "grandad",

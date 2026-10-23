@@ -44,3 +44,9 @@ Each family photo is left out of the exhibition until a file with the name below
 - Ch 7 "Grandad": henry-nell-weymouth.jpg (Henry and Nell walking in Weymouth; replaces the henry-flat-cap.jpg wanted slot)
 - Added after checking with Graeme: lorry.jpg (Henry by his crashed BRS lorry, ch 7) and henry-horse-roller.jpg (ch 1). The two March 1918 maps are left out: too blurry, and no originals are available.
 - Ch 7 "The farm and the lorries" (with The Buffaloes): raob-outing.jpg, RAOB coach outing, 1950s (Henry back row far right; Angela 4th child from left, front row; Joyce and Cyril behind her)
+
+## Added 23 October 2026 (Henry's Buffaloes jewels, photographed by Graeme from Angela Wright's collection)
+- New Ch 7 scene "The Buffaloes" (after "The farm and the lorries"). Each jewel is shown front and back in one image, with the engraving transcribed:
+  raob-primo-1931.jpg, raob-trinity-attendance.jpg, raob-selwyn-lodge.jpg, raob-st-johns-attendance.jpg, raob-orphanage-donor.jpg, raob-jubilee-1935.jpg, raob-knighthood-1936.jpg, raob-waiter-1940.jpg, raob-gilbert-1946.jpg (Gilbert's jewel), raob-treasurer-1952.jpg, raob-roll-of-honour.jpg, raob-roll-of-honour-sash.jpg, raob-clay-pipe.jpg.
+- buffaloes-medals.jpg and raob-outing.jpg moved from "The farm and the lorries" into the new scene.
+- Left out (not Henry's): jewels of E. J. Penny (Albert Barton Lodge, 1925) and W. Patten / W. H. Patten (St John's 4652, Fidelis 7175).

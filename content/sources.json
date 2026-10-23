@@ -333,6 +333,18 @@
      ]
     },
     {
+     "title": "The pipe, kept by the family; Hackney Museum, RAOB clay pipe",
+     "urls": [
+      "https://museum-collection.hackney.gov.uk/object-1989-221"
+     ],
+     "where": [
+      {
+       "label": "Chapter 7",
+       "href": "chapter.html#7"
+      }
+     ]
+    },
+    {
      "title": "The Rifles Berkshire and Wiltshire Museum",
      "urls": [
       "https://www.thewardrobe.org.uk/research/history-regiments/duke-edinburghs-wiltshire-regiment-1881-1920-wiltshire-regiment-duke-edinburghs-1920-1959"
@@ -1359,6 +1371,16 @@
    "title": "Reference websites and articles",
    "items": [
     {
+     "title": "The jewels themselves",
+     "urls": [],
+     "where": [
+      {
+       "label": "Chapter 7",
+       "href": "chapter.html#7"
+      }
+     ]
+    },
+    {
      "title": "The Long, Long Trail",
      "urls": [
       "https://www.longlongtrail.co.uk/?p=6361"
@@ -1653,6 +1675,18 @@
      ]
     },
     {
+     "title": "Grove House, Harrogate, Wikipedia",
+     "urls": [
+      "https://en.wikipedia.org/wiki/Grove_House,_Harrogate"
+     ],
+     "where": [
+      {
+       "label": "Ask the historian",
+       "href": "historian.html"
+      }
+     ]
+    },
+    {
      "title": "Hawthorn Ridge Redoubt (Wikipedia)",
      "urls": [
       "https://en.wikipedia.org/wiki/Hawthorn_Ridge_Redoubt"
@@ -1661,6 +1695,38 @@
       {
        "label": "Chapter 4",
        "href": "chapter.html#4"
+      }
+     ]
+    },
+    {
+     "title": "Henry's Buffaloes jewels, kept by his granddaughter Angela Wright",
+     "urls": [],
+     "where": [
+      {
+       "label": "Chapter 7",
+       "href": "chapter.html#7"
+      }
+     ]
+    },
+    {
+     "title": "Henry's Buffaloes jewels, kept by his granddaughter Angela Wright; Angela Wright's family research",
+     "urls": [],
+     "where": [
+      {
+       "label": "Chapter 7",
+       "href": "chapter.html#7"
+      }
+     ]
+    },
+    {
+     "title": "Henry's Buffaloes jewels, kept by his granddaughter Angela Wright; Grove House, Harrogate, Wikipedia",
+     "urls": [
+      "https://en.wikipedia.org/wiki/Grove_House,_Harrogate"
+     ],
+     "where": [
+      {
+       "label": "Chapter 7",
+       "href": "chapter.html#7"
       }
      ]
     },
@@ -1757,6 +1823,22 @@
       {
        "label": "Chapter 3",
        "href": "chapter.html#3"
+      },
+      {
+       "label": "Ask the historian",
+       "href": "historian.html"
+      }
+     ]
+    },
+    {
+     "title": "Royal Antediluvian Order of Buffaloes, Wikipedia",
+     "urls": [
+      "https://en.wikipedia.org/wiki/Royal_Antediluvian_Order_of_Buffaloes"
+     ],
+     "where": [
+      {
+       "label": "Chapter 7",
+       "href": "chapter.html#7"
       },
       {
        "label": "Ask the historian",
