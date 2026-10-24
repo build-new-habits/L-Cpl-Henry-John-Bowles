@@ -9,14 +9,18 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Download
+      - name: Look up candidates
         run: |
-          curl -fsSL -A "Mozilla/5.0" -o assets/img/charabanc-bournemouth-1920.jpg "https://cdn2.picryl.com/photo/1930/12/31/c1920-real-photo-postcard-of-royal-blue-line-charabanc-at-bournemouth-hankinson-acabb1-1024.jpg"
-          file assets/img/charabanc-bournemouth-1920.jpg
+          mkdir -p fetched
+          UA="QuietSoldierExhibit/1.0 (https://build-new-habits.github.io/L-Cpl-Henry-John-Bowles/)"
+          curl -sSL -A "$UA" "https://commons.wikimedia.org/w/api.php?action=query&generator=categorymembers&gcmtitle=Category:Charabancs&gcmtype=file&gcmlimit=200&prop=imageinfo&iiprop=url|size|extmetadata&iiurlwidth=1600&format=json" -o fetched/commons-charabancs.json || true
+          curl -sSL -A "$UA" "https://commons.wikimedia.org/w/api.php?action=query&list=categorymembers&cmtitle=Category:Charabancs&cmtype=subcat&cmlimit=200&format=json" -o fetched/commons-subcats.json || true
+          curl -sSL -A "$UA" "https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrnamespace=6&gsrsearch=charabanc%20outing&gsrlimit=100&prop=imageinfo&iiprop=url|size|extmetadata&iiurlwidth=1600&format=json" -o fetched/commons-search.json || true
+          ls -la fetched
       - name: Commit
         run: |
           git config user.name "github-actions"
           git config user.email "github-actions@users.noreply.github.com"
-          git add assets/img/charabanc-bournemouth-1920.jpg
-          git commit -m "Add public domain charabanc postcard (fetched)"
+          git add fetched
+          git commit -m "Charabanc candidates (lookup)" || exit 0
           git push
