@@ -9,14 +9,14 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
-      - name: Look up candidates
+      - name: Download candidates
         run: |
           mkdir -p fetched
           UA="QuietSoldierExhibit/1.0 (https://build-new-habits.github.io/L-Cpl-Henry-John-Bowles/)"
-          curl -sSL -A "$UA" "https://commons.wikimedia.org/w/api.php?action=query&generator=categorymembers&gcmtitle=Category:Charabancs&gcmtype=file&gcmlimit=200&prop=imageinfo&iiprop=url|size|extmetadata&iiurlwidth=1600&format=json" -o fetched/commons-charabancs.json || true
-          curl -sSL -A "$UA" "https://commons.wikimedia.org/w/api.php?action=query&list=categorymembers&cmtitle=Category:Charabancs&cmtype=subcat&cmlimit=200&format=json" -o fetched/commons-subcats.json || true
-          curl -sSL -A "$UA" "https://commons.wikimedia.org/w/api.php?action=query&generator=search&gsrnamespace=6&gsrsearch=charabanc%20outing&gsrlimit=100&prop=imageinfo&iiprop=url|size|extmetadata&iiurlwidth=1600&format=json" -o fetched/commons-search.json || true
-          ls -la fetched
+          curl -fsSL -A "$UA" -o fetched/woolwich-1920.jpg "https://upload.wikimedia.org/wikipedia/commons/3/3d/WOOLWICH_GREENWICH_PLUMSTEAD_A_CHARABANC_OUTING_1920-21_ST_MARK%27S_MEN%27S_CLUB_RP_LONDON_POSTCARD_%2850272894387%29.jpg"
+          curl -fsSL -A "$UA" -o fetched/herne-bay-1910.jpg "https://upload.wikimedia.org/wikipedia/commons/0/00/Fred_C_Palmer_East_Cliff_001.jpg"
+          curl -sSL -A "$UA" "https://commons.wikimedia.org/w/api.php?action=query&generator=categorymembers&gcmtitle=Category:Motorized_charabancs&gcmtype=file&gcmlimit=200&prop=imageinfo&iiprop=url|size|extmetadata&format=json" -o fetched/commons-motorized.json || true
+          file fetched/*
       - name: Commit
         run: |
           git config user.name "github-actions"
