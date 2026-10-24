@@ -204,8 +204,8 @@
     {
      "title": "The charabanc",
      "badge": "family",
-     "body": "Henry drove for the rest of his working life, and never took a driving test. Later he became a long-distance lorry driver.",
-     "source": "Memories of Grandad, by Angela Wright",
+     "body": "Henry drove for the rest of his working life, and never took a driving test. A charabanc was an open motor coach: rows of wooden benches on a lorry chassis, with solid tyres and no roof but a folding canvas hood. In Yeovil, Bird Brothers, the firm Henry drove for, ran charabanc trips to Cheddar Gorge and Bournemouth in the 1920s. Later he became a long-distance lorry driver.",
+     "source": "Memories of Grandad, by Angela Wright; Yeovil's History, Charabanc excursions",
      "quote": "one of the first men in Yeovil to drive a Charabanc",
      "who": "Memories of Grandad, by Angela Wright"
     },
@@ -281,6 +281,18 @@
     }
    ],
    "photos": [
+    {
+     "cat": "Typical of the time",
+     "file": "charabanc-outing-1920.jpg",
+     "dir": "period",
+     "with": "The charabanc",
+     "caption": "A charabanc outing in 1920 or 1921: the men's club of St Mark's, Plumstead, in south-east London. Not Henry's charabanc, but the kind of vehicle he drove in Yeovil, with its bench seats, solid tyres and folding hood.",
+     "alt": "A sepia postcard of an open charabanc, registration XB 8568, parked by a wooden fence in front of a church. About forty passengers in straw boaters, flat caps and summer hats sit in rows on its benches, with the driver at the wheel at the front. It has solid tyres on spoked metal wheels and a folded canvas hood at the back.",
+     "credit": "Postcard, 1920 to 1921, from the collection of Mark Crombie. Public domain, via Wikimedia Commons",
+     "url": "https://commons.wikimedia.org/wiki/File:WOOLWICH_GREENWICH_PLUMSTEAD_A_CHARABANC_OUTING_1920-21_ST_MARK%27S_MEN%27S_CLUB_RP_LONDON_POSTCARD_(50272894387).jpg",
+     "slot": "Typical of the time",
+     "urlLabel": "See it on Wikimedia Commons"
+    },
     {
      "cat": "Family photo",
      "file": "plough-with-gilbert.jpg",

@@ -350,7 +350,7 @@
     return '<figure class="photo" data-list="' + key + '" data-i="' + i + '"><div class="photo-frame">' +
       '<img src="' + e(p.src || ('assets/img/' + dir + '/' + p.file)) + '" alt="' + e(p.alt) + '" loading="lazy" data-photo>' +
       '</div><figcaption><span>' + e(p.caption) + '</span>' +
-      '<span class="photo-credit">' + e(credit) + (p.url ? ' <a href="' + e(p.url) + '" target="_blank" rel="noopener">See it at IWM<span class="visually-hidden"> (opens in a new tab)</span></a>' : '') + '</span>' +
+      '<span class="photo-credit">' + e(credit) + (p.url ? ' <a href="' + e(p.url) + '" target="_blank" rel="noopener">' + e(p.urlLabel || 'See it at IWM') + '<span class="visually-hidden"> (opens in a new tab)</span></a>' : '') + '</span>' +
       transcriptBlock(p) + '</figcaption></figure>';
   }
 

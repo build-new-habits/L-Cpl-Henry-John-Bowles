@@ -1,5 +1,5 @@
 {
- "version": "20261024a",
+ "version": "20261024b",
  "text": [
   "content/chapter-01.json",
   "content/chapter-02.json",
@@ -112,7 +112,8 @@
   "assets/img/family/raob-st-johns-attendance.jpg",
   "assets/img/family/raob-treasurer-1952.jpg",
   "assets/img/family/raob-trinity-attendance.jpg",
-  "assets/img/family/raob-waiter-1940.jpg"
+  "assets/img/family/raob-waiter-1940.jpg",
+  "assets/img/period/charabanc-outing-1920.jpg"
  ],
  "mediaBytes": 31567802
 }
