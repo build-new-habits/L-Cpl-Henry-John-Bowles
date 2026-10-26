@@ -4,7 +4,7 @@
 
 Henry was a Somerset farm hand who went to war, was wounded on the first day of the Somme, and came home to marry, raise a family, and say very little about what he had seen. This exhibition tells his story in eight chapters, through the records he left, the places he stood, and a voice imagined for him.
 
-> **In progress.** All eight chapters are drafted. Photographs and Henry's recorded voice are still being added.
+> **In progress.** All nine chapters are drafted. Photographs and Henry's recorded voice are still being added.
 
 ## Visit
 
@@ -12,7 +12,7 @@ Henry was a Somerset farm hand who went to war, was wounded on the first day of 
 - **Ask the historian:** short, sourced answers to visitors' questions, in [historian.html](historian.html)
 - **Design mock-up:** [`mockup/`](mockup/index.html), the original eight-screen design
 
-## The eight chapters
+## The nine chapters
 
 1. **Before:** farm life in Somerset
 2. **Why he went:** joining up
@@ -22,6 +22,7 @@ Henry was a Somerset farm hand who went to war, was wounded on the first day of 
 6. **The end of the war:** Frémicourt and Bapaume, 1918
 7. **After:** marriage, work and what he carried with him
 8. **Legacy:** how his family found him again
+9. **In her words:** his granddaughter Angela's recorded memories of him
 
 ## How to read what you see
 

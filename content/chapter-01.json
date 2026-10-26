@@ -110,7 +110,11 @@
      "title": "The twelve",
      "badge": "family",
      "source": "Memories of Grandad, by Angela Wright; the family photograph; Tristan Cobb's family research",
-     "body": "Henry was the eldest. His brothers and sisters were Reg, Winnie, Frank, George, Ethel, Arthur, Amy, Lilly, Bill, Kit and Oliver, the youngest. Their mother was Eliza Ann, born Eliza Ann Perry."
+     "body": "Henry was the eldest. His brothers and sisters were Reg, Winnie, Frank, George, Ethel, Arthur, Amy, Lilly, Bill, Kit and Oliver, the youngest. Their mother was Eliza Ann, born Eliza Ann Perry.",
+     "hear": {
+      "href": "chapter.html#9-1",
+      "label": "Hear Angela remember this"
+     }
     },
     {
      "title": "Born at Walton",
@@ -160,7 +164,11 @@
      "body": "Henry did not like rudeness or bad language, especially in front of women and children, and he told his brothers and sisters so, even when they were grown up. Some of them, the family only visited now and then.",
      "source": "Angela Wright's memoir, page 1",
      "quote": "would often reprimand his siblings for their behaviour, right into their adult life",
-     "who": "Angela Wright's memoir"
+     "who": "Angela Wright's memoir",
+     "hear": {
+      "href": "chapter.html#9-2",
+      "label": "Hear Angela remember this"
+     }
     },
     {
      "title": "On the land",

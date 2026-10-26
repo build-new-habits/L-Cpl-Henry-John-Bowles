@@ -206,6 +206,23 @@
         "labelY": 54
       },
       "status": "ready"
+    },
+    {
+      "n": 9,
+      "slug": "in-her-words",
+      "title": "In her words",
+      "side": "england",
+      "place": "Yeovil, remembered",
+      "when": "1950s to 1963, recorded 2026",
+      "teaser": "Henry's granddaughter Angela remembers her grandad in her own voice: the flat cap, the bird hospital, bath night at 67 Southville, Weymouth for his chest, and the barbed wire at the end.",
+      "minutes": 20,
+      "map": {
+        "x": 232,
+        "y": 50,
+        "labelY": 101
+      },
+      "contentNote": "The last scene includes memories of a death in the family and of the war memories that troubled Henry in his last years.",
+      "status": "ready"
     }
   ]
 }

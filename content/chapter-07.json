@@ -193,7 +193,7 @@
    "id": "the-farm-and-the-lorries",
    "title": "The farm and the lorries",
    "type": "stories",
-   "intro": "Henry and Nell had three children: Gilbert Henry Arthur, Joyce, always called Joycie, born on 22 July 1921, and William George, known as Bill, born in 1924. These memories are their granddaughter Angela's, with some from Joyce's grandson Tristan.",
+   "intro": "Henry and Nell had three children: Gilbert Henry Arthur, Joyce, whom her youngest brother Bill always called \"Joycie One-Name\", born on 22 July 1921, and William George, known as Bill, born in 1924. These memories are their granddaughter Angela's, with some from Joyce's grandson Tristan.",
    "stories": [
     {
      "title": "On the mower",
@@ -207,7 +207,11 @@
      "body": "Henry drove for the rest of his working life, and never took a driving test. A charabanc was an open motor coach: rows of wooden benches on a lorry chassis, with solid tyres and no roof but a folding canvas hood. In Yeovil, Bird Brothers, the firm Henry drove for, ran charabanc trips to Cheddar Gorge and Bournemouth in the 1920s. Later he became a long-distance lorry driver.",
      "source": "Memories of Grandad, by Angela Wright; Yeovil's History, Charabanc excursions",
      "quote": "one of the first men in Yeovil to drive a Charabanc",
-     "who": "Memories of Grandad, by Angela Wright"
+     "who": "Memories of Grandad, by Angela Wright",
+     "hear": {
+      "href": "chapter.html#9-2",
+      "label": "Hear Angela remember this"
+     }
     },
     {
      "title": "Bird Brothers and British Road Services",
@@ -239,13 +243,21 @@
      "title": "\"Hello then\"",
      "badge": "family",
      "body": "On holiday in a hired car, if another driver did something wrong, Henry wound down the window and said \"hello then\". Asked if he knew them, he said: \"No, but they know what I mean.\"",
-     "source": "Memories of Grandad, by Angela Wright"
+     "source": "Memories of Grandad, by Angela Wright",
+     "hear": {
+      "href": "chapter.html#9-2",
+      "label": "Hear Angela remember this"
+     }
     },
     {
      "title": "Half a crown",
      "badge": "family",
      "body": "When his daughter Joyce was home on leave from the ATS, Henry bet her half a crown that she couldn't reverse his lorry and trailer into a space. \"And he had to pay up as she did it perfectly.\"",
-     "source": "Angela Wright's memoir, page 1"
+     "source": "Angela Wright's memoir, page 1",
+     "hear": {
+      "href": "chapter.html#9-2",
+      "label": "Hear Angela remember this"
+     }
     },
     {
      "title": "Pack it away",
@@ -265,19 +277,31 @@
      "body": "Henry turned an old shed into an aviary for canaries and budgies, with two cages kept for sick birds: his \"bird hospital\". Seed and water were measured out exactly. He showed his birds in Yeovil and usually came home with certificates. He was a member of the cage bird association in Yeovil, and built the aviary in his back garden.",
      "source": "Memories of Grandad, by Angela Wright; Tristan Cobb's family research",
      "quote": "It was special to do that with him.",
-     "who": "Memories of Grandad, by Angela Wright"
+     "who": "Memories of Grandad, by Angela Wright",
+     "hear": {
+      "href": "chapter.html#9-3",
+      "label": "Hear Angela remember this"
+     }
     },
     {
      "title": "The Bowles day out",
      "badge": "family",
      "body": "Twice the whole family hired two coaches for a day out, once to Badbury Rings near Wimborne: all twelve brothers and sisters, their husbands and wives, children and grandchildren, with crates of beer in the boot. Henry hardly relaxed all day. He was worried how his brothers would behave after a drink. He enjoyed a beer or cider himself, but \"would never get drunk\".",
-     "source": "Memories of Grandad, by Angela Wright"
+     "source": "Memories of Grandad, by Angela Wright",
+     "hear": {
+      "href": "chapter.html#9-2",
+      "label": "Hear Angela remember this"
+     }
     },
     {
      "title": "The Buffaloes",
      "badge": "family",
      "body": "Henry was a member of the Royal Antediluvian Order of Buffaloes for more than twenty years. The next scene tells that story through the jewels he was given.",
-     "source": "Angela Wright's memoir, page 1; Tristan Cobb's family research"
+     "source": "Angela Wright's memoir, page 1; Tristan Cobb's family research",
+     "hear": {
+      "href": "chapter.html#9-3",
+      "label": "Hear Angela remember this"
+     }
     }
    ],
    "photos": [
@@ -825,7 +849,11 @@
      "body": "Outdoors he always wore a flat cap, boots and a belt, with his sleeves rolled up in summer. On the beach at Weymouth he sat in a deckchair in shoes, socks, long trousers, shirt and cap. Just occasionally he took off his shoes and socks, rolled up his trousers and paddled.",
      "source": "Memories of Grandad, by Angela Wright",
      "quote": "I can't even remember him in trunks or going for a swim.",
-     "who": "Memories of Grandad, by Angela Wright"
+     "who": "Memories of Grandad, by Angela Wright",
+     "hear": {
+      "href": "chapter.html#9-1",
+      "label": "Hear Angela remember this"
+     }
     },
     {
      "title": "The hand and the belt",
@@ -833,7 +861,11 @@
      "body": "Henry was a strong disciplinarian. Angela remembers: \"Grandad would tell me that I would have his belt. That Never happened. Just a movement of hand was all that was needed.\"",
      "source": "Memories of Grandad, by Angela Wright",
      "quote": "Grandad never showed anything but love.",
-     "who": "Memories of Grandad, by Angela Wright"
+     "who": "Memories of Grandad, by Angela Wright",
+     "hear": {
+      "href": "chapter.html#9-3",
+      "label": "Hear Angela remember this"
+     }
     },
     {
      "title": "Queen and princess",
@@ -847,7 +879,11 @@
      "title": "Report day",
      "badge": "family",
      "body": "Henry and Nell lived halfway between school and home, so on school report day Angela would pop in and persuade them to open her report first, \"so I would know what the marks were before I got home. Very helpful at times.\"",
-     "source": "Memories of Grandad, by Angela Wright"
+     "source": "Memories of Grandad, by Angela Wright",
+     "hear": {
+      "href": "chapter.html#9-4",
+      "label": "Hear Angela remember this"
+     }
     }
    ],
    "photos": [
@@ -906,7 +942,11 @@
      "body": "Before she married, Nell had been in service. She made sure her granddaughter Angela learned to lay a table properly, every day, not just on special occasions.",
      "source": "Memories of Grandad, by Angela Wright",
      "quote": "I still try to do that today.",
-     "who": "Memories of Grandad, by Angela Wright"
+     "who": "Memories of Grandad, by Angela Wright",
+     "hear": {
+      "href": "chapter.html#9-3",
+      "label": "Hear Angela remember this"
+     }
     },
     {
      "title": "The motorbike",
@@ -914,7 +954,11 @@
      "body": "Nell sat on a backless chair by the sink to do the vegetables. Angela sat behind with her arms round Nell's waist, and it became their motorbike, taking sharp corners and racing to the crossroads.",
      "source": "Memories of Grandad, by Angela Wright",
      "quote": "Things you do for your granddaughter.",
-     "who": "Memories of Grandad, by Angela Wright"
+     "who": "Memories of Grandad, by Angela Wright",
+     "hear": {
+      "href": "chapter.html#9-3",
+      "label": "Hear Angela remember this"
+     }
     },
     {
      "title": "The Army",
@@ -922,13 +966,21 @@
      "body": "Nell went to the Salvation Army, and took her granddaughter to the Sunday meetings, to the Corps on holiday in Weymouth, and to her midweek ladies' services. On Saturdays it might be fish and chips at Thorpes, with bread and butter, and grace before they ate.",
      "source": "Memories of Grandad, by Angela Wright",
      "quote": "It was Grandma that taught me about Jesus and how to trust Him.",
-     "who": "Memories of Grandad, by Angela Wright"
+     "who": "Memories of Grandad, by Angela Wright",
+     "hear": {
+      "href": "chapter.html#9-3",
+      "label": "Hear Angela remember this"
+     }
     },
     {
      "title": "Sunday dinner",
      "badge": "family",
      "body": "Sunday lunches were a family time, with Henry and Nell's son Bill, who lived with them. Nell was a good cook.",
-     "source": "Memories of Grandad, by Angela Wright"
+     "source": "Memories of Grandad, by Angela Wright",
+     "hear": {
+      "href": "chapter.html#9-3",
+      "label": "Hear Angela remember this"
+     }
     },
     {
      "title": "The only time",
@@ -936,7 +988,11 @@
      "body": "Nell died of cancer on 5 June 1961, aged 67. That morning, Angela called in as usual. Henry was alone in the garden.",
      "source": "Memories of Grandad, by Angela Wright; Tristan Cobb's family research",
      "quote": "As I walked down the path I could see he was crying. That was the only time I saw him cry.",
-     "who": "Memories of Grandad, by Angela Wright"
+     "who": "Memories of Grandad, by Angela Wright",
+     "hear": {
+      "href": "chapter.html#9-4",
+      "label": "Hear Angela remember this"
+     }
     }
    ]
   },
@@ -975,7 +1031,11 @@
      "body": "The sea air and the flat Promenade at Weymouth were good for his chest, so for years the family took their holidays there, in a flat on the Nothe side of the harbour, with their neighbours from Southville. Fishermen gave them spare fish.",
      "source": "Memories of Grandad, by Angela Wright",
      "quote": "On days when grandad couldn't walk too far he would have a chair on the harbour and enjoyed chatting to those passing by.",
-     "who": "Memories of Grandad, by Angela Wright"
+     "who": "Memories of Grandad, by Angela Wright",
+     "hear": {
+      "href": "chapter.html#9-4",
+      "label": "Hear Angela remember this"
+     }
     },
     {
      "title": "The barbed wire",
@@ -983,7 +1043,11 @@
      "body": "Towards the end of his life Henry grew less tolerant; Angela's piano lessons at his house lasted two weeks, because he couldn't stand the noise. And he began to see things that weren't there.",
      "source": "Memories of Grandad, by Angela Wright",
      "quote": "Asking me to get the barbed wire off him and stop people running all over him.",
-     "who": "Memories of Grandad, by Angela Wright"
+     "who": "Memories of Grandad, by Angela Wright",
+     "hear": {
+      "href": "chapter.html#9-4",
+      "label": "Hear Angela remember this"
+     }
     },
     {
      "title": "Understanding",
@@ -1076,7 +1140,11 @@
      "body": "",
      "source": "Memories of Grandad, by Angela Wright",
      "quote": "Grandma and Grandad, you were such a wonderful example to me. Thank you.",
-     "who": "Memories of Grandad, by Angela Wright"
+     "who": "Memories of Grandad, by Angela Wright",
+     "hear": {
+      "href": "chapter.html#9-4",
+      "label": "Hear Angela remember this"
+     }
     }
    ],
    "photos": [

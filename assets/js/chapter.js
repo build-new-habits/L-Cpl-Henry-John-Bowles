@@ -445,8 +445,28 @@
     return '<ol class="stories">' + sc.stories.map(function (st) {
       return '<li class="story">' + badge(st.badge || 'archival') + '<h2 class="story__title">' + e(st.title) + '</h2>' +
         (st.quote ? '<blockquote class="story__quote"><p>“' + e(st.quote) + '”</p>' + (st.who ? '<footer>' + e(st.who) + '</footer>' : '') + '</blockquote>' : '') +
-        (st.body ? '<p>' + e(st.body) + '</p>' : '') + sourceLine(st) + inlinePhotos(sc, st.title) + '</li>';
+        (st.body ? '<p>' + e(st.body) + '</p>' : '') + recording(st) + sourceLine(st) + inlinePhotos(sc, st.title) + linkRow(st) + '</li>';
     }).join('') + '</ol>';
+  }
+
+  /* A story can carry a recording: a real voice, never played automatically,
+     always with its transcript. "see" links point to where the same memory
+     appears elsewhere; "hear" links point to the recording of it. */
+  function recording(st) {
+    if (!st.audio) return '';
+    var id = 'rec-' + st.audio.replace(/[^a-z0-9]+/gi, '-');
+    return '<figure class="recording"><figcaption class="recording__label" id="' + id + '">' +
+      '<span class="recording__icon" aria-hidden="true">\u266A</span> ' + e(st.audioLabel || ('Hear ' + (st.speaker || 'it'))) +
+      (st.duration ? ' <span class="recording__time">(' + e(st.duration) + ')</span>' : '') + '</figcaption>' +
+      '<audio controls preload="none" src="' + e(st.audio) + '" aria-labelledby="' + id + '"></audio>' +
+      (st.transcript ? '<details class="qa-inline recording__transcript"><summary>Read the transcript</summary><div class="qa-inline__body">' +
+        st.transcript.map(function (t) { return '<p>' + e(t) + '</p>'; }).join('') + '</div></details>' : '') +
+      '</figure>';
+  }
+  function linkRow(st) {
+    var links = (st.see || []).map(function (l) { return '<a class="btn btn--small" href="' + e(l.href) + '">' + e(l.label) + '</a>'; });
+    if (st.hear) links.push('<a class="btn btn--small btn--voice" href="' + e(st.hear.href) + '"><span aria-hidden="true">\u266A</span> ' + e(st.hear.label) + '</a>');
+    return links.length ? '<p class="story__links">' + links.join(' ') + '</p>' : '';
   }
 
   function voicesBlock(sc) {
