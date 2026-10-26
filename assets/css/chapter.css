@@ -407,3 +407,12 @@ html[data-font="lexend"] .letter p, html[data-font="plain"] .letter p { font-fam
 .table-scroll { max-width: 100%; overflow-x: auto; }
 .table-scroll table { width: 100%; }
 .table-scroll td { overflow-wrap: anywhere; }
+
+/* Recorded memories (chapter 9) */
+.recording { margin: 4px 0 0; padding: 14px 16px; background: var(--paper); border: 1px solid var(--rule); border-radius: 10px; display: grid; gap: 10px; }
+.recording__label { font-weight: 700; }
+.recording__icon { color: var(--poppy); }
+.recording__time { font-weight: 400; color: var(--muted); }
+.recording audio { width: 100%; min-height: 48px; }
+.story__links { display: flex; flex-wrap: wrap; gap: 8px; margin: 0; }
+.btn--small { min-height: 44px; padding: 8px 14px; font-size: 0.95rem; }

@@ -1,5 +1,5 @@
 {
- "version": "20261024b",
+ "version": "20261026a",
  "text": [
   "content/chapter-01.json",
   "content/chapter-02.json",
@@ -9,6 +9,7 @@
   "content/chapter-06.json",
   "content/chapter-07.json",
   "content/chapter-08.json",
+  "content/chapter-09.json",
   "content/chapters.json",
   "content/historian.json",
   "content/menu.json",
@@ -113,7 +114,23 @@
   "assets/img/family/raob-treasurer-1952.jpg",
   "assets/img/family/raob-trinity-attendance.jpg",
   "assets/img/family/raob-waiter-1940.jpg",
-  "assets/img/period/charabanc-outing-1920.jpg"
+  "assets/img/period/charabanc-outing-1920.jpg",
+  "assets/audio/9-01-what-he-wore.mp3",
+  "assets/audio/9-02-the-eldest-of-twelve.mp3",
+  "assets/audio/9-03-three-children.mp3",
+  "assets/audio/9-04-no-bad-language.mp3",
+  "assets/audio/9-05-the-bowles-day-out.mp3",
+  "assets/audio/9-06-the-charabanc-and-the-lorry.mp3",
+  "assets/audio/9-07-hello-then.mp3",
+  "assets/audio/9-08-the-bird-hospital.mp3",
+  "assets/audio/9-09-the-kitchen-motorbike.mp3",
+  "assets/audio/9-10-bath-night.mp3",
+  "assets/audio/9-11-sunday-lunch.mp3",
+  "assets/audio/9-12-with-grandma-at-the-army.mp3",
+  "assets/audio/9-13-report-day.mp3",
+  "assets/audio/9-14-weymouth.mp3",
+  "assets/audio/9-15-the-barbed-wire.mp3",
+  "assets/audio/9-16-thank-you.mp3"
  ],
  "mediaBytes": 31567802
 }
