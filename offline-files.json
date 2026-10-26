@@ -1,5 +1,5 @@
 {
- "version": "20261026a",
+ "version": "20261026b",
  "text": [
   "content/chapter-01.json",
   "content/chapter-02.json",
@@ -130,7 +130,11 @@
   "assets/audio/9-13-report-day.mp3",
   "assets/audio/9-14-weymouth.mp3",
   "assets/audio/9-15-the-barbed-wire.mp3",
-  "assets/audio/9-16-thank-you.mp3"
+  "assets/audio/9-16-thank-you.mp3",
+  "assets/img/period/badbury-rings.jpg",
+  "assets/img/period/girl-at-piano-1946.jpg",
+  "assets/img/period/salvation-army-southville.jpg",
+  "assets/img/period/weymouth-harbour.jpg"
  ],
  "mediaBytes": 31567802
 }

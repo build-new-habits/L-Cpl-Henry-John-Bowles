@@ -416,3 +416,4 @@ html[data-font="lexend"] .letter p, html[data-font="plain"] .letter p { font-fam
 .recording audio { width: 100%; min-height: 48px; }
 .story__links { display: flex; flex-wrap: wrap; gap: 8px; margin: 0; }
 .btn--small { min-height: 44px; padding: 8px 14px; font-size: 0.95rem; }
+.recording audio:focus, .recording audio:focus-within { outline: 3px solid var(--focus); outline-offset: 3px; border-radius: 24px; }
