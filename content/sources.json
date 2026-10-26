@@ -137,6 +137,10 @@
       {
        "label": "Chapter 8",
        "href": "chapter.html#8"
+      },
+      {
+       "label": "Chapter 9",
+       "href": "chapter.html#9"
       }
      ]
     },
@@ -1883,6 +1887,70 @@
      ]
     },
     {
+     "title": "Photo: Pasicles, 2013, CC0, via Wikimedia Commons",
+     "urls": [
+      "https://commons.wikimedia.org/wiki/File:Badbury_Rings_-_view_from_the_northeast_-_April_2013.jpg"
+     ],
+     "where": [
+      {
+       "label": "Chapter 7",
+       "href": "chapter.html#7"
+      },
+      {
+       "label": "Chapter 9",
+       "href": "chapter.html#9"
+      }
+     ]
+    },
+    {
+     "title": "Photo: Richard Symonds, 2016, CC BY 3.0, via Wikimedia Commons",
+     "urls": [
+      "https://commons.wikimedia.org/wiki/File:Weymouth_Harbour.jpg"
+     ],
+     "where": [
+      {
+       "label": "Chapter 7",
+       "href": "chapter.html#7"
+      },
+      {
+       "label": "Chapter 9",
+       "href": "chapter.html#9"
+      }
+     ]
+    },
+    {
+     "title": "Photo: Robin Webster, 2018, CC BY-SA 2.0, via Wikimedia Commons",
+     "urls": [
+      "https://commons.wikimedia.org/wiki/File:The_Salvation_Army,_Yeovil_-_geograph.org.uk_-_5967775.jpg"
+     ],
+     "where": [
+      {
+       "label": "Chapter 7",
+       "href": "chapter.html#7"
+      },
+      {
+       "label": "Chapter 9",
+       "href": "chapter.html#9"
+      }
+     ]
+    },
+    {
+     "title": "Photo: Russell Lee, 1946, for the US Department of the Interior. Public domain, via Wikimedia Commons",
+     "urls": [
+      "https://commons.wikimedia.org/wiki/File:Lois,_daughter_of_B._H._Barksdale,_section_foreman_in_the_mines,_playing_the_piano._U.S._Coal_and_Coke_Company,_Gary..._-_NARA_-_540879.jpg"
+     ],
+     "where": [
+      {
+       "label": "Chapter 7",
+       "href": "chapter.html#7"
+      },
+      {
+       "label": "Chapter 9",
+       "href": "chapter.html#9"
+      }
+     ]
+    },
+    {
      "title": "Postcard, 1920 to 1921, from the collection of Mark Crombie. Public domain, via Wikimedia Commons",
      "urls": [
       "https://commons.wikimedia.org/wiki/File:WOOLWICH_GREENWICH_PLUMSTEAD_A_CHARABANC_OUTING_1920-21_ST_MARK%27S_MEN%27S_CLUB_RP_LONDON_POSTCARD_(50272894387).jpg"
@@ -1891,6 +1959,10 @@
       {
        "label": "Chapter 7",
        "href": "chapter.html#7"
+      },
+      {
+       "label": "Chapter 9",
+       "href": "chapter.html#9"
       }
      ]
     },

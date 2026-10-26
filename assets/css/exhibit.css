@@ -216,7 +216,7 @@ main { flex: 1 0 auto; }
 .welcome__dates { color: #B8AE9C; font-size: 1.05rem; margin-bottom: 18px; }
 .welcome h1 { font-size: clamp(3rem, 9vw, 5.6rem); line-height: 0.95; margin-bottom: 22px; }
 .welcome__lede { font-size: 1.2rem; line-height: 1.5; max-width: 32ch; margin-bottom: 30px; }
-.welcome__family { font-size: 1.05rem; line-height: 1.6; max-width: 46ch; margin: -12px 0 28px; padding-left: 14px; border-left: 4px solid var(--rule-strong); color: var(--ink-soft); }
+.welcome__family { font-size: 1.05rem; line-height: 1.6; max-width: 46ch; margin: -12px 0 28px; padding-left: 14px; border-left: 4px solid #6B6252; color: #D9D0BF; }
 .visitor { border: 0; padding: 0; margin: 0 0 26px; }
 .visitor legend { color: #B8AE9C; padding: 0; margin-bottom: 10px; font-size: 1rem; }
 .visitor .choice { background: transparent; border-color: #6B6252; color: #F3EDE2; }
@@ -242,7 +242,7 @@ main { flex: 1 0 auto; }
 
 /* Journey */
 .journey { display: grid; grid-template-columns: minmax(0, 1fr) 380px; gap: 0; flex: 1 0 auto; }
-@media (max-width: 980px) { .journey { grid-template-columns: 1fr; } }
+@media (max-width: 980px) { .journey { grid-template-columns: minmax(0, 1fr); } }
 .journey__map { padding: 20px clamp(16px, 3vw, 32px) 28px; display: grid; gap: 14px; align-content: start; }
 .journey__map h1 { font-size: clamp(2rem, 4vw, 2.6rem); }
 .journey__map p.note { color: var(--muted); }
@@ -360,3 +360,10 @@ html[data-tint="auto"][data-theme="dark"] .chapter-list a[aria-current] { backgr
 
 /* Reflow (WCAG 1.4.10, 1.4.12): long words and wider text spacing wrap instead of pushing the page sideways. */
 h1, h2, h3, .kicker, .lede, .site-title { overflow-wrap: break-word; }
+
+/* Reflow at the largest text sizes on narrow screens: let long words,
+   email addresses and links wrap, and let grid and flex children shrink. */
+p, li, dd, dt, a, blockquote, figcaption, summary, legend, label { overflow-wrap: break-word; }
+a[href^="mailto:"] { overflow-wrap: anywhere; }
+main, main section, main article, .journey__map > *, .journey__side, .journey__side > *, .stories > li, .story > * { min-width: 0; }
+@media (max-width: 480px) { .journey__side { padding: 20px 16px; } }

@@ -111,10 +111,14 @@
      "badge": "family",
      "source": "Memories of Grandad, by Angela Wright; the family photograph; Tristan Cobb's family research",
      "body": "Henry was the eldest. His brothers and sisters were Reg, Winnie, Frank, George, Ethel, Arthur, Amy, Lilly, Bill, Kit and Oliver, the youngest. Their mother was Eliza Ann, born Eliza Ann Perry.",
-     "hear": {
-      "href": "chapter.html#9-1",
-      "label": "Hear Angela remember this"
-     }
+     "audio": "assets/audio/9-02-the-eldest-of-twelve.mp3",
+     "audioLabel": "Hear Angela remember this",
+     "speaker": "Angela",
+     "duration": "39 seconds",
+     "transcript": [
+      "But I need to go back a bit. Grandad was the eldest of twelve children to Arthur and Eliza Bowles, my great-Granfy and Gran Bowles. There is a family photo of them with their twelve adult children outside their house at Yeovil Junction, Stoford. It was a small terraced house with possibly only three bedrooms. I can't imagine how crowded that must have been.",
+      "There was a newspaper report of him still digging ditches at the age of ninety. Both he and great-Gran were in their nineties when they died."
+     ]
     },
     {
      "title": "Born at Walton",
@@ -165,10 +169,14 @@
      "source": "Angela Wright's memoir, page 1",
      "quote": "would often reprimand his siblings for their behaviour, right into their adult life",
      "who": "Angela Wright's memoir",
-     "hear": {
-      "href": "chapter.html#9-2",
-      "label": "Hear Angela remember this"
-     }
+     "audio": "assets/audio/9-04-no-bad-language.mp3",
+     "audioLabel": "Hear Angela remember this",
+     "speaker": "Angela",
+     "duration": "42 seconds",
+     "transcript": [
+      "So back to my memories of my grandad. But in some ways it's also memories of my grandma too, as looking back they seem to come as a package. They were both so much part of my life as a young child, and until I was almost a teenager.",
+      "Grandad was a strong disciplinarian. He did not like rudeness, nor did he like bad language. In fact he would reprimand his adult siblings for bad behaviour, especially bad language if it was in front of women and children. And because of that, there were some brothers, and sisters too, that we only visited occasionally."
+     ]
     },
     {
      "title": "On the land",

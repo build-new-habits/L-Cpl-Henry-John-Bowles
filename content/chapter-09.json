@@ -8,7 +8,7 @@
    "id": "angelas-grandad",
    "title": "Angela's grandad",
    "type": "stories",
-   "intro": "Angela Wright is Henry's granddaughter, the daughter of his only daughter, Joyce. These are her memories of him, recorded in her own voice in October 2026. Every recording has a full transcript, and nothing plays until you press play. Where a memory appears elsewhere in the exhibition, a link takes you there.",
+   "intro": "Angela Wright is Henry's granddaughter, the daughter of his only daughter, Joyce. These are her memories of him, recorded in her own voice in October 2026, beside the photographs she is talking about. Every recording has a full transcript, and nothing plays until you press play. You will also hear her voice beside the same stories elsewhere in the exhibition, and the links under each memory take you there.",
    "stories": [
     {
      "title": "What he wore",
@@ -75,7 +75,60 @@
       }
      ]
     }
-   ]
+   ],
+   "photos": [
+    {
+     "cat": "Family photo",
+     "file": "henry-nell-weymouth.jpg",
+     "dir": "family",
+     "caption": "Henry and Nell walking arm in arm in Weymouth, Henry in his flat cap.",
+     "alt": "An older couple walk towards the camera along a seaside promenade with flags behind them. The man wears a flat cap, jacket and pullover; the woman, in round glasses, wears a long coat over a pale dress.",
+     "credit": "Family photograph, from Tristan Cobb's family research",
+     "slot": "Family photo",
+     "with": "What he wore"
+    },
+    {
+     "cat": "Family photo",
+     "file": "weymouth.jpg",
+     "dir": "family",
+     "caption": "Angela and her grandparents, Henry and Nell, on the beach at Weymouth in the early 1950s. Henry is in shirt, braces and long trousers, just as Angela remembers him at the seaside.",
+     "alt": "On a crowded beach, an older woman in round glasses and a flowered dress and a man in an open-necked shirt and braces sit in deckchairs either side of a small fair-haired girl with a bow in her hair. Beach huts and seafront buildings are behind them.",
+     "credit": "Family photograph, lent by Angela Wright",
+     "slot": "Family photo",
+     "with": "What he wore"
+    },
+    {
+     "cat": "Family photo",
+     "file": "bowles-family-twelve.jpg",
+     "dir": "family",
+     "caption": "Arthur Bowles and his wife with all twelve of their children, outside the family's terraced house by Yeovil Junction station, in the 1920s. Back row, left to right: Arthur, Ethel, George, Frank, Winnie and Reg. Middle row, left to right: Bill, Lilly, their father Arthur, their mother, Amy and Henry, the eldest, on the far right. On the step: Kit and Oliver, the youngest.",
+     "alt": "A large family group of eighteen people in 1920s clothes in front of two numbered front doors of a brick terrace. An older couple sit in the middle, surrounded by their grown-up sons and daughters, with a young woman and a boy sitting on the step in front.",
+     "credit": "Family photograph",
+     "slot": "Family photo",
+     "with": "The eldest of twelve"
+    },
+    {
+     "cat": "Family photo",
+     "file": "three-children.jpg",
+     "dir": "family",
+     "caption": "The three children, about 1930. From the left: Bill, the youngest, Joyce and Gilbert.",
+     "alt": "A studio photograph of two boys in jackets and long socks either side of a girl in a pale dress.",
+     "credit": "Family photograph",
+     "slot": "Family photo",
+     "with": "Three children"
+    },
+    {
+     "cat": "Family photo",
+     "file": "family-about-1939.jpg",
+     "dir": "family",
+     "caption": "Henry and Nell with their grown-up children, before the children went off to the Second World War. Standing, from the left: Bill, Joyce and Gilbert.",
+     "alt": "A studio portrait of an older couple seated, the woman in round glasses, with two young men in suits and a young woman in pearls standing behind them.",
+     "credit": "Family photograph",
+     "slot": "Family photo",
+     "with": "Three children"
+    }
+   ],
+   "photosHeading": "Photographs"
   },
   {
    "id": "grandads-ways",
@@ -166,7 +219,44 @@
       }
      ]
     }
-   ]
+   ],
+   "photos": [
+    {
+     "cat": "Typical of the time",
+     "file": "charabanc-outing-1920.jpg",
+     "dir": "period",
+     "with": "The charabanc and the lorry",
+     "caption": "A charabanc outing in 1920 or 1921: the men's club of St Mark's, Plumstead, in south-east London. Not Henry's charabanc, but the kind of vehicle he drove in Yeovil, with its bench seats, solid tyres and folding hood.",
+     "alt": "A sepia postcard of an open charabanc, registration XB 8568, parked by a wooden fence in front of a church. About forty passengers in straw boaters, flat caps and summer hats sit in rows on its benches, with the driver at the wheel at the front. It has solid tyres on spoked metal wheels and a folded canvas hood at the back.",
+     "credit": "Postcard, 1920 to 1921, from the collection of Mark Crombie. Public domain, via Wikimedia Commons",
+     "url": "https://commons.wikimedia.org/wiki/File:WOOLWICH_GREENWICH_PLUMSTEAD_A_CHARABANC_OUTING_1920-21_ST_MARK%27S_MEN%27S_CLUB_RP_LONDON_POSTCARD_(50272894387).jpg",
+     "slot": "Typical of the time",
+     "urlLabel": "See it on Wikimedia Commons"
+    },
+    {
+     "cat": "Family photo",
+     "file": "lorry.jpg",
+     "dir": "family",
+     "caption": "Henry, crouching on the left, beside his British Road Services lorry, NLJ 958, after a crash. The front of the cab is smashed. When and where it happened is not known.",
+     "alt": "A badly damaged lorry with a crushed cab and broken windscreen, its front wheels in a grassy ditch. The registration plate reads NLJ 958. A man in a cap crouches at the bottom left, beside the front of the lorry.",
+     "credit": "Family photograph, from Tristan Cobb's family research",
+     "slot": "Family photo",
+     "with": "The charabanc and the lorry"
+    },
+    {
+     "cat": "About this place",
+     "file": "badbury-rings.jpg",
+     "dir": "period",
+     "with": "The Bowles day out",
+     "caption": "Badbury Rings, the Iron Age hill fort near Wimborne in Dorset, where the whole Bowles family went for a day out in two hired coaches.",
+     "alt": "Grassy ramparts of a hill fort rising in rings towards a crown of trees, under a pale sky.",
+     "credit": "Photo: Pasicles, 2013, CC0, via Wikimedia Commons",
+     "url": "https://commons.wikimedia.org/wiki/File:Badbury_Rings_-_view_from_the_northeast_-_April_2013.jpg",
+     "urlLabel": "See it on Wikimedia Commons",
+     "slot": "About this place"
+    }
+   ],
+   "photosHeading": "Photographs"
   },
   {
    "id": "67-southville",
@@ -283,7 +373,42 @@
       }
      ]
     }
-   ]
+   ],
+   "photos": [
+    {
+     "cat": "Family photo",
+     "file": "henry-birds.jpg",
+     "dir": "family",
+     "caption": "Angela and her grandad, Henry, with one of his birds, in the 1950s. He kept canaries and budgies, and showed them in Yeovil.",
+     "alt": "A man in a sleeveless pullover kneels in a vegetable garden beside a small girl. Together they hold a bird cage standing on a wooden stool, with a terrace of houses behind them.",
+     "credit": "Family photograph, lent by Angela Wright",
+     "slot": "Family photo",
+     "with": "The bird hospital"
+    },
+    {
+     "cat": "Family photo",
+     "file": "poole-bungalow.jpg",
+     "dir": "family",
+     "caption": "Angela with all three of her grandparents, at the bungalow in Poole of Henry's sister Winnie, in the 1950s. Standing, from the left: Henry, Mrs Bush (her other grandmother) and Nell. Kneeling: Winnie and Angela.",
+     "alt": "Five people outside a pebble-dashed bungalow. Standing are a man in shirt and braces, a very elderly woman in a dark dress holding a walking stick, and a woman in round glasses and a flowered dress. Kneeling in front are a smiling woman in a flowered dress and a young girl in a checked dress with a white collar.",
+     "credit": "Family photograph, lent by Angela Wright",
+     "slot": "Family photo",
+     "with": "The kitchen motorbike"
+    },
+    {
+     "cat": "About this place",
+     "file": "salvation-army-southville.jpg",
+     "dir": "period",
+     "with": "With Grandma at the Army",
+     "caption": "The Salvation Army hall on Southville, Yeovil, in 2018. Angela remembers Henry's Buffaloes lodge opposite the Salvation Army in Southville, and going to the meetings with her grandma.",
+     "alt": "A red-brick hall with a tall gabled front and stone dressings, beside a road junction with a Southville street sign and a passing car.",
+     "credit": "Photo: Robin Webster, 2018, CC BY-SA 2.0, via Wikimedia Commons",
+     "url": "https://commons.wikimedia.org/wiki/File:The_Salvation_Army,_Yeovil_-_geograph.org.uk_-_5967775.jpg",
+     "urlLabel": "See it on Wikimedia Commons",
+     "slot": "About this place"
+    }
+   ],
+   "photosHeading": "Photographs"
   },
   {
    "id": "remembering",
@@ -390,7 +515,84 @@
       }
      ]
     }
-   ]
+   ],
+   "photos": [
+    {
+     "cat": "Family photo",
+     "file": "henry-and-nell-last.jpg",
+     "dir": "family",
+     "caption": "Henry and Nell, at a relative's bungalow in Portishead. The last photograph taken before Nell died.",
+     "alt": "An elderly woman with white hair and glasses leaning out of an open window, smiling, and an elderly man in a jumper sitting outside below her, also smiling.",
+     "credit": "Family photograph",
+     "slot": "Family photo",
+     "with": "Report day"
+    },
+    {
+     "cat": "Family photo",
+     "file": "the-nothe-1962.jpg",
+     "dir": "family",
+     "caption": "Angela and her grandad, Henry, on the grass at the Nothe, Weymouth, in about 1962, when she was 13. His cap lies on the grass beside him.",
+     "alt": "A white-haired man in a shirt with rolled sleeves and dark trousers sits on a grassy slope beside a teenage girl in a sun hat, blouse and full skirt. A pale cap and a dark jacket lie on the grass beside him.",
+     "credit": "Family photograph, lent by Angela Wright",
+     "slot": "Family photo",
+     "with": "Weymouth"
+    },
+    {
+     "cat": "Family photo",
+     "file": "trip-battlefield-finds.jpg",
+     "dir": "family",
+     "caption": "What the fields still give up: helmets, shell fuses, barbed wire, bottles, tools and twisted metal, found on the battlefields and shown in a museum on the trip.",
+     "alt": "Tables and shelves crowded with rusted First World War finds: German steel helmets, shell nose-cones, coils of barbed wire, glass bottles, spades and corkscrew wire pickets.",
+     "credit": "Family photograph, August 2026",
+     "slot": "Family photo",
+     "with": "The barbed wire"
+    },
+    {
+     "cat": "Family photo",
+     "file": "trip-thicknesse-grave.jpg",
+     "dir": "family",
+     "caption": "The grave of Lieutenant-Colonel J. A. Thicknesse, Henry's commanding officer, killed on 1 July 1916 aged 46. The family left this little cross and poppy.",
+     "alt": "A white headstone carved with the Somerset Light Infantry badge and the words Lieutenant Colonel J. A. Thicknesse, Somerset Light Infantry, 1st July 1916, age 46, with a cross and the line God proved them and found them worthy for himself. A small wooden cross with a red poppy stands in front.",
+     "credit": "Family photograph, August 2026",
+     "slot": "Family photo",
+     "with": "The barbed wire"
+    },
+    {
+     "cat": "Family photo",
+     "file": "wedding.jpg",
+     "dir": "family",
+     "caption": "Henry and Nell on their wedding day, 28 December 1918. Henry is still in uniform: he stayed a soldier, on prisoner-of-war leave, until March 1919.",
+     "alt": "Henry in army uniform and peaked cap, with a moustache, standing beside Nell in a wide-brimmed hat and dark coat.",
+     "credit": "Family photograph",
+     "slot": "Family photo",
+     "with": "Thank you"
+    },
+    {
+     "cat": "About this place",
+     "file": "weymouth-harbour.jpg",
+     "dir": "period",
+     "with": "Weymouth",
+     "caption": "Weymouth harbour today. The family rented a flat on the Nothe side, and on days when Henry could not walk far he sat in a chair on the harbour and chatted to passers-by.",
+     "alt": "A narrow harbour of blue water lined with fishing boats and yachts, with colourful terraced houses along both quays.",
+     "credit": "Photo: Richard Symonds, 2016, CC BY 3.0, via Wikimedia Commons",
+     "url": "https://commons.wikimedia.org/wiki/File:Weymouth_Harbour.jpg",
+     "urlLabel": "See it on Wikimedia Commons",
+     "slot": "About this place"
+    },
+    {
+     "cat": "Typical of the time",
+     "file": "girl-at-piano-1946.jpg",
+     "dir": "period",
+     "with": "The barbed wire",
+     "caption": "Not Angela: a girl practising on an upright piano at home in 1946, in a mining town in the United States. Angela's lessons on the piano at 67 Southville lasted two weeks; her grandad could not stand the noise.",
+     "alt": "A black and white photograph of a teenage girl in a white shirt and rolled-up jeans playing an upright piano with sheet music, in a front room with family photographs on the wall above.",
+     "credit": "Photo: Russell Lee, 1946, for the US Department of the Interior. Public domain, via Wikimedia Commons",
+     "url": "https://commons.wikimedia.org/wiki/File:Lois,_daughter_of_B._H._Barksdale,_section_foreman_in_the_mines,_playing_the_piano._U.S._Coal_and_Coke_Company,_Gary..._-_NARA_-_540879.jpg",
+     "urlLabel": "See it on Wikimedia Commons",
+     "slot": "Typical of the time"
+    }
+   ],
+   "photosHeading": "Photographs"
   }
  ]
 }
